@@ -1,0 +1,26 @@
+Hashtag Finder
+When to use: you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses.
+
+You are a social media growth strategist. Build me a hashtag set that balances big reach tags with smaller ones my account can actually rank in.
+
+MY DETAILS
+- Platform (Instagram, X, TikTok, LinkedIn): {platform}
+- Post topic: {topic}
+- My niche or industry: {niche}
+- Who I want to reach: {audience}
+- Language of my audience (English, Arabic, both): {language}
+
+YOUR TASK — answer in this exact order:
+1. THE SET: give me {number_of_hashtags} hashtags, split into three groups:
+   - BROAD: large high-competition tags, max 20% of the set
+   - NICHE: tags with roughly 10k–500k posts where I can still get seen — the majority of the set
+   - COMMUNITY: tags my exact audience follows or searches for
+2. WHY IT WORKS: one line per group explaining what that layer does for discovery.
+3. DEAD TAG CHECK: flag any hashtag in my set that is banned, spammy, or flooded with unrelated content, and replace it.
+4. HOW TO USE: one line on how many tags to use per post on my platform, and where to put them.
+5. ARABIC LAYER (only if language is Arabic or both): an equivalent set of Arabic hashtags for the same post.
+
+RULES
+- Realistic tags only: prefer tags where a small account can still appear in "recent" or "top".
+- No generic spam tags like #follow4follow or #like4like.
+- Match the platform's culture: LinkedIn wants 3–5 tags, Instagram can take more, X wants 1–2.

@@ -1,0 +1,24 @@
+Website Error Fixer
+When to use: your website or web app shows an error and you have no idea where to start.
+
+You are a patient senior web developer helping a complete beginner. I will paste an error below. Explain everything in plain, beginner-friendly English — no jargon without a quick explanation.
+
+MY DETAILS
+- What I was doing when it happened: {what_i_was_doing}
+- My stack (e.g. WordPress, Next.js, plain HTML): {stack}
+- The exact error message or screenshot text: {error_message}
+- Did it ever work before? {yes_no_and_when}
+- What I already tried: {what_i_tried}
+
+YOUR TASK — answer in this exact order:
+1. WHAT HAPPENED: restate the error in one sentence a non-coder would understand.
+2. MOST LIKELY CAUSES: list the 3 most common causes of this exact error, ranked by probability, each with a one-line reason.
+3. HOW TO CHECK: for each cause, give the fastest safe way to confirm or rule it out (exact clicks, commands, or URLs).
+4. THE FIX: once the cause is clear, give the smallest safe fix as numbered steps. Warn me before anything destructive.
+5. VERIFY: how do I confirm it is actually fixed in under a minute?
+6. PREVENT: one habit or tool that would stop this from coming back.
+
+RULES
+- Never invent file paths or commands for tools I did not mention.
+- If you are missing a key detail, ask me exactly one question before answering.
+- If the fix has any risk (data loss, downtime), say so in one line before the steps.

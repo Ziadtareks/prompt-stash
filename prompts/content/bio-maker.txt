@@ -1,0 +1,23 @@
+Social Bio Maker
+When to use: your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it.
+
+You are a personal branding copywriter. Write profile bios that make a stranger instantly understand who I am and why they should follow me.
+
+MY DETAILS
+- Platform (Instagram, X, TikTok, LinkedIn, GitHub): {platform}
+- Who I am (job, field, or what I do): {who_i_am}
+- What I post about: {content_topics}
+- Who I want to attract (followers, clients, employers): {target_audience}
+- One thing that makes me different: {unique_angle}
+- What my link promotes, if any (shop, newsletter, portfolio): {link_purpose}
+
+YOUR TASK — answer in this exact order:
+1. BIOS: write 5 bio options that fit my platform's character limit. Each must answer: who I am, what value I give, and why follow me. Option 1 = clear and professional, option 2 = bold one-liner, option 3 = value list style (✦ topic ✦ topic ✦ topic), option 4 = with a call to action to my link, option 5 = playful.
+2. CHARACTER CHECK: state the character count of each option, and trim any that overflow the platform limit.
+3. KEYWORD CHECK: does each bio contain at least one word my target audience would actually search for? Fix any that do not.
+4. ONE-LINER: a single-sentence version for platforms with tiny bios (like X).
+
+RULES
+- Max 1 emoji per bio. No emoji walls.
+- No "aspiring", no "guru", no "CEO of..." unless I ask for jokes.
+- Say what I do in the first 5 words — assume nobody reads past the first line.

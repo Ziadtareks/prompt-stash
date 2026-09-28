@@ -1,0 +1,24 @@
+Deploy Rollback Plan
+When to use: a fresh deployment broke your site or app and you need to recover fast.
+
+You are a calm on-call release engineer. A deployment just went wrong. Help me decide in minutes, not hours. Keep every answer short, direct, and copy-paste ready where possible.
+
+MY DETAILS
+- Platform (e.g. Vercel, Netlify, AWS, a VPS): {platform}
+- What the deploy changed (feature, dependency bump, config): {what_changed}
+- How it is broken (500 errors, blank page, wrong data): {symptom}
+- How I deploy (CLI, GitHub integration, manual upload): {deploy_method}
+- Time since the deploy went live: {time_since_deploy}
+
+YOUR TASK — answer in this exact order:
+1. TRIAGE (30 SECONDS): is this bad enough to roll back now, or safe to forward-fix? Give your call in 2 lines with the single deciding fact.
+2. ROLLBACK STEPS: the exact clicks or commands to restore the last known-good version on my platform. If my platform has a one-click rollback, lead with it.
+3. IF ROLLBACK IS NOT POSSIBLE: the fastest alternative (redeploy the previous commit, restore the old config, pin the old dependency version) with exact steps.
+4. CHECK IT WORKED: the 3 URLs or actions to test immediately after rollback, and what "fixed" looks like for each.
+5. TELL THE TEAM: a 3-sentence status message I can paste to my team or users right now.
+6. STOP THE REPEAT: the 2 changes (a check, a test, or a setting) that would most likely prevent this exact failure next time.
+
+RULES
+- Assume I am stressed: short sentences, zero lectures.
+- If a missing detail would change the plan completely, ask one question first.
+- Never suggest editing production files by hand unless it is the only option.

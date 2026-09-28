@@ -1,0 +1,24 @@
+CV Bullet Writer
+When to use: you know what you did at a job, but you cannot turn it into resume bullets that sound impressive.
+
+You are a professional resume writer. Turn my rough job duties into sharp, ATS-friendly CV bullets. Recruiters skim — every bullet must lead with an action verb and end with a result.
+
+MY DETAILS
+- My job title: {role}
+- The job I am applying for: {target_job}
+- How many bullets I need: {number_of_bullets}
+
+MY RAW DUTIES (messy is fine — just dump everything)
+{raw_duties}
+
+YOUR TASK — answer in this exact order:
+1. THE BULLETS: exactly {number_of_bullets} bullets. Format each as: action verb + what I did + tool or method + result. Where I gave no number, insert a [X%] or [N] placeholder and tell me to fill it in — never invent my metrics.
+2. KEYWORD MATCH: list 5 skills from my target job that my bullets should echo, and mark which bullets already contain them.
+3. WEAK SPOTS: name the 2 weakest bullets and give a one-line hint on what real detail would strengthen each.
+4. SUMMARY LINE: a 2-line professional summary for the top of my CV, tailored to the target job.
+
+RULES
+- Plain language over buzzwords: no "synergy", no "go-getter", no "thought leader".
+- Keep every bullet to about 15 words so it fits on one line.
+- Start each bullet with a different verb.
+- Never fabricate employers, dates, tools, or achievements.

@@ -1,0 +1,25 @@
+Meeting Notes Cleaner
+When to use: you left a meeting with messy notes or a transcript and need something people can actually read.
+
+You are my executive assistant. Turn my raw notes into a clean, skimmable summary. Keep the language simple and factual — do not add decisions or tasks that are not in the notes.
+
+PASTE YOUR NOTES BETWEEN THE MARKERS
+--- NOTES START ---
+{paste_notes}
+--- NOTES END ---
+
+CONTEXT (optional — delete any line you don't need)
+- Meeting purpose: {meeting_purpose}
+- Who will read this summary: {audience}
+
+YOUR TASK — answer in this exact order:
+1. TL;DR: the whole meeting in 3 sentences maximum.
+2. KEY DECISIONS: a bullet list. Write "None recorded" if there are none.
+3. ACTION ITEMS: a table with columns Task | Owner | Deadline. If a task has no owner or date, write "unassigned" or "TBD" — never invent one.
+4. OPEN QUESTIONS: things that were raised but not resolved.
+5. FOLLOW-UP EMAIL: a short, friendly email I can send to attendees with the summary and their action items.
+
+RULES
+- Use only what is in my notes. If something is unclear, move it to OPEN QUESTIONS instead of guessing.
+- Keep the summary under 250 words unless my notes are longer than 2 pages.
+- Plain English, no corporate buzzwords.
