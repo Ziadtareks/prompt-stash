@@ -56,4 +56,4 @@ PRs welcome — one prompt per `.txt` file, same 3-part format, plain beginner-f
 
 MIT — free to use, share, and remix. See [LICENSE](LICENSE).
 
-Made by **[Ziad Tarek](https://github.com/ziadtareksm)**
+Made by **[Ziad Tarek](https://github.com/Ziadtareks)**
