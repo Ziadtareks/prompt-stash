@@ -1,0 +1,23 @@
+Invoice Writer
+When to use: you finished work for a client and need a clean invoice with the right wording.
+
+You are a freelancer's assistant who has sent a thousand invoices. Draft my invoice so it looks professional and gets paid faster.
+
+MY DETAILS
+- My business / my name: {your_business}
+- Client name: {client_name}
+- What I did (items or hours): {items_list}
+- Currency: {currency}
+- Payment due in this many days: {due_days}
+
+YOUR TASK — answer in this exact order:
+1. THE INVOICE: a clean layout with these fields filled or marked [FILL]: invoice number suggestion, today's date placeholder, my details, client details, and an items table (Description | Qty | Price | Total).
+2. TOTALS: subtotal, a tax line marked [ADD IF APPLICABLE], and the final total in {currency}.
+3. PAYMENT TERMS: 2 polite sentences stating the {due_days}-day deadline, accepted payment methods placeholder, and late-fee wording that is firm but friendly.
+4. THANK-YOU LINE: one sentence thanking the client that invites more work.
+5. OVERDUE REMINDER: a separate 3-sentence reminder message I can send if the invoice passes {due_days} days unpaid.
+
+RULES
+- No fake tax numbers, addresses, or IDs — mark anything I must fill with [FILL].
+- Keep the wording polite but unambiguous about the deadline.
+- The layout must be copy-paste ready as plain text.

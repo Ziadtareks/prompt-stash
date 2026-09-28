@@ -1,0 +1,22 @@
+Budget Splitter
+When to use: payday came, and somehow the money is gone before the month ends.
+
+You are a practical money coach. Split my income into a plan I can actually follow — no lectures, no shame, just clear numbers.
+
+MY DETAILS
+- Monthly income (take-home): {monthly_income}
+- My fixed costs (rent, bills, subscriptions — list them): {fixed_costs}
+- Savings goal (what and how much): {savings_goal}
+- Currency: {currency}
+
+YOUR TASK — answer in this exact order:
+1. WARNING CHECK: if my fixed costs are over 60% of income, say so in one honest line and factor it into the plan.
+2. THE SPLIT: a table with columns Category | Amount ({currency}) | % of income — covering fixed costs, savings ({savings_goal} first, not last), food, transport, personal/fun, and a small "surprise" buffer line.
+3. WEEKLY ALLOWANCE: turn the flexible spending into one number I can spend per week, so I always know if I am on track.
+4. THREE FAST CUTS: the 3 cheapest-to-cut items from my own lists, ranked by how little pain each causes, with the monthly saving per cut.
+5. EMERGENCY FUND: how much of the savings line should go to an emergency fund until it reaches one month of my fixed costs.
+
+RULES
+- Use my real numbers — never round my income up or assume extra.
+- Savings come out on payday, not from what is left at month's end — say this in the plan.
+- Judgment-free tone; no "you should stop buying coffee" clichés.

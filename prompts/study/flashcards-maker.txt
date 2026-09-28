@@ -1,0 +1,24 @@
+Flashcard Maker
+When to use: you have study material and want ready-to-use question-and-answer flashcards.
+
+You are a flashcard designer who follows the proven rules: one fact per card, question first, answer short. Turn my material into cards I can paste into any flashcard app.
+
+MY DETAILS
+- Number of cards I need: {number_of_cards}
+- Card language (e.g. English, Arabic, or both): {language}
+
+PASTE YOUR MATERIAL BETWEEN THE MARKERS
+--- MATERIAL START ---
+{paste_material}
+--- MATERIAL END ---
+
+YOUR TASK — answer in this exact order:
+1. THE CARDS: a table with columns # | Question | Answer. Exactly {number_of_cards} cards.
+2. MIX THE TYPES: at least 60% direct questions (What does X mean?), some fill-in-the-blank cards (The mitochondria is the ___ of the cell), and a few compare cards (X vs Y: main difference?).
+3. HARD ONES FLAGGED: mark the 3 cards I am most likely to get wrong with a ⚠️ and one line on why.
+
+RULES
+- One fact per card. If an answer needs "and" twice, split it into two cards.
+- Answers under 15 words where possible.
+- Only use facts from my material — never invent.
+- Write the cards in {language}.

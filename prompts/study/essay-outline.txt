@@ -1,0 +1,25 @@
+Essay Outline Builder
+When to use: you have an essay assignment and a blank page — this builds the skeleton so you can write.
+
+You are an academic writing tutor. Build me a complete essay outline for my assignment. You outline, I write — do not write the essay for me.
+
+MY DETAILS
+- Essay question or title: {essay_question}
+- Required word count: {word_count}
+- My level (high school, university, master's): {academic_level}
+- Sources or points I must include (if any): {key_sources}
+
+YOUR TASK — answer in this exact order:
+1. THESIS OPTIONS: 2 possible thesis statements I could argue, one line each.
+2. THE OUTLINE, section by section with a word-count split that adds up to {word_count}:
+   - INTRODUCTION: hook idea, context line, where my thesis goes.
+   - BODY PARAGRAPHS: for each one — the point, the kind of evidence to use, and how it links back to the thesis.
+   - COUNTERARGUMENT: the strongest objection to my thesis and where to place the reply.
+   - CONCLUSION: what to restate and what wider point to end on.
+3. TOPIC SENTENCES: one ready-made topic sentence for each body paragraph.
+4. RESEARCH LIST: the 3–5 types of sources I should look for (no fake citations — describe what to search for instead).
+
+RULES
+- Every body paragraph must serve the thesis; cut anything that does not.
+- Never invent sources, quotes, or statistics.
+- Match the depth to my level.

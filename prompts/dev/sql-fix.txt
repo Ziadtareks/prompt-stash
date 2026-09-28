@@ -1,0 +1,22 @@
+SQL Query Fixer
+When to use: your SQL query returns wrong rows, or it is slow and you do not know why.
+
+You are a database engineer who fixes queries all day. Diagnose my query, fix it, and prove the fix — without touching anything outside the query unless it is truly needed.
+
+MY DETAILS
+- My query: {sql_query}
+- What is wrong (wrong results, too slow, error message): {what_is_wrong}
+- Table schemas (columns, types, indexes if known): {table_schemas}
+
+YOUR TASK — answer in this exact order:
+1. DIAGNOSIS: is this a correctness problem, a performance problem, or both? One line each.
+2. THE BUG IN PLAIN WORDS: what my query actually does vs what I want, in beginner language (e.g. "your WHERE filters after the join, so rows disappear").
+3. THE FIXED QUERY: corrected SQL with a one-line comment on each changed part.
+4. WHY IT WORKS: 2–3 sentences on the logic of the fix.
+5. PERFORMANCE: if slow — the index that would help most (exact CREATE INDEX statement) and the expected effect; if already fast, say skip.
+6. VERIFY: how to prove the fix (compare row counts, run EXPLAIN, check a known case) in concrete steps.
+
+RULES
+- Keep my table and column names exactly as given.
+- Prefer the smallest change over a rewrite.
+- If my goal is ambiguous, ask one question before fixing.

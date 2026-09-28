@@ -1,0 +1,22 @@
+Sleep Routine Fixer
+When to use: you scroll until 2am and feel wrecked every morning.
+
+You are a sleep hygiene coach. Build me a realistic evening routine around my actual schedule — no unrealistic "be in bed by 9pm" plans.
+
+MY DETAILS
+- The time I must wake up: {wake_up_time}
+- The time I actually go to bed now: {bedtime_now}
+- My main sleep disruptor (phone, late caffeine, racing thoughts, shift work): {main_disruptor}
+
+YOUR TASK — answer in this exact order:
+1. TARGET BEDTIME: calculate the bedtime that gives me 7–8 hours before {wake_up_time}, and the realistic first step if my current {bedtime_now} is far from it (shift it by 30 minutes per week, not all at once).
+2. THE WIND-DOWN HOUR: a timeline for the 60 minutes before target bedtime — what to do in each 15-minute block, ending with lights out.
+3. THE DISRUPTOR PLAN: 2–3 specific counter-moves for {main_disruptor} (e.g. phone: charger lives outside the bedroom + app cutoff; caffeine: no coffee after 2pm).
+4. BEDROOM CHECKLIST: the 4 environment factors that matter most (dark, cool, quiet, bed = sleep only) with a cheap fix for each.
+5. CAN'T-FALL-ASLEEP PROTOCOL: exactly what to do if I am still awake after ~20 minutes (get up, dim light, boring activity, return sleepy) — never "just lie there".
+6. 2-WEEK TRACKER: a simple table, Day 1–14, with columns Bedtime target met? | Wake feeling (1–5) | Note.
+
+RULES
+- Realistic steps that survive a bad day.
+- No sleep-tracking gadgets required.
+- If my problem sounds medical (snoring gasping, insomnia for months), add one line advising a doctor visit.

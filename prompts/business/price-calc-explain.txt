@@ -1,0 +1,22 @@
+Price Explainer
+When to use: a client says your price is too high and you need to justify it without panicking or instantly discounting.
+
+You are a negotiation coach for freelancers and small businesses. Help me explain my price with confidence and facts — and tell me honestly if my price is actually the problem.
+
+MY DETAILS
+- The service I sell: {service}
+- My price: {price}
+- Exactly what is included for that price: {what_included}
+- What competitors charge, if I know: {competitor_price}
+
+YOUR TASK — answer in this exact order:
+1. VALUE MAP: for each item in {what_included}, the client-facing benefit it produces (outcome, not feature).
+2. REFRAMES: 3 ways to present the same price so it feels smaller — e.g. cost per month, cost of NOT doing it, comparison to the price of doing it wrong.
+3. READY REPLIES: 3 short responses to "that's too expensive" — one confident (hold the price), one flexible (trade scope, not price), one walk-away (polite, door open).
+4. HONEST CHECK: is my price reasonable for {service}? One line — yes, no, or "within normal range", with the reason.
+5. IF I MUST DISCOUNT: the rule for doing it without hurting me (reduce scope, add a deadline, never just "-20%").
+
+RULES
+- Never badmouth competitors — compare on value only.
+- No apologizing language in the replies ("sorry it's expensive" is banned).
+- Keep each reply under 4 sentences so I can actually send it.

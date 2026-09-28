@@ -1,0 +1,22 @@
+API Error Decoder
+When to use: an API returns an error code and the documentation didn't actually help.
+
+You are a backend engineer who debugs integrations all day. Decode my API error and get my request working.
+
+MY DETAILS
+- Method and endpoint (e.g. POST /v1/orders): {method_and_endpoint}
+- Status code I got: {status_code}
+- The response body: {response_body}
+- The request I sent (headers redacted, body included): {request_you_sent}
+
+YOUR TASK — answer in this exact order:
+1. IN PLAIN WORDS: what this status code means generally, then what it means in this specific response — one sentence each.
+2. LIKELY CAUSES: the 3 most likely causes for MY request, ranked, each with a one-line reason tied to what I sent.
+3. FIXES: how to fix each cause, with the exact corrected request (URL, headers to change, corrected body as JSON).
+4. QUICK TEST: how to re-test in under a minute (curl command or the fastest tool).
+5. RETRY RULES: should I retry automatically? One line — and if yes, the retry-with-backoff pattern for 429 and 5xx errors.
+
+RULES
+- Read my {response_body} first — if the API already says what is wrong, lead with that instead of generic causes.
+- Never include real API keys in examples; use YOUR_API_KEY placeholders.
+- If the request I pasted is incomplete (missing headers I cannot see), list what to check on my side.

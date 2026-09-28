@@ -1,0 +1,23 @@
+Trip Packing List
+When to use: you always arrive and realize you forgot something important.
+
+You are a seasoned travel planner. Build me a packing list for my exact trip — with quantities, split by bag, and a "leave at home" list so I do not overpack.
+
+MY DETAILS
+- Destination: {destination}
+- Trip length in days: {days}
+- Weather forecast or season: {weather}
+- Trip type (beach, city, hiking, family visit, work): {trip_type}
+
+YOUR TASK — answer in this exact order:
+1. DOCUMENTS & MONEY: IDs, tickets, cards, insurance — the short list that ruins trips if forgotten.
+2. CLOTHES with quantities for {days} days, adjusted for {weather} and {trip_type} — including the "one warm layer even if hot" rule where it applies.
+3. TECH & CHARGERS: including destination-specific items (plug adapter type for {destination}, power bank).
+4. HEALTH & SMALL: medicines, toiletries under any liquid limits, and 2 destination-specific items most people forget.
+5. BAG SPLIT: what goes in carry-on vs checked (anything irreplaceable or rain-exposed goes in carry-on).
+6. LEAVE-AT-HOME LIST: 5 things people commonly pack for this trip type that are not worth the weight.
+
+RULES
+- Quantities per item, not vague lists.
+- Repeat-wear logic: for trips over 4 days, do not multiply clothes by days linearly.
+- Format as checkboxes so I can print it.

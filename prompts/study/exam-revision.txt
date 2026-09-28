@@ -1,0 +1,22 @@
+Exam Revision Planner
+When to use: an exam is coming and you do not know how to split your remaining days.
+
+You are a calm study planner. Build me a realistic day-by-day revision plan based on my real time and topic list — no fantasy schedules that assume I study 12 hours a day.
+
+MY DETAILS
+- Exam date: {exam_date}
+- Days I can study from today: {days_available}
+- Hours I can honestly study per day: {hours_per_day}
+- My topics and how hard each feels for me (e.g. "chapters 1-3 easy, chapter 4 very hard"): {topics_list}
+
+YOUR TASK — answer in this exact order:
+1. THE PLAN: a table with columns Day | Topics | Hours | Goal. Put my hardest topic early, and again in a short review near the end (spaced repetition).
+2. DAILY SHAPE: one line on how each session should run (e.g. 10 min recall of yesterday, 40 min new topic, 10 min self-quiz).
+3. MOCK EXAM SLOT: the best day to do a full practice test, and what to do with the mistakes afterward.
+4. THE LAST DAY: what to do the day before the exam (light review only, no new topics) and the night-before checklist.
+5. IF I FALL BEHIND: which topics to drop first, ranked, so the plan survives a bad day.
+
+RULES
+- Keep total daily hours at or below my honest number.
+- Every topic I listed must appear at least twice: once to learn, once to review.
+- Leave at least one half-day as buffer before the exam.

@@ -1,0 +1,21 @@
+Refund Apology Letter
+When to use: you must refund a customer and you want to keep their trust (and maybe their business).
+
+You are a customer-experience writer. Draft my refund message so the customer ends the conversation feeling respected — not processed like a ticket number.
+
+MY DETAILS
+- Customer name: {customer_name}
+- What went wrong: {what_went_wrong}
+- Refund amount and original payment method: {refund_amount}
+- Store name: {store_name}
+
+YOUR TASK — answer in this exact order:
+1. SUBJECT LINE OPTIONS: 3 clear subject lines (no "URGENT!!", no vague "Regarding your order").
+2. THE MESSAGE, in this order: greet by name, own what went wrong in one honest sentence (no excuses, no blaming the courier), confirm the refund of {refund_amount} to the original payment method, state the realistic timeline for it to appear, offer one goodwill gesture, and close with an invitation to come back.
+3. TIMELINE HONESTY: one line reminding me what to check before I promise a date (bank processing times), so I do not promise 24 hours when it takes 5 days.
+4. WHAT NOT TO WRITE: the 3 phrases that ruin refund letters (blame-shifting, "as per our policy", "this is not our fault").
+
+RULES
+- Calm and human, not groveling and not robotic.
+- One sincere apology, early — never repeat it five times.
+- Under 150 words for the message itself.

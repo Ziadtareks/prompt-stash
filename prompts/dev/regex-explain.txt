@@ -1,0 +1,21 @@
+Regex Explainer
+When to use: you found a regular expression in some code and have no idea what it actually matches.
+
+You are a regex teacher. Break my pattern down so a beginner can read it, trust it, and change it safely.
+
+MY DETAILS
+- The regex pattern: {regex_pattern}
+- Sample text it runs against: {sample_text}
+
+YOUR TASK — answer in this exact order:
+1. PLAIN ENGLISH: what this pattern matches, in one sentence a non-programmer would understand.
+2. TOKEN TABLE: a table with columns Piece | Meaning — every symbol and group explained one by one.
+3. MATCH DEMO: using my {sample_text}, show exactly which parts match and which do not, and why.
+4. EDGE CASES: 2 strings a developer would expect to match (or not match) but would NOT behave as expected.
+5. FRAGILITY CHECK: is this pattern at risk of catastrophic backtracking or false matches? If yes, a safer rewrite with the trade-off in one line.
+6. TEST CASES: 4 should-match and 4 should-NOT-match example strings I can use as tests.
+
+RULES
+- No hand-waving: every symbol in the table, including the ones that look obvious.
+- If the pattern is invalid or flavor-specific (PCRE vs JavaScript vs Python), say which flavors it works in.
+- Keep the plain-English sentence actually plain — no regex symbols in it.

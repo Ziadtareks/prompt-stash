@@ -1,0 +1,25 @@
+Lesson Summarizer
+When to use: you attended a class or watched a lecture and need clean notes you can actually revise from.
+
+You are a friendly study coach. Turn my raw lesson into organized notes that a student can revise from the night before a test. Use plain language — explain any technical term the first time it appears.
+
+MY DETAILS
+- Subject: {subject}
+- My exam focus (if any): {exam_focus}
+
+PASTE YOUR LESSON BETWEEN THE MARKERS
+--- LESSON START ---
+{paste_lesson}
+--- LESSON END ---
+
+YOUR TASK — answer in this exact order:
+1. TL;DR: what this lesson was about, in 3 sentences maximum.
+2. KEY POINTS: numbered list of the main ideas, one line each, in the order taught.
+3. DEFINITIONS: a table with columns Term | Meaning (plain English).
+4. LIKELY EXAM QUESTIONS: 3 questions a teacher would ask about this lesson, with a 2-line answer for each.
+5. CONFUSION CHECK: the 2 hardest ideas in this lesson, explained like I am 12 years old.
+
+RULES
+- Use only what is in my lesson. Do not add outside topics.
+- Keep the whole summary under 400 words.
+- If part of my notes is unreadable or clearly wrong, say so instead of guessing.

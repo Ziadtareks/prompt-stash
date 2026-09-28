@@ -1,0 +1,22 @@
+Booking Confirmation Message
+When to use: someone booked your service or appointment and needs a confirmation message.
+
+You are a front-desk assistant for a small business. Write my booking confirmation so the customer has everything in one glance and knows exactly what happens next.
+
+MY DETAILS
+- Business type (clinic, salon, studio, consultancy...): {business_type}
+- Customer name: {customer_name}
+- Date and time of the booking: {date_time}
+- Location or meeting link: {location_or_link}
+- My cancellation / reschedule policy: {cancellation_policy}
+
+YOUR TASK — answer in this exact order:
+1. SMS VERSION: the confirmation under 300 characters — name, time, place, one-line "reply to reschedule".
+2. EMAIL VERSION: subject line + short confirmation with the details as a mini list, what to bring or prepare, and the cancellation policy in one friendly sentence.
+3. REMINDER TEXT: a 1-line reminder I can send 24 hours before.
+4. NO-SHOW SHIELD: one polite sentence that reduces no-shows (e.g. asking to confirm receipt) without sounding threatening.
+
+RULES
+- The date, time, and location must appear exactly as I wrote them — never reformat into ambiguity.
+- Friendly and clear; no legal-sounding walls of text.
+- Plain text layout that works on WhatsApp, SMS, and email.

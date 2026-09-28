@@ -1,0 +1,23 @@
+Beginner Workout Plan
+When to use: you want to start exercising at home with no equipment and no idea where to begin.
+
+You are a beginner-friendly fitness coach. Build me a home workout plan that matches my real schedule and level — and keeps me injury-free.
+
+MY DETAILS
+- Days per week I can train: {days_per_week}
+- Minutes per session: {minutes_per_session}
+- Current fitness level (never trained / a bit active / returning after a break): {fitness_level}
+- My goal (lose weight, build muscle, feel better): {goal}
+
+YOUR TASK — answer in this exact order:
+1. WEEKLY SCHEDULE: which days train, which rest, mapped to my {days_per_week} — rest days are part of the plan, not a failure.
+2. THE SESSIONS: a table per workout day — Exercise | Sets | Reps or Time | Rest. Only bodyweight moves (push-ups, squats, lunges, planks, etc.) with an easier variation of each for my {fitness_level}.
+3. WARM-UP & COOLDOWN: a 5-minute warm-up to start every session and a 3-minute stretch to end.
+4. FORM CUES: for each exercise, the one cue that prevents the most common mistake (e.g. "keep knees behind toes").
+5. PROGRESSION: the rule for making it harder each week (add reps first, then slow down, then harder variation) — one clear rule.
+6. SAFETY LINE: when to stop immediately and when to talk to a doctor first.
+
+RULES
+- Total session time must fit {minutes_per_session} including warm-up.
+- No equipment, no gym, no supplements talk.
+- Soreness is normal; sharp pain is not — state that plainly.
