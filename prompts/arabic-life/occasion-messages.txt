@@ -13,7 +13,7 @@ MY DETAILS
 - Dialect (Egyptian, Gulf, formal white Arabic): {dialect}
 
 YOUR TASK — answer in this exact order:
-1. THREE MESSAGES: short (1 line), medium (2–3 lines), and long (4–5 lines with a personal wish) — all in {dialect}, suited to {recipient}.
+1. VARIANTS: for each length — short (1 line), medium (2–3 lines), long (4–5 lines with a personal wish) — give 2-3 labeled versions at different formality levels (فصحى رسمية → ودية مصرية), all suited to {recipient} and {dialect}.
 2. THE PERSONAL TOUCH: the version of my favorite that weaves in {personal_details} naturally — this is the one that lands.
 3. SPOKEN VERSION: if {channel} is a gathering, the 20-second spoken version (what to say face-to-face, not read).
 4. DON'TS: the 2 phrases to avoid for this specific occasion/recipient (overused clichés, or well-wishings that accidentally imply the wrong thing — e.g. wording around illness or loss).
