@@ -15,8 +15,6 @@ No app, no signup, no build step. Open a `.txt` file, fill in the `{variables}`,
 
 > summarize my meeting notes
 
-…and you get a vague paragraph that misses decisions and actions.
-
 **With Prompt Stash — open [`prompts/work/meeting-notes-fix.txt`](prompts/work/meeting-notes-fix.txt), paste it, and replace the variables:**
 
 > You are my executive assistant. Turn my raw notes into a clean, skimmable summary…
@@ -24,7 +22,7 @@ No app, no signup, no build step. Open a `.txt` file, fill in the `{variables}`,
 > june launch call — ahmed says dev costs up 15%… shady to get 3 quotes… mariam wants 2 days off mid june
 > --- NOTES END ---
 
-…and you get: a 3-line TL;DR, a **key decisions** list, an **action-items table** (task / owner / deadline), open questions, and a ready-to-send follow-up email. [See a full worked example →](examples/work-meeting-notes-fix.md)
+**Illustrative result** (not a benchmark — outputs vary by model): a 3-line TL;DR, a **key decisions** list, an **action-items table** (task / owner / deadline), open questions, and a ready-to-send follow-up email. [See a full worked example →](examples/work-meeting-notes-fix.md)
 
 ## 🏆 Top 15 prompts
 
@@ -64,7 +62,7 @@ No app, no signup, no build step. Open a `.txt` file, fill in the `{variables}`,
 | 🔐 [security-basics](prompts/security-basics/README.md) | 10 | Defensive everyday security — no fear, just checklists |
 | 🇪🇬 [arabic-life](prompts/arabic-life/README.md) | 10 | Formal Arabic, Egyptian dialect and Egypt paperwork — done right |
 
-📸 **[Worked examples](examples/README.md)** — 13 prompts shown with filled variables and a realistic AI response.
+📸 **[Worked examples](examples/README.md)** — 16 illustrations covering all 13 folders, each with a filled prompt and a sample AI response.
 
 ## 🌍 Language guide
 
