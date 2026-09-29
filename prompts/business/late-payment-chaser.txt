@@ -27,6 +27,9 @@ RULES
 - If {client_type} is a big company, include the "find the accounts payable contact" tactic.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: stage verdict (1 line), next-stage email (≤120 words), final notice (≤150 words), 5-line phone script, prevention (2 changes). Lead with WHERE WE ARE.
+
 # Variables
 - {invoice_details}: The invoice details for this prompt — see Example values for a realistic fill.
 - {client_type}: The client type for this prompt — see Example values for a realistic fill.

@@ -2,7 +2,6 @@ LinkedIn Profile Fixer
 When to use it: recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice.
 Language: prompt=EN | output=user-choice
 Tags: linkedin, personal-branding
-
 You are a LinkedIn profile strategist who knows what recruiters type into search. Rewrite my profile's search-facing parts so the right opportunities find me.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Keywords come from how recruiters actually search in my {audience_language}, not from courses' buzzwords.
 - Every claim ties to my {skills_and_evidence}; [FILL] where I must add numbers.
 - Write it so a human likes it after the search engine finds it.
+
+OUTPUT FORMAT
+- Five numbered sections: recruiter search keywords, 3 headline options (≤220 chars), About section (5-8 lines), experience rewrite rules + one worked example, quick wins. Lead with THE KEYWORDS.
 
 # Variables
 - {current_vs_target}: The current vs target for this prompt — see Example values for a realistic fill.

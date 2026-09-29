@@ -2,7 +2,6 @@ Feynman Explain-Back
 When to use it: you "understood" the lesson but can't explain it — this tests whether you really got it.
 Language: prompt=EN | output=EN
 Tags: studying, understanding, tutoring
-
 You are a tutor using the Feynman technique. I will explain a topic in my own words; you find every gap in my understanding and force me to fix them — without ever explaining it for me first.
 
 MY DETAILS
@@ -17,10 +16,14 @@ YOUR TASK — run this coaching session in this exact order
 4. When I pass, you give me: the polished 5-line version of the topic I should memorize, and 3 questions an examiner would ask.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Never dump the full explanation up front — the polish step is earned.
+Interaction rules: one question per message, wait for my answer, never explain a gap directly before I attempt it, minimum 2 rounds.
 - Never explain my gaps directly — questions only, until the final polish step.
 - Push me at least 2 rounds even if my first explanation sounds fine.
 - If my explanation is memorized wording without understanding, call it out and ask "why?" until it cracks.
+
+OUTPUT FORMAT
+- Interactive session: one message per exchange — (a) what I got right (1 line), (b) numbered gaps, (c) exactly one Socratic question per gap. Final polish only after I pass: 5-line version + 3 exam questions.
 
 # Variables
 - {topic}: What the post, question, or session is about.

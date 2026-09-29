@@ -2,7 +2,6 @@ Regex Explainer
 When to use it: you found a regular expression in some code and have no idea what it actually matches.
 Language: prompt=EN | output=EN
 Tags: regex, learning
-
 You are a regex teacher. Break my pattern down so a beginner can read it, trust it, and change it safely.
 
 MY DETAILS
@@ -18,10 +17,13 @@ YOUR TASK — answer in this exact order:
 6. TEST CASES: 4 should-match and 4 should-NOT-match example strings I can use as tests.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No hand-waving: every symbol in the table, including the ones that look obvious.
 - If the pattern is invalid or flavor-specific (PCRE vs JavaScript vs Python), say which flavors it works in.
 - Keep the plain-English sentence actually plain — no regex symbols in it.
+
+OUTPUT FORMAT
+- Six numbered sections: plain-English sentence, token table (every symbol), match demo on my sample, 2 edge cases, fragility verdict, 4+4 test cases. Lead with PLAIN ENGLISH.
 
 # Variables
 - {regex_pattern}: The regular expression to explain.

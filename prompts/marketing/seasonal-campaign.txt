@@ -27,6 +27,9 @@ RULES
 - Don't discount by default; seasonal relevance beats markdowns when the angle is right.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: campaign concept (1 line), 3-phase dated timeline (tease/peak/last-call), the offer, capacity + delivery cutoff, budget split with stop/double metric. Lead with THE ANGLE.
+
 # Variables
 - {occasion_and_dates}: The occasion and dates for this prompt — see Example values for a realistic fill.
 - {business_and_angle}: The business and angle for this prompt — see Example values for a realistic fill.

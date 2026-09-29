@@ -24,11 +24,14 @@ YOUR TASK — answer in this exact order:
 5. THE COMPLIMENT: one thing this code genuinely does well — reviews that only criticize get ignored.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No style nitpicks above P2 (semicolon debates are not findings).
 - Fixes must keep my language/framework idioms — no rewriting into a different paradigm.
 - If my code is fine, say "this is fine" — don't invent problems to seem useful.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: verdict (1 line), findings table (P0/P1/P2), explicit security pass, fix diff for the worst section only, one genuine compliment. Lead with VERDICT.
 
 # Variables
 - {language}: Language (and dialect) for the output.

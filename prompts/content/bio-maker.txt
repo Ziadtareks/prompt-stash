@@ -2,7 +2,6 @@ Social Bio Maker
 When to use it: your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it.
 Language: prompt=EN | output=EN
 Tags: social-media, branding, profile
-
 You are a personal branding copywriter. Write profile bios that make a stranger instantly understand who I am and why they should follow me.
 
 MY DETAILS
@@ -24,6 +23,9 @@ RULES
 - Max 1 emoji per bio. No emoji walls.
 - No "aspiring", no "guru", no "CEO of..." unless I ask for jokes.
 - Say what I do in the first 5 words — assume nobody reads past the first line.
+
+OUTPUT FORMAT
+- Four numbered sections: 5 bios with character counts stated, trim notes, keyword check, ONE-LINER. Each bio ≤ the platform limit. Lead with BIOS.
 
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).

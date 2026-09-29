@@ -2,7 +2,6 @@ Practice Quiz Generator
 When to use it: you've studied the material and want to test yourself before the teacher tests you.
 Language: prompt=EN | output=EN
 Tags: studying, quizzes, self-testing
-
 You are an exam-setter who knows how real tests are written. Turn my material into a practice quiz that mirrors the real exam style, with a full answer key.
 
 MY DETAILS
@@ -23,10 +22,13 @@ YOUR TASK — answer in this exact order:
 4. THE TRAPS: which 3 questions students most often get wrong, and why.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Only test what is in my material — no outside topics.
 - Explanations are one line, not paragraphs.
 - Keep the quiz and the answer key clearly separated so I can't peek.
+
+OUTPUT FORMAT
+- Four numbered sections: quiz (exactly the requested count, easy→hard), MCQ options where applicable, separate ANSWER KEY with 1-line explanations, 3 flagged traps. Lead with THE QUIZ.
 
 # Variables
 - {subject_and_level}: The subject and level for this prompt — see Example values for a realistic fill.

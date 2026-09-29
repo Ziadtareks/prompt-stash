@@ -26,6 +26,9 @@ RULES
 - Judgment-free tone; no "you should stop buying coffee" clichés.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: warning check (1 line, only if fixed costs >60%), split table (Category | Amount | %), one weekly allowance number, 3 cuts ranked with savings, emergency-fund line. Lead with WARNING CHECK or THE SPLIT.
+
 # Variables
 - {monthly_income}: The monthly income for this prompt — see Example values for a realistic fill.
 - {fixed_costs}: The fixed costs for this prompt — see Example values for a realistic fill.

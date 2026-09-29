@@ -27,6 +27,9 @@ RULES
 - Consider my {time_commitment} — plans that need full-time work must say so.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: verdict (1 line: promising / promising with changes / risky / avoid), demand test (3 questions), unit math with [FILL] marks, 3 killers, cheapest first step with a go/no-go number. Lead with THE VERDICT.
+
 # Variables
 - {idea}: The idea for this prompt — see Example values for a realistic fill.
 - {budget}: The budget for this prompt — see Example values for a realistic fill.

@@ -27,6 +27,9 @@ RULES
 - EGP numbers, local occasions, and delivery norms where Egypt fits.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: mechanic + why it beats %-off, margin math with max discount, framing rules (honest urgency), announcement + reminder posts (≤60 words each), guardrails. Lead with THE MECHANIC.
+
 # Variables
 - {product_and_margin}: The product and margin for this prompt — see Example values for a realistic fill.
 - {reason}: The reason for this prompt — see Example values for a realistic fill.

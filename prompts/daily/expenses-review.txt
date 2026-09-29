@@ -22,12 +22,15 @@ YOUR TASK — answer in this exact order:
 6. ONE GOOD THING: one thing I did right this month, based on the real numbers.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only my pasted numbers; mark [MISSING] where my list has gaps instead of estimating.
 - Judgment-free tone: this is a review, not a trial.
 - Compare nothing to ideal budgets — compare this month to my own goal.
 
 Note: These are planning estimates based on my pasted numbers — no financial advice; for debt or investment decisions, recommend a licensed professional.
+
+OUTPUT FORMAT
+- Six numbered sections: category table (Category | Total | %), needs-vs-wants split, 3 leaks with monthly totals, suspect verdict (1 line), 3 fixes with savings, one good thing (1 line). Lead with THE PICTURE.
 
 # Variables
 - {income}: Your take-home monthly income.

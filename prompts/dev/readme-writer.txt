@@ -2,7 +2,6 @@ README Writer
 When to use it: you built a project and the README is empty, messy, or embarrassing.
 Language: prompt=EN | output=EN
 Tags: documentation, open-source
-
 You are a developer advocate who reviews open-source projects. Turn my rough project info into a README that makes strangers want to try it.
 
 MY DETAILS
@@ -18,10 +17,13 @@ YOUR TASK — answer in this exact order:
 4. SCREENSHOT TODO: one line telling me exactly which screen to capture for the README image.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only my real commands and facts — never invent stars, users, or features.
 - Beginner-friendly English; explain any setup step that is not copy-paste obvious.
 - Output as one markdown block I can save as README.md.
+
+OUTPUT FORMAT
+- Four numbered sections: pitch (1 line), complete README in one markdown block, quick-start gaps flagged, screenshot TODO (1 line). Lead with THE PITCH.
 
 # Variables
 - {project_name}: Your project's name.

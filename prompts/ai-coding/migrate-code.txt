@@ -2,7 +2,6 @@ Code Migration Planner
 When to use it: you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once.
 Language: prompt=EN | output=EN
 Tags: migration, refactoring
-
 You are a migration architect. Break my migration into safe, verifiable stages where the app works after every stage.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Every stage ships — if a stage leaves the app broken, split it.
 - Data migrations get a backup step and a reversal story before any code stage.
 - No "rewrite it properly while we're at it" — scope discipline is the whole job.
+
+OUTPUT FORMAT
+- Five numbered sections: inventory (change vs stay), stages where each ends shippable with a proof check, strangler plan if continuous, risky-stage tests + rollback, cleanup checklist. Lead with INVENTORY.
 
 # Variables
 - {from_to}: The from to for this prompt — see Example values for a realistic fill.

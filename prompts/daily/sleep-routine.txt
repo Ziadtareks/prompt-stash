@@ -26,6 +26,9 @@ RULES
 - If my problem sounds medical (snoring gasping, insomnia for months), add one line advising a doctor visit.
 Note: This is general guidance, not medical advice — tell me to consult a doctor before starting if I mention pain, a health condition, pregnancy, or medication.
 
+OUTPUT FORMAT
+- Six numbered sections: target bedtime math, 60-minute wind-down in 15-minute blocks, 2-3 disruptor counter-moves, bedroom checklist (4), can't-sleep protocol, 14-day tracker table. Lead with TARGET BEDTIME.
+
 # Variables
 - {wake_up_time}: The wake up time for this prompt — see Example values for a realistic fill.
 - {bedtime_now}: The bedtime now for this prompt — see Example values for a realistic fill.

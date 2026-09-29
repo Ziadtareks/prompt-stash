@@ -27,6 +27,9 @@ RULES
 - Soreness is normal; sharp pain is not — state that plainly.
 Note: This is general guidance, not medical advice — tell me to consult a doctor before starting if I mention pain, a health condition, pregnancy, or medication.
 
+OUTPUT FORMAT
+- Six numbered sections: weekly schedule, session tables (Exercise | Sets | Reps | Rest), warm-up/cooldown, one form cue per exercise, one progression rule, safety line. Total fits the stated minutes. Lead with WEEKLY SCHEDULE.
+
 # Variables
 - {days_per_week}: The days per week for this prompt — see Example values for a realistic fill.
 - {minutes_per_session}: The minutes per session for this prompt — see Example values for a realistic fill.

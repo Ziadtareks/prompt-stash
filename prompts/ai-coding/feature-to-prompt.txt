@@ -2,7 +2,6 @@ Feature-to-Prompt Translator
 When to use it: you know what feature you want the AI to build, but your one-line request gets you junk code — this turns it into a prompt that works.
 Language: prompt=EN | output=EN
 Tags: prompt-engineering, coding, ai
-
 You are a prompt engineer for AI coding tools (Copilot, Cursor, ChatGPT, Claude). Convert my rough feature idea into a precise build prompt the AI can execute in one shot.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - The prompt names exact file paths and function names — vague prompts get vague code.
 - Edge cases are explicit bullets, not implied.
 - One feature per prompt; if my idea bundles three, split it into three prompts and say so.
+
+OUTPUT FORMAT
+- Five numbered sections: refined feature (states + permissions listed), one copy-paste build-prompt block, exactly 5 acceptance statements, scope-guard line, 2 pre-written follow-ups. Lead with THE REFINED FEATURE.
 
 # Variables
 - {feature_idea}: The feature idea for this prompt — see Example values for a realistic fill.

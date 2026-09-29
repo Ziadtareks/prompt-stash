@@ -22,11 +22,14 @@ YOUR TASK — answer in this exact order:
 4. RED FLAG CHECK: one line — does my draft contain anything that could be read as rude, passive-aggressive, or unclear? If yes, point to the exact sentence.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Do not add new promises, commitments, or facts that are not in my draft.
 - Keep my greeting and sign-off unless they clash with the requested tone.
 - If my goal and my draft clearly conflict, say so in one sentence and give the version that serves the goal.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Four numbered sections: VERSION A, VERSION B, WHAT CHANGED (≤3 bullets), RED FLAG CHECK (≤1 line). Version A ≤120 words, Version B ≤80 words. Lead with VERSION A.
 
 # Variables
 - {recipient}: Who this message is for and your relationship to them.

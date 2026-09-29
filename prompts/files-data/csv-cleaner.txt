@@ -20,11 +20,14 @@ YOUR TASK — answer in this exact order:
 5. FINAL CHECKS: the 4 sanity checks (row counts, totals, distinct values, blanks) proving the data is clean before anyone uses it.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Every step is reversible or done on a copy — say which.
 - Egyptian phone numbers and dates get explicit handling (+20, leading zeros, dd/mm vs mm/dd).
 - If my mess needs a script instead of clicks, say so and provide the script.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: preserve-first setup, diagnosis ranked, ordered cleaning steps with exact clicks, traps (phone zeros, date flips), 4 final sanity checks. Lead with PRESERVE FIRST.
 
 # Variables
 - {data_source}: The data source for this prompt — see Example values for a realistic fill.

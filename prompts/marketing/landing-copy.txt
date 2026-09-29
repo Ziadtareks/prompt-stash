@@ -2,7 +2,6 @@ Landing Page Copy Writer
 When to use it: you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section.
 Language: prompt=EN | output=EN+AR
 Tags: landing-pages, conversion, copywriting
-
 You are a conversion copywriter. Write my landing page copy in the classic order: promise → proof → path. Every section earns the scroll to the next.
 
 MY DETAILS
@@ -24,6 +23,9 @@ RULES
 - Cold traffic gets the problem spelled out; warm traffic can skip straight to the offer — match my {traffic}.
 - Claims stay within my {proof}; no invented statistics.
 - Arabic versions written natively with RTL layout logic in mind.
+
+OUTPUT FORMAT
+- Five numbered sections: promise stack (3 headlines + subheadline), section map with 1-2 lines of copy each, FAQ (5 objections, 2 lines each), CTA options + microcopy, conversion notes. Lead with THE PROMISE STACK.
 
 # Variables
 - {offer_and_price}: The offer and price for this prompt — see Example values for a realistic fill.

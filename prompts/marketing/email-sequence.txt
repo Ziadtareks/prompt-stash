@@ -2,7 +2,6 @@ Welcome Email Sequence Writer
 When to use it: people sign up or inquire and hear nothing until you sell — set up a 3-email sequence that warms them up first.
 Language: prompt=EN | output=user-choice
 Tags: email-marketing, automation
-
 You are an email marketing strategist for small businesses. Write my welcome sequence: give value, build trust, then invite — in that order.
 
 MY DETAILS
@@ -25,6 +24,9 @@ RULES
 - Emails 1–2 contain no sales pitch — trust first is the strategy, not shyness.
 - One CTA per email, stated once.
 - Written to "you" (one reader), never "dear subscribers".
+
+OUTPUT FORMAT
+- Five numbered sections: the arc (1 line per email), email 1, email 2, email 3, settings note. Each email ≤140 words, one CTA each, no pitch before email 3. Lead with THE ARC.
 
 # Variables
 - {signup_context}: The signup context for this prompt — see Example values for a realistic fill.

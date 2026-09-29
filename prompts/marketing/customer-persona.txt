@@ -21,11 +21,14 @@ YOUR TASK — answer in this exact order:
 5. MESSAGE FIT: the one-line marketing message for this persona, and the words they actually use (steal from {voice_of_customer}).
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Built from my {voice_of_customer} evidence, not stock-persona clichés ("tech-savvy millennial" banned).
 - One primary persona; if I'm serving two very different buyers, say so and pick the profitable one to start.
 - Income/prices in local currency (EGP where my market is Egypt).
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: named persona, job-to-be-done in customer words, triggers + 3 objections with counter-messages, ranked channels, one-line message using their vocabulary. Lead with THE PERSONA.
 
 # Variables
 - {product_and_price}: The product and price for this prompt — see Example values for a realistic fill.

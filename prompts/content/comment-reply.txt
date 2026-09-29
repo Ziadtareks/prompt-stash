@@ -20,11 +20,14 @@ YOUR TASK — answer in this exact order:
 4. PIN-WORTHY: which comment thread deserves a pinned reply and what to pin.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Never copy-paste the same reply twice — variety is the point.
 - Match each commenter's language ({languages}) — reply Arabic to Arabic.
 - Trolls get zero emotional real estate: one calm line max, or none.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Four numbered sections: one reply per comment in order (≤2 sentences each), complaint handling, troll decision, pin suggestion. Lead with REPLIES.
 
 # Variables
 - {comments}: The comments for this prompt — see Example values for a realistic fill.

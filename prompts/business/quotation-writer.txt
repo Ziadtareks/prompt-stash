@@ -21,11 +21,14 @@ YOUR TASK — answer in this exact order:
 5. ACCEPTANCE LINE: the sentence the client signs/repplies to accept, with the deposit trigger.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Scope notes are mandatory — vague quotes become free-work traps.
 - Mark anything I must fill with [FILL]; invent nothing (numbers, addresses, tax IDs).
 - Plain text layout that works in email, PDF, or WhatsApp.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+OUTPUT FORMAT
+- Five numbered sections: header, items table with a scope note per line, totals, terms (validity, deposit, timeline, exclusions), acceptance line. Plain-text, copy-paste ready. Lead with QUOTATION HEADER.
 
 # Variables
 - {my_business}: The my business for this prompt — see Example values for a realistic fill.

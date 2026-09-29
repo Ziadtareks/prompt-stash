@@ -25,11 +25,14 @@ YOUR TASK — answer in this exact order:
 6. THE CHART: which one chart to show and exactly what goes on each axis.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Every number in the summary must be traceable to my pasted data — no invented figures.
 - If the data is too small/messy for a confident {key_question} answer, say what it CAN answer instead.
 - Plain language; explain any metric I use (avg vs median) in half a line.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Six numbered sections: headline answer to my question (1 sentence + number), summary table of aggregates, 3 standouts, supported comparisons, caveats, one chart spec (type + axes). Lead with THE HEADLINE.
 
 # Variables
 - {data_about}: The data about for this prompt — see Example values for a realistic fill.

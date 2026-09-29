@@ -2,7 +2,6 @@ Naming Convention Designer
 When to use it: your team's files are "doc final NEW (2).xlsx" and nobody can find anything — agree on a naming system once and stop the chaos.
 Language: prompt=EN | output=EN
 Tags: naming, organization, teams
-
 You are a documentation and information-management consultant. Design the file naming convention for my team's reality — short enough to type, structured enough to sort.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Compatible with my {storage} (some systems choke on #, ?, Arabic in URLs) — check and say.
 - Short beats complete: if the name exceeds ~60 characters, the convention loses.
 - One language for filenames (say which) — mixing directions breaks sorting and sharing.
+
+OUTPUT FORMAT
+- Five numbered sections: the pattern (segments defined), 8 correct + 4 wrong examples, sort guarantee + fixes, version marker system, rollout (pinned summary + amnesty plan). Lead with THE PATTERN.
 
 # Variables
 - {team_and_files}: The team and files for this prompt — see Example values for a realistic fill.

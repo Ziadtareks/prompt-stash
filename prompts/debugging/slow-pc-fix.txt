@@ -2,7 +2,6 @@ Slow PC Fixer
 When to use it: your Windows PC takes forever to open anything and you don't know why.
 Language: prompt=EN | output=EN
 Tags: windows, performance, troubleshooting
-
 You are a patient PC technician guiding a beginner remotely. Diagnose my slow computer step by step, cheapest and safest checks first — no reinstalling Windows unless everything else fails.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Free tools only — no paid software suggestions.
 - Every step must say what I will see on screen.
 - If a step risks losing files, warn me first and say what to back up.
+
+OUTPUT FORMAT
+- Five numbered sections in order. ≤350 words; ≤3 causes, ≤5 checks, fixes as numbered steps. Lead with TOP 3 CAUSES.
 
 # Variables
 - {pc_type}: The pc type for this prompt — see Example values for a realistic fill.

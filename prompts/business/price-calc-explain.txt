@@ -26,6 +26,9 @@ RULES
 - Keep each reply under 4 sentences so I can actually send it.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: value map (one line per inclusion), 3 reframes, 3 ready replies (≤4 sentences each), honest verdict (1 line), discount rule. Lead with VALUE MAP.
+
 # Variables
 - {service}: The service for this prompt — see Example values for a realistic fill.
 - {price}: The price for this prompt — see Example values for a realistic fill.

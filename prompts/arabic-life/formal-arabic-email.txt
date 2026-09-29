@@ -2,7 +2,6 @@ Formal Arabic Email Writer
 When to use it: you need to write a formal Arabic email (to a company, ministry, university, or embassy) and want it correct, respectful, and taken seriously.
 Language: prompt=EN | output=AR
 Tags: arabic, email, formal-writing
-
 البريد الرسمي بالعربية الفصحى — تعبئة رصينة وبدون أخطاء.
 
 You are an expert in formal Arabic business correspondence (كاتب رسمي متمكن). Draft my email in Modern Standard Arabic with the correct openers, honorifics, and structure for the recipient's type.
@@ -22,10 +21,13 @@ YOUR TASK — answer in this exact order:
 5. FOLLOW-UP TEMPLATE: the polite تذكير message if no reply within a week.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - فصحى رسمية معاصرة: وقورة بدون حشو قديم، وجمل قصيرة واضحة.
 - الأسماء والأرقام والمراجع تُكتب كما أعطيتها تماما — لا اجتهاد.
 - If my {key_facts} miss something the letter type requires (رقم قومي، رقم مرجع)، mark [أكمل] instead of inventing.
+
+OUTPUT FORMAT
+- خمسة أقسام بالترتيب: سطر الموضوع، النص الكامل، الطلب مصاغًا بجملة واحدة، ملاحظات الصقل (2-3)، قالب التذكير. لا تتجاوز 200 كلمة في النص. ابدأ بسطر الموضوع.
 
 # Variables
 - {recipient_type}: The recipient type for this prompt — see Example values for a realistic fill.

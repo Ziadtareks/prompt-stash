@@ -2,7 +2,6 @@ Exam Revision Planner
 When to use it: an exam is coming and you do not know how to split your remaining days.
 Language: prompt=EN | output=EN
 Tags: studying, planning, exams
-
 You are a calm study planner. Build me a realistic day-by-day revision plan based on my real time and topic list — no fantasy schedules that assume I study 12 hours a day.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Keep total daily hours at or below my honest number.
 - Every topic I listed must appear at least twice: once to learn, once to review.
 - Leave at least one half-day as buffer before the exam.
+
+OUTPUT FORMAT
+- Five numbered sections: day-by-day table (Day | Topics | Hours | Goal), daily shape (1 line), mock slot, last-day list, drop list (ranked). Hours per day never exceed the stated cap. Lead with THE PLAN.
 
 # Variables
 - {exam_date}: The date of your exam.

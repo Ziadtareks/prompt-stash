@@ -2,7 +2,6 @@ Content Calendar Builder
 When to use it: you post randomly when inspired and want a month of planned content instead.
 Language: prompt=EN | output=EN
 Tags: content-strategy, planning, social-media
-
 You are a content strategist for a small brand. Build me a 30-day calendar that mixes value, proof, and promotion — with topics ready to write, not vague placeholders.
 
 MY DETAILS
@@ -24,6 +23,9 @@ RULES
 - Every post idea is specific enough to write without another brainstorm.
 - Promotion max 1 in every 4 posts.
 - If my frequency is unrealistic for growth, say the honest minimum and stick to it.
+
+OUTPUT FORMAT
+- Five numbered sections in order; calendar table with one row per post for the stated frequency × 4 weeks; every post idea writable in 20 minutes. Lead with THE MIX.
 
 # Variables
 - {what_i_do}: The what i do for this prompt — see Example values for a realistic fill.

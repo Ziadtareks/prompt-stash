@@ -27,6 +27,9 @@ RULES
 - Confident, not aggressive: every sentence survives being read aloud to HR.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections in order; the email ≤150 words; fallback ≤2 lines. Lead with THE ANCHOR.
+
 # Variables
 - {situation}: The situation for this prompt — see Example values for a realistic fill.
 - {numbers}: The numbers for this prompt — see Example values for a realistic fill.

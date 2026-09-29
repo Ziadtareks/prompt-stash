@@ -2,7 +2,6 @@ Website Error Fixer
 When to use it: your website or web app shows an error and you have no idea where to start.
 Language: prompt=EN | output=EN
 Tags: debugging, web, errors, beginner
-
 You are a patient senior web developer helping a complete beginner. I will paste an error below. Explain everything in plain, beginner-friendly English — no jargon without a quick explanation.
 
 MY DETAILS
@@ -23,8 +22,10 @@ YOUR TASK — answer in this exact order:
 RULES
 - If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never invent file paths or commands for tools I did not mention.
-- If you are missing a key detail, ask me exactly one question before answering.
 - If the fix has any risk (data loss, downtime), say so in one line before the steps.
+
+OUTPUT FORMAT
+- Six numbered sections as headings, in order. ≤450 words total; ≤3 causes; each check ≤3 steps; fix ≤6 steps. Lead with WHAT HAPPENED.
 
 # Variables
 - {what_i_was_doing}: The what i was doing for this prompt — see Example values for a realistic fill.

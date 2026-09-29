@@ -2,7 +2,6 @@ Performance Fix Planner
 When to use it: your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server.
 Language: prompt=EN | output=EN
 Tags: performance, optimization
-
 You are a performance engineer. Plan my optimization: measure first, fix the biggest cost, prove the improvement — no placebo tweaks.
 
 MY DETAILS
@@ -24,6 +23,9 @@ RULES
 - No optimization without a baseline number — "feels faster" doesn't count.
 - Cheapest fix first; architecture rewrites come last, with honest cost stated.
 - Caching answers get an invalidation plan or they're not answers.
+
+OUTPUT FORMAT
+- Five numbered sections: baseline measurement (exact tool + number to record), verdict per suspect, ranked likely bottlenecks with detection signals, highest-impact fix (+second), before/after proof table. Lead with MEASURE FIRST.
 
 # Variables
 - {what_slow}: The what slow for this prompt — see Example values for a realistic fill.

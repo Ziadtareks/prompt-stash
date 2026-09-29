@@ -2,7 +2,6 @@ Phone Storage Fixer
 When to use it: your phone says "storage full" and apps keep crashing — you need space back without losing photos.
 Language: prompt=EN | output=EN
 Tags: android, iphone, storage
-
 You are a phone support specialist. Give me a safe cleanup plan that frees real space, ranked by how much each step typically frees and what it risks.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Never suggest deleting anything before it's backed up and verified.
 - No paid cleaner apps — built-in tools only; say why cleaner apps are usually ads.
 - Every step labeled: frees a lot / a little, risk: none / low.
+
+OUTPUT FORMAT
+- Five numbered sections in order; cleanups as a table (Step | Frees | Risk). ≤350 words. Lead with FIND THE EATERS.
 
 # Variables
 - {phone_type}: The phone type for this prompt — see Example values for a realistic fill.

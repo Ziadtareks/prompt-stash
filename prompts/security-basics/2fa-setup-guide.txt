@@ -26,6 +26,9 @@ RULES
 - No account-specific steps invented — where menus differ, say "look for Security → Two-step verification" patterns instead.
 Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
 
+OUTPUT FORMAT
+- Five numbered sections: method ladder with trade-offs, safety-net setup BEFORE enabling, per-account plan with steps, my-worry answer, yearly 10-minute checkup. Lead with METHOD LADDER.
+
 # Variables
 - {accounts}: The accounts for this prompt — see Example values for a realistic fill.
 - {devices}: The devices for this prompt — see Example values for a realistic fill.

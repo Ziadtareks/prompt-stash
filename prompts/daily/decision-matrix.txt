@@ -28,6 +28,9 @@ RULES
 
 Note: This is a thinking tool, not a verdict — big personal decisions stay mine; state assumptions and never present the matrix as certain.
 
+OUTPUT FORMAT
+- Five numbered sections: 5-7 criteria with weights (sum 100), scored matrix table, weighted totals + gap verdict, gut-check (1 kind sentence), 3 tie-breaker questions with the cheapest way to answer them. Lead with THE CRITERIA.
+
 # Variables
 - {decision}: The choice you're facing.
 - {options}: Your realistic options (2–4).

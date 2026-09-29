@@ -27,11 +27,14 @@ YOUR TASK — answer in this exact order:
 5. THE PATTERN LESSON: name the scam family this belongs to (fake delivery fee, bank freeze, prize, boss-impersonation) and its one signature move.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Defensive only: help me recognize and report — never help craft or improve scam messages.
 - Never ask me to interact with the suspicious link or attachment to "check" it.
 - If it claims to be my bank, the official-app rule overrides everything: verify there, act there.
 Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: verdict + 2 strongest signals, red-flag list (1 line each), official-channel verification path, if-already-clicked/paid triage, scam-family lesson. Lead with THE VERDICT.
 
 # Variables
 - {channel}: The channel for this prompt — see Example values for a realistic fill.

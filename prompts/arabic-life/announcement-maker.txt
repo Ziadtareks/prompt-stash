@@ -2,7 +2,6 @@ Arabic Announcement Maker
 When to use it: you need to announce something to a community — a wedding invitation, a graduation celebration, a shop opening, a memorial notice — in Arabic, with the right tone for the occasion.
 Language: prompt=EN | output=AR
 Tags: arabic, announcements, community
-
 You are an Arabic announcements specialist. Write my announcement in the register the occasion demands — celebratory, formal-invitational, or solemn — ready to print or post.
 
 MY DETAILS
@@ -19,10 +18,13 @@ YOUR TASK — answer in this exact order:
 5. DISTRIBUTION NOTE: one line on timing and etiquette for {audience_and_channel} (e.g. condolence notices are not "marketed"; wedding invitations sent with enough notice).
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Names, dates, and places exactly as I wrote them — [أكمل] marks anything missing.
 - Correct customary openings/closings per announcement type; no mixing celebration wording into solemn notices.
 - Natural Arabic register per {audience_and_channel} — formal print vs warm WhatsApp.
+
+OUTPUT FORMAT
+- Five numbered sections: the full Arabic announcement in the occasion's register, short WhatsApp version, print layout guidance, tone guardrails for this type, distribution timing note. Lead with THE ANNOUNCEMENT.
 
 # Variables
 - {announcement_type}: The announcement type for this prompt — see Example values for a realistic fill.

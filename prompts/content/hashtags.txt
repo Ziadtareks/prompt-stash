@@ -2,7 +2,6 @@ Hashtag Finder
 When to use it: you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses.
 Language: prompt=EN | output=EN
 Tags: social-media, hashtags, discovery
-
 You are a social media growth strategist. Build me a hashtag set that balances big reach tags with smaller ones my account can actually rank in.
 
 MY DETAILS
@@ -27,6 +26,9 @@ RULES
 - Realistic tags only: prefer tags where a small account can still appear in "recent" or "top".
 - No generic spam tags like #follow4follow or #like4like.
 - Match the platform's culture: LinkedIn wants 3–5 tags, Instagram can take more, X wants 1–2.
+
+OUTPUT FORMAT
+- Five numbered sections in order; the set split BROAD/NICHE/COMMUNITY with counts summing to the requested number; dead-tag check replaces, never just warns. Lead with THE SET.
 
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).

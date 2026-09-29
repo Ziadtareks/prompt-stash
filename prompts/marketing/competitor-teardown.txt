@@ -2,7 +2,6 @@ Competitor Teardown
 When to use it: you're competing against 2–3 businesses doing it better (or cheaper) and need their playbook — and the gap they're leaving you.
 Language: prompt=EN | output=EN
 Tags: competitive-analysis, strategy
-
 You are a competitive analyst for small businesses. Analyze my competitors from what's publicly visible and find the opening I can own.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Public information reasoning only — no scraping, no fake reviews, no disparagement.
 - If my {losing_where} is price, test whether the real problem is positioning before recommending a price cut.
 - The opening must be defensible by a small business — not "outspend them on ads".
+
+OUTPUT FORMAT
+- Five numbered sections: per-competitor pitch (1 line each), their engine, gap matrix (factor | them | me), the opening (1 sentence), 3 affordable 30-day moves. Lead with THEIR PITCH.
 
 # Variables
 - {my_business}: The my business for this prompt — see Example values for a realistic fill.

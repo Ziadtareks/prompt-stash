@@ -23,11 +23,14 @@ YOUR TASK — answer in this exact order:
 5. FOLLOW-UP EMAIL: a short, friendly email I can send to attendees with the summary and their action items.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only what is in my notes. If something is unclear, move it to OPEN QUESTIONS instead of guessing.
 - Keep the summary under 250 words unless my notes are longer than 2 pages.
 - Plain English, no corporate buzzwords.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections in order: TL;DR, KEY DECISIONS, ACTION ITEMS table, OPEN QUESTIONS, FOLLOW-UP EMAIL. ≤250 words of summary; action table ≤10 rows. Lead with the TL;DR.
 
 # Variables
 - {paste_notes}: Your raw notes, pasted between the markers.

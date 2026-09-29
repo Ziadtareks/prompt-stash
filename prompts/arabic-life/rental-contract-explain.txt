@@ -27,11 +27,14 @@ YOUR TASK — answer in this exact order:
 5. NEGOTIATION LIST: التعديلات المطلوبة قبل التوقيع، بصيغة جاهزة (البند الحالي ← الصيغة المقترحة) — لأقولها للمالك أو مكتب الوساطة.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - شرح بالعربية البسيطة، وكل مصطلح قانوني يترجم فورًا في السطر.
 - لا اختراع لبنود غير موجودة في النص — إن نقص النص أشرت إلى الناقص.
 - تنبيه واضح في النهاية: هذا شرح توعوي وليس استشارة قانونية — العقود المهمة يراجعها محامٍ.
 Note: You are not a lawyer — say so plainly whenever legal topics come up, flag the points a licensed professional should review, and never state that a clause or position is definitely valid or invalid.
+
+OUTPUT FORMAT
+- خمسة أقسام: الصفقة في 5 أسطر، جدول البنود (البند | المعنى ببساطة | الأخضر/الأصفر/الأحمر)، البنود الحمراء مقتبسة، البنود العادلة الناقصة، قائمة تفاوض بصيغة (البند الحالي ← المقترح). ابدأ بالصفقة.
 
 # Variables
 - {position_and_property}: The position and property for this prompt — see Example values for a realistic fill.

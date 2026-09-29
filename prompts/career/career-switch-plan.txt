@@ -2,7 +2,6 @@ Career Switch Planner
 When to use it: you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead.
 Language: prompt=EN | output=EN
 Tags: career-change, planning
-
 You are a career-change strategist. Map my switch from where I am to where I want to be: what transfers, what's missing, and the cheapest proof-of-skill to build.
 
 MY DETAILS
@@ -24,6 +23,9 @@ RULES
 - No "quit and study full-time" plans unless {runway_months} explicitly allows it.
 - Local market reality: what the {target_field} junior market actually hires for in Egypt/Gulf where relevant.
 - Plan ends in applications within the timeline — courses without output are a trap and the plan must say so.
+
+OUTPUT FORMAT
+- Five numbered sections: honest gap (3-5 skills ranked by difficulty), transfer map restated in target language, month-by-month table ending in applications, 2 portfolio artifacts, financial guardrail + go/no-go signal. Lead with THE HONEST GAP.
 
 # Variables
 - {current_field}: The current field for this prompt — see Example values for a realistic fill.

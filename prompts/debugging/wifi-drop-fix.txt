@@ -2,7 +2,6 @@ Wi-Fi Drop Fixer
 When to use it: your internet keeps disconnecting on one or all devices and you can't tell if the problem is the router, the device, or the ISP.
 Language: prompt=EN | output=EN
 Tags: networking, troubleshooting, home
-
 You are a home-network technician. Help me find exactly WHERE the connection breaks before I waste time or money blaming the wrong thing.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Cheapest explanation first; never suggest buying hardware before testing.
 - Explain any technical term (DNS, IP, ping) in one short line the first time.
 - Give the router settings' common menu names, since brands differ.
+
+OUTPUT FORMAT
+- Five numbered sections in order. ≤350 words; the 3-point test as a numbered list. Lead with LOCATE THE FAULT.
 
 # Variables
 - {who_affected}: The who affected for this prompt — see Example values for a realistic fill.

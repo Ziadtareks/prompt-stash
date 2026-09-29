@@ -2,7 +2,6 @@ File Organizer Planner
 When to use it: your Desktop/Downloads/Drive is a landfill of "final_v2_REAL.docx" and you need a system, not another cleanup that lasts a week.
 Language: prompt=EN | output=EN
 Tags: organization, files, workflow
-
 You are a digital organization consultant. Design a folder structure and naming system for my actual mess, then give me the step-by-step migration plan.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Structure must match my {search_habits}, not a consultant's ideal taxonomy.
 - Nothing gets deleted in the plan — an archive/quarantine folder catches everything.
 - If photos are the mess, say so and handle them by their own rules (they don't get renamed).
+
+OUTPUT FORMAT
+- Five numbered sections: folder tree, naming pattern with 5 real + 4 wrong examples, phased migration (nothing deleted in round one), 2 keeping-alive habits, search upgrade. Lead with THE STRUCTURE.
 
 # Variables
 - {file_types}: The file types for this prompt — see Example values for a realistic fill.

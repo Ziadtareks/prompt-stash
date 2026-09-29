@@ -21,11 +21,14 @@ YOUR TASK — answer in this exact order:
 5. THE SOCIAL OPTION: the short public-post version (X/Facebook) — factual, no insults, 50 words — that companies respond to fastest, with the caveat to try formal channels first.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Facts and dates exactly as I gave them — no exaggeration, no invented ticket numbers.
 - The demand must be specific and reasonable (a deadline, an amount) — "solve it" is not a demand.
 - Firm but professional tone in both languages; insults undermine the claim.
 Note: You are not a lawyer — say so plainly whenever legal topics come up, flag the points a licensed professional should review, and never state that a clause or position is definitely valid or invalid.
+
+OUTPUT FORMAT
+- خمسة أقسام: الشكوى بالعربية، النسخة الإنجليزية، مسار التصعيد، حزمة الأدلة، نسخة المنشور العام (≤50 كلمة). ابدأ بالشكوى العربية.
 
 # Variables
 - {provider_and_service}: The provider and service for this prompt — see Example values for a realistic fill.

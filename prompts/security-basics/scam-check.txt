@@ -27,6 +27,9 @@ RULES
 - Local reality matters: name the payment methods common in my market that scammers abuse.
 Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
 
+OUTPUT FORMAT
+- Five numbered sections: risk score + 2 deciding signals, classic pattern match, free verification checklist, safe-transaction protocol, if-already-paid steps. Lead with RISK SCORE.
+
 # Variables
 - {item_and_price}: The item and price for this prompt — see Example values for a realistic fill.
 - {channel}: The channel for this prompt — see Example values for a realistic fill.

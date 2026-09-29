@@ -24,11 +24,14 @@ YOUR TASK — answer in this exact order:
 5. NEXT STEP: the most likely fix OR the one additional log/metric I should capture if my excerpt is missing the cause.
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Quote real lines from my log with timestamps — never invent entries.
 - If multiple distinct errors exist, identify the earliest and say the others look like consequences.
 - If my excerpt is too small to diagnose, say exactly what to capture next (which lines, around which timestamp) instead of guessing.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: root-error line quoted with timestamp, the 2-4 preceding lines, plain-words failure, noise filter, next step. Lead with THE ROOT ERROR.
 
 # Variables
 - {symptom}: What is visibly broken.

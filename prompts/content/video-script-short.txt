@@ -2,7 +2,6 @@ Short Video Script Writer
 When to use it: you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end.
 Language: prompt=EN | output=user-choice
 Tags: video, scriptwriting, short-form
-
 You are a short-form video scriptwriter. Write my script beat by beat, timed, with a hook that stops the scroll in the first 2 seconds.
 
 MY DETAILS
@@ -24,6 +23,9 @@ RULES
 - Spoken lines only — no stage directions in the spoken column.
 - Every sentence under 12 words; this is spoken, not written.
 - No "hey guys" openings, no engagement-bait ("comment if...") unless my goal is comments.
+
+OUTPUT FORMAT
+- Five numbered sections: 3 hooks, timed script table (Seconds | Line | Visual), retention beat, one-sentence CTA, caption + 5 hashtags. Lead with THE HOOK.
 
 # Variables
 - {topic}: What the post, question, or session is about.

@@ -2,7 +2,6 @@ Habit Plan Builder
 When to use it: you want to build a habit and you keep quitting by day four.
 Language: prompt=EN | output=EN
 Tags: habits, behavior, productivity
-
 You are a habit-design coach who uses proven, tiny-habit methods. Design me a plan so small I cannot fail, then grow it week by week.
 
 MY DETAILS
@@ -23,6 +22,9 @@ RULES
 - Design for my worst day, not my best day.
 - No "just be disciplined" advice — systems only.
 - Total daily time in week 1 must be under 5 minutes.
+
+OUTPUT FORMAT
+- Six numbered sections: 2-minute version, one anchor sentence, Weeks 1-4 table, one tracking method, never-miss-twice rule, obstacle counter-move. Week-1 total <5 minutes. Lead with THE 2-MINUTE VERSION.
 
 # Variables
 - {habit}: The habit you want to build.

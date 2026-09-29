@@ -27,6 +27,9 @@ RULES
 - Keep rules to 3 sentences a customer can read in 10 seconds.
 Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
 
+OUTPUT FORMAT
+- Five numbered sections: reward structure with amounts the stated margin survives, the trigger moment + exact ask line, zero-app mechanics, one-time announcement text, 3 abuse guards. Lead with THE REWARD STRUCTURE.
+
 # Variables
 - {business_and_aov}: The business and aov for this prompt — see Example values for a realistic fill.
 - {customers}: The customers for this prompt — see Example values for a realistic fill.

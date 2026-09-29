@@ -20,11 +20,14 @@ YOUR TASK — answer in this exact order:
 5. DO NOT SAY: one line on the phrase most likely to make this worse (e.g. "calm down", blaming the customer, policy walls).
 
 RULES
-- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Structure every reply: acknowledgment, solution, next step, timeline.
 - Never promise what {resolution} does not include.
 - If Arabic: write natural, polite Arabic (الرسمية اللطيفة), never machine-translated word order.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: the read (1 line), Version A, Version B, de-escalation sentence (if angry), DO-NOT-SAY (1 line). Versions ≤100 words each, in the requested language. Lead with WHAT THEY REALLY WANT.
 
 # Variables
 - {store_name}: The store name for this prompt — see Example values for a realistic fill.
