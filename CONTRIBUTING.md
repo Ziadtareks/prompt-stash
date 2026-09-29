@@ -59,9 +59,11 @@ python scripts/build_index.py        # regenerate prompts.json + folder READMEs
 python scripts/check_links.py        # every markdown link resolves
 ```
 
-CI runs all three on every pull request — your PR will fail if the generated files are stale, so run `build_index.py` before committing.
+CI is currently unavailable; run `python scripts/validate_prompts.py` and install `scripts/pre-push` before opening a PR. Either way, run `build_index.py` before committing so the generated files are fresh.
 
-**No CI access?** Install the local pre-push hook once and every `git push` runs the same checks: `cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push` (Git Bash on Windows).
+**Pre-push hook (recommended):** install it once and every `git push` runs the same checks.
+- Git Bash: `cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
+- PowerShell: `Copy-Item scripts\pre-push .git\hooks\pre-push` (no chmod needed)
 
 ## Proposing changes to existing prompts
 

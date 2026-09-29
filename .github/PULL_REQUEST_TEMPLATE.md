@@ -12,6 +12,6 @@
 - [ ] Safety disclaimer + `Note:` line added for legal / financial / medical / security prompts; "redact before pasting" reminder where users paste data
 - [ ] No duplicated purpose with an existing prompt (searched the folder READMEs)
 - [ ] `python scripts/validate_prompts.py` passes
-- [ ] `python scripts/build_index.py` run (CI fails on stale `prompts.json` / folder READMEs)
+- [ ] `python scripts/build_index.py` run so `prompts.json` and the folder READMEs are fresh
 - [ ] `python scripts/check_links.py` passes
 - [ ] No secrets, no real personal data, no fabricated statistics or claims
