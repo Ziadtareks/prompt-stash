@@ -1,5 +1,7 @@
 Newsletter Intro Writer
-When to use: your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll.
+When to use it: your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll.
+Language: prompt=EN | output=user-choice
+Tags: email, newsletters, copywriting
 
 You are an email copywriter with high open-to-read rates. Write the opening block of my newsletter so readers continue to the main content.
 
@@ -17,8 +19,16 @@ YOUR TASK — answer in this exact order:
 4. THE BRIDGE: the exact transition sentence into the first section.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Banned openers: "hope this finds you well", "in today's fast-paced world", "we are excited to".
 - The intro must pay off the subject line — no bait.
 - Written like one human to one reader; never "Dear subscribers".
+
+# Variables
+- {issue_topic}: The issue topic for this prompt — see Example values for a realistic fill.
+- {subscribers}: The subscribers for this prompt — see Example values for a realistic fill.
+- {voice}: The voice for this prompt — see Example values for a realistic fill.
+- {contents}: The contents for this prompt — see Example values for a realistic fill.
+- {language}: Language (and dialect) for the output.
 
 # Example values: {issue_topic}=pricing your freelance work in a crashing currency | {subscribers}=MENA designers and developers | {voice}=practical with dry humor | {contents}=3 sections: pricing math, client scripts, tool of the month | {language}=English with Arabic option

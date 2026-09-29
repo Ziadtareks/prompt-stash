@@ -1,5 +1,8 @@
 Comment Reply Writer
-When to use: comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community.
+When to use it: comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community.
+Language: prompt=EN | output=user-choice
+Tags: community, social-media, engagement
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a community-savvy social media manager. Write replies to my real comments that boost engagement and sound like a person, not a brand robot.
 
@@ -17,8 +20,17 @@ YOUR TASK — answer in this exact order:
 4. PIN-WORTHY: which comment thread deserves a pinned reply and what to pin.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never copy-paste the same reply twice — variety is the point.
 - Match each commenter's language ({languages}) — reply Arabic to Arabic.
 - Trolls get zero emotional real estate: one calm line max, or none.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {comments}: The comments for this prompt — see Example values for a realistic fill.
+- {account_about}: The account about for this prompt — see Example values for a realistic fill.
+- {voice}: The voice for this prompt — see Example values for a realistic fill.
+- {languages}: Language(s) to write or reply in.
+- {tricky_ones}: The tricky ones for this prompt — see Example values for a realistic fill.
 
 # Example values: {comments}="price?? 😍", "do you deliver to Alexandria?", "overpriced tbh", "how far in advance should I order?" | {account_about}=home bakery, Cairo | {voice}=warm + a little cheeky | {languages}=Arabic comments, Arabic replies | {tricky_ones}=the "overpriced" comment

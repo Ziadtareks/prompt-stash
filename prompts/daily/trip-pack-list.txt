@@ -1,5 +1,7 @@
 Trip Packing List
-When to use: you always arrive and realize you forgot something important.
+When to use it: you always arrive and realize you forgot something important.
+Language: prompt=EN | output=EN
+Tags: travel, checklists
 
 You are a seasoned travel planner. Build me a packing list for my exact trip — with quantities, split by bag, and a "leave at home" list so I do not overpack.
 
@@ -18,6 +20,15 @@ YOUR TASK — answer in this exact order:
 6. LEAVE-AT-HOME LIST: 5 things people commonly pack for this trip type that are not worth the weight.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Quantities per item, not vague lists.
 - Repeat-wear logic: for trips over 4 days, do not multiply clothes by days linearly.
 - Format as checkboxes so I can print it.
+
+# Variables
+- {destination}: Where you are traveling.
+- {days}: The days for this prompt — see Example values for a realistic fill.
+- {weather}: The weather for this prompt — see Example values for a realistic fill.
+- {trip_type}: The trip type for this prompt — see Example values for a realistic fill.
+
+# Example values: {destination}=Dahab | {days}=4 | {weather}=hot days, cool nights | {trip_type}=beach + light hiking

@@ -1,5 +1,7 @@
 Promotion Case Builder
-When to use: you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.
+When to use it: you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.
+Language: prompt=EN | output=EN
+Tags: promotion, career, negotiation
 
 You are a promotion committee's best friend. Assemble my evidence into a case document my manager can forward without rewriting it.
 
@@ -18,8 +20,17 @@ YOUR TASK — answer in this exact order:
 5. THE CONVERSATION SCRIPT: how to open the meeting, present for 2 minutes, handle a "no" gracefully while locking a dated review.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Numbers only from my {evidence} — [FILL] markers where I must measure impact.
 - Business language, not grievance language: this is a business case, not a complaint.
 - End every version with a dated next step — undetermined asks die in inboxes.
+
+# Variables
+- {current_to_target}: The current to target for this prompt — see Example values for a realistic fill.
+- {timeline}: The timeline for this prompt — see Example values for a realistic fill.
+- {evidence}: The evidence for this prompt — see Example values for a realistic fill.
+- {process}: The process for this prompt — see Example values for a realistic fill.
+- {expected_objection}: The expected objection for this prompt — see Example values for a realistic fill.
+- {target}: The target for this prompt — see Example values for a realistic fill.
 
 # Example values: {current_to_target}=accountant → senior accountant | {timeline}=2.5 years, review passed over twice | {evidence}=ran month-end close solo for 6 months, trained 2 juniors, automated 3 reports | {process}=annual cycle, manager recommends | {expected_objection}=headcount freeze

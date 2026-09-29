@@ -1,5 +1,7 @@
 Hashtag Finder
-When to use: you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses.
+When to use it: you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses.
+Language: prompt=EN | output=EN
+Tags: social-media, hashtags, discovery
 
 You are a social media growth strategist. Build me a hashtag set that balances big reach tags with smaller ones my account can actually rank in.
 
@@ -21,6 +23,17 @@ YOUR TASK — answer in this exact order:
 5. ARABIC LAYER (only if language is Arabic or both): an equivalent set of Arabic hashtags for the same post.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Realistic tags only: prefer tags where a small account can still appear in "recent" or "top".
 - No generic spam tags like #follow4follow or #like4like.
 - Match the platform's culture: LinkedIn wants 3–5 tags, Instagram can take more, X wants 1–2.
+
+# Variables
+- {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
+- {topic}: What the post, question, or session is about.
+- {niche}: Your niche or industry.
+- {audience}: Who will read or receive this.
+- {language}: Language (and dialect) for the output.
+- {number_of_hashtags}: The number of hashtags for this prompt — see Example values for a realistic fill.
+
+# Example values: {platform}=Instagram | {topic}=handmade silver rings | {niche}=handmade jewelry | {audience}=women 20-35 in Egypt and the Gulf | {language}=Arabic + English | {number_of_hashtags}=20

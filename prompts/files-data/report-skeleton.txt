@@ -1,5 +1,7 @@
 Report Skeleton Builder
-When to use: you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.
+When to use it: you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.
+Language: prompt=EN | output=EN
+Tags: reporting, business
 
 You are a business reporting assistant. Design my report skeleton: sections in the order decision-makers read, placeholder charts, and the "so what" lines that make numbers mean something.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. THE TEMPLATE: the whole skeleton assembled in {format} layout, ready to save and refill each period.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - The verdict/summary goes first — readers who stop at line 3 still get the point.
 - Same metrics every period; trends need consistency, not novelty.
 - Every number slot pairs with a "why" slot — unexplained numbers invite wrong conclusions.
+
+# Variables
+- {report_type}: The report type for this prompt — see Example values for a realistic fill.
+- {readers}: The readers for this prompt — see Example values for a realistic fill.
+- {available_data}: The available data for this prompt — see Example values for a realistic fill.
+- {format}: The format for this prompt — see Example values for a realistic fill.
 
 # Example values: {report_type}=monthly tutoring-center report | {readers}=owner (me) + the two investors | {available_data}=enrollments, revenue EGP, attendance %, cancellations, ad spend | {format}=one-page email

@@ -1,5 +1,7 @@
 Jargon Simplifier
-When to use: you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read.
+When to use it: you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read.
+Language: prompt=EN | output=EN
+Tags: communication, technical-writing
 
 You are a translator between engineers and business people. Rewrite my update so a busy non-technical reader understands what happened, why it matters, and what (if anything) they must do.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. TRANSLATION CHECK: 2 technical terms I used that sound scary to non-tech readers, with friendlier replacements.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never keep an acronym the reader wouldn't know — expand on first use or delete it.
 - Keep every claim true to my raw update; simplify words, never the facts.
 - If my update genuinely has no business impact, say that plainly instead of inflating it.
+
+# Variables
+- {raw_update}: The raw update for this prompt — see Example values for a realistic fill.
+- {reader}: The reader for this prompt — see Example values for a realistic fill.
+- {reader_cares}: The reader cares for this prompt — see Example values for a realistic fill.
+- {action_needed}: The action needed for this prompt — see Example values for a realistic fill.
 
 # Example values: {raw_update}=migrated DB to new instance, redeployed API, fixed N+1 queries | {reader}=client owner | {reader_cares}=app speed and their bill | {action_needed}=no

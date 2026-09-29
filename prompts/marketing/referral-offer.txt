@@ -1,5 +1,8 @@
 Referral Offer Designer
-When to use: word of mouth is your best channel and you're leaving it to luck — design a referral program customers actually use.
+When to use it: word of mouth is your best channel and you're leaving it to luck — design a referral program customers actually use.
+Language: prompt=EN | output=EN
+Tags: referrals, growth, loyalty
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a growth marketer for small businesses. Design my referral offer: the reward, the ask, and the tracking — simple enough to run on a WhatsApp and a notebook.
 
@@ -18,8 +21,17 @@ YOUR TASK — answer in this exact order:
 5. THE ABUSE GUARDS: the 3 exploits (self-referrals, fake accounts, refund loops) and the simple rules that block them.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Reward on confirmed, non-refunded purchases only — say it explicitly.
 - Double-sided rewards convert best; if margin forbids it, say which single side to pay.
 - Keep rules to 3 sentences a customer can read in 10 seconds.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+# Variables
+- {business_and_aov}: The business and aov for this prompt — see Example values for a realistic fill.
+- {customers}: The customers for this prompt — see Example values for a realistic fill.
+- {margin}: The margin for this prompt — see Example values for a realistic fill.
+- {channels}: The channels for this prompt — see Example values for a realistic fill.
+- {currency}: The currency for all money figures (e.g. EGP).
 
 # Example values: {business_and_aov}=tutoring center, 800 EGP/month per student | {customers}=parents in parent WhatsApp groups | {margin}=40% | {channels}=school parent groups, family networks | {currency}=EGP

@@ -1,5 +1,8 @@
 Quotation Writer
-When to use: a client asked "how much?" and you need a professional price quotation — not a WhatsApp number with no details.
+When to use it: a client asked "how much?" and you need a professional price quotation — not a WhatsApp number with no details.
+Language: prompt=EN | output=EN
+Tags: proposals, pricing, freelance
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a small-business operations assistant. Draft a clean quotation that protects me (validity, scope) and makes it easy for the client to say yes.
 
@@ -18,8 +21,18 @@ YOUR TASK — answer in this exact order:
 5. ACCEPTANCE LINE: the sentence the client signs/repplies to accept, with the deposit trigger.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Scope notes are mandatory — vague quotes become free-work traps.
 - Mark anything I must fill with [FILL]; invent nothing (numbers, addresses, tax IDs).
 - Plain text layout that works in email, PDF, or WhatsApp.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+# Variables
+- {my_business}: The my business for this prompt — see Example values for a realistic fill.
+- {client_and_request}: The client and request for this prompt — see Example values for a realistic fill.
+- {items_and_prices}: The items and prices for this prompt — see Example values for a realistic fill.
+- {payment_terms}: The payment terms for this prompt — see Example values for a realistic fill.
+- {valid_days}: The valid days for this prompt — see Example values for a realistic fill.
+- {currency}: The currency for all money figures (e.g. EGP).
 
 # Example values: {my_business}=Nour Designs, graphic studio | {client_and_request}=café wants logo + menu design + 5 social posts | {items_and_prices}=logo 6,000 EGP, menu 3,500 EGP, posts 750 EGP each | {payment_terms}=50% deposit | {valid_days}=14

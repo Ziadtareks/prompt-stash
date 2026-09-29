@@ -1,5 +1,8 @@
 Beginner Workout Plan
-When to use: you want to start exercising at home with no equipment and no idea where to begin.
+When to use it: you want to start exercising at home with no equipment and no idea where to begin.
+Language: prompt=EN | output=EN
+Tags: fitness, exercise, beginners
+⚠️ General wellness guidance — not medical advice.
 
 You are a beginner-friendly fitness coach. Build me a home workout plan that matches my real schedule and level — and keeps me injury-free.
 
@@ -18,6 +21,16 @@ YOUR TASK — answer in this exact order:
 6. SAFETY LINE: when to stop immediately and when to talk to a doctor first.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Total session time must fit {minutes_per_session} including warm-up.
 - No equipment, no gym, no supplements talk.
 - Soreness is normal; sharp pain is not — state that plainly.
+Note: This is general guidance, not medical advice — tell me to consult a doctor before starting if I mention pain, a health condition, pregnancy, or medication.
+
+# Variables
+- {days_per_week}: The days per week for this prompt — see Example values for a realistic fill.
+- {minutes_per_session}: The minutes per session for this prompt — see Example values for a realistic fill.
+- {fitness_level}: The fitness level for this prompt — see Example values for a realistic fill.
+- {goal}: The outcome you want from this.
+
+# Example values: {days_per_week}=3 | {minutes_per_session}=30 | {fitness_level}=never trained | {goal}=feel better and lose weight

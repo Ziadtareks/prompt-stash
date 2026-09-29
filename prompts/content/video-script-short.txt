@@ -1,5 +1,7 @@
 Short Video Script Writer
-When to use: you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end.
+When to use it: you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end.
+Language: prompt=EN | output=user-choice
+Tags: video, scriptwriting, short-form
 
 You are a short-form video scriptwriter. Write my script beat by beat, timed, with a hook that stops the scroll in the first 2 seconds.
 
@@ -18,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. CAPTION + HASHTAGS: a 1–2 line caption and 5 relevant hashtags in {language}.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Spoken lines only — no stage directions in the spoken column.
 - Every sentence under 12 words; this is spoken, not written.
 - No "hey guys" openings, no engagement-bait ("comment if...") unless my goal is comments.
+
+# Variables
+- {topic}: What the post, question, or session is about.
+- {platform_and_length}: The platform and length for this prompt — see Example values for a realistic fill.
+- {audience_and_goal}: The audience and goal for this prompt — see Example values for a realistic fill.
+- {format}: The format for this prompt — see Example values for a realistic fill.
+- {language}: Language (and dialect) for the output.
 
 # Example values: {topic}=why your CV gets rejected in 6 seconds | {platform_and_length}=Instagram Reels, 45s | {audience_and_goal}=Egyptian job seekers, goal = follows | {format}=talking head | {language}=Egyptian dialect

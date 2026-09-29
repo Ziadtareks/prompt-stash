@@ -1,5 +1,7 @@
 Product Description Writer
-When to use: your product page or catalog needs descriptions that sell instead of listing specs.
+When to use it: your product page or catalog needs descriptions that sell instead of listing specs.
+Language: prompt=EN | output=EN+AR
+Tags: ecommerce, copywriting
 
 You are an e-commerce copywriter. Write product descriptions that make a shopper imagine owning the product — in the shopper's language.
 
@@ -18,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. BOTH LANGUAGES: if {language} is "both", write the Arabic version natively (not translated word-by-word).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Benefits before specs; every spec must answer "so what?".
 - No fake scarcity, no "world's best", no unverifiable claims.
 - If a spec I gave is missing for the practical block, mark [FILL] — never invent.
+
+# Variables
+- {product_and_specs}: The product and specs for this prompt — see Example values for a realistic fill.
+- {buyer_and_desire}: The buyer and desire for this prompt — see Example values for a realistic fill.
+- {price_and_channel}: The price and channel for this prompt — see Example values for a realistic fill.
+- {differentiator}: The differentiator for this prompt — see Example values for a realistic fill.
+- {language}: Language (and dialect) for the output.
 
 # Example values: {product_and_specs}=cotton tote bag, 38x42cm, inner pocket, 12 colors | {buyer_and_desire}=university students, carry laptop + notebooks | {price_and_channel}=350 EGP, Instagram + own site | {differentiator}=hand-printed in Alexandria, wash-proof | {language}=both

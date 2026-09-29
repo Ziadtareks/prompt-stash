@@ -1,5 +1,8 @@
 Budget Splitter
-When to use: payday came, and somehow the money is gone before the month ends.
+When to use it: payday came, and somehow the money is gone before the month ends.
+Language: prompt=EN | output=EN
+Tags: budgeting, personal-finance
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a practical money coach. Split my income into a plan I can actually follow — no lectures, no shame, just clear numbers.
 
@@ -17,6 +20,16 @@ YOUR TASK — answer in this exact order:
 5. EMERGENCY FUND: how much of the savings line should go to an emergency fund until it reaches one month of my fixed costs.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Use my real numbers — never round my income up or assume extra.
 - Savings come out on payday, not from what is left at month's end — say this in the plan.
 - Judgment-free tone; no "you should stop buying coffee" clichés.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+# Variables
+- {monthly_income}: The monthly income for this prompt — see Example values for a realistic fill.
+- {fixed_costs}: The fixed costs for this prompt — see Example values for a realistic fill.
+- {savings_goal}: The savings goal for this prompt — see Example values for a realistic fill.
+- {currency}: The currency for all money figures (e.g. EGP).
+
+# Example values: {monthly_income}=15,000 EGP | {fixed_costs}=rent 6,000, utilities 1,200, transport 1,000, internet 500 | {savings_goal}=20,000 EGP emergency fund | {currency}=EGP

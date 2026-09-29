@@ -1,5 +1,7 @@
 Environment Mismatch Fixer
-When to use: the code works on your teammate's machine (or the server) and dies on yours — "works on my machine" hunting.
+When to use it: the code works on your teammate's machine (or the server) and dies on yours — "works on my machine" hunting.
+Language: prompt=EN | output=EN
+Tags: environment, debugging, setup
 
 You are a developer-environment doctor. The bug is in the difference between two machines — help me find and fix exactly that difference.
 
@@ -18,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. PREVENTION: the one file to add/commit (exact runtime version pin or lockfile) so the next teammate doesn't hit this.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Env var VALUES are secrets: instruct me to enter them locally and never paste them into chat or commits.
 - Prefer matching the working setup over upgrading mine mid-crisis.
 - One change at a time, verified, before the next — shotgun fixes hide the real cause.
+
+# Variables
+- {works_where}: The works where for this prompt — see Example values for a realistic fill.
+- {my_error}: The my error for this prompt — see Example values for a realistic fill.
+- {my_setup}: The my setup for this prompt — see Example values for a realistic fill.
+- {working_setup}: The working setup for this prompt — see Example values for a realistic fill.
+- {compared}: The compared for this prompt — see Example values for a realistic fill.
 
 # Example values: {works_where}=teammate's Mac and CI both green | {my_error}=ModuleNotFoundError on startup | {my_setup}=Windows 11, Python 3.13, pip | {working_setup}=Python 3.11 + poetry.lock | {compared}=cloned fresh, .env exists

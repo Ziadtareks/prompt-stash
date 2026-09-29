@@ -1,5 +1,7 @@
 Post Hook Generator
-When to use: your posts are good but nobody reads past the first line — fix the hook.
+When to use it: your posts are good but nobody reads past the first line — fix the hook.
+Language: prompt=EN | output=user-choice
+Tags: copywriting, hooks, social-media
 
 You are a direct-response copywriter specializing in first lines. Write me opening hooks that create a gap the reader must close by reading on.
 
@@ -17,8 +19,16 @@ YOUR TASK — answer in this exact order:
 4. ANTI-CLICHÉ CHECK: flag any hook I should avoid because it's overused on {platform} in 2025–2026.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Hooks are max 12 words and never clickbait — the post must deliver what the hook promises.
 - No "🚀 Excited to announce..." energy unless I ask for it.
 - Write in {language}; keep cultural references natural, not translated.
+
+# Variables
+- {topic_and_point}: The topic and point for this prompt — see Example values for a realistic fill.
+- {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
+- {audience}: Who will read or receive this.
+- {tone}: The voice to write in.
+- {language}: Language (and dialect) for the output.
 
 # Example values: {topic_and_point}=freelancers underprice because they quote hourly | {platform}=LinkedIn | {audience}=Arab freelancers | {tone}=contrarian | {language}=English with Arabic option

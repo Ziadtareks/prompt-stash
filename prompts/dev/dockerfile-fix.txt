@@ -1,5 +1,7 @@
 Dockerfile Fixer
-When to use: your Docker build fails, the image is huge, or the container crashes on run — build files fixed layer by layer.
+When to use it: your Docker build fails, the image is huge, or the container crashes on run — build files fixed layer by layer.
+Language: prompt=EN | output=EN
+Tags: docker, devops, containers
 
 You are a containerization engineer. Fix my Dockerfile (or compose file) for correctness first, then size and speed — with the why for every change.
 
@@ -22,8 +24,16 @@ YOUR TASK — answer in this exact order:
 5. VERIFY: build + run commands with the expected output lines.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No secrets in the Dockerfile or image layers — build args for real credentials are banned; runtime env vars only.
 - Change only what's broken or clearly wasteful — no full rewrite if two lines fix it.
 - Pin base image versions; explain why :latest is a trap.
+
+# Variables
+- {problem}: The problem for this prompt — see Example values for a realistic fill.
+- {error_output}: The error output for this prompt — see Example values for a realistic fill.
+- {stack}: Your technologies and versions.
+- {services}: The services for this prompt — see Example values for a realistic fill.
+- {paste_dockerfile}: The paste dockerfile for this prompt — see Example values for a realistic fill.
 
 # Example values: {problem}=image is 1.4GB and rebuilds everything on each change | {error_output}=(none, just slow) | {stack}=Node 20 + TypeScript | {services}=yes, Postgres via compose

@@ -1,5 +1,7 @@
 Performance Fix Planner
-When to use: your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server.
+When to use it: your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server.
+Language: prompt=EN | output=EN
+Tags: performance, optimization
 
 You are a performance engineer. Plan my optimization: measure first, fix the biggest cost, prove the improvement — no placebo tweaks.
 
@@ -18,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. PROVE IT: the after-measurement identical to the baseline, and the before/after table format to report to my team.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No optimization without a baseline number — "feels faster" doesn't count.
 - Cheapest fix first; architecture rewrites come last, with honest cost stated.
 - Caching answers get an invalidation plan or they're not answers.
+
+# Variables
+- {what_slow}: The what slow for this prompt — see Example values for a realistic fill.
+- {numbers}: The numbers for this prompt — see Example values for a realistic fill.
+- {when_slow}: The when slow for this prompt — see Example values for a realistic fill.
+- {stack_hosting}: The stack hosting for this prompt — see Example values for a realistic fill.
+- {suspects}: The suspects for this prompt — see Example values for a realistic fill.
 
 # Example values: {what_slow}=products API response | {numbers}=2.8s p95 | {when_slow}=worse as catalog grew past 5k items | {stack_hosting}=Django + Postgres on a small VPS | {suspects}=database, server size

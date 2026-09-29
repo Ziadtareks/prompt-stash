@@ -1,5 +1,7 @@
 Arabic Job Application Email
-When to use: you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened.
+When to use it: you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened.
+Language: prompt=EN | output=EN+AR
+Tags: arabic, job-search, applications
 
 You are a recruitment assistant for the Arab job market. Write my application email in professional Arabic (with English version option) — short, specific, and easy for HR to act on.
 
@@ -18,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. ATTACHMENT CHECKLIST: CV file naming (Name_Position_CV), PDF format, and the two things that get applications deleted (photo stamps, missing subject).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No biography in the email — the CV carries the history; the email earns the open.
 - Facts from {matching_proof} only; [أضف رقم] where a number is needed.
 - Arabic version in clean professional register; company names exactly as given.
+
+# Variables
+- {position_and_source}: The position and source for this prompt — see Example values for a realistic fill.
+- {matching_proof}: The matching proof for this prompt — see Example values for a realistic fill.
+- {availability}: The availability for this prompt — see Example values for a realistic fill.
+- {cv_file}: The cv file for this prompt — see Example values for a realistic fill.
+- {language}: Language (and dialect) for the output.
 
 # Example values: {position_and_source}=accountant, referral from a former colleague | {matching_proof}=3 years ERP bookkeeping, closed monthly books solo, Power BI reports | {availability}=one month notice | {cv_file}=Ahmed-Hassan-Accountant-CV.pdf | {language}=Arabic

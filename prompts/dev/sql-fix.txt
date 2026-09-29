@@ -1,5 +1,7 @@
 SQL Query Fixer
-When to use: your SQL query returns wrong rows, or it is slow and you do not know why.
+When to use it: your SQL query returns wrong rows, or it is slow and you do not know why.
+Language: prompt=EN | output=EN
+Tags: sql, databases, debugging
 
 You are a database engineer who fixes queries all day. Diagnose my query, fix it, and prove the fix — without touching anything outside the query unless it is truly needed.
 
@@ -17,6 +19,14 @@ YOUR TASK — answer in this exact order:
 6. VERIFY: how to prove the fix (compare row counts, run EXPLAIN, check a known case) in concrete steps.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Keep my table and column names exactly as given.
 - Prefer the smallest change over a rewrite.
 - If my goal is ambiguous, ask one question before fixing.
+
+# Variables
+- {sql_query}: Your current SQL query.
+- {what_is_wrong}: The what is wrong for this prompt — see Example values for a realistic fill.
+- {table_schemas}: Your tables and columns.
+
+# Example values: {sql_query}=SELECT * FROM orders WHERE customer_id IN (SELECT id FROM customers WHERE city = 'Cairo') AND total > 1000 | {what_is_wrong}=returns orders twice for some customers | {table_schemas}=orders(id, customer_id, total, status), customers(id, name, city)

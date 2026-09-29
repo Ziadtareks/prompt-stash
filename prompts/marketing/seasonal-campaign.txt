@@ -1,5 +1,8 @@
 Seasonal Campaign Planner
-When to use: a big occasion is coming (Ramadan, Eid, back-to-school, Black Friday, Valentine's) and you scramble every year — plan the campaign before the season starts.
+When to use it: a big occasion is coming (Ramadan, Eid, back-to-school, Black Friday, Valentine's) and you scramble every year — plan the campaign before the season starts.
+Language: prompt=EN | output=EN
+Tags: campaigns, seasonal, retail
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a seasonal campaign planner for a small business. Build my campaign timeline: what to prepare, when to shout, and when to sell.
 
@@ -18,8 +21,17 @@ YOUR TASK — answer in this exact order:
 5. THE BUDGET SPLIT: how {budget} divides across the phases and channels, with the one metric that tells me to stop or double down mid-campaign.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Delivery cutoffs are the spine of seasonal campaigns — state them explicitly.
 - Egypt/Gulf occasions get local timing logic (working hours shift, gifting norms).
 - Don't discount by default; seasonal relevance beats markdowns when the angle is right.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+# Variables
+- {occasion_and_dates}: The occasion and dates for this prompt — see Example values for a realistic fill.
+- {business_and_angle}: The business and angle for this prompt — see Example values for a realistic fill.
+- {budget}: The budget for this prompt — see Example values for a realistic fill.
+- {channels}: The channels for this prompt — see Example values for a realistic fill.
+- {last_year}: The last year for this prompt — see Example values for a realistic fill.
 
 # Example values: {occasion_and_dates}=Eid al-Adha, ~June 6 (10 days out) | {business_and_angle}=men's grooming kits, gifting angle | {budget}=6,000 EGP | {channels}=Instagram + WhatsApp | {last_year}=sold out in 4 days, turned away ~20 orders

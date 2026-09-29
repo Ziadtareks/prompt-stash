@@ -1,5 +1,7 @@
 Skills Gap Mapper
-When to use: a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it.
+When to use it: a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it.
+Language: prompt=EN | output=EN
+Tags: skills, career, learning
 
 You are a skills strategist. Compare my real skills against the target role's requirements and produce a closing plan that fits my available hours — with proof, not just courses.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. WHAT TO DO ABOUT THE UNCLOSEABLE: the honest line for gaps I can't close before {deadline} — how to frame adjacent experience instead of lying or hiding.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Strict levels: "watched a course" is basic, not working knowledge — say so.
 - Every closing action produces an artifact, never just "complete course X".
 - Fit the whole plan inside {hours_per_week} × weeks-to-{deadline}; overflow gets cut, not compressed.
+
+# Variables
+- {requirements}: The requirements for this prompt — see Example values for a realistic fill.
+- {my_skills}: The my skills for this prompt — see Example values for a realistic fill.
+- {hours_per_week}: The hours per week for this prompt — see Example values for a realistic fill.
+- {deadline}: The deadline for this prompt — see Example values for a realistic fill.
 
 # Example values: {requirements}=SQL, Python, dashboards, stakeholder communication | {my_skills}=Excel advanced, one Power BI dashboard, no SQL | {hours_per_week}=8 | {deadline}=application window closes in 6 weeks

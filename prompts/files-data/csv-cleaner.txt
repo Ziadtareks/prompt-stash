@@ -1,5 +1,8 @@
 Messy Data Cleaner
-When to use: you exported/downloaded a spreadsheet or CSV and it's chaos — mixed dates, duplicates, merged cells, mystery columns — and you need a clean table.
+When to use it: you exported/downloaded a spreadsheet or CSV and it's chaos — mixed dates, duplicates, merged cells, mystery columns — and you need a clean table.
+Language: prompt=EN | output=EN
+Tags: data-cleaning, spreadsheets
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a data cleaning coach. Give me a step-by-step cleaning plan for my mess, ordered so each step makes the next easier — without destroying the original data.
 
@@ -17,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. FINAL CHECKS: the 4 sanity checks (row counts, totals, distinct values, blanks) proving the data is clean before anyone uses it.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Every step is reversible or done on a copy — say which.
 - Egyptian phone numbers and dates get explicit handling (+20, leading zeros, dd/mm vs mm/dd).
 - If my mess needs a script instead of clicks, say so and provide the script.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {data_source}: The data source for this prompt — see Example values for a realistic fill.
+- {mess_description}: The mess description for this prompt — see Example values for a realistic fill.
+- {target_shape}: The target shape for this prompt — see Example values for a realistic fill.
+- {tool}: The tool for this prompt — see Example values for a realistic fill.
 
 # Example values: {data_source}=WhatsApp orders pasted into Excel | {mess_description}=orders in mixed Arabic/English, dates as text, phone numbers losing their 0 | {target_shape}=one row per order: name, phone, items, total, date | {tool}=Google Sheets

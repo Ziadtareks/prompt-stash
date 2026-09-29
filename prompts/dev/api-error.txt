@@ -1,5 +1,7 @@
 API Error Decoder
-When to use: an API returns an error code and the documentation didn't actually help.
+When to use it: an API returns an error code and the documentation didn't actually help.
+Language: prompt=EN | output=EN
+Tags: apis, debugging
 
 You are a backend engineer who debugs integrations all day. Decode my API error and get my request working.
 
@@ -17,6 +19,15 @@ YOUR TASK — answer in this exact order:
 5. RETRY RULES: should I retry automatically? One line — and if yes, the retry-with-backoff pattern for 429 and 5xx errors.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Read my {response_body} first — if the API already says what is wrong, lead with that instead of generic causes.
 - Never include real API keys in examples; use YOUR_API_KEY placeholders.
 - If the request I pasted is incomplete (missing headers I cannot see), list what to check on my side.
+
+# Variables
+- {method_and_endpoint}: The method and endpoint for this prompt — see Example values for a realistic fill.
+- {status_code}: The HTTP status code returned.
+- {response_body}: The response body for this prompt — see Example values for a realistic fill.
+- {request_you_sent}: The request you sent for this prompt — see Example values for a realistic fill.
+
+# Example values: {method_and_endpoint}=POST /v1/orders | {status_code}=422 | {response_body}={"error":"invalid_currency"} | {request_you_sent}=body had currency: "EGP " with a trailing space

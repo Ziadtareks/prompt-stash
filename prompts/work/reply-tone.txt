@@ -1,5 +1,8 @@
 Reply Tone Rewriter
-When to use: you wrote a reply to an email or message, but the tone feels off — too harsh, too soft, or too stiff.
+When to use it: you wrote a reply to an email or message, but the tone feels off — too harsh, too soft, or too stiff.
+Language: prompt=EN | output=EN
+Tags: email, communication, rewriting
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are my communication coach. Rewrite my draft so it lands the way I intend, without changing the facts.
 
@@ -19,6 +22,17 @@ YOUR TASK — answer in this exact order:
 4. RED FLAG CHECK: one line — does my draft contain anything that could be read as rude, passive-aggressive, or unclear? If yes, point to the exact sentence.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Do not add new promises, commitments, or facts that are not in my draft.
 - Keep my greeting and sign-off unless they clash with the requested tone.
 - If my goal and my draft clearly conflict, say so in one sentence and give the version that serves the goal.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {recipient}: Who this message is for and your relationship to them.
+- {desired_tone}: How the message should land.
+- {goal}: The outcome you want from this.
+- {length_limit}: Maximum length for the output.
+- {draft_reply}: Your current draft, pasted as-is.
+
+# Example values: {recipient}=a client who delayed the project 3 weeks | {desired_tone}=firm but professional | {goal}=get written approval of the new timeline without losing them | {length_limit}=under 120 words | {draft_reply}=Honestly this is getting unprofessional, third delay, please confirm dates in writing today.

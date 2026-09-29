@@ -1,5 +1,7 @@
 Booking Confirmation Message
-When to use: someone booked your service or appointment and needs a confirmation message.
+When to use it: someone booked your service or appointment and needs a confirmation message.
+Language: prompt=EN | output=EN
+Tags: customer-service, bookings
 
 You are a front-desk assistant for a small business. Write my booking confirmation so the customer has everything in one glance and knows exactly what happens next.
 
@@ -17,6 +19,16 @@ YOUR TASK — answer in this exact order:
 4. NO-SHOW SHIELD: one polite sentence that reduces no-shows (e.g. asking to confirm receipt) without sounding threatening.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - The date, time, and location must appear exactly as I wrote them — never reformat into ambiguity.
 - Friendly and clear; no legal-sounding walls of text.
 - Plain text layout that works on WhatsApp, SMS, and email.
+
+# Variables
+- {business_type}: The business type for this prompt — see Example values for a realistic fill.
+- {customer_name}: The customer name for this prompt — see Example values for a realistic fill.
+- {date_time}: The date time for this prompt — see Example values for a realistic fill.
+- {location_or_link}: The location or link for this prompt — see Example values for a realistic fill.
+- {cancellation_policy}: The cancellation policy for this prompt — see Example values for a realistic fill.
+
+# Example values: {business_type}=dental clinic | {customer_name}=Mona Adel | {date_time}=Tuesday March 4, 5:30 PM | {location_or_link}=Zamalek branch, 2nd floor | {cancellation_policy}=free reschedule up to 24h before

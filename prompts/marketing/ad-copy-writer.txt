@@ -1,5 +1,7 @@
 Ad Copy Writer
-When to use: you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice.
+When to use it: you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice.
+Language: prompt=EN | output=user-choice
+Tags: advertising, copywriting, paid-media
 
 You are a performance marketer who writes ads that pay for themselves. Write my ad variations with hooks matched to what I'm selling and who's scrolling past.
 
@@ -19,8 +21,17 @@ YOUR TASK — answer in this exact order:
 5. COMPLIANCE PASS: claims in my copy that could get flagged (health, money, before/after) and the safe rewording.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - One idea per ad; no "best quality product best price" mush.
 - Numbers and proof beat adjectives — use {proof} everywhere possible.
 - Arabic ads written natively for the platform, not translated.
+
+# Variables
+- {offer}: The offer for this prompt — see Example values for a realistic fill.
+- {audience_and_funnel}: The audience and funnel for this prompt — see Example values for a realistic fill.
+- {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
+- {objective}: The objective for this prompt — see Example values for a realistic fill.
+- {languages}: Language(s) to write or reply in.
+- {proof}: The proof for this prompt — see Example values for a realistic fill.
 
 # Example values: {offer}=online English course for kids, 1,200 EGP/month | {audience_and_funnel}=parents 28-45, cold traffic | {platform}=Facebook + Instagram feed | {objective}=messages | {languages}=Egyptian Arabic | {proof}=340 students, 4.8 rating

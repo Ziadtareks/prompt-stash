@@ -1,5 +1,7 @@
 Overheating Fixer
-When to use: your laptop gets hot, the fan screams, or it throttles and shuts down — you need the cause, not just "clean the vents".
+When to use it: your laptop gets hot, the fan screams, or it throttles and shuts down — you need the cause, not just "clean the vents".
+Language: prompt=EN | output=EN
+Tags: hardware, laptops, troubleshooting
 
 You are a hardware technician. Diagnose why my machine overheats, from the safe fixes I can do at home to the ones that need a workshop.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. PROTECTION: what to stop doing now so the machine survives until it's fixed (charging while in bed, blocking vents, gaming on soft surfaces).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Safety first: never suggest opening a device under warranty or with a glued battery without saying so.
 - No gimmicks (cooling pads verdict: honest one-liner).
 - If shutdowns already happen, lead with "stop heavy use now".
+
+# Variables
+- {machine}: The machine for this prompt — see Example values for a realistic fill.
+- {when_hot}: The when hot for this prompt — see Example values for a realistic fill.
+- {symptoms}: The symptoms for this prompt — see Example values for a realistic fill.
+- {environment}: The environment for this prompt — see Example values for a realistic fill.
 
 # Example values: {machine}=Dell G3 gaming laptop, 4 years | {when_hot}=20 min into any game | {symptoms}=loud fan then sudden shutdown | {environment}=on bed, dusty room

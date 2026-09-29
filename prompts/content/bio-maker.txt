@@ -1,5 +1,7 @@
 Social Bio Maker
-When to use: your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it.
+When to use it: your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it.
+Language: prompt=EN | output=EN
+Tags: social-media, branding, profile
 
 You are a personal branding copywriter. Write profile bios that make a stranger instantly understand who I am and why they should follow me.
 
@@ -18,6 +20,17 @@ YOUR TASK — answer in this exact order:
 4. ONE-LINER: a single-sentence version for platforms with tiny bios (like X).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Max 1 emoji per bio. No emoji walls.
 - No "aspiring", no "guru", no "CEO of..." unless I ask for jokes.
 - Say what I do in the first 5 words — assume nobody reads past the first line.
+
+# Variables
+- {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
+- {who_i_am}: The who i am for this prompt — see Example values for a realistic fill.
+- {content_topics}: The content topics for this prompt — see Example values for a realistic fill.
+- {target_audience}: The target audience for this prompt — see Example values for a realistic fill.
+- {unique_angle}: The unique angle for this prompt — see Example values for a realistic fill.
+- {link_purpose}: The link purpose for this prompt — see Example values for a realistic fill.
+
+# Example values: {platform}=Instagram | {who_i_am}=freelance photographer | {content_topics}=portraits, Cairo streets, behind-the-scenes | {target_audience}=brands and couples planning shoots | {unique_angle}=same-day preview gallery | {link_purpose}=booking form

@@ -1,5 +1,8 @@
 Customer Persona Builder
-When to use: you're marketing to "everyone" and it's not working — define the one person you're actually selling to.
+When to use it: you're marketing to "everyone" and it's not working — define the one person you're actually selling to.
+Language: prompt=EN | output=EN
+Tags: research, positioning, marketing
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a market researcher. Build a concrete customer persona for my product based on my real observations — specific enough to write an ad to, not a demographic card.
 
@@ -18,8 +21,17 @@ YOUR TASK — answer in this exact order:
 5. MESSAGE FIT: the one-line marketing message for this persona, and the words they actually use (steal from {voice_of_customer}).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Built from my {voice_of_customer} evidence, not stock-persona clichés ("tech-savvy millennial" banned).
 - One primary persona; if I'm serving two very different buyers, say so and pick the profitable one to start.
 - Income/prices in local currency (EGP where my market is Egypt).
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {product_and_price}: The product and price for this prompt — see Example values for a realistic fill.
+- {who_buys}: The who buys for this prompt — see Example values for a realistic fill.
+- {voice_of_customer}: The voice of customer for this prompt — see Example values for a realistic fill.
+- {channels}: The channels for this prompt — see Example values for a realistic fill.
+- {market}: The market for this prompt — see Example values for a realistic fill.
 
 # Example values: {product_and_price}=home organizing service, from 1,500 EGP/visit | {who_buys}=working moms 30-45, new apartments | {voice_of_customer}="I buy things twice because I can't find anything", clutter stress | {channels}=Instagram, mom Facebook groups | {market}=New Cairo

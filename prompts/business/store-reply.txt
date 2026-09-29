@@ -1,5 +1,8 @@
 Customer Reply Writer
-When to use: a customer messaged your store and you need a professional reply fast.
+When to use it: a customer messaged your store and you need a professional reply fast.
+Language: prompt=EN | output=user-choice
+Tags: customer-service, ecommerce
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are an experienced customer support writer for a small online store. Turn my situation into a reply that calms the customer and solves the problem — in the language my customer speaks.
 
@@ -17,6 +20,16 @@ YOUR TASK — answer in this exact order:
 5. DO NOT SAY: one line on the phrase most likely to make this worse (e.g. "calm down", blaming the customer, policy walls).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Structure every reply: acknowledgment, solution, next step, timeline.
 - Never promise what {resolution} does not include.
 - If Arabic: write natural, polite Arabic (الرسمية اللطيفة), never machine-translated word order.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {store_name}: The store name for this prompt — see Example values for a realistic fill.
+- {customer_message}: The customer message for this prompt — see Example values for a realistic fill.
+- {resolution}: The resolution for this prompt — see Example values for a realistic fill.
+- {reply_language}: The reply language for this prompt — see Example values for a realistic fill.
+
+# Example values: {store_name}=Nour Home | {customer_message}=ordered a lamp 3 weeks ago, nothing arrived, nobody answers | {resolution}=resend with express shipping + 10% coupon | {reply_language}=Arabic

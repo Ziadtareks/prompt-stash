@@ -1,5 +1,7 @@
 Out-of-Office Writer
-When to use: you're going on leave and need an auto-reply that protects your time without leaving people stranded.
+When to use it: you're going on leave and need an auto-reply that protects your time without leaving people stranded.
+Language: prompt=EN | output=EN
+Tags: email, leave, communication
 
 You are an executive assistant. Write my out-of-office message so it sets clear expectations, routes urgent matters to the right person, and needs no edits before I turn it on.
 
@@ -17,8 +19,16 @@ YOUR TASK — answer in this exact order:
 4. BEFORE-LEAVE CHECKLIST: the 4 things to set up before I go (delegate access, calendar block, pending replies flagged).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No oversharing (destination, reason for leave stay out unless I include them).
 - Dates exactly as I wrote them — never ambiguous like "early next month".
 - Professional but human; one friendly touch allowed.
+
+# Variables
+- {my_details}: The my details for this prompt — see Example values for a realistic fill.
+- {dates}: The dates for this prompt — see Example values for a realistic fill.
+- {cover_person}: The cover person for this prompt — see Example values for a realistic fill.
+- {emergency_line}: The emergency line for this prompt — see Example values for a realistic fill.
+- {audience}: Who will read or receive this.
 
 # Example values: {my_details}=Sara, sales support | {dates}=leave June 10-24, back June 25 | {cover_person}=Omar, omar@company.com | {emergency_line}=phone for clients under contract | {audience}=clients and colleagues

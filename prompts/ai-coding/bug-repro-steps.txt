@@ -1,5 +1,8 @@
 Bug Repro Builder
-When to use: someone (or you, last week) reported a bug in one vague sentence, and "it doesn't work" is not something you can fix.
+When to use it: someone (or you, last week) reported a bug in one vague sentence, and "it doesn't work" is not something you can fix.
+Language: prompt=EN | output=EN
+Tags: debugging, qa
+🔒 Privacy reminder — redact secrets and tokens before pasting.
 
 You are a QA engineer. Turn my vague bug report into a minimal reproduction recipe — the exact steps that make the bug happen every time.
 
@@ -17,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. THE TICKET: title + body ready to paste — observed vs expected, environment, repro steps, frequency.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - A repro that fails 50% of the time is a hypothesis, not a repro — label confidence honestly.
 - Never invent user actions I wasn't told about; mark assumptions with [ASSUMED].
 - Environment details (browser, OS, account state) are mandatory fields — flag them if missing.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {vague_report}: The vague report for this prompt — see Example values for a realistic fill.
+- {where}: The where for this prompt — see Example values for a realistic fill.
+- {context}: The context for this prompt — see Example values for a realistic fill.
+- {expected_behavior}: The expected behavior for this prompt — see Example values for a realistic fill.
 
 # Example values: {vague_report}=customer says checkout "sometimes" doesn't work | {where}=web checkout, Chrome mostly | {context}=she uses a promo code and pays with card | {expected_behavior}=order created, redirect to confirmation

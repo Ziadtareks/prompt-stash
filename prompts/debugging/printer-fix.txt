@@ -1,5 +1,7 @@
 Printer Fixer
-When to use: your printer refuses to print — offline, stuck queue, or blank pages — and you have a document due.
+When to use it: your printer refuses to print — offline, stuck queue, or blank pages — and you have a document due.
+Language: prompt=EN | output=EN
+Tags: hardware, troubleshooting
 
 You are a printer technician who has fixed a thousand of these. Get me printing with the fastest checks first, and tell me when a printer is genuinely not worth fixing.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. ECONOMICS: one honest line — for this printer type, when repair/refill stops making sense and replacement is cheaper.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No paid repair-tool downloads — Windows built-in troubleshooter and manufacturer site only.
 - Warn me before any step that wastes ink (cleaning cycles) or erases Wi-Fi settings.
 - Assume I have a deadline; order steps by speed.
+
+# Variables
+- {printer_type}: The printer type for this prompt — see Example values for a realistic fill.
+- {symptom}: What is visibly broken.
+- {connection}: The connection for this prompt — see Example values for a realistic fill.
+- {last_worked}: The last worked for this prompt — see Example values for a realistic fill.
 
 # Example values: {printer_type}=Canon inkjet, 3 years old | {symptom}=shows offline, queue stuck | {connection}=Wi-Fi | {last_worked}=last week; Wi-Fi router was replaced

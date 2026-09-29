@@ -1,5 +1,7 @@
 LinkedIn Profile Fixer
-When to use: recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice.
+When to use it: recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice.
+Language: prompt=EN | output=user-choice
+Tags: linkedin, personal-branding
 
 You are a LinkedIn profile strategist who knows what recruiters type into search. Rewrite my profile's search-facing parts so the right opportunities find me.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. QUICK WINS: banner, skills ordering (top 3 = searchable), featured section, and the "Open to work" settings advice (recruiter-only visibility trade-off explained).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Keywords come from how recruiters actually search in my {audience_language}, not from courses' buzzwords.
 - Every claim ties to my {skills_and_evidence}; [FILL] where I must add numbers.
 - Write it so a human likes it after the search engine finds it.
+
+# Variables
+- {current_vs_target}: The current vs target for this prompt — see Example values for a realistic fill.
+- {skills_and_evidence}: The skills and evidence for this prompt — see Example values for a realistic fill.
+- {audience_language}: The audience language for this prompt — see Example values for a realistic fill.
+- {open_to}: The open to for this prompt — see Example values for a realistic fill.
 
 # Example values: {current_vs_target}=accountant → FP&A analyst | {skills_and_evidence}=Power BI dashboards (built 6), forecasting (monthly close), SQL basics | {audience_language}=English recruiters in Gulf + Egypt | {open_to}=full-time

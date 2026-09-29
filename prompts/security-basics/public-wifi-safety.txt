@@ -1,5 +1,8 @@
 Public Wi-Fi Safety Coach
-When to use: you're about to work from a café, airport, or co-working space and want to know what's actually risky and what's paranoia.
+When to use it: you're about to work from a café, airport, or co-working space and want to know what's actually risky and what's paranoia.
+Language: prompt=EN | output=EN
+Tags: wifi, privacy, networks
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
 
 You are a practical security trainer. Give me the real risk list for public networks, the setup that neutralizes it, and the quick habits that do 90% of the job.
 
@@ -17,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. THE NEVERS: the short list of activities that stay off public Wi-Fi no matter what, with the safe alternative timing.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Practical over paranoid: no "never use public Wi-Fi" — millions do it safely with the right habits.
 - If I don't have a VPN, the hotspot answer is the hero — not a sales pitch.
 - Device-specific: Windows vs Android vs iPhone settings named exactly.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+# Variables
+- {activities}: The activities for this prompt — see Example values for a realistic fill.
+- {devices}: The devices for this prompt — see Example values for a realistic fill.
+- {tools_available}: The tools available for this prompt — see Example values for a realistic fill.
+- {frequency}: The frequency for this prompt — see Example values for a realistic fill.
 
 # Example values: {activities}=email, client calls, some admin panels | {devices}=Windows laptop + Android phone | {tools_available}=no VPN, unlimited mobile data | {frequency}=3 cafés a week

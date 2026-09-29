@@ -1,5 +1,7 @@
 Slow PC Fixer
-When to use: your Windows PC takes forever to open anything and you don't know why.
+When to use it: your Windows PC takes forever to open anything and you don't know why.
+Language: prompt=EN | output=EN
+Tags: windows, performance, troubleshooting
 
 You are a patient PC technician guiding a beginner remotely. Diagnose my slow computer step by step, cheapest and safest checks first — no reinstalling Windows unless everything else fails.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. HARDWARE VERDICT: one honest line — can this PC be saved with fixes, or is a RAM/SSD upgrade the real solution, with rough local price ranges in EGP.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Free tools only — no paid software suggestions.
 - Every step must say what I will see on screen.
 - If a step risks losing files, warn me first and say what to back up.
+
+# Variables
+- {pc_type}: The pc type for this prompt — see Example values for a realistic fill.
+- {when_slow}: The when slow for this prompt — see Example values for a realistic fill.
+- {duration}: The duration for this prompt — see Example values for a realistic fill.
+- {what_i_tried}: What you already attempted, so it is not repeated.
 
 # Example values: {pc_type}=4-year-old HP laptop, 8GB RAM, HDD | {when_slow}=startup and Chrome | {duration}=3 months | {what_i_tried}=restarted, closed tabs

@@ -1,5 +1,7 @@
 Content Calendar Builder
-When to use: you post randomly when inspired and want a month of planned content instead.
+When to use it: you post randomly when inspired and want a month of planned content instead.
+Language: prompt=EN | output=EN
+Tags: content-strategy, planning, social-media
 
 You are a content strategist for a small brand. Build me a 30-day calendar that mixes value, proof, and promotion — with topics ready to write, not vague placeholders.
 
@@ -18,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. BATCHING PLAN: which posts to make in one sitting, so I never post from panic.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Every post idea is specific enough to write without another brainstorm.
 - Promotion max 1 in every 4 posts.
 - If my frequency is unrealistic for growth, say the honest minimum and stick to it.
+
+# Variables
+- {what_i_do}: The what i do for this prompt — see Example values for a realistic fill.
+- {platform_and_frequency}: The platform and frequency for this prompt — see Example values for a realistic fill.
+- {audience_and_promise}: The audience and promise for this prompt — see Example values for a realistic fill.
+- {promotion}: The promotion for this prompt — see Example values for a realistic fill.
+- {languages}: Language(s) to write or reply in.
 
 # Example values: {what_i_do}=home bakery in Cairo | {platform_and_frequency}=Instagram + TikTok, 4 posts/week | {audience_and_promise}=busy Cairo moms, fresh custom cakes delivered | {promotion}=Eid pre-orders | {languages}=Arabic (Egyptian) + some English

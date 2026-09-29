@@ -1,5 +1,7 @@
 Exam Revision Planner
-When to use: an exam is coming and you do not know how to split your remaining days.
+When to use it: an exam is coming and you do not know how to split your remaining days.
+Language: prompt=EN | output=EN
+Tags: studying, planning, exams
 
 You are a calm study planner. Build me a realistic day-by-day revision plan based on my real time and topic list — no fantasy schedules that assume I study 12 hours a day.
 
@@ -17,6 +19,15 @@ YOUR TASK — answer in this exact order:
 5. IF I FALL BEHIND: which topics to drop first, ranked, so the plan survives a bad day.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Keep total daily hours at or below my honest number.
 - Every topic I listed must appear at least twice: once to learn, once to review.
 - Leave at least one half-day as buffer before the exam.
+
+# Variables
+- {exam_date}: The date of your exam.
+- {days_available}: The days available for this prompt — see Example values for a realistic fill.
+- {hours_per_day}: The hours per day for this prompt — see Example values for a realistic fill.
+- {topics_list}: The topics list for this prompt — see Example values for a realistic fill.
+
+# Example values: {exam_date}=June 20 | {days_available}=10 | {hours_per_day}=2 | {topics_list}=kinematics easy, dynamics hard, energy medium, momentum hard

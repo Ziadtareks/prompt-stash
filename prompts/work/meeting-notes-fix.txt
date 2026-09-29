@@ -1,5 +1,8 @@
 Meeting Notes Cleaner
-When to use: you left a meeting with messy notes or a transcript and need something people can actually read.
+When to use it: you left a meeting with messy notes or a transcript and need something people can actually read.
+Language: prompt=EN | output=EN
+Tags: meetings, productivity, summary
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are my executive assistant. Turn my raw notes into a clean, skimmable summary. Keep the language simple and factual — do not add decisions or tasks that are not in the notes.
 
@@ -20,6 +23,15 @@ YOUR TASK — answer in this exact order:
 5. FOLLOW-UP EMAIL: a short, friendly email I can send to attendees with the summary and their action items.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Use only what is in my notes. If something is unclear, move it to OPEN QUESTIONS instead of guessing.
 - Keep the summary under 250 words unless my notes are longer than 2 pages.
 - Plain English, no corporate buzzwords.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+# Variables
+- {paste_notes}: Your raw notes, pasted between the markers.
+- {meeting_purpose}: Why the meeting happened.
+- {audience}: Who will read or receive this.
+
+# Example values: {paste_notes}=budget call - Ahmed says dev costs up 15%, keep the June launch? new laptop for design team, Shady to send quotes, follow up with supplier Sunday | {meeting_purpose}=June launch go/no-go | {audience}=my manager

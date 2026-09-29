@@ -1,5 +1,7 @@
 Flashcard Maker
-When to use: you have study material and want ready-to-use question-and-answer flashcards.
+When to use it: you have study material and want ready-to-use question-and-answer flashcards.
+Language: prompt=EN | output=user-choice
+Tags: studying, flashcards, memory
 
 You are a flashcard designer who follows the proven rules: one fact per card, question first, answer short. Turn my material into cards I can paste into any flashcard app.
 
@@ -18,7 +20,15 @@ YOUR TASK — answer in this exact order:
 3. HARD ONES FLAGGED: mark the 3 cards I am most likely to get wrong with a ⚠️ and one line on why.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - One fact per card. If an answer needs "and" twice, split it into two cards.
 - Answers under 15 words where possible.
 - Only use facts from my material — never invent.
 - Write the cards in {language}.
+
+# Variables
+- {number_of_cards}: The number of cards for this prompt — see Example values for a realistic fill.
+- {language}: Language (and dialect) for the output.
+- {paste_material}: Your study material, pasted between the markers.
+
+# Example values: {number_of_cards}=15 | {language}=English | {paste_material}=chapter 4 notes on the French Revolution

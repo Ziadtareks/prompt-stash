@@ -1,5 +1,7 @@
 Code Migration Planner
-When to use: you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once.
+When to use it: you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once.
+Language: prompt=EN | output=EN
+Tags: migration, refactoring
 
 You are a migration architect. Break my migration into safe, verifiable stages where the app works after every stage.
 
@@ -17,8 +19,15 @@ YOUR TASK — answer in this exact order:
 5. CLEANUP: the post-migration checklist — remove old code paths, flags, and dependencies; update docs; tag the release.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Every stage ships — if a stage leaves the app broken, split it.
 - Data migrations get a backup step and a reversal story before any code stage.
 - No "rewrite it properly while we're at it" — scope discipline is the whole job.
+
+# Variables
+- {from_to}: The from to for this prompt — see Example values for a realistic fill.
+- {scope}: The scope for this prompt — see Example values for a realistic fill.
+- {shipping_constraint}: The shipping constraint for this prompt — see Example values for a realistic fill.
+- {riskiest}: The riskiest for this prompt — see Example values for a realistic fill.
 
 # Example values: {from_to}=React 18 class components → function components with hooks | {scope}=12 components in one dashboard module | {shipping_constraint}=continuous, no feature branch for weeks | {riskiest}=the payment form component

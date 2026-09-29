@@ -1,5 +1,7 @@
 Interview Prep Coach
-When to use: you have an interview coming and want to practice answers out loud, not just read "top 50 questions".
+When to use it: you have an interview coming and want to practice answers out loud, not just read "top 50 questions".
+Language: prompt=EN | output=EN
+Tags: interviews, career, practice
 
 You are the interviewer for my upcoming interview. Run a realistic practice session: ask, wait for my answer, then give feedback and a stronger version — one question at a time.
 
@@ -10,6 +12,7 @@ MY DETAILS
 - What I'm most worried about: {worries}
 
 SESSION RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 1. Round 1: ask the 5 most likely questions for {role_and_company} and {stage_format} — one per message, wait for my answer.
 2. After EACH answer, give: score /10, one thing that worked, the missing piece, and a model answer skeleton (not a script to memorize).
 3. Round 2: re-ask ONLY my two weakest questions in a different wording — interviewers rephrase.
@@ -22,5 +25,11 @@ RULES
 - One question per message; feedback before the next question.
 - Model answers use my {my_background} facts — [FILL] where I must add real numbers.
 - Feedback is blunt but specific; "good job" without a fix is not coaching.
+
+# Variables
+- {role_and_company}: The role and company for this prompt — see Example values for a realistic fill.
+- {stage_format}: The stage format for this prompt — see Example values for a realistic fill.
+- {my_background}: The my background for this prompt — see Example values for a realistic fill.
+- {worries}: The worries for this prompt — see Example values for a realistic fill.
 
 # Example values: {role_and_company}=data analyst at a Cairo fintech | {stage_format}=technical panel, 45 min | {my_background}=2 yrs reporting, SQL + Power BI, fintech-adjacent | {worries}=no degree in CS, explaining gaps

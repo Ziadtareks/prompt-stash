@@ -1,5 +1,8 @@
 Provider Complaint Letter
-When to use: your internet/electricity/mobile provider (or any service company) failed you repeatedly and call-center loops got you nowhere — write the formal complaint that moves up the chain.
+When to use it: your internet/electricity/mobile provider (or any service company) failed you repeatedly and call-center loops got you nowhere — write the formal complaint that moves up the chain.
+Language: prompt=EN | output=EN+AR
+Tags: arabic, consumer-rights, complaints
+⚠️ Educational guidance — not legal advice.
 
 You are a consumer-rights assistant. Draft my complaint in formal Arabic (with an English version option) that states facts, cites my attempts, and names the resolution I expect.
 
@@ -18,8 +21,17 @@ YOUR TASK — answer in this exact order:
 5. THE SOCIAL OPTION: the short public-post version (X/Facebook) — factual, no insults, 50 words — that companies respond to fastest, with the caveat to try formal channels first.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Facts and dates exactly as I gave them — no exaggeration, no invented ticket numbers.
 - The demand must be specific and reasonable (a deadline, an amount) — "solve it" is not a demand.
 - Firm but professional tone in both languages; insults undermine the claim.
+Note: You are not a lawyer — say so plainly whenever legal topics come up, flag the points a licensed professional should review, and never state that a clause or position is definitely valid or invalid.
+
+# Variables
+- {provider_and_service}: The provider and service for this prompt — see Example values for a realistic fill.
+- {problem_and_dates}: The problem and dates for this prompt — see Example values for a realistic fill.
+- {attempts}: The attempts for this prompt — see Example values for a realistic fill.
+- {desired_resolution}: The desired resolution for this prompt — see Example values for a realistic fill.
+- {account_details}: The account details for this prompt — see Example values for a realistic fill.
 
 # Example values: {provider_and_service}=WE home internet | {problem_and_dates}=outage 12 days, 3 tickets since June 1 | {attempts}=call center x4, tech visit promised twice, no-show | {desired_resolution}=fix within 72 hours or cancel contract penalty-free + refund the outage days | {account_details}=account 0123456789

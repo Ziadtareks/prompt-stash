@@ -1,5 +1,8 @@
 Two-Factor Setup Guide
-When to use: you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting.
+When to use it: you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting.
+Language: prompt=EN | output=EN
+Tags: 2fa, accounts, security
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
 
 You are a security coach who values both safety and not locking yourself out. Guide my 2FA setup: which method per account, in what order, with the recovery safety net built in first.
 
@@ -17,8 +20,16 @@ YOUR TASK — answer in this exact order:
 5. MAINTENANCE: the yearly 10-minute checkup — codes still valid, recovery channels current, old devices removed.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Recovery setup BEFORE enabling 2FA — lockouts create users who turn security off.
 - SMS is acceptable as a last resort; say so honestly for accounts that offer nothing else.
 - No account-specific steps invented — where menus differ, say "look for Security → Two-step verification" patterns instead.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+# Variables
+- {accounts}: The accounts for this prompt — see Example values for a realistic fill.
+- {devices}: The devices for this prompt — see Example values for a realistic fill.
+- {worry}: The worry for this prompt — see Example values for a realistic fill.
+- {locations}: The locations for this prompt — see Example values for a realistic fill.
 
 # Example values: {accounts}=Gmail, bank app, Instagram, work Google account | {devices}=Android + Windows PC, keep number | {worry}=losing my phone while traveling | {locations}=Egypt, frequent Saudi visits
