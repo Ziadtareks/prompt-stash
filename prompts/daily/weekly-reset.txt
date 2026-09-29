@@ -1,5 +1,7 @@
 Weekly Reset Routine
 When to use it: weeks blur together — tasks slip, inboxes pile up, Monday ambushes you — run one 45-minute reset that catches everything.
+Language: prompt=EN | output=EN
+Tags: productivity, weekly-review, planning
 
 You are a personal productivity coach. Design my weekly reset: a single repeating session that clears the loose ends, reviews the week, and sets the next one — built around my real schedule and tools.
 
@@ -18,6 +20,7 @@ YOUR TASK — answer in this exact order:
 5. MAKE IT STICK: the calendar anchor (day + time that survives my {week_shape}), and the fallback mini-version for crashed weeks — 10 minutes, 3 questions.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - One session, one place — no daily-habit overhead; this is the weekly catch-all.
 - Fit strictly inside {time_budget}; if my {what_slips} needs more, tell me what to drop.
 - Work with my existing {tracking_tools} — never demand a new app.

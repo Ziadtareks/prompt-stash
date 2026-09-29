@@ -1,0 +1,2765 @@
+{
+  "name": "Prompt Stash",
+  "total": 130,
+  "folders": {
+    "debugging": 10,
+    "work": 10,
+    "content": 10,
+    "study": 10,
+    "business": 10,
+    "dev": 10,
+    "daily": 10,
+    "ai-coding": 10,
+    "career": 10,
+    "marketing": 10,
+    "files-data": 10,
+    "security-basics": 10,
+    "arabic-life": 10
+  },
+  "prompts": [
+    {
+      "title": "Architecture Suggester",
+      "when_to_use": "you're starting a project and the blank architecture diagram is intimidating — get a simple, boring, correct structure.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/architecture-suggest.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "architecture",
+        "system-design"
+      ],
+      "variables": [
+        "app_summary",
+        "scale",
+        "constraints",
+        "must_haves"
+      ]
+    },
+    {
+      "title": "Bug Repro Builder",
+      "when_to_use": "someone (or you, last week) reported a bug in one vague sentence, and \"it doesn't work\" is not something you can fix.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/bug-repro-steps.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "debugging",
+        "qa"
+      ],
+      "variables": [
+        "vague_report",
+        "where",
+        "context",
+        "expected_behavior"
+      ]
+    },
+    {
+      "title": "Code Explainer",
+      "when_to_use": "you opened a file someone else wrote (Stack Overflow, a teammate, AI-generated) and need to understand it line by line before you touch it.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/code-explainer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "code-reading",
+        "learning"
+      ],
+      "variables": [
+        "language",
+        "assumed_purpose",
+        "planned_change",
+        "paste_code"
+      ]
+    },
+    {
+      "title": "Feature-to-Prompt Translator",
+      "when_to_use": "you know what feature you want the AI to build, but your one-line request gets you junk code — this turns it into a prompt that works.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/feature-to-prompt.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "prompt-engineering",
+        "coding",
+        "ai"
+      ],
+      "variables": [
+        "feature_idea",
+        "stack",
+        "codebase_patterns",
+        "definition_of_done"
+      ]
+    },
+    {
+      "title": "Library Picker",
+      "when_to_use": "you're about to npm install something that will live in your codebase for years — choose with reasons, not vibes.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/library-picker.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "dependencies",
+        "architecture",
+        "decision-making"
+      ],
+      "variables": [
+        "need",
+        "stack",
+        "priorities",
+        "options"
+      ]
+    },
+    {
+      "title": "Code Migration Planner",
+      "when_to_use": "you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/migrate-code.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "migration",
+        "refactoring"
+      ],
+      "variables": [
+        "from_to",
+        "scope",
+        "shipping_constraint",
+        "riskiest"
+      ]
+    },
+    {
+      "title": "Performance Fix Planner",
+      "when_to_use": "your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/performance-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "performance",
+        "optimization"
+      ],
+      "variables": [
+        "what_slow",
+        "numbers",
+        "when_slow",
+        "stack_hosting",
+        "suspects"
+      ]
+    },
+    {
+      "title": "Prompt Improver (for coding)",
+      "when_to_use": "the AI keeps giving you wrong or half-right code — the problem is usually your prompt, not the model. Fix the input.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/prompt-improver.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "prompt-engineering",
+        "meta"
+      ],
+      "variables": [
+        "my_prompt",
+        "ai_output",
+        "what_wrong",
+        "real_context"
+      ]
+    },
+    {
+      "title": "Refactor Request Writer",
+      "when_to_use": "your code works but it's turning into spaghetti — get a refactor that changes structure, never behavior.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/refactor-request.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "refactoring",
+        "code-quality"
+      ],
+      "variables": [
+        "language",
+        "current_behavior",
+        "pain",
+        "constraints",
+        "paste_code"
+      ]
+    },
+    {
+      "title": "Test Writer",
+      "when_to_use": "you have working code and zero tests — get a test suite that catches real regressions, not vanity coverage.",
+      "folder": "ai-coding",
+      "path": "prompts/ai-coding/test-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "testing",
+        "quality"
+      ],
+      "variables": [
+        "framework",
+        "purpose",
+        "run_context",
+        "paste_code"
+      ]
+    },
+    {
+      "title": "Arabic Announcement Maker",
+      "when_to_use": "you need to announce something to a community — a wedding invitation, a graduation celebration, a shop opening, a memorial notice — in Arabic, with the right tone for the occasion.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/announcement-maker.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "announcements",
+        "community"
+      ],
+      "variables": [
+        "announcement_type",
+        "key_details",
+        "audience_and_channel",
+        "tone"
+      ]
+    },
+    {
+      "title": "Arabic Job Application Email",
+      "when_to_use": "you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/arabic-job-application.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN+AR"
+      },
+      "tags": [
+        "arabic",
+        "job-search",
+        "applications"
+      ],
+      "variables": [
+        "position_and_source",
+        "matching_proof",
+        "availability",
+        "cv_file",
+        "language"
+      ]
+    },
+    {
+      "title": "Occasion Speech Notes",
+      "when_to_use": "you have to say a few words at a wedding, engagement, graduation, farewell, or work celebration — in Arabic, from the heart, in under two minutes.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/arabic-speech-notes.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "speeches",
+        "occasions"
+      ],
+      "variables": [
+        "occasion_and_relation",
+        "material",
+        "audience",
+        "length_and_dialect",
+        "dialect"
+      ]
+    },
+    {
+      "title": "Provider Complaint Letter",
+      "when_to_use": "your internet/electricity/mobile provider (or any service company) failed you repeatedly and call-center loops got you nowhere — write the formal complaint that moves up the chain.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/complaint-letter-eg.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN+AR"
+      },
+      "tags": [
+        "arabic",
+        "consumer-rights",
+        "complaints"
+      ],
+      "variables": [
+        "provider_and_service",
+        "problem_and_dates",
+        "attempts",
+        "desired_resolution",
+        "account_details"
+      ]
+    },
+    {
+      "title": "Egyptian Dialect Coach",
+      "when_to_use": "you wrote (or plan to say) something in formal Arabic and it needs to sound Egyptian — natural, warm, and current — for a video, ad, presentation, or voice note.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/dialect-coach.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "egyptian-arabic",
+        "dialect",
+        "localization"
+      ],
+      "variables": [
+        "formal_text",
+        "context",
+        "audience",
+        "formality"
+      ]
+    },
+    {
+      "title": "Formal Arabic Email Writer",
+      "when_to_use": "you need to write a formal Arabic email (to a company, ministry, university, or embassy) and want it correct, respectful, and taken seriously.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/formal-arabic-email.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "email",
+        "formal-writing"
+      ],
+      "variables": [
+        "recipient_type",
+        "purpose",
+        "key_facts",
+        "relationship",
+        "attachments"
+      ]
+    },
+    {
+      "title": "Official Terms Explainer",
+      "when_to_use": "you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/legal-terms-explain.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN+AR"
+      },
+      "tags": [
+        "arabic",
+        "paperwork",
+        "egypt"
+      ],
+      "variables": [
+        "transaction",
+        "terms_list",
+        "my_role"
+      ]
+    },
+    {
+      "title": "Occasion Messages Writer",
+      "when_to_use": "you need the right Arabic message — congratulations, condolences, get-well, invitation — and \"alf mabrook\" isn't enough, but a copy-paste cliché isn't you either.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/occasion-messages.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "social",
+        "occasions"
+      ],
+      "variables": [
+        "occasion",
+        "recipient",
+        "personal_details",
+        "channel",
+        "dialect"
+      ]
+    },
+    {
+      "title": "Rental Contract Explainer",
+      "when_to_use": "you're about to sign an Arabic rental contract (عقد إيجار) — or renew one — and want every clause in plain Arabic before your signature is on it.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/rental-contract-explain.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "rental",
+        "contracts"
+      ],
+      "variables": [
+        "position_and_property",
+        "city_and_rent",
+        "worries",
+        "law_context",
+        "paste_contract"
+      ]
+    },
+    {
+      "title": "School Note Writer",
+      "when_to_use": "you need to write to your child's school in Arabic — absence excuse, early pickup, permission, or an inquiry to the teacher — quickly and correctly.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/school-note-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "school",
+        "parents"
+      ],
+      "variables": [
+        "note_type",
+        "child_details",
+        "dates_and_reason",
+        "pickup_person",
+        "parent_contact"
+      ]
+    },
+    {
+      "title": "Booking Confirmation Message",
+      "when_to_use": "someone booked your service or appointment and needs a confirmation message.",
+      "folder": "business",
+      "path": "prompts/business/booking-confirm.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "customer-service",
+        "bookings"
+      ],
+      "variables": [
+        "business_type",
+        "customer_name",
+        "date_time",
+        "location_or_link",
+        "cancellation_policy"
+      ]
+    },
+    {
+      "title": "Contract Summary Checker",
+      "when_to_use": "someone handed you a contract and you want to know what you're actually agreeing to before signing.",
+      "folder": "business",
+      "path": "prompts/business/contract-summary.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "contracts",
+        "legal",
+        "review"
+      ],
+      "variables": [
+        "contract_type",
+        "my_side",
+        "my_priority",
+        "gut_feeling",
+        "paste_contract"
+      ]
+    },
+    {
+      "title": "Business Idea Checker",
+      "when_to_use": "you have a small business idea and want a blunt reality check for your local market before spending money.",
+      "folder": "business",
+      "path": "prompts/business/idea-check.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "entrepreneurship",
+        "validation",
+        "market-research"
+      ],
+      "variables": [
+        "idea",
+        "budget",
+        "location",
+        "time_commitment",
+        "edge"
+      ]
+    },
+    {
+      "title": "Invoice Writer",
+      "when_to_use": "you finished work for a client and need a clean invoice with the right wording.",
+      "folder": "business",
+      "path": "prompts/business/invoice-words.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "invoicing",
+        "freelance",
+        "payment"
+      ],
+      "variables": [
+        "your_business",
+        "client_name",
+        "items_list",
+        "currency",
+        "due_days"
+      ]
+    },
+    {
+      "title": "Late Payment Chaser",
+      "when_to_use": "your invoice is overdue, the friendly reminder failed, and you need an escalation ladder that gets paid without burning the relationship.",
+      "folder": "business",
+      "path": "prompts/business/late-payment-chaser.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "payments",
+        "collections",
+        "freelance"
+      ],
+      "variables": [
+        "invoice_details",
+        "client_type",
+        "reminders_sent",
+        "excuse",
+        "bottom_line"
+      ]
+    },
+    {
+      "title": "Price Explainer",
+      "when_to_use": "a client says your price is too high and you need to justify it without panicking or instantly discounting.",
+      "folder": "business",
+      "path": "prompts/business/price-calc-explain.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "pricing",
+        "negotiation",
+        "sales"
+      ],
+      "variables": [
+        "service",
+        "price",
+        "what_included",
+        "competitor_price"
+      ]
+    },
+    {
+      "title": "Quotation Writer",
+      "when_to_use": "a client asked \"how much?\" and you need a professional price quotation — not a WhatsApp number with no details.",
+      "folder": "business",
+      "path": "prompts/business/quotation-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "proposals",
+        "pricing",
+        "freelance"
+      ],
+      "variables": [
+        "my_business",
+        "client_and_request",
+        "items_and_prices",
+        "payment_terms",
+        "valid_days",
+        "currency"
+      ]
+    },
+    {
+      "title": "Refund Apology Letter",
+      "when_to_use": "you must refund a customer and you want to keep their trust (and maybe their business).",
+      "folder": "business",
+      "path": "prompts/business/refund-apology.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "customer-service",
+        "refunds"
+      ],
+      "variables": [
+        "customer_name",
+        "what_went_wrong",
+        "refund_amount",
+        "store_name"
+      ]
+    },
+    {
+      "title": "Customer Reply Writer",
+      "when_to_use": "a customer messaged your store and you need a professional reply fast.",
+      "folder": "business",
+      "path": "prompts/business/store-reply.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "customer-service",
+        "ecommerce"
+      ],
+      "variables": [
+        "store_name",
+        "customer_message",
+        "resolution",
+        "reply_language"
+      ]
+    },
+    {
+      "title": "Supplier Email Writer",
+      "when_to_use": "you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously.",
+      "folder": "business",
+      "path": "prompts/business/supplier-email.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "procurement",
+        "negotiation",
+        "b2b"
+      ],
+      "variables": [
+        "product_and_qty",
+        "supplier_type",
+        "goal",
+        "volume",
+        "supplier_language"
+      ]
+    },
+    {
+      "title": "Career Switch Planner",
+      "when_to_use": "you want to move into a different field and the internet says \"just learn to code\" — build a realistic bridge plan instead.",
+      "folder": "career",
+      "path": "prompts/career/career-switch-plan.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "career-change",
+        "planning"
+      ],
+      "variables": [
+        "current_field",
+        "target_field",
+        "hours_per_week",
+        "runway_months",
+        "transferables"
+      ]
+    },
+    {
+      "title": "Cover Letter Writer",
+      "when_to_use": "the job application asks for a cover letter and you want one that gets read — not a formal-template clone.",
+      "folder": "career",
+      "path": "prompts/career/cover-letter-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "cover-letters",
+        "job-search"
+      ],
+      "variables": [
+        "job_focus",
+        "company_appeal",
+        "my_background",
+        "angle",
+        "language_and_tone",
+        "length_limit"
+      ]
+    },
+    {
+      "title": "CV Reviewer",
+      "when_to_use": "you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job.",
+      "folder": "career",
+      "path": "prompts/career/cv-reviewer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "resume",
+        "career",
+        "job-search"
+      ],
+      "variables": [
+        "job_requirements",
+        "field_and_level",
+        "application_stats",
+        "paste_cv"
+      ]
+    },
+    {
+      "title": "Freelance Profile Builder",
+      "when_to_use": "your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert.",
+      "folder": "career",
+      "path": "prompts/career/freelance-profile.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "freelancing",
+        "platforms",
+        "profile"
+      ],
+      "variables": [
+        "platform",
+        "service",
+        "experience",
+        "target_client",
+        "price_point",
+        "languages"
+      ]
+    },
+    {
+      "title": "Interview Prep Coach",
+      "when_to_use": "you have an interview coming and want to practice answers out loud, not just read \"top 50 questions\".",
+      "folder": "career",
+      "path": "prompts/career/interview-prep.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "interviews",
+        "career",
+        "practice"
+      ],
+      "variables": [
+        "role_and_company",
+        "stage_format",
+        "my_background",
+        "worries"
+      ]
+    },
+    {
+      "title": "LinkedIn Profile Fixer",
+      "when_to_use": "recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice.",
+      "folder": "career",
+      "path": "prompts/career/linkedin-profile-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "linkedin",
+        "personal-branding"
+      ],
+      "variables": [
+        "current_vs_target",
+        "skills_and_evidence",
+        "audience_language",
+        "open_to"
+      ]
+    },
+    {
+      "title": "Promotion Case Builder",
+      "when_to_use": "you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.",
+      "folder": "career",
+      "path": "prompts/career/promotion-case.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "promotion",
+        "career",
+        "negotiation"
+      ],
+      "variables": [
+        "current_to_target",
+        "timeline",
+        "evidence",
+        "process",
+        "expected_objection",
+        "target"
+      ]
+    },
+    {
+      "title": "Rejection Response Writer",
+      "when_to_use": "you got a \"we went with another candidate\" email and want to close gracefully — the graceful ones get the next offer.",
+      "folder": "career",
+      "path": "prompts/career/rejection-reply.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "job-search",
+        "communication"
+      ],
+      "variables": [
+        "rejection_context",
+        "signals",
+        "my_goal"
+      ]
+    },
+    {
+      "title": "Skills Gap Mapper",
+      "when_to_use": "a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it.",
+      "folder": "career",
+      "path": "prompts/career/skills-gap-map.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "skills",
+        "career",
+        "learning"
+      ],
+      "variables": [
+        "requirements",
+        "my_skills",
+        "hours_per_week",
+        "deadline"
+      ]
+    },
+    {
+      "title": "STAR Story Builder",
+      "when_to_use": "behavioral interviews ask \"tell me about a time when...\" and your answers ramble — build reusable STAR stories once, reuse them everywhere.",
+      "folder": "career",
+      "path": "prompts/career/star-story-builder.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "interviews",
+        "behavioral",
+        "storytelling"
+      ],
+      "variables": [
+        "role_and_field",
+        "memory_list",
+        "competency"
+      ]
+    },
+    {
+      "title": "Social Bio Maker",
+      "when_to_use": "your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it.",
+      "folder": "content",
+      "path": "prompts/content/bio-maker.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "social-media",
+        "branding",
+        "profile"
+      ],
+      "variables": [
+        "platform",
+        "who_i_am",
+        "content_topics",
+        "target_audience",
+        "unique_angle",
+        "link_purpose"
+      ]
+    },
+    {
+      "title": "Arabic Caption Writer",
+      "when_to_use": "you have a photo or video ready and need an engaging Arabic caption for social media.",
+      "folder": "content",
+      "path": "prompts/content/captions-ar.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "social-media",
+        "captions"
+      ],
+      "variables": [
+        "platform",
+        "topic",
+        "audience",
+        "tone",
+        "call_to_action"
+      ]
+    },
+    {
+      "title": "Carousel Outline Builder",
+      "when_to_use": "you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure.",
+      "folder": "content",
+      "path": "prompts/content/carousel-outline.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "social-media",
+        "content",
+        "design"
+      ],
+      "variables": [
+        "topic_and_takeaway",
+        "platform_and_slides",
+        "audience",
+        "tone_and_language"
+      ]
+    },
+    {
+      "title": "Comment Reply Writer",
+      "when_to_use": "comments are piling up on your posts and you're replying with \"Thanks! 🙏\" — write replies that turn commenters into a community.",
+      "folder": "content",
+      "path": "prompts/content/comment-reply.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "community",
+        "social-media",
+        "engagement"
+      ],
+      "variables": [
+        "comments",
+        "account_about",
+        "voice",
+        "languages",
+        "tricky_ones"
+      ]
+    },
+    {
+      "title": "Content Calendar Builder",
+      "when_to_use": "you post randomly when inspired and want a month of planned content instead.",
+      "folder": "content",
+      "path": "prompts/content/content-calendar.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "content-strategy",
+        "planning",
+        "social-media"
+      ],
+      "variables": [
+        "what_i_do",
+        "platform_and_frequency",
+        "audience_and_promise",
+        "promotion",
+        "languages"
+      ]
+    },
+    {
+      "title": "Hashtag Finder",
+      "when_to_use": "you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses.",
+      "folder": "content",
+      "path": "prompts/content/hashtags.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "social-media",
+        "hashtags",
+        "discovery"
+      ],
+      "variables": [
+        "platform",
+        "topic",
+        "niche",
+        "audience",
+        "language",
+        "number_of_hashtags"
+      ]
+    },
+    {
+      "title": "Newsletter Intro Writer",
+      "when_to_use": "your newsletter opens with \"We hope this email finds you well\" and people are deleting it — write an opener that earns the scroll.",
+      "folder": "content",
+      "path": "prompts/content/newsletter-intro.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "email",
+        "newsletters",
+        "copywriting"
+      ],
+      "variables": [
+        "issue_topic",
+        "subscribers",
+        "voice",
+        "contents",
+        "language"
+      ]
+    },
+    {
+      "title": "Post Hook Generator",
+      "when_to_use": "your posts are good but nobody reads past the first line — fix the hook.",
+      "folder": "content",
+      "path": "prompts/content/post-hooks.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "copywriting",
+        "hooks",
+        "social-media"
+      ],
+      "variables": [
+        "topic_and_point",
+        "platform",
+        "audience",
+        "tone",
+        "language"
+      ]
+    },
+    {
+      "title": "Product Description Writer",
+      "when_to_use": "your product page or catalog needs descriptions that sell instead of listing specs.",
+      "folder": "content",
+      "path": "prompts/content/product-description.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN+AR"
+      },
+      "tags": [
+        "ecommerce",
+        "copywriting"
+      ],
+      "variables": [
+        "product_and_specs",
+        "buyer_and_desire",
+        "price_and_channel",
+        "differentiator",
+        "language"
+      ]
+    },
+    {
+      "title": "Short Video Script Writer",
+      "when_to_use": "you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end.",
+      "folder": "content",
+      "path": "prompts/content/video-script-short.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "video",
+        "scriptwriting",
+        "short-form"
+      ],
+      "variables": [
+        "topic",
+        "platform_and_length",
+        "audience_and_goal",
+        "format",
+        "language"
+      ]
+    },
+    {
+      "title": "Budget Splitter",
+      "when_to_use": "payday came, and somehow the money is gone before the month ends.",
+      "folder": "daily",
+      "path": "prompts/daily/budget-split.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "budgeting",
+        "personal-finance"
+      ],
+      "variables": [
+        "monthly_income",
+        "fixed_costs",
+        "savings_goal",
+        "currency"
+      ]
+    },
+    {
+      "title": "Big Decision Matrix",
+      "when_to_use": "you're stuck between two or three big options (job offer, city, degree, big purchase) and keep going in circles — score it once, properly.",
+      "folder": "daily",
+      "path": "prompts/daily/decision-matrix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "decision-making",
+        "planning",
+        "personal"
+      ],
+      "variables": [
+        "decision",
+        "options",
+        "priorities",
+        "constraints",
+        "lean"
+      ]
+    },
+    {
+      "title": "Difficult Conversation Rehearsal",
+      "when_to_use": "you keep rehearsing a hard conversation in your head — practice it out loud with a stand-in first, and walk in with lines that hold.",
+      "folder": "daily",
+      "path": "prompts/daily/difficult-conversation-rehearsal.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "communication",
+        "difficult-conversations",
+        "role-play"
+      ],
+      "variables": [
+        "other_party",
+        "situation_and_ask",
+        "fear",
+        "opening_line",
+        "context"
+      ]
+    },
+    {
+      "title": "Monthly Expenses Review",
+      "when_to_use": "the month ended, you know roughly what you spent and dread looking — turn your expenses list into a calm review with three fixes.",
+      "folder": "daily",
+      "path": "prompts/daily/expenses-review.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "budgeting",
+        "monthly-review",
+        "personal-finance"
+      ],
+      "variables": [
+        "income",
+        "expenses_paste",
+        "savings_status",
+        "suspect",
+        "currency"
+      ]
+    },
+    {
+      "title": "Habit Plan Builder",
+      "when_to_use": "you want to build a habit and you keep quitting by day four.",
+      "folder": "daily",
+      "path": "prompts/daily/habit-plan.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "habits",
+        "behavior",
+        "productivity"
+      ],
+      "variables": [
+        "habit",
+        "current_routine",
+        "obstacle"
+      ]
+    },
+    {
+      "title": "Sleep Routine Fixer",
+      "when_to_use": "you scroll until 2am and feel wrecked every morning.",
+      "folder": "daily",
+      "path": "prompts/daily/sleep-routine.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "sleep",
+        "health",
+        "routines"
+      ],
+      "variables": [
+        "wake_up_time",
+        "bedtime_now",
+        "main_disruptor"
+      ]
+    },
+    {
+      "title": "Trip Packing List",
+      "when_to_use": "you always arrive and realize you forgot something important.",
+      "folder": "daily",
+      "path": "prompts/daily/trip-pack-list.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "travel",
+        "checklists"
+      ],
+      "variables": [
+        "destination",
+        "days",
+        "weather",
+        "trip_type"
+      ]
+    },
+    {
+      "title": "Weekly Meal Planner",
+      "when_to_use": "you ask yourself \"what's for dinner\" every day at 6pm and default to delivery — plan a week of meals once, on a budget.",
+      "folder": "daily",
+      "path": "prompts/daily/weekly-meal-planner.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "meal-planning",
+        "budget",
+        "family",
+        "groceries"
+      ],
+      "variables": [
+        "household",
+        "budget",
+        "meals_scope",
+        "restrictions",
+        "cooking_capacity",
+        "language"
+      ]
+    },
+    {
+      "title": "Weekly Reset Routine",
+      "when_to_use": "weeks blur together — tasks slip, inboxes pile up, Monday ambushes you — run one 45-minute reset that catches everything.",
+      "folder": "daily",
+      "path": "prompts/daily/weekly-reset.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "productivity",
+        "weekly-review",
+        "planning"
+      ],
+      "variables": [
+        "week_shape",
+        "what_slips",
+        "tracking_tools",
+        "time_budget",
+        "roles"
+      ]
+    },
+    {
+      "title": "Beginner Workout Plan",
+      "when_to_use": "you want to start exercising at home with no equipment and no idea where to begin.",
+      "folder": "daily",
+      "path": "prompts/daily/workout-plan.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "beginners"
+      ],
+      "variables": [
+        "days_per_week",
+        "minutes_per_session",
+        "fitness_level",
+        "goal"
+      ]
+    },
+    {
+      "title": "Battery Drain Fixer",
+      "when_to_use": "your phone or laptop battery dies way too fast and you want to know if it's software, settings, or an old battery.",
+      "folder": "debugging",
+      "path": "prompts/debugging/battery-drain-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "batteries",
+        "hardware",
+        "troubleshooting"
+      ],
+      "variables": [
+        "device",
+        "pattern",
+        "battery_health",
+        "usage"
+      ]
+    },
+    {
+      "title": "Blue Screen (BSOD) Explainer",
+      "when_to_use": "Windows just crashed with a blue screen and you wrote down the stop code.",
+      "folder": "debugging",
+      "path": "prompts/debugging/bsod-explain.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "windows",
+        "hardware",
+        "troubleshooting"
+      ],
+      "variables": [
+        "stop_code",
+        "when_it_happens",
+        "recent_changes",
+        "pc_type"
+      ]
+    },
+    {
+      "title": "Deploy Rollback Plan",
+      "when_to_use": "a fresh deployment broke your site or app and you need to recover fast.",
+      "folder": "debugging",
+      "path": "prompts/debugging/deploy-rollback.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "devops",
+        "deployment",
+        "incident-response"
+      ],
+      "variables": [
+        "platform",
+        "what_changed",
+        "symptom",
+        "deploy_method",
+        "time_since_deploy"
+      ]
+    },
+    {
+      "title": "Email Bounce Fixer",
+      "when_to_use": "your email bounces back, lands in spam, or never arrives — and you need to know which side has the problem.",
+      "folder": "debugging",
+      "path": "prompts/debugging/email-bounce-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "email",
+        "deliverability",
+        "troubleshooting"
+      ],
+      "variables": [
+        "email_setup",
+        "failure_type",
+        "bounce_error",
+        "recipient",
+        "content_type"
+      ]
+    },
+    {
+      "title": "Overheating Fixer",
+      "when_to_use": "your laptop gets hot, the fan screams, or it throttles and shuts down — you need the cause, not just \"clean the vents\".",
+      "folder": "debugging",
+      "path": "prompts/debugging/overheating-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "hardware",
+        "laptops",
+        "troubleshooting"
+      ],
+      "variables": [
+        "machine",
+        "when_hot",
+        "symptoms",
+        "environment"
+      ]
+    },
+    {
+      "title": "Phone Storage Fixer",
+      "when_to_use": "your phone says \"storage full\" and apps keep crashing — you need space back without losing photos.",
+      "folder": "debugging",
+      "path": "prompts/debugging/phone-storage-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "android",
+        "iphone",
+        "storage"
+      ],
+      "variables": [
+        "phone_type",
+        "space_eaters",
+        "must_keep",
+        "backup_status"
+      ]
+    },
+    {
+      "title": "Printer Fixer",
+      "when_to_use": "your printer refuses to print — offline, stuck queue, or blank pages — and you have a document due.",
+      "folder": "debugging",
+      "path": "prompts/debugging/printer-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "hardware",
+        "troubleshooting"
+      ],
+      "variables": [
+        "printer_type",
+        "symptom",
+        "connection",
+        "last_worked"
+      ]
+    },
+    {
+      "title": "Slow PC Fixer",
+      "when_to_use": "your Windows PC takes forever to open anything and you don't know why.",
+      "folder": "debugging",
+      "path": "prompts/debugging/slow-pc-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "windows",
+        "performance",
+        "troubleshooting"
+      ],
+      "variables": [
+        "pc_type",
+        "when_slow",
+        "duration",
+        "what_i_tried"
+      ]
+    },
+    {
+      "title": "Website Error Fixer",
+      "when_to_use": "your website or web app shows an error and you have no idea where to start.",
+      "folder": "debugging",
+      "path": "prompts/debugging/website-error-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "debugging",
+        "web",
+        "errors",
+        "beginner"
+      ],
+      "variables": [
+        "what_i_was_doing",
+        "stack",
+        "error_message",
+        "yes_no_and_when",
+        "what_i_tried"
+      ]
+    },
+    {
+      "title": "Wi-Fi Drop Fixer",
+      "when_to_use": "your internet keeps disconnecting on one or all devices and you can't tell if the problem is the router, the device, or the ISP.",
+      "folder": "debugging",
+      "path": "prompts/debugging/wifi-drop-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "networking",
+        "troubleshooting",
+        "home"
+      ],
+      "variables": [
+        "who_affected",
+        "pattern",
+        "setup",
+        "router_lights"
+      ]
+    },
+    {
+      "title": "API Error Decoder",
+      "when_to_use": "an API returns an error code and the documentation didn't actually help.",
+      "folder": "dev",
+      "path": "prompts/dev/api-error.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "apis",
+        "debugging"
+      ],
+      "variables": [
+        "method_and_endpoint",
+        "status_code",
+        "response_body",
+        "request_you_sent"
+      ]
+    },
+    {
+      "title": "Code Reviewer",
+      "when_to_use": "you wrote code that works and want a senior engineer's eyes before the human review torches you.",
+      "folder": "dev",
+      "path": "prompts/dev/code-reviewer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "code-review",
+        "quality",
+        "security"
+      ],
+      "variables": [
+        "language",
+        "purpose",
+        "main_worry",
+        "paste_code"
+      ]
+    },
+    {
+      "title": "Commit Message Writer",
+      "when_to_use": "you have staged changes and \"fixed stuff\" is not a commit message.",
+      "folder": "dev",
+      "path": "prompts/dev/commit-message.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "git",
+        "conventions"
+      ],
+      "variables": [
+        "changes_summary_or_diff",
+        "commit_type"
+      ]
+    },
+    {
+      "title": "Dockerfile Fixer",
+      "when_to_use": "your Docker build fails, the image is huge, or the container crashes on run — build files fixed layer by layer.",
+      "folder": "dev",
+      "path": "prompts/dev/dockerfile-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "docker",
+        "devops",
+        "containers"
+      ],
+      "variables": [
+        "problem",
+        "error_output",
+        "stack",
+        "services",
+        "paste_dockerfile"
+      ]
+    },
+    {
+      "title": "Environment Mismatch Fixer",
+      "when_to_use": "the code works on your teammate's machine (or the server) and dies on yours — \"works on my machine\" hunting.",
+      "folder": "dev",
+      "path": "prompts/dev/env-setup-debug.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "environment",
+        "debugging",
+        "setup"
+      ],
+      "variables": [
+        "works_where",
+        "my_error",
+        "my_setup",
+        "working_setup",
+        "compared"
+      ]
+    },
+    {
+      "title": "Git Disaster Rescuer",
+      "when_to_use": "git did something scary — wrong branch, lost commits, merge panic — and you're afraid to type anything else.",
+      "folder": "dev",
+      "path": "prompts/dev/git-rescue.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "git",
+        "recovery"
+      ],
+      "variables": [
+        "what_happened",
+        "git_output",
+        "at_risk",
+        "team_context"
+      ]
+    },
+    {
+      "title": "Log Analyzer",
+      "when_to_use": "your app is failing and you have a wall of log lines — find the actual error, not the scariest-looking one.",
+      "folder": "dev",
+      "path": "prompts/dev/log-analyzer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "logging",
+        "debugging",
+        "incident-response"
+      ],
+      "variables": [
+        "symptom",
+        "when_started",
+        "time_window",
+        "paste_log"
+      ]
+    },
+    {
+      "title": "README Writer",
+      "when_to_use": "you built a project and the README is empty, messy, or embarrassing.",
+      "folder": "dev",
+      "path": "prompts/dev/readme-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "documentation",
+        "open-source"
+      ],
+      "variables": [
+        "project_name",
+        "what_it_does",
+        "stack",
+        "install_steps"
+      ]
+    },
+    {
+      "title": "Regex Explainer",
+      "when_to_use": "you found a regular expression in some code and have no idea what it actually matches.",
+      "folder": "dev",
+      "path": "prompts/dev/regex-explain.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "regex",
+        "learning"
+      ],
+      "variables": [
+        "regex_pattern",
+        "sample_text"
+      ]
+    },
+    {
+      "title": "SQL Query Fixer",
+      "when_to_use": "your SQL query returns wrong rows, or it is slow and you do not know why.",
+      "folder": "dev",
+      "path": "prompts/dev/sql-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "sql",
+        "databases",
+        "debugging"
+      ],
+      "variables": [
+        "sql_query",
+        "what_is_wrong",
+        "table_schemas"
+      ]
+    },
+    {
+      "title": "Chart Picker",
+      "when_to_use": "you have numbers to present and no idea which chart tells the story — pick the right one and design it so the point lands in 3 seconds.",
+      "folder": "files-data",
+      "path": "prompts/files-data/chart-picker.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "visualization",
+        "data",
+        "design"
+      ],
+      "variables": [
+        "data",
+        "message",
+        "medium",
+        "audience"
+      ]
+    },
+    {
+      "title": "Messy Data Cleaner",
+      "when_to_use": "you exported/downloaded a spreadsheet or CSV and it's chaos — mixed dates, duplicates, merged cells, mystery columns — and you need a clean table.",
+      "folder": "files-data",
+      "path": "prompts/files-data/csv-cleaner.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "data-cleaning",
+        "spreadsheets"
+      ],
+      "variables": [
+        "data_source",
+        "mess_description",
+        "target_shape",
+        "tool"
+      ]
+    },
+    {
+      "title": "Data Summarizer",
+      "when_to_use": "you pasted a raw table of numbers and someone wants \"the insights\" — get the summary, the trends, and the honest caveats.",
+      "folder": "files-data",
+      "path": "prompts/files-data/data-summarizer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "analysis",
+        "reporting"
+      ],
+      "variables": [
+        "data_about",
+        "key_question",
+        "audience",
+        "paste_data"
+      ]
+    },
+    {
+      "title": "Duplicate Finder",
+      "when_to_use": "two lists (or one messy list) should contain the same records but don't match up — customers, payments, inventory — find the mismatches and the dupes.",
+      "folder": "files-data",
+      "path": "prompts/files-data/duplicate-finder.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "data-quality",
+        "reconciliation"
+      ],
+      "variables": [
+        "list_purpose",
+        "match_key",
+        "mess_factors",
+        "paste_list_a",
+        "paste_list_b"
+      ]
+    },
+    {
+      "title": "Excel Formula Builder",
+      "when_to_use": "you know what you want a spreadsheet to do but not the formula — describe it in plain words, get the formula and the explanation.",
+      "folder": "files-data",
+      "path": "prompts/files-data/excel-formula.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "excel",
+        "sheets",
+        "formulas"
+      ],
+      "variables": [
+        "tool",
+        "goal",
+        "sheet_layout",
+        "edge_cases"
+      ]
+    },
+    {
+      "title": "File Organizer Planner",
+      "when_to_use": "your Desktop/Downloads/Drive is a landfill of \"final_v2_REAL.docx\" and you need a system, not another cleanup that lasts a week.",
+      "folder": "files-data",
+      "path": "prompts/files-data/file-organizer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "organization",
+        "files",
+        "workflow"
+      ],
+      "variables": [
+        "file_types",
+        "location",
+        "search_habits",
+        "who_else"
+      ]
+    },
+    {
+      "title": "Naming Convention Designer",
+      "when_to_use": "your team's files are \"doc final NEW (2).xlsx\" and nobody can find anything — agree on a naming system once and stop the chaos.",
+      "folder": "files-data",
+      "path": "prompts/files-data/naming-convention.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "naming",
+        "organization",
+        "teams"
+      ],
+      "variables": [
+        "team_and_files",
+        "storage",
+        "key_dimensions",
+        "pain_points"
+      ]
+    },
+    {
+      "title": "PDF Data Extractor",
+      "when_to_use": "you have a PDF (statement, invoice, report, scanned tables) and need its numbers into a spreadsheet without retyping.",
+      "folder": "files-data",
+      "path": "prompts/files-data/pdf-extract.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "pdf",
+        "data-extraction"
+      ],
+      "variables": [
+        "document_type",
+        "fields_needed",
+        "destination",
+        "purpose",
+        "paste_pdf_text"
+      ]
+    },
+    {
+      "title": "Report Skeleton Builder",
+      "when_to_use": "you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.",
+      "folder": "files-data",
+      "path": "prompts/files-data/report-skeleton.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "reporting",
+        "business"
+      ],
+      "variables": [
+        "report_type",
+        "readers",
+        "available_data",
+        "format"
+      ]
+    },
+    {
+      "title": "Question-to-SQL Translator",
+      "when_to_use": "you have a database and a plain-English question — get the SQL query AND the understanding, not a black-box answer.",
+      "folder": "files-data",
+      "path": "prompts/files-data/sql-from-question.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "sql",
+        "databases",
+        "analytics"
+      ],
+      "variables": [
+        "question",
+        "schema",
+        "flavor",
+        "table_sizes"
+      ]
+    },
+    {
+      "title": "Ad Copy Writer",
+      "when_to_use": "you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice.",
+      "folder": "marketing",
+      "path": "prompts/marketing/ad-copy-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "advertising",
+        "copywriting",
+        "paid-media"
+      ],
+      "variables": [
+        "offer",
+        "audience_and_funnel",
+        "platform",
+        "objective",
+        "languages",
+        "proof"
+      ]
+    },
+    {
+      "title": "Competitor Teardown",
+      "when_to_use": "you're competing against 2–3 businesses doing it better (or cheaper) and need their playbook — and the gap they're leaving you.",
+      "folder": "marketing",
+      "path": "prompts/marketing/competitor-teardown.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "competitive-analysis",
+        "strategy"
+      ],
+      "variables": [
+        "my_business",
+        "competitors",
+        "losing_where",
+        "constraints"
+      ]
+    },
+    {
+      "title": "Customer Persona Builder",
+      "when_to_use": "you're marketing to \"everyone\" and it's not working — define the one person you're actually selling to.",
+      "folder": "marketing",
+      "path": "prompts/marketing/customer-persona.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "research",
+        "positioning",
+        "marketing"
+      ],
+      "variables": [
+        "product_and_price",
+        "who_buys",
+        "voice_of_customer",
+        "channels",
+        "market"
+      ]
+    },
+    {
+      "title": "Discount Offer Designer",
+      "when_to_use": "you want to run a sale without training customers to wait for discounts or bleeding margin.",
+      "folder": "marketing",
+      "path": "prompts/marketing/discount-offer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "promotions",
+        "pricing",
+        "retail"
+      ],
+      "variables": [
+        "product_and_margin",
+        "reason",
+        "audience_scope",
+        "idea_constraints",
+        "channel"
+      ]
+    },
+    {
+      "title": "Welcome Email Sequence Writer",
+      "when_to_use": "people sign up or inquire and hear nothing until you sell — set up a 3-email sequence that warms them up first.",
+      "folder": "marketing",
+      "path": "prompts/marketing/email-sequence.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "email-marketing",
+        "automation"
+      ],
+      "variables": [
+        "signup_context",
+        "offer",
+        "subscriber_pain",
+        "proof",
+        "schedule",
+        "language"
+      ]
+    },
+    {
+      "title": "Landing Page Copy Writer",
+      "when_to_use": "you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section.",
+      "folder": "marketing",
+      "path": "prompts/marketing/landing-copy.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN+AR"
+      },
+      "tags": [
+        "landing-pages",
+        "conversion",
+        "copywriting"
+      ],
+      "variables": [
+        "offer_and_price",
+        "audience_and_problem",
+        "proof",
+        "traffic",
+        "language"
+      ]
+    },
+    {
+      "title": "Referral Offer Designer",
+      "when_to_use": "word of mouth is your best channel and you're leaving it to luck — design a referral program customers actually use.",
+      "folder": "marketing",
+      "path": "prompts/marketing/referral-offer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "referrals",
+        "growth",
+        "loyalty"
+      ],
+      "variables": [
+        "business_and_aov",
+        "customers",
+        "margin",
+        "channels",
+        "currency"
+      ]
+    },
+    {
+      "title": "Review Request System",
+      "when_to_use": "happy customers leave silently while your competitor has 200 reviews — build the ask that turns satisfaction into public proof.",
+      "folder": "marketing",
+      "path": "prompts/marketing/review-request.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "reviews",
+        "reputation",
+        "local-business"
+      ],
+      "variables": [
+        "business_and_platform",
+        "happy_moment",
+        "toucher",
+        "review_status",
+        "language"
+      ]
+    },
+    {
+      "title": "Seasonal Campaign Planner",
+      "when_to_use": "a big occasion is coming (Ramadan, Eid, back-to-school, Black Friday, Valentine's) and you scramble every year — plan the campaign before the season starts.",
+      "folder": "marketing",
+      "path": "prompts/marketing/seasonal-campaign.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "campaigns",
+        "seasonal",
+        "retail"
+      ],
+      "variables": [
+        "occasion_and_dates",
+        "business_and_angle",
+        "budget",
+        "channels",
+        "last_year"
+      ]
+    },
+    {
+      "title": "WhatsApp Broadcast Writer",
+      "when_to_use": "you need to message your customers on WhatsApp (status, broadcast list, or groups) without getting muted or blocked.",
+      "folder": "marketing",
+      "path": "prompts/marketing/whatsapp-broadcast.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "whatsapp",
+        "local-marketing"
+      ],
+      "variables": [
+        "business_and_news",
+        "recipients",
+        "action",
+        "offer_and_deadline",
+        "language_and_tone"
+      ]
+    },
+    {
+      "title": "Two-Factor Setup Guide",
+      "when_to_use": "you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/2fa-setup-guide.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "2fa",
+        "accounts",
+        "security"
+      ],
+      "variables": [
+        "accounts",
+        "devices",
+        "worry",
+        "locations"
+      ]
+    },
+    {
+      "title": "Backup Plan Builder",
+      "when_to_use": "your photos/thesis/client files live on ONE device and you know how that story ends — build the 3-2-1 backup system that runs itself.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/backup-plan.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "backup",
+        "data-protection"
+      ],
+      "variables": [
+        "what_to_protect",
+        "current_locations",
+        "data_size",
+        "budget",
+        "devices"
+      ]
+    },
+    {
+      "title": "Breach Response Playbook",
+      "when_to_use": "you got that email — \"your password appeared in a data leak\" — or news broke that a service you use was breached. Here's exactly what to do, in order.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/breach-response.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "breaches",
+        "incident-response"
+      ],
+      "variables": [
+        "alert_type",
+        "affected_service",
+        "password_reuse",
+        "connected_accounts"
+      ]
+    },
+    {
+      "title": "Lost Device Playbook",
+      "when_to_use": "your phone or laptop was just lost or stolen — the first 60 minutes matter and panic makes you forget the order of operations.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/device-loss-plan.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "lost-device",
+        "phones",
+        "recovery"
+      ],
+      "variables": [
+        "incident",
+        "device_and_lock",
+        "access_risk",
+        "preparedness",
+        "location_carrier"
+      ]
+    },
+    {
+      "title": "Password Hygiene Coach",
+      "when_to_use": "you have 40 accounts, 3 passwords you reuse everywhere, and a nagging feeling — build a system you can actually live with.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/password-checkup.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "passwords",
+        "managers",
+        "security"
+      ],
+      "variables": [
+        "current_state",
+        "devices",
+        "friction",
+        "important_accounts"
+      ]
+    },
+    {
+      "title": "Phishing Spotter",
+      "when_to_use": "a message feels off — \"your account will be closed\", an unexpected invoice, a delivery fee link — check it before you tap anything.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/phishing-spotter.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "phishing",
+        "scams",
+        "email-security"
+      ],
+      "variables": [
+        "channel",
+        "claimed_sender",
+        "requested_action",
+        "context",
+        "paste_message_links_redacted"
+      ]
+    },
+    {
+      "title": "Privacy Audit Runner",
+      "when_to_use": "strangers, employers, or scammers can learn a shocking amount about you from your public accounts — run a privacy checkup and tighten what matters.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/privacy-audit.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "privacy",
+        "social-media",
+        "footprint"
+      ],
+      "variables": [
+        "account_list",
+        "threat_model",
+        "exposure",
+        "time_budget"
+      ]
+    },
+    {
+      "title": "Public Wi-Fi Safety Coach",
+      "when_to_use": "you're about to work from a café, airport, or co-working space and want to know what's actually risky and what's paranoia.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/public-wifi-safety.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "wifi",
+        "privacy",
+        "networks"
+      ],
+      "variables": [
+        "activities",
+        "devices",
+        "tools_available",
+        "frequency"
+      ]
+    },
+    {
+      "title": "Safe Downloads Guide",
+      "when_to_use": "you need software (or a game, or an app) and search results are a minefield of fake \"Download\" buttons and cracked installers — get it from the real source, every time.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/safe-downloads.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "malware",
+        "downloads",
+        "software"
+      ],
+      "variables": [
+        "software_and_os",
+        "temptation",
+        "current_habit"
+      ]
+    },
+    {
+      "title": "Online Seller Scam Check",
+      "when_to_use": "a deal looks too good (phone, apartment, used car, game account) and you want a structured gut-check before you pay a stranger.",
+      "folder": "security-basics",
+      "path": "prompts/security-basics/scam-check.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "scams",
+        "marketplace",
+        "fraud"
+      ],
+      "variables": [
+        "item_and_price",
+        "channel",
+        "seller_signals",
+        "payment_demand",
+        "pressure_lines"
+      ]
+    },
+    {
+      "title": "Essay Outline Builder",
+      "when_to_use": "you have an essay assignment and a blank page — this builds the skeleton so you can write.",
+      "folder": "study",
+      "path": "prompts/study/essay-outline.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "writing",
+        "academic",
+        "outlines"
+      ],
+      "variables": [
+        "essay_question",
+        "word_count",
+        "academic_level",
+        "key_sources"
+      ]
+    },
+    {
+      "title": "Exam Revision Planner",
+      "when_to_use": "an exam is coming and you do not know how to split your remaining days.",
+      "folder": "study",
+      "path": "prompts/study/exam-revision.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "studying",
+        "planning",
+        "exams"
+      ],
+      "variables": [
+        "exam_date",
+        "days_available",
+        "hours_per_day",
+        "topics_list"
+      ]
+    },
+    {
+      "title": "Feynman Explain-Back",
+      "when_to_use": "you \"understood\" the lesson but can't explain it — this tests whether you really got it.",
+      "folder": "study",
+      "path": "prompts/study/feynman-explain.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "studying",
+        "understanding",
+        "tutoring"
+      ],
+      "variables": [
+        "topic",
+        "level",
+        "context"
+      ]
+    },
+    {
+      "title": "Flashcard Maker",
+      "when_to_use": "you have study material and want ready-to-use question-and-answer flashcards.",
+      "folder": "study",
+      "path": "prompts/study/flashcards-maker.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "studying",
+        "flashcards",
+        "memory"
+      ],
+      "variables": [
+        "number_of_cards",
+        "language",
+        "paste_material"
+      ]
+    },
+    {
+      "title": "Formula Explainer",
+      "when_to_use": "you can read the letters in a formula but have no idea what it actually does or when to use it.",
+      "folder": "study",
+      "path": "prompts/study/formula-explainer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "math",
+        "science",
+        "learning"
+      ],
+      "variables": [
+        "formula",
+        "subject_and_level",
+        "context"
+      ]
+    },
+    {
+      "title": "Homework Hint Giver",
+      "when_to_use": "you're stuck on homework and want a hint that teaches — not the answer pasted in front of you.",
+      "folder": "study",
+      "path": "prompts/study/homework-hint.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "studying",
+        "tutoring",
+        "homework"
+      ],
+      "variables": [
+        "subject_and_level",
+        "question",
+        "what_i_tried",
+        "stuck_point"
+      ]
+    },
+    {
+      "title": "Mistake Log Analyzer",
+      "when_to_use": "you keep losing marks on exams and blame \"carelessness\" — this finds the real pattern behind your mistakes.",
+      "folder": "study",
+      "path": "prompts/study/mistake-log-analyzer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "studying",
+        "exams",
+        "improvement"
+      ],
+      "variables": [
+        "subject_and_exam",
+        "scores",
+        "mistake_list",
+        "study_method"
+      ]
+    },
+    {
+      "title": "Practice Quiz Generator",
+      "when_to_use": "you've studied the material and want to test yourself before the teacher tests you.",
+      "folder": "study",
+      "path": "prompts/study/practice-quiz.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "studying",
+        "quizzes",
+        "self-testing"
+      ],
+      "variables": [
+        "subject_and_level",
+        "exam_style",
+        "question_count",
+        "focus_topics",
+        "paste_material"
+      ]
+    },
+    {
+      "title": "Lesson Summarizer",
+      "when_to_use": "you attended a class or watched a lecture and need clean notes you can actually revise from.",
+      "folder": "study",
+      "path": "prompts/study/summarize-lesson.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "studying",
+        "notes",
+        "summarizing"
+      ],
+      "variables": [
+        "subject",
+        "exam_focus",
+        "paste_lesson"
+      ]
+    },
+    {
+      "title": "Term Translator (EN ↔ AR)",
+      "when_to_use": "you hit an English term in your studies and want the Arabic meaning properly explained — not just a dictionary word.",
+      "folder": "study",
+      "path": "prompts/study/translate-term.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN+AR"
+      },
+      "tags": [
+        "arabic",
+        "translation",
+        "vocabulary"
+      ],
+      "variables": [
+        "term",
+        "subject",
+        "level"
+      ]
+    },
+    {
+      "title": "CV Bullet Writer",
+      "when_to_use": "you know what you did at a job, but you cannot turn it into resume bullets that sound impressive.",
+      "folder": "work",
+      "path": "prompts/work/cv-bullets.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "resume",
+        "career",
+        "writing"
+      ],
+      "variables": [
+        "role",
+        "target_job",
+        "number_of_bullets",
+        "raw_duties"
+      ]
+    },
+    {
+      "title": "Jargon Simplifier",
+      "when_to_use": "you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read.",
+      "folder": "work",
+      "path": "prompts/work/jargon-simplifier.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "communication",
+        "technical-writing"
+      ],
+      "variables": [
+        "raw_update",
+        "reader",
+        "reader_cares",
+        "action_needed"
+      ]
+    },
+    {
+      "title": "Meeting Agenda Builder",
+      "when_to_use": "you're running a meeting and refuse to let it become a 60-minute ramble.",
+      "folder": "work",
+      "path": "prompts/work/meeting-agenda.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "meetings",
+        "facilitation"
+      ],
+      "variables": [
+        "purpose",
+        "attendees",
+        "duration",
+        "topics"
+      ]
+    },
+    {
+      "title": "Meeting Notes Cleaner",
+      "when_to_use": "you left a meeting with messy notes or a transcript and need something people can actually read.",
+      "folder": "work",
+      "path": "prompts/work/meeting-notes-fix.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "meetings",
+        "productivity",
+        "summary"
+      ],
+      "variables": [
+        "paste_notes",
+        "meeting_purpose",
+        "audience"
+      ]
+    },
+    {
+      "title": "One-on-One Prep",
+      "when_to_use": "you have a 1:1 meeting with your manager and want to walk in with points, not vibes.",
+      "folder": "work",
+      "path": "prompts/work/one-on-one-prep.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "management",
+        "career",
+        "meetings"
+      ],
+      "variables": [
+        "my_role",
+        "meeting_cadence",
+        "recent_updates",
+        "my_goal"
+      ]
+    },
+    {
+      "title": "Out-of-Office Writer",
+      "when_to_use": "you're going on leave and need an auto-reply that protects your time without leaving people stranded.",
+      "folder": "work",
+      "path": "prompts/work/out-of-office-writer.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "email",
+        "leave",
+        "communication"
+      ],
+      "variables": [
+        "my_details",
+        "dates",
+        "cover_person",
+        "emergency_line",
+        "audience"
+      ]
+    },
+    {
+      "title": "Presentation Outline Builder",
+      "when_to_use": "you know your topic but the 15 slides in your head are chaos — this turns them into a clean deck skeleton.",
+      "folder": "work",
+      "path": "prompts/work/presentation-outline.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "presentations",
+        "communication"
+      ],
+      "variables": [
+        "topic_and_goal",
+        "audience",
+        "time_and_slides",
+        "rough_content"
+      ]
+    },
+    {
+      "title": "Reply Tone Rewriter",
+      "when_to_use": "you wrote a reply to an email or message, but the tone feels off — too harsh, too soft, or too stiff.",
+      "folder": "work",
+      "path": "prompts/work/reply-tone.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "email",
+        "communication",
+        "rewriting"
+      ],
+      "variables": [
+        "recipient",
+        "desired_tone",
+        "goal",
+        "length_limit",
+        "draft_reply"
+      ]
+    },
+    {
+      "title": "Salary Negotiation Email",
+      "when_to_use": "you got an offer (or a review is coming) and need to ask for more money without sounding greedy or scared.",
+      "folder": "work",
+      "path": "prompts/work/salary-negotiation-email.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "salary",
+        "negotiation",
+        "career"
+      ],
+      "variables": [
+        "situation",
+        "numbers",
+        "leverage",
+        "tone",
+        "market"
+      ]
+    },
+    {
+      "title": "Task Priority Sorter",
+      "when_to_use": "your task list is a panic pile and you don't know what to touch first.",
+      "folder": "work",
+      "path": "prompts/work/task-priority-sort.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "productivity",
+        "prioritization"
+      ],
+      "variables": [
+        "task_list",
+        "deadlines",
+        "available_hours",
+        "avoiding"
+      ]
+    }
+  ]
+}

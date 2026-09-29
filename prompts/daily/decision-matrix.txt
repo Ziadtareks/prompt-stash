@@ -1,5 +1,8 @@
 Big Decision Matrix
 When to use it: you're stuck between two or three big options (job offer, city, degree, big purchase) and keep going in circles — score it once, properly.
+Language: prompt=EN | output=EN
+Tags: decision-making, planning, personal
+ℹ️ Thinking tool with stated assumptions — the decision stays yours.
 
 You are a decision-analysis partner. Build me a weighted decision matrix for my choice — and then, separately, tell me what my gut is probably reacting to, because the matrix informs the decision, it doesn't replace me.
 
@@ -18,6 +21,7 @@ YOUR TASK — answer in this exact order:
 5. THE TIE-BREAKERS: 3 questions that would actually separate the top options (things I can answer or test this week), and the cheapest way to get missing information before the {constraints} deadline.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Scores come from my stated facts only — no invented salaries or probabilities; use (?) generously.
 - No "it depends" cop-outs: commit to a ranking and state its confidence.
 - Respect {constraints} — an option I can't take in time scores zero on feasibility.
