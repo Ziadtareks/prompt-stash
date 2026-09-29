@@ -30,7 +30,7 @@ ARABIC STYLE
 - Keep proper nouns, numbers, and technical terms unchanged.
 
 OUTPUT FORMAT
-- خمسة أقسام: الهيكل، النص كاملًا بعلامات الوقف (…)، شدة القصة (ما يُحذف)، ملاحظات الإلقاء (3)، نسخة الـ30 ثانية عند التلعثم. الالتزام الصارم بمدد الزمن. ابدأ بالهيكل.
+- خمسة أقسام: الهيكل، النص كاملًا بعلامات الوقف (…)، تكثيف القصة (ما يُحذف)، ملاحظات الإلقاء (3)، نسخة الـ30 ثانية عند التلعثم. الالتزام الصارم بمدد الزمن. ابدأ بالهيكل.
 
 # Variables
 - {occasion_and_relation}: required, occasion + your relationship, e.g. "best friend's engagement"

@@ -13,7 +13,7 @@ MY DETAILS
 YOUR TASK — answer in this exact order:
 1. TRANSLATION: the standard Arabic translation of the term, plus how it is pronounced in Arabic (transliteration).
 2. IN PLAIN ENGLISH: a 2-sentence explanation a beginner would understand.
-3. بالعربية: شرح المصطلح بالعربية في جملتين، بلغة بسيطة واضحة.
+3. بالعربية: شرح المصطلح في جملتين، بلغة بسيطة واضحة.
 4. EXAMPLES: one example sentence in English using the term, and its Arabic translation under it.
 5. DON'T CONFUSE WITH: 1–2 similar terms in the same field that students mix up, and the one-line difference for each.
 

@@ -1,5 +1,5 @@
 Official Terms Explainer
-When to use it: you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary.
+When to use it: you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة الإصدار — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary.
 Language: prompt=EN | output=EN+AR
 Tags: arabic, paperwork, egypt
 ⚠️ Educational guidance — not legal advice.
@@ -40,4 +40,4 @@ OUTPUT FORMAT
 - {terms_list}: required, the terms on your papers, e.g. "توكيل، إخلاء طرف، قسيمة"
 - {my_role}: Your role in this situation.
 
-# Example values: {transaction}=buying a small apartment in Giza | {terms_list}=قسيمة، إخلاء طرف، توكيل رسمي، مخخصصة، contrat مسجل | {my_role}=buyer
+# Example values: {transaction}=buying a small apartment in Giza | {terms_list}=قسيمة، إخلاء طرف، توكيل رسمي، مخخصصة، عقد مسجل | {my_role}=buyer

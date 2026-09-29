@@ -3,7 +3,7 @@ When to use it: you need to write a formal Arabic email (to a company, ministry,
 Language: prompt=EN | output=AR
 Tags: arabic, email, formal-writing
 
-البريد الرسمي بالعربية الفصحى — تعبئة رصينة وبدون أخطاء.
+البريد الرسمي بالعربية الفصحى — صياغة رصينة وبدون أخطاء.
 
 You are an expert in formal Arabic business correspondence (كاتب رسمي متمكن). Draft my email in Modern Standard Arabic with the correct openers, honorifics, and structure for the recipient's type.
 

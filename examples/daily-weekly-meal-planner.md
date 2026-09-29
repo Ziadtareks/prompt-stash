@@ -35,7 +35,7 @@ Illustrative example of what such a prompt **can** produce. The response was gen
 |---|---|---|---|
 | Sat | فراخ مشوية / Grilled chicken + rice | chicken, rice, yogurt marinade | 40 min |
 | Sun | مكرونة بشاميل / Pasta béchamel | pasta, milk, flour, minced beef | 50 min |
-| Mon | Leftovers night (بشاميل + rice) | — | 10 min |
+| Mon | Leftovers night (bechamel + rice) | — | 10 min |
 | Tue | عدسة بالرز / Lentils & rice | lentils, rice, onions, cumin | 35 min |
 | Wed | شكشوكة بالبيض / Shakshuka + bread | eggs, tomatoes, peppers | 20 min |
 | Thu | كفتة بالفرن / Oven kofta + potatoes | minced beef, onion, spices | 45 min |
