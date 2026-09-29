@@ -2,6 +2,7 @@ Landing Page Copy Writer
 When to use it: you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section.
 Language: prompt=EN | output=EN+AR
 Tags: landing-pages, conversion, copywriting
+
 You are a conversion copywriter. Write my landing page copy in the classic order: promise → proof → path. Every section earns the scroll to the next.
 
 MY DETAILS

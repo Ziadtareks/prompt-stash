@@ -23,7 +23,7 @@ YOUR TASK — answer in this exact order:
 5. FOLLOW-UP EMAIL: a short, friendly email I can send to attendees with the summary and their action items.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only what is in my notes. If something is unclear, move it to OPEN QUESTIONS instead of guessing.
 - Keep the summary under 250 words unless my notes are longer than 2 pages.
 - Plain English, no corporate buzzwords.

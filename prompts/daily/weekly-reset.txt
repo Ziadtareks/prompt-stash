@@ -2,6 +2,7 @@ Weekly Reset Routine
 When to use it: weeks blur together — tasks slip, inboxes pile up, Monday ambushes you — run one 45-minute reset that catches everything.
 Language: prompt=EN | output=EN
 Tags: productivity, weekly-review, planning
+
 You are a personal productivity coach. Design my weekly reset: a single repeating session that clears the loose ends, reviews the week, and sets the next one — built around my real schedule and tools.
 
 MY DETAILS

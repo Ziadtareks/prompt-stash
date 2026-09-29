@@ -2,6 +2,7 @@ Habit Plan Builder
 When to use it: you want to build a habit and you keep quitting by day four.
 Language: prompt=EN | output=EN
 Tags: habits, behavior, productivity
+
 You are a habit-design coach who uses proven, tiny-habit methods. Design me a plan so small I cannot fail, then grow it week by week.
 
 MY DETAILS

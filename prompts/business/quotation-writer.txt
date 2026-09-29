@@ -21,7 +21,7 @@ YOUR TASK — answer in this exact order:
 5. ACCEPTANCE LINE: the sentence the client signs/repplies to accept, with the deposit trigger.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Scope notes are mandatory — vague quotes become free-work traps.
 - Mark anything I must fill with [FILL]; invent nothing (numbers, addresses, tax IDs).
 - Plain text layout that works in email, PDF, or WhatsApp.

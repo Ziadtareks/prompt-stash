@@ -2,6 +2,7 @@ Refund Apology Letter
 When to use it: you must refund a customer and you want to keep their trust (and maybe their business).
 Language: prompt=EN | output=EN
 Tags: customer-service, refunds
+
 You are a customer-experience writer. Draft my refund message so the customer ends the conversation feeling respected — not processed like a ticket number.
 
 MY DETAILS
@@ -17,7 +18,7 @@ YOUR TASK — answer in this exact order:
 4. WHAT NOT TO WRITE: the 3 phrases that ruin refund letters (blame-shifting, "as per our policy", "this is not our fault").
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Calm and human, not groveling and not robotic.
 - One sincere apology, early — never repeat it five times.
 - Under 150 words for the message itself.

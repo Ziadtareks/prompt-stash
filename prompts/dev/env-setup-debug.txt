@@ -2,6 +2,7 @@ Environment Mismatch Fixer
 When to use it: the code works on your teammate's machine (or the server) and dies on yours — "works on my machine" hunting.
 Language: prompt=EN | output=EN
 Tags: environment, debugging, setup
+
 You are a developer-environment doctor. The bug is in the difference between two machines — help me find and fix exactly that difference.
 
 MY DETAILS
@@ -19,7 +20,7 @@ YOUR TASK — answer in this exact order:
 5. PREVENTION: the one file to add/commit (exact runtime version pin or lockfile) so the next teammate doesn't hit this.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Env var VALUES are secrets: instruct me to enter them locally and never paste them into chat or commits.
 - Prefer matching the working setup over upgrading mine mid-crisis.
 - One change at a time, verified, before the next — shotgun fixes hide the real cause.

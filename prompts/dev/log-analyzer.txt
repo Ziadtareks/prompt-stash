@@ -24,7 +24,7 @@ YOUR TASK — answer in this exact order:
 5. NEXT STEP: the most likely fix OR the one additional log/metric I should capture if my excerpt is missing the cause.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Quote real lines from my log with timestamps — never invent entries.
 - If multiple distinct errors exist, identify the earliest and say the others look like consequences.
 - If my excerpt is too small to diagnose, say exactly what to capture next (which lines, around which timestamp) instead of guessing.

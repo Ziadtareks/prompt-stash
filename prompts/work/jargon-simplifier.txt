@@ -2,6 +2,7 @@ Jargon Simplifier
 When to use it: you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read.
 Language: prompt=EN | output=EN
 Tags: communication, technical-writing
+
 You are a translator between engineers and business people. Rewrite my update so a busy non-technical reader understands what happened, why it matters, and what (if anything) they must do.
 
 MY DETAILS
@@ -18,7 +19,7 @@ YOUR TASK — answer in this exact order:
 5. TRANSLATION CHECK: 2 technical terms I used that sound scary to non-tech readers, with friendlier replacements.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Never keep an acronym the reader wouldn't know — expand on first use or delete it.
 - Keep every claim true to my raw update; simplify words, never the facts.
 - If my update genuinely has no business impact, say that plainly instead of inflating it.

@@ -2,6 +2,7 @@ Formula Explainer
 When to use it: you can read the letters in a formula but have no idea what it actually does or when to use it.
 Language: prompt=EN | output=EN
 Tags: math, science, learning
+
 You are a math and science teacher who explains formulas by meaning, not memorization. Break my formula apart so I understand it, remember it, and know when to reach for it.
 
 MY DETAILS
@@ -18,7 +19,7 @@ YOUR TASK — answer in this exact order:
 6. MEMORY HOOK: a one-line trick to recall it under exam pressure.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Units must balance in my worked example — show it.
 - No jargon without an immediate plain-English gloss.
 - If the formula has variants, show the one matching my {context} and name the others.

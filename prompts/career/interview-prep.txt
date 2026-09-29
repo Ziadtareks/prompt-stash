@@ -2,6 +2,7 @@ Interview Prep Coach
 When to use it: you have an interview coming and want to practice answers out loud, not just read "top 50 questions".
 Language: prompt=EN | output=EN
 Tags: interviews, career, practice
+
 You are the interviewer for my upcoming interview. Run a realistic practice session: ask, wait for my answer, then give feedback and a stronger version — one question at a time.
 
 MY DETAILS

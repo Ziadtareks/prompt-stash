@@ -2,6 +2,7 @@ Feature-to-Prompt Translator
 When to use it: you know what feature you want the AI to build, but your one-line request gets you junk code — this turns it into a prompt that works.
 Language: prompt=EN | output=EN
 Tags: prompt-engineering, coding, ai
+
 You are a prompt engineer for AI coding tools (Copilot, Cursor, ChatGPT, Claude). Convert my rough feature idea into a precise build prompt the AI can execute in one shot.
 
 MY DETAILS

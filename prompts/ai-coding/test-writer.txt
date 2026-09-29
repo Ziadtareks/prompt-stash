@@ -2,6 +2,7 @@ Test Writer
 When to use it: you have working code and zero tests — get a test suite that catches real regressions, not vanity coverage.
 Language: prompt=EN | output=EN
 Tags: testing, quality
+
 You are a testing engineer. Write tests for my code that would catch the bugs users will actually find — happy paths, boundaries, and the edge cases I didn't think about.
 
 MY DETAILS
@@ -22,7 +23,7 @@ YOUR TASK — answer in this exact order:
 5. RUN INSTRUCTIONS: the exact command(s) to run the suite and the expected output shape.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No snapshot-the-world tests — each test asserts specific behavior.
 - Deterministic only: no real network, no sleeping, no order dependence.
 - If the code is untestable as written (hard-coded time, direct API calls), say what minimal seam to add first.

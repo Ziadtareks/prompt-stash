@@ -2,6 +2,7 @@ Promotion Case Builder
 When to use it: you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.
 Language: prompt=EN | output=EN
 Tags: promotion, career, negotiation
+
 You are a promotion committee's best friend. Assemble my evidence into a case document my manager can forward without rewriting it.
 
 MY DETAILS
@@ -19,7 +20,7 @@ YOUR TASK — answer in this exact order:
 5. THE CONVERSATION SCRIPT: how to open the meeting, present for 2 minutes, handle a "no" gracefully while locking a dated review.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Numbers only from my {evidence} — [FILL] markers where I must measure impact.
 - Business language, not grievance language: this is a business case, not a complaint.
 - End every version with a dated next step — undetermined asks die in inboxes.

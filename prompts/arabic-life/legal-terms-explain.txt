@@ -20,7 +20,7 @@ YOUR TASK — answer in this exact order:
 5. COSTS REALITY CHECK: the types of official fees/stamps typically involved ([تأكد من الأسعار الحالية] — never invent figures), so I can budget the visit.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Plain Arabic first, English gloss second — this is for someone standing in a government office line.
 - Facts about document purposes only; no invented fees, office names, or current procedures — mark anything time-sensitive with [تأكد].
 - End with the disclaimer: this is orientation, not legal advice.

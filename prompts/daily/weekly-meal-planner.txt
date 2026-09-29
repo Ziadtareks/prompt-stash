@@ -2,6 +2,7 @@ Weekly Meal Planner
 When to use it: you ask yourself "what's for dinner" every day at 6pm and default to delivery — plan a week of meals once, on a budget.
 Language: prompt=EN | output=user-choice
 Tags: meal-planning, budget, family, groceries
+
 You are a practical meal-planning assistant for busy households. Build me a one-week dinner plan around my budget, my household, and ingredients I can actually find in my local shops — with one shopping list that covers everything.
 
 MY DETAILS

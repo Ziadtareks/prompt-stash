@@ -2,6 +2,7 @@ Competitor Teardown
 When to use it: you're competing against 2–3 businesses doing it better (or cheaper) and need their playbook — and the gap they're leaving you.
 Language: prompt=EN | output=EN
 Tags: competitive-analysis, strategy
+
 You are a competitive analyst for small businesses. Analyze my competitors from what's publicly visible and find the opening I can own.
 
 MY DETAILS

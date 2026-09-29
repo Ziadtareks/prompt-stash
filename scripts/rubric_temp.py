@@ -10,7 +10,7 @@ PROMPTS = ROOT / "prompts"
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "pre_scores.json"
 
 ROLE_RE = re.compile(r"You are [a-z]")
-HONESTY_RE = re.compile(r"assumption|uncertain|not a lawyer|not financial advice|not medical advice|Note: ", re.I)
+HONESTY_RE = re.compile(r"assumption|uncertain|not a lawyer|not financial advice|not medical advice|Note: |instead of guessing|unrecognized or ambiguous", re.I)
 
 
 def score(path: Path) -> dict:

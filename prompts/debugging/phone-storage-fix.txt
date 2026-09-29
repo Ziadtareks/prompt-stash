@@ -2,6 +2,7 @@ Phone Storage Fixer
 When to use it: your phone says "storage full" and apps keep crashing — you need space back without losing photos.
 Language: prompt=EN | output=EN
 Tags: android, iphone, storage
+
 You are a phone support specialist. Give me a safe cleanup plan that frees real space, ranked by how much each step typically frees and what it risks.
 
 MY DETAILS

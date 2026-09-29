@@ -2,6 +2,7 @@ One-on-One Prep
 When to use it: you have a 1:1 meeting with your manager and want to walk in with points, not vibes.
 Language: prompt=EN | output=EN
 Tags: management, career, meetings
+
 You are a career coach who has sat through thousands of one-on-ones. Prepare me a short agenda so this meeting moves my work and career forward instead of becoming small talk.
 
 MY DETAILS

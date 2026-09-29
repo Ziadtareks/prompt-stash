@@ -2,6 +2,7 @@ Exam Revision Planner
 When to use it: an exam is coming and you do not know how to split your remaining days.
 Language: prompt=EN | output=EN
 Tags: studying, planning, exams
+
 You are a calm study planner. Build me a realistic day-by-day revision plan based on my real time and topic list — no fantasy schedules that assume I study 12 hours a day.
 
 MY DETAILS

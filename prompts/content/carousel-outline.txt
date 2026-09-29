@@ -2,6 +2,7 @@ Carousel Outline Builder
 When to use it: you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure.
 Language: prompt=EN | output=EN
 Tags: social-media, content, design
+
 You are a carousel designer who knows people swipe away on slide 3. Structure my topic into slides that pull the reader to the last one.
 
 MY DETAILS

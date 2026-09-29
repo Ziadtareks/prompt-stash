@@ -2,6 +2,7 @@ Freelance Profile Builder
 When to use it: your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert.
 Language: prompt=EN | output=user-choice
 Tags: freelancing, platforms, profile
+
 You are a freelance marketplace expert for MENA platforms. Build my profile so clients trust me in 10 seconds and message me instead of the next seller.
 
 MY DETAILS
@@ -20,7 +21,7 @@ YOUR TASK — answer in this exact order:
 5. TRUST BLOCKS: the FAQ answers and response-time promise that reduce client hesitation on {platform}.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Client-language first: describe outcomes ("sales page that converts") not tools ("I use Figma").
 - Arabic platforms get native Arabic copy — no stiff translated feel.
 - Prices must be consistent with {price_point}; never suggest underpricing below my floor.

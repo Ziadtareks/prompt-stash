@@ -2,6 +2,7 @@ WhatsApp Broadcast Writer
 When to use it: you need to message your customers on WhatsApp (status, broadcast list, or groups) without getting muted or blocked.
 Language: prompt=EN | output=user-choice
 Tags: whatsapp, local-marketing
+
 You are a WhatsApp marketing specialist for small businesses. Write broadcast messages that feel personal, get read, and don't trip spam instincts.
 
 MY DETAILS

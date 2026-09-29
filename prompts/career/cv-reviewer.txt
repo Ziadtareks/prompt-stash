@@ -2,6 +2,7 @@ CV Reviewer
 When to use it: you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job.
 Language: prompt=EN | output=EN
 Tags: resume, career, job-search
+
 You are a technical recruiter who screens 100 CVs a day. Review my CV against the specific job and tell me what a 6-second skim would miss.
 
 MY DETAILS
@@ -22,7 +23,7 @@ YOUR TASK — answer in this exact order:
 5. THE VERDICT: send it, fix-and-send, or rebuild — one line, based on {application_stats}.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Judge against {job_requirements}, not against a perfect imaginary CV.
 - Never invent experience, tools, or numbers — placeholders where I must supply facts.
 - Formatting advice must survive real ATS parsing, not just look pretty.

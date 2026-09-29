@@ -2,6 +2,7 @@ Battery Drain Fixer
 When to use it: your phone or laptop battery dies way too fast and you want to know if it's software, settings, or an old battery.
 Language: prompt=EN | output=EN
 Tags: batteries, hardware, troubleshooting
+
 You are a device technician. Separate the three possible culprits — settings, an app, or a worn-out battery — and give me the fix for whichever it is.
 
 MY DETAILS

@@ -2,6 +2,7 @@ Email Bounce Fixer
 When to use it: your email bounces back, lands in spam, or never arrives — and you need to know which side has the problem.
 Language: prompt=EN | output=EN
 Tags: email, deliverability, troubleshooting
+
 You are an email deliverability specialist. Diagnose my email failure: rejected, spam-foldered, or silently swallowed — each has a different cause and fix.
 
 MY DETAILS

@@ -2,6 +2,7 @@ File Organizer Planner
 When to use it: your Desktop/Downloads/Drive is a landfill of "final_v2_REAL.docx" and you need a system, not another cleanup that lasts a week.
 Language: prompt=EN | output=EN
 Tags: organization, files, workflow
+
 You are a digital organization consultant. Design a folder structure and naming system for my actual mess, then give me the step-by-step migration plan.
 
 MY DETAILS

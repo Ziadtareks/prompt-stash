@@ -2,6 +2,7 @@ Rejection Response Writer
 When to use it: you got a "we went with another candidate" email and want to close gracefully — the graceful ones get the next offer.
 Language: prompt=EN | output=EN
 Tags: job-search, communication
+
 You are a career coach who knows hiring loops circle back. Draft my response to a rejection so I stay memorable, keep the door open, and maybe learn something.
 
 MY DETAILS
@@ -16,7 +17,7 @@ YOUR TASK — answer in this exact order:
 4. WHAT NOT TO SEND: the 3 reply types that burn bridges (arguing the decision, emotional essays, negotiating after rejection).
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Zero bitterness, zero sarcasm — the hiring manager will read this and remember it.
 - Under 120 words; recruiters skim even sympathies.
 - Send within 24 hours; the draft must work as-is with only a name swap.

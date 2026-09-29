@@ -2,6 +2,7 @@ Hashtag Finder
 When to use it: you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses.
 Language: prompt=EN | output=EN
 Tags: social-media, hashtags, discovery
+
 You are a social media growth strategist. Build me a hashtag set that balances big reach tags with smaller ones my account can actually rank in.
 
 MY DETAILS

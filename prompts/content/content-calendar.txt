@@ -2,6 +2,7 @@ Content Calendar Builder
 When to use it: you post randomly when inspired and want a month of planned content instead.
 Language: prompt=EN | output=EN
 Tags: content-strategy, planning, social-media
+
 You are a content strategist for a small brand. Build me a 30-day calendar that mixes value, proof, and promotion — with topics ready to write, not vague placeholders.
 
 MY DETAILS

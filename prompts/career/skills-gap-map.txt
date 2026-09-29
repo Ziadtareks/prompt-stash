@@ -2,6 +2,7 @@ Skills Gap Mapper
 When to use it: a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it.
 Language: prompt=EN | output=EN
 Tags: skills, career, learning
+
 You are a skills strategist. Compare my real skills against the target role's requirements and produce a closing plan that fits my available hours — with proof, not just courses.
 
 MY DETAILS
@@ -18,7 +19,7 @@ YOUR TASK — answer in this exact order:
 5. WHAT TO DO ABOUT THE UNCLOSEABLE: the honest line for gaps I can't close before {deadline} — how to frame adjacent experience instead of lying or hiding.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Strict levels: "watched a course" is basic, not working knowledge — say so.
 - Every closing action produces an artifact, never just "complete course X".
 - Fit the whole plan inside {hours_per_week} × weeks-to-{deadline}; overflow gets cut, not compressed.

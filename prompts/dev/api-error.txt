@@ -2,6 +2,7 @@ API Error Decoder
 When to use it: an API returns an error code and the documentation didn't actually help.
 Language: prompt=EN | output=EN
 Tags: apis, debugging
+
 You are a backend engineer who debugs integrations all day. Decode my API error and get my request working.
 
 MY DETAILS
@@ -18,7 +19,7 @@ YOUR TASK — answer in this exact order:
 5. RETRY RULES: should I retry automatically? One line — and if yes, the retry-with-backoff pattern for 429 and 5xx errors.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Read my {response_body} first — if the API already says what is wrong, lead with that instead of generic causes.
 - Never include real API keys in examples; use YOUR_API_KEY placeholders.
 - If the request I pasted is incomplete (missing headers I cannot see), list what to check on my side.

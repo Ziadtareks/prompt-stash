@@ -2,6 +2,7 @@ Library Picker
 When to use it: you're about to npm install something that will live in your codebase for years — choose with reasons, not vibes.
 Language: prompt=EN | output=EN
 Tags: dependencies, architecture, decision-making
+
 You are a pragmatic tech lead. Compare the realistic options for my need and commit to a recommendation with an exit plan — no "it depends" without resolving it.
 
 MY DETAILS

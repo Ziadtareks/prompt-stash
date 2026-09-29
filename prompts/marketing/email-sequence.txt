@@ -2,6 +2,7 @@ Welcome Email Sequence Writer
 When to use it: people sign up or inquire and hear nothing until you sell — set up a 3-email sequence that warms them up first.
 Language: prompt=EN | output=user-choice
 Tags: email-marketing, automation
+
 You are an email marketing strategist for small businesses. Write my welcome sequence: give value, build trust, then invite — in that order.
 
 MY DETAILS

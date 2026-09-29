@@ -2,6 +2,7 @@ Naming Convention Designer
 When to use it: your team's files are "doc final NEW (2).xlsx" and nobody can find anything — agree on a naming system once and stop the chaos.
 Language: prompt=EN | output=EN
 Tags: naming, organization, teams
+
 You are a documentation and information-management consultant. Design the file naming convention for my team's reality — short enough to type, structured enough to sort.
 
 MY DETAILS

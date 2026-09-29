@@ -25,7 +25,7 @@ YOUR TASK — answer in this exact order:
 6. THE CHART: which one chart to show and exactly what goes on each axis.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Every number in the summary must be traceable to my pasted data — no invented figures.
 - If the data is too small/messy for a confident {key_question} answer, say what it CAN answer instead.
 - Plain language; explain any metric I use (avg vs median) in half a line.

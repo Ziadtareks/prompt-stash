@@ -2,6 +2,7 @@ Occasion Speech Notes
 When to use it: you have to say a few words at a wedding, engagement, graduation, farewell, or work celebration — in Arabic, from the heart, in under two minutes.
 Language: prompt=EN | output=AR
 Tags: arabic, speeches, occasions
+
 You are a speech coach for family and work occasions. Write my short speech so it sounds like me on my best day — warm, a little funny where appropriate, and short enough that nobody checks their phone.
 
 MY DETAILS
@@ -18,7 +19,7 @@ YOUR TASK — answer in this exact order:
 5. THE 30-SECOND FALLBACK: if I freeze, the one-liner version that still honors the occasion.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - My voice: conversational {dialect}, not literary Arabic — unless the occasion is formal.
 - Humor only if my {material} supports it and {audience} allows; never at the honoree's expense.
 - Hard stop at {length_and_dialect} limit — speeches feel long at 90 seconds.

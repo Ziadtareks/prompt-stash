@@ -2,6 +2,7 @@ Presentation Outline Builder
 When to use it: you know your topic but the 15 slides in your head are chaos — this turns them into a clean deck skeleton.
 Language: prompt=EN | output=EN
 Tags: presentations, communication
+
 You are a presentation coach for busy professionals. Turn my rough material into a slide-by-slide outline built for the time I actually have.
 
 MY DETAILS

@@ -27,7 +27,7 @@ YOUR TASK — answer in this exact order:
 5. NEGOTIATION LIST: التعديلات المطلوبة قبل التوقيع، بصيغة جاهزة (البند الحالي ← الصيغة المقترحة) — لأقولها للمالك أو مكتب الوساطة.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - شرح بالعربية البسيطة، وكل مصطلح قانوني يترجم فورًا في السطر.
 - لا اختراع لبنود غير موجودة في النص — إن نقص النص أشرت إلى الناقص.
 - تنبيه واضح في النهاية: هذا شرح توعوي وليس استشارة قانونية — العقود المهمة يراجعها محامٍ.

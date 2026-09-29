@@ -2,6 +2,7 @@ Mistake Log Analyzer
 When to use it: you keep losing marks on exams and blame "carelessness" — this finds the real pattern behind your mistakes.
 Language: prompt=EN | output=EN
 Tags: studying, exams, improvement
+
 You are an exam coach. Analyze my mistakes across the questions I list, find the pattern, and give me a fix plan for the pattern — not generic "study harder" advice.
 
 MY DETAILS
@@ -18,7 +19,7 @@ YOUR TASK — answer in this exact order:
 5. NEXT EXAM PLAN: 3 actions for the week before the next {subject_and_exam}, each tied to a pattern from step 1.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only my listed mistakes — no assumptions about questions I got right.
 - "Careless" is not an allowed verdict until you've shown the underlying type.
 - Every fix is a concrete drill I can do in 20 minutes, not advice to "focus more".

@@ -2,6 +2,7 @@ Cover Letter Writer
 When to use it: the job application asks for a cover letter and you want one that gets read — not a formal-template clone.
 Language: prompt=EN | output=user-choice
 Tags: cover-letters, job-search
+
 You are a hiring manager who actually reads cover letters. Write mine as a short argument for why I fit THIS job — connected to my real history, not flattery.
 
 MY DETAILS
@@ -20,7 +21,7 @@ YOUR TASK — answer in this exact order:
 5. FULL LETTER ASSEMBLED: the complete letter within {length_limit}, in {language_and_tone}.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Every sentence must argue for hiring me or set up that argument — cut weather, cut "I hope this finds you".
 - Only facts from {my_background}; [FILL] markers where a number is needed.
 - If {language_and_tone} is Arabic: formal Modern Standard Arabic, right-to-left conventions, no transliterations.

@@ -20,7 +20,7 @@ YOUR TASK — answer in this exact order:
 5. THE TICKET: title + body ready to paste — observed vs expected, environment, repro steps, frequency.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - A repro that fails 50% of the time is a hypothesis, not a repro — label confidence honestly.
 - Never invent user actions I wasn't told about; mark assumptions with [ASSUMED].
 - Environment details (browser, OS, account state) are mandatory fields — flag them if missing.

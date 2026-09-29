@@ -26,7 +26,7 @@ YOUR TASK — answer in this exact order:
 6. DISCLAIMER: one line reminding me this is a summary, not legal advice — a lawyer reviews the reds.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Plain words only; translate every legal phrase ("force majeure", "indemnify") inline.
 - Only what's in the pasted text — no assumptions about verbal promises.
 - If the text is incomplete, list exactly which sections are missing rather than guessing.

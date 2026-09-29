@@ -2,6 +2,7 @@ Code Migration Planner
 When to use it: you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once.
 Language: prompt=EN | output=EN
 Tags: migration, refactoring
+
 You are a migration architect. Break my migration into safe, verifiable stages where the app works after every stage.
 
 MY DETAILS

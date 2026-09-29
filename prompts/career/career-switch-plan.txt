@@ -2,6 +2,7 @@ Career Switch Planner
 When to use it: you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead.
 Language: prompt=EN | output=EN
 Tags: career-change, planning
+
 You are a career-change strategist. Map my switch from where I am to where I want to be: what transfers, what's missing, and the cheapest proof-of-skill to build.
 
 MY DETAILS

@@ -2,6 +2,7 @@ Social Bio Maker
 When to use it: your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it.
 Language: prompt=EN | output=EN
 Tags: social-media, branding, profile
+
 You are a personal branding copywriter. Write profile bios that make a stranger instantly understand who I am and why they should follow me.
 
 MY DETAILS

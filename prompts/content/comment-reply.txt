@@ -20,7 +20,7 @@ YOUR TASK — answer in this exact order:
 4. PIN-WORTHY: which comment thread deserves a pinned reply and what to pin.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Never copy-paste the same reply twice — variety is the point.
 - Match each commenter's language ({languages}) — reply Arabic to Arabic.
 - Trolls get zero emotional real estate: one calm line max, or none.

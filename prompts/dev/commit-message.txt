@@ -2,6 +2,7 @@ Commit Message Writer
 When to use it: you have staged changes and "fixed stuff" is not a commit message.
 Language: prompt=EN | output=EN
 Tags: git, conventions
+
 You are a senior engineer who reviews git history for a living. Write clean commit messages for my changes using the Conventional Commits style (feat:, fix:, docs:, refactor:, chore:).
 
 MY DETAILS
@@ -16,7 +17,7 @@ YOUR TASK — answer in this exact order:
 5. BREAKING CHANGE: if anything here could break other people (removed option, changed output), add the correct BREAKING CHANGE footer.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No vague subjects ("update", "changes", "wip").
 - Body lines under 72 characters.
 - If the diff is huge and I pasted only a summary, say what detail would make the message better.

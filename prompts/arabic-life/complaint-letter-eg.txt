@@ -21,7 +21,7 @@ YOUR TASK — answer in this exact order:
 5. THE SOCIAL OPTION: the short public-post version (X/Facebook) — factual, no insults, 50 words — that companies respond to fastest, with the caveat to try formal channels first.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Facts and dates exactly as I gave them — no exaggeration, no invented ticket numbers.
 - The demand must be specific and reasonable (a deadline, an amount) — "solve it" is not a demand.
 - Firm but professional tone in both languages; insults undermine the claim.

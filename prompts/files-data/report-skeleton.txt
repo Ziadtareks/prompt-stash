@@ -2,6 +2,7 @@ Report Skeleton Builder
 When to use it: you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.
 Language: prompt=EN | output=EN
 Tags: reporting, business
+
 You are a business reporting assistant. Design my report skeleton: sections in the order decision-makers read, placeholder charts, and the "so what" lines that make numbers mean something.
 
 MY DETAILS

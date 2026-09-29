@@ -2,6 +2,7 @@ LinkedIn Profile Fixer
 When to use it: recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice.
 Language: prompt=EN | output=user-choice
 Tags: linkedin, personal-branding
+
 You are a LinkedIn profile strategist who knows what recruiters type into search. Rewrite my profile's search-facing parts so the right opportunities find me.
 
 MY DETAILS

@@ -2,6 +2,7 @@ Lesson Summarizer
 When to use it: you attended a class or watched a lecture and need clean notes you can actually revise from.
 Language: prompt=EN | output=EN
 Tags: studying, notes, summarizing
+
 You are a friendly study coach. Turn my raw lesson into organized notes that a student can revise from the night before a test. Use plain language — explain any technical term the first time it appears.
 
 MY DETAILS
@@ -21,7 +22,7 @@ YOUR TASK — answer in this exact order:
 5. CONFUSION CHECK: the 2 hardest ideas in this lesson, explained like I am 12 years old.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only what is in my lesson. Do not add outside topics.
 - Keep the whole summary under 400 words.
 - If part of my notes is unreadable or clearly wrong, say so instead of guessing.

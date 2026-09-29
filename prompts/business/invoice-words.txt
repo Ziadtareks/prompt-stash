@@ -21,7 +21,7 @@ YOUR TASK — answer in this exact order:
 5. OVERDUE REMINDER: a separate 3-sentence reminder message I can send if the invoice passes {due_days} days unpaid.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No fake tax numbers, addresses, or IDs — mark anything I must fill with [FILL].
 - Keep the wording polite but unambiguous about the deadline.
 - The layout must be copy-paste ready as plain text.

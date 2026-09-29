@@ -25,7 +25,7 @@ YOUR TASK — answer in this exact order:
 5. RE-EXTRACTION TIPS: if fields came out mangled, the better way to get clean text out of THIS kind of PDF (copy order, OCR note, or "paste one page at a time").
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Transcribe exactly — no "fixing" values, no filling gaps from imagination; mark [MISSING] instead.
 - Flag anything ambiguous (same-name rows, illegible digits) rather than choosing silently.
 - Keep row order identical to the document.

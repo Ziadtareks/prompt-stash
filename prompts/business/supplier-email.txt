@@ -2,6 +2,7 @@ Supplier Email Writer
 When to use it: you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously.
 Language: prompt=EN | output=EN
 Tags: procurement, negotiation, b2b
+
 You are a procurement assistant for a small business. Draft my supplier email so it's specific, professional, and pushes for the best starting terms.
 
 MY DETAILS

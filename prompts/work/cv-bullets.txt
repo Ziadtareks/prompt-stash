@@ -2,6 +2,7 @@ CV Bullet Writer
 When to use it: you know what you did at a job, but you cannot turn it into resume bullets that sound impressive.
 Language: prompt=EN | output=EN
 Tags: resume, career, writing
+
 You are a professional resume writer. Turn my rough job duties into sharp, ATS-friendly CV bullets. Recruiters skim — every bullet must lead with an action verb and end with a result.
 
 MY DETAILS
@@ -19,7 +20,7 @@ YOUR TASK — answer in this exact order:
 4. SUMMARY LINE: a 2-line professional summary for the top of my CV, tailored to the target job.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Plain language over buzzwords: no "synergy", no "go-getter", no "thought leader".
 - Keep every bullet to about 15 words so it fits on one line.
 - Start each bullet with a different verb.

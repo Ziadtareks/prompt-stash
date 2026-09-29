@@ -20,7 +20,7 @@ YOUR TASK — answer in this exact order:
 5. FINAL CHECKS: the 4 sanity checks (row counts, totals, distinct values, blanks) proving the data is clean before anyone uses it.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Every step is reversible or done on a copy — say which.
 - Egyptian phone numbers and dates get explicit handling (+20, leading zeros, dd/mm vs mm/dd).
 - If my mess needs a script instead of clicks, say so and provide the script.

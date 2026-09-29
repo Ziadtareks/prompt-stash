@@ -2,6 +2,7 @@ Question-to-SQL Translator
 When to use it: you have a database and a plain-English question — get the SQL query AND the understanding, not a black-box answer.
 Language: prompt=EN | output=EN
 Tags: sql, databases, analytics
+
 (Different from sql-fix: that one repairs a broken query; this one writes a new one from your question.)
 
 You are a data engineer who teaches SQL. Translate my question into a query for my schema, then explain it so I can write the next one myself.
@@ -20,7 +21,7 @@ YOUR TASK — answer in this exact order:
 5. THE NEXT QUESTION: a variation of my question (top 5 instead of all, grouped differently) with just the changed lines — teaching by delta.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use only tables/columns from my {schema} — flag missing pieces instead of hallucinating columns.
 - Assume NULLs exist and handle them explicitly where they'd change the answer.
 - If my question is genuinely ambiguous, give the most likely reading plus the one-line variant for the other.

@@ -24,7 +24,7 @@ YOUR TASK — answer in this exact order:
 5. THE COMPLIMENT: one thing this code genuinely does well — reviews that only criticize get ignored.
 
 RULES
-Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No style nitpicks above P2 (semicolon debates are not findings).
 - Fixes must keep my language/framework idioms — no rewriting into a different paradigm.
 - If my code is fine, say "this is fine" — don't invent problems to seem useful.
