@@ -28,6 +28,7 @@ LANG_RE = re.compile(r"^Language: prompt=(EN|AR) \| output=(EN|AR|EN\+AR|user-ch
 VAR_RE = re.compile(r"\{([a-z][a-z0-9_]*)\}")
 GOOD_VAR_RE = re.compile(r"^[a-z][a-z0-9_]*$")
 ANY_BRACE_RE = re.compile(r"\{([^{}]*)\}")
+AR_LINE_RE = re.compile(r"If the requested output language is Arabic:")
 
 # Files that must carry a Phase-2 safety disclaimer (line 5) and a "Note:" line in the body.
 SAFETY_REQUIRED = {
@@ -49,6 +50,9 @@ SAFETY_REQUIRED = {
 errors: list[str] = []
 warns: list[str] = []
 count = 0
+
+MAX_FILE_CHARS = 4500  # prompts must stay paste-friendly; documented in CONTRIBUTING.md
+AR_ADJACENT_RE = re.compile(r"[\u0600-\u06FF][A-Za-z]|[A-Za-z][\u0600-\u06FF]")
 
 for f in sorted(PROMPTS.glob("*/*.txt")):
     rel = f.relative_to(ROOT).as_posix()
@@ -133,6 +137,30 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
         err("missing '# Example values:' line")
     elif not lines[-1].startswith("# Example values:"):
         warns.append(f"{rel}: '# Example values:' exists but is not the last line")
+
+    # v4.1 content-quality checks
+    if "OUTPUT FORMAT" not in body:
+        err("body lacks an OUTPUT FORMAT section")
+    if any("see Example values" in l for l in lines[idx + 1:] if l.startswith("- {")):
+        err("Variables block still contains a lazy 'see Example values' explanation")
+
+    m = LANG_RE.match(lines[2])
+    if m and m.group(2) in ("AR", "EN+AR"):
+        if "ARABIC STYLE" not in body:
+            err("Arabic-output prompt lacks an ARABIC STYLE block (variety + anti-machine-translation rules)")
+    elif m and m.group(2) == "user-choice":
+        if not AR_LINE_RE.search(body):
+            err("user-choice prompt lacks the conditional Arabic-style instruction")
+
+    if len(text) > MAX_FILE_CHARS:
+        err(f"file is {len(text)} characters (limit {MAX_FILE_CHARS}) — split or tighten it")
+
+    if "\ufffd" in text:
+        err("contains U+FFFD replacement characters (mojibake)")
+    for i, l in enumerate(lines, 1):
+        if AR_ADJACENT_RE.search(l):
+            err(f"line {i}: Latin letter directly attached to an Arabic word — fix the mixed-script word")
+            break
 
 if not count:
     errors.append("no prompt files found under prompts/*/*.txt")

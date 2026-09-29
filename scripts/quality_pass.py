@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from quality_data_files import F, AR_BLOCKS, STD  # noqa: E402
+from quality_data_files import F, AR_BLOCKS, STD, AR_ADD  # noqa: E402
 from quality_data_vars import VAR_DOCS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -87,9 +87,10 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
             body += ["", "OUTPUT FORMAT", "- " + d["of"]]
 
     # ── stage: arabic ──
-    if stage in ("arabic", "all") and d["ar"]:
+    ar_key = d["ar"] or AR_ADD.get(rel)
+    if stage in ("arabic", "all") and ar_key:
         if not any(AR_BLOCKS.get(d["ar"], [None])[0] == l or (d["ar"] == "choice" and AR_LINE_RE.search(l)) for l in body):
-            key = d["ar"] if d["ar"] != "choice" else "choice"
+            key = ar_key
             block = list(AR_BLOCKS[key])
             # insert before OUTPUT FORMAT if present, else append
             oi = next((i for i, l in enumerate(body) if l.strip() == "OUTPUT FORMAT"), None)

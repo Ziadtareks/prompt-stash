@@ -41,9 +41,12 @@ Tags: comma, separated, lowercase
 
 - [ ] No existing prompt covers this (search the folder READMEs first)
 - [ ] A real-world use case — you've actually needed it, or cite where people ask for it
-- [ ] All `{variables}` declared in `# Variables` and shown in `# Example values`
+- [ ] All `{variables}` declared in `# Variables` with a real explanation (required/optional + format hint + example — the validator rejects lazy "see Example values" lines)
+- [ ] Body ends with an `OUTPUT FORMAT` section: sections in order, length/item counts, and what comes first
 - [ ] Tested on **at least 2 AI assistants** (e.g. ChatGPT + Claude or Gemini) with the example values
 - [ ] Safety notes added if the topic touches legal, money, health, or security
+- [ ] Arabic-capable prompts (output AR / EN+AR / user-choice) carry the ARABIC STYLE variety + anti-machine-translation rules
+- [ ] File size ≤ 4,500 characters (validator limit — keep prompts paste-friendly; split instead of growing)
 - [ ] `python scripts/validate_prompts.py` passes
 - [ ] `python scripts/build_index.py` run (regenerates `prompts.json` + folder READMEs)
 - [ ] `python scripts/check_links.py` passes

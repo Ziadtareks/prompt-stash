@@ -176,3 +176,24 @@ AR_BLOCKS = {
    "- Egyptian dialect for warmth unless the recipient or channel demands fus'ha; no stiff calques from English."],
  "choice": ["If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English."],
 }
+
+# Second-pass coverage: Arabic-capable files whose entries above lack an ar key.
+AR_ADD = {
+ "study/translate-term": "msa",
+ "marketing/landing-copy": "both",
+ "arabic-life/dialect-coach": "eg",
+ "business/store-reply": "choice",
+ "career/cover-letter-writer": "choice",
+ "career/freelance-profile": "choice",
+ "career/linkedin-profile-fix": "choice",
+ "content/comment-reply": "choice",
+ "content/newsletter-intro": "choice",
+ "content/post-hooks": "choice",
+ "content/video-script-short": "choice",
+ "daily/weekly-meal-planner": "choice",
+ "marketing/ad-copy-writer": "choice",
+ "marketing/email-sequence": "choice",
+ "marketing/review-request": "choice",
+ "marketing/whatsapp-broadcast": "choice",
+ "study/flashcards-maker": "choice",
+}
