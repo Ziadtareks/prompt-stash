@@ -117,7 +117,7 @@ Rewrite rule: pre < 11 → rewritten; 11-12 → light polish; all files received
 | security-basics/scam-check | 11 | 13 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
 | study/essay-outline | 11 | 13 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
 | study/exam-revision | 11 | 13 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
-| study/feynman-explain | 11 | 10 | 2 | 2 | 2 | 1 | 0 | 2 | 1 |
+| study/feynman-explain | 11 | 11 | 2 | 2 | 2 | 2 | 0 | 2 | 1 |
 | study/flashcards-maker | 12 | 14 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | study/formula-explainer | 11 | 13 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
 | study/homework-hint | 11 | 13 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
@@ -138,6 +138,6 @@ Rewrite rule: pre < 11 → rewritten; 11-12 → light polish; all files received
 
 ## Summary
 
-- Average score: **11.24 → 13.11** / 14
-- Post-pass: 122 strong (13-14), 7 mid, 1 weak (study/feynman-explain)
-- All 130 received: OUTPUT FORMAT section, right-sized clarifying rule, real variable docs, and (where applicable) Arabic style rules.
+- Average score: **11.24 → 13.12** / 14
+- Post-pass: 122 strong (13-14), 8 mid (11-12), 0 weak (none)
+- All 130 received: OUTPUT FORMAT section, right-sized clarifying/interaction rule, real variable docs, and (where applicable) ARABIC STYLE rules.

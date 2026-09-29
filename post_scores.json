@@ -1236,11 +1236,11 @@
   "role_context": 2,
   "task_clarity": 2,
   "output_structure": 2,
-  "constraints": 1,
+  "constraints": 2,
   "honesty": 0,
   "variables": 2,
   "language": 1,
-  "total": 10
+  "total": 11
  },
  {
   "file": "study/flashcards-maker",
