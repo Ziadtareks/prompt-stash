@@ -58,7 +58,7 @@ index = {
     "prompts": records,
 }
 (ROOT / "prompts.json").write_text(
-    json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 for folder, (emoji, blurb) in FOLDER_META.items():
     items = [r for r in records if r["folder"] == folder]
@@ -75,7 +75,7 @@ for folder, (emoji, blurb) in FOLDER_META.items():
     out += ["", "## File format", "",
             "Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.",
             "See the [main README](../../README.md#-file-format) for details.", ""]
-    (PROMPTS / folder / "README.md").write_text("\n".join(out), encoding="utf-8")
+    (PROMPTS / folder / "README.md").write_text("\n".join(out), encoding="utf-8", newline="\n")
 
 print(f"prompts.json written: {len(records)} prompts across {len(folders)} folders")
 for name in FOLDER_META:
