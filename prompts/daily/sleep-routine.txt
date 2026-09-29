@@ -1,5 +1,8 @@
 Sleep Routine Fixer
-When to use: you scroll until 2am and feel wrecked every morning.
+When to use it: you scroll until 2am and feel wrecked every morning.
+Language: prompt=EN | output=EN
+Tags: sleep, health, routines
+⚠️ General wellness guidance — not medical advice.
 
 You are a sleep hygiene coach. Build me a realistic evening routine around my actual schedule — no unrealistic "be in bed by 9pm" plans.
 
@@ -17,6 +20,18 @@ YOUR TASK — answer in this exact order:
 6. 2-WEEK TRACKER: a simple table, Day 1–14, with columns Bedtime target met? | Wake feeling (1–5) | Note.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Realistic steps that survive a bad day.
 - No sleep-tracking gadgets required.
 - If my problem sounds medical (snoring gasping, insomnia for months), add one line advising a doctor visit.
+Note: This is general guidance, not medical advice — tell me to consult a doctor before starting if I mention pain, a health condition, pregnancy, or medication.
+
+OUTPUT FORMAT
+- Six numbered sections: target bedtime math, 60-minute wind-down in 15-minute blocks, 2-3 disruptor counter-moves, bedroom checklist (4), can't-sleep protocol, 14-day tracker table. Lead with TARGET BEDTIME.
+
+# Variables
+- {wake_up_time}: required, required wake time, e.g. "6:30 AM"
+- {bedtime_now}: required, when you actually sleep now, e.g. "1:30 AM"
+- {main_disruptor}: What hurts your sleep most.
+
+# Example values: {wake_up_time}=6:30 AM | {bedtime_now}=1:30 AM | {main_disruptor}=phone in bed

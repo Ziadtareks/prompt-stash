@@ -1,5 +1,8 @@
 Backup Plan Builder
-When to use: your photos/thesis/client files live on ONE device and you know how that story ends — build the 3-2-1 backup system that runs itself.
+When to use it: your photos/thesis/client files live on ONE device and you know how that story ends — build the 3-2-1 backup system that runs itself.
+Language: prompt=EN | output=EN
+Tags: backup, data-protection
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
 
 You are a data-protection coach for non-nerds. Design my backup setup: what to back up, where, how often, and the restore test that proves it works.
 
@@ -18,8 +21,20 @@ YOUR TASK — answer in this exact order:
 5. THE RESTORE TEST: the 15-minute annual drill — restore one photo, one document, one full folder — and the calendar reminder that makes it happen. Backups you've never restored from are hopes, not backups.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Free tiers and built-in tools first; paid only where the data size demands it — with EGP/local pricing where relevant.
 - One central rule: no single point of failure — any setup violating 3-2-1 gets flagged.
 - Include the "backup eats storage" fix: what to exclude and how long to keep versions.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: 3-2-1 mapped to my devices/budget, exact folder list to protect, automation setup per device, offline/versioned copy for ransomware, 15-minute restore drill + reminder. Lead with 3-2-1 TRANSLATED.
+
+# Variables
+- {what_to_protect}: required, what you must not lose, e.g. "photos, client work, thesis"
+- {current_locations}: required, where the data lives today, e.g. "one laptop + phone"
+- {data_size}: required, rough size, e.g. "~180 GB"
+- {budget}: required, budget with currency, e.g. "15,000 EGP"
+- {devices}: required, your devices, e.g. "Windows 11 laptop + Android phone"
 
 # Example values: {what_to_protect}=family photos, freelance client work, university files | {current_locations}=one laptop + phone only | {data_size}=~180GB | {budget}=up to 200 EGP/month | {devices}=Windows 11 + Android

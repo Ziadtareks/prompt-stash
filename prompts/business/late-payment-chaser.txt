@@ -1,5 +1,8 @@
 Late Payment Chaser
-When to use: your invoice is overdue, the friendly reminder failed, and you need an escalation ladder that gets paid without burning the relationship.
+When to use it: your invoice is overdue, the friendly reminder failed, and you need an escalation ladder that gets paid without burning the relationship.
+Language: prompt=EN | output=EN
+Tags: payments, collections, freelance
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a collections professional with perfect manners. Build my escalation sequence — each message firmer than the last, all of them professional.
 
@@ -18,8 +21,20 @@ YOUR TASK — answer in this exact order:
 5. PREVENTION: the 2 contract/hoops changes (deposit %, payment before final files) so this client never does it twice.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Dates and amounts exactly as I gave them.
 - Firmness escalates; rudeness never.
 - If {client_type} is a big company, include the "find the accounts payable contact" tactic.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+OUTPUT FORMAT
+- Five numbered sections: stage verdict (1 line), next-stage email (≤120 words), final notice (≤150 words), 5-line phone script, prevention (2 changes). Lead with WHERE WE ARE.
+
+# Variables
+- {invoice_details}: required, number, amount, due date, days overdue, e.g. "INV-014, 12,500 EGP, 23 days late"
+- {client_type}: required, relationship to the debtor, e.g. "client for 2 years"
+- {reminders_sent}: required, reminders so far, e.g. "1 friendly email"
+- {excuse}: optional, the debtor's excuse, e.g. "silent" or "processing"
+- {bottom_line}: required, your escalation limit, e.g. "pause their ongoing work"
 
 # Example values: {invoice_details}=INV-014, 12,500 EGP, due June 1, 23 days overdue | {client_type}=client for 2 years | {reminders_sent}=1 friendly email | {excuse}=silent | {bottom_line}=pause their ongoing work

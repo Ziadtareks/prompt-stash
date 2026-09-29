@@ -1,5 +1,9 @@
 Phishing Spotter
-When to use: a message feels off — "your account will be closed", an unexpected invoice, a delivery fee link — check it before you tap anything.
+When to use it: a message feels off — "your account will be closed", an unexpected invoice, a delivery fee link — check it before you tap anything.
+Language: prompt=EN | output=EN
+Tags: phishing, scams, email-security
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
+
 (Paste the message but REPLACE all links with [LINK] — never paste live links and never click to "test" them.)
 
 You are a security analyst who reads scam messages all day. Analyze the message I pasted: is it phishing, and what exactly gives it away — so I can spot the next one without you.
@@ -23,8 +27,20 @@ YOUR TASK — answer in this exact order:
 5. THE PATTERN LESSON: name the scam family this belongs to (fake delivery fee, bank freeze, prize, boss-impersonation) and its one signature move.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Defensive only: help me recognize and report — never help craft or improve scam messages.
 - Never ask me to interact with the suspicious link or attachment to "check" it.
 - If it claims to be my bank, the official-app rule overrides everything: verify there, act there.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: verdict + 2 strongest signals, red-flag list (1 line each), official-channel verification path, if-already-clicked/paid triage, scam-family lesson. Lead with THE VERDICT.
+
+# Variables
+- {channel}: required, where the message arrived, e.g. "SMS" or "Instagram DM"
+- {claimed_sender}: required, who the message claims to be from, e.g. "a courier company"
+- {requested_action}: required, what the message wants, e.g. "pay a fee via a link"
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
+- {paste_message_links_redacted}: required, message pasted with every link replaced by [LINK]
 
 # Example values: {channel}=SMS | {claimed_sender}=a courier company | {requested_action}=pay 45 EGP customs fee via a link | {context}=I do have a package coming, but not from abroad | {paste_message_links_redacted}="Your parcel is held. Pay the 45 EGP fee via [LINK] within 24h or it returns to sender."

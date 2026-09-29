@@ -1,5 +1,8 @@
 Two-Factor Setup Guide
-When to use: you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting.
+When to use it: you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting.
+Language: prompt=EN | output=EN
+Tags: 2fa, accounts, security
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
 
 You are a security coach who values both safety and not locking yourself out. Guide my 2FA setup: which method per account, in what order, with the recovery safety net built in first.
 
@@ -17,8 +20,19 @@ YOUR TASK — answer in this exact order:
 5. MAINTENANCE: the yearly 10-minute checkup — codes still valid, recovery channels current, old devices removed.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Recovery setup BEFORE enabling 2FA — lockouts create users who turn security off.
 - SMS is acceptable as a last resort; say so honestly for accounts that offer nothing else.
 - No account-specific steps invented — where menus differ, say "look for Security → Two-step verification" patterns instead.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: method ladder with trade-offs, safety-net setup BEFORE enabling, per-account plan with steps, my-worry answer, yearly 10-minute checkup. Lead with METHOD LADDER.
+
+# Variables
+- {accounts}: required, the accounts to protect, e.g. "Gmail, bank app, Instagram"
+- {devices}: required, your devices, e.g. "Windows 11 laptop + Android phone"
+- {worry}: required, your main objection/worry, e.g. "losing my phone while traveling"
+- {locations}: required, where you live/travel, e.g. "Egypt, frequent Saudi visits"
 
 # Example values: {accounts}=Gmail, bank app, Instagram, work Google account | {devices}=Android + Windows PC, keep number | {worry}=losing my phone while traveling | {locations}=Egypt, frequent Saudi visits

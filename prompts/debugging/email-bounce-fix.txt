@@ -1,5 +1,7 @@
 Email Bounce Fixer
-When to use: your email bounces back, lands in spam, or never arrives — and you need to know which side has the problem.
+When to use it: your email bounces back, lands in spam, or never arrives — and you need to know which side has the problem.
+Language: prompt=EN | output=EN
+Tags: email, deliverability, troubleshooting
 
 You are an email deliverability specialist. Diagnose my email failure: rejected, spam-foldered, or silently swallowed — each has a different cause and fix.
 
@@ -18,8 +20,19 @@ YOUR TASK — answer in this exact order:
 5. IF IT'S SPAM-FOLDERING: the 7-day rehab plan to restore my sender reputation.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never ask me to send to unknown test addresses or click links in suspicious bounces.
 - Explain every code in plain English before any fix.
 - If the recipient's mailbox is the problem, say so — don't send me chasing my own settings.
+
+OUTPUT FORMAT
+- Five numbered sections in order. ≤400 words; decode the real bounce codes quoted from my message. Lead with READ THE BOUNCE.
+
+# Variables
+- {email_setup}: required, your email setup, e.g. "own domain via hosting"
+- {failure_type}: required, how email fails, e.g. "bounce" or "spam folder"
+- {bounce_error}: optional, the exact bounce text, e.g. "550 mailbox unavailable"
+- {recipient}: Who this message is for and your relationship to them.
+- {content_type}: required, what the message contains, e.g. "PDF attachment + links"
 
 # Example values: {email_setup}=own domain via hosting | {failure_type}=bounce | {bounce_error}=550 mailbox unavailable | {recipient}=client at a company | {content_type}=PDF attachment + links

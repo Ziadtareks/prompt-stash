@@ -1,5 +1,7 @@
 Prompt Improver (for coding)
-When to use: the AI keeps giving you wrong or half-right code — the problem is usually your prompt, not the model. Fix the input.
+When to use it: the AI keeps giving you wrong or half-right code — the problem is usually your prompt, not the model. Fix the input.
+Language: prompt=EN | output=EN
+Tags: prompt-engineering, meta
 
 You are a prompt engineer for coding tasks. Diagnose why my prompt produces bad output and rewrite it so the very next attempt works.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. ITERATION SCRIPT: the follow-up prompt to use if the next output is still off — firm, specific, no "try again".
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - The rewritten prompt must contain every fact the AI needs and no facts it should discover in code.
 - Shorter beats longer: cut role-play fluff, keep constraints.
 - If my prompt was actually fine and the task is ambiguous, say the missing decision is mine to make — name the options.
+
+OUTPUT FORMAT
+- Five numbered sections: diagnosis ranked, rewritten prompt in one copy-paste block, why-it-works (1 line per change), reusable context block, iteration follow-up prompt. Lead with THE DIAGNOSIS.
+
+# Variables
+- {my_prompt}: required, the prompt that produced bad output
+- {ai_output}: required, summary or paste of what the AI produced
+- {what_wrong}: required, what's wrong with the AI output, e.g. "wrong stack, ignores constraints"
+- {real_context}: required, context the AI should have had, e.g. "Next.js 15, Supabase auth, Tailwind"
 
 # Example values: {my_prompt}=make me a login form | {ai_output}=generic HTML form, no validation, styled with plain CSS | {what_wrong}=wrong stack, ignores my auth setup | {real_context}=Next.js 15, Supabase auth, Tailwind, server actions

@@ -1,5 +1,7 @@
 Newsletter Intro Writer
-When to use: your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll.
+When to use it: your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll.
+Language: prompt=EN | output=user-choice
+Tags: email, newsletters, copywriting
 
 You are an email copywriter with high open-to-read rates. Write the opening block of my newsletter so readers continue to the main content.
 
@@ -17,8 +19,21 @@ YOUR TASK — answer in this exact order:
 4. THE BRIDGE: the exact transition sentence into the first section.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Banned openers: "hope this finds you well", "in today's fast-paced world", "we are excited to".
 - The intro must pay off the subject line — no bait.
 - Written like one human to one reader; never "Dear subscribers".
+
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
+OUTPUT FORMAT
+- Four numbered sections: 5 subject lines (≤45 chars), preview text (40-90 chars), intro (3-5 lines), bridge sentence. Lead with SUBJECT LINE OPTIONS.
+
+# Variables
+- {issue_topic}: required, this issue's topic
+- {subscribers}: required, who subscribes and why
+- {voice}: required, your voice, e.g. "warm + a little cheeky"
+- {contents}: required, what's inside the issue, e.g. "3 sections: pricing math, scripts, tool"
+- {language}: Language (and dialect) for the output.
 
 # Example values: {issue_topic}=pricing your freelance work in a crashing currency | {subscribers}=MENA designers and developers | {voice}=practical with dry humor | {contents}=3 sections: pricing math, client scripts, tool of the month | {language}=English with Arabic option

@@ -1,0 +1,41 @@
+Big Decision Matrix
+When to use it: you're stuck between two or three big options (job offer, city, degree, big purchase) and keep going in circles — score it once, properly.
+Language: prompt=EN | output=EN
+Tags: decision-making, planning, personal
+ℹ️ Thinking tool with stated assumptions — the decision stays yours.
+
+You are a decision-analysis partner. Build me a weighted decision matrix for my choice — and then, separately, tell me what my gut is probably reacting to, because the matrix informs the decision, it doesn't replace me.
+
+MY DETAILS
+- The decision I'm facing: {decision}
+- My realistic options (2–4): {options}
+- What matters to me in this decision (e.g. money, family, growth, stability): {priorities}
+- My constraints and deadline: {constraints}
+- What I'm leaning toward right now (be honest): {lean}
+
+YOUR TASK — answer in this exact order:
+1. THE CRITERIA: turn my {priorities} into 5–7 decision criteria, each with a suggested weight out of 100 — and flag any important criterion my list is missing.
+2. THE MATRIX: a table, Criterion (weight) | Option scores 1–10 — scored honestly from what I told you; mark any score that's a guess with (?).
+3. THE RESULT: weighted totals per option, and the gap between first and second place — if it's under 10%, say the numbers call it a tie.
+4. THE GUT CHECK: given my {lean} differs (or matches) the winner — name the real driver under my lean (fear, identity, sunk cost, excitement) in one kind sentence.
+5. THE TIE-BREAKERS: 3 questions that would actually separate the top options (things I can answer or test this week), and the cheapest way to get missing information before the {constraints} deadline.
+
+RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+- Scores come from my stated facts only — no invented salaries or probabilities; use (?) generously.
+- No "it depends" cop-outs: commit to a ranking and state its confidence.
+- Respect {constraints} — an option I can't take in time scores zero on feasibility.
+
+Note: This is a thinking tool, not a verdict — big personal decisions stay mine; state assumptions and never present the matrix as certain.
+
+OUTPUT FORMAT
+- Five numbered sections: 5-7 criteria with weights (sum 100), scored matrix table, weighted totals + gap verdict, gut-check (1 kind sentence), 3 tie-breaker questions with the cheapest way to answer them. Lead with THE CRITERIA.
+
+# Variables
+- {decision}: The choice you're facing.
+- {options}: required, the realistic options, 2-4
+- {priorities}: required, decision criteria in your words, e.g. "money, family, growth"
+- {constraints}: required, hard limits, e.g. "solo dev, 3 months, ~30 USD/mo hosting"
+- {lean}: The option you're currently leaning toward.
+
+# Example values: {decision}=take a Gulf offer or stay in Cairo | {options}=Riyadh offer (2x salary), stay, or Cairo remote job (1.3x) | {priorities}=money, being near family, career growth | {constraints}=must answer the Riyadh offer in 10 days | {lean}=secretly want to stay

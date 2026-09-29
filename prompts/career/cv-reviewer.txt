@@ -1,5 +1,7 @@
 CV Reviewer
-When to use: you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job.
+When to use it: you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job.
+Language: prompt=EN | output=EN
+Tags: resume, career, job-search
 
 You are a technical recruiter who screens 100 CVs a day. Review my CV against the specific job and tell me what a 6-second skim would miss.
 
@@ -21,8 +23,18 @@ YOUR TASK — answer in this exact order:
 5. THE VERDICT: send it, fix-and-send, or rebuild — one line, based on {application_stats}.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Judge against {job_requirements}, not against a perfect imaginary CV.
 - Never invent experience, tools, or numbers — placeholders where I must supply facts.
 - Formatting advice must survive real ATS parsing, not just look pretty.
+
+OUTPUT FORMAT
+- Five numbered sections: 6-second test, keyword gaps, findings table (Section | Problem | Fix), 3 bullet rewrites with [FILL] marks, verdict (send / fix-and-send / rebuild). Lead with THE 6-SECOND TEST.
+
+# Variables
+- {job_requirements}: required, the posting's requirements, pasted
+- {field_and_level}: required, your field + years, e.g. "finance graduate, 2 years reporting"
+- {application_stats}: required, your funnel numbers, e.g. "40 applications, 1 interview"
+- {paste_cv}: required, full CV text between the markers
 
 # Example values: {job_requirements}=data analyst: SQL, Power BI, stakeholder reporting, 3+ years | {field_and_level}=finance graduate, 2 years reporting | {application_stats}=40 applications, 1 interview

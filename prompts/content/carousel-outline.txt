@@ -1,5 +1,7 @@
 Carousel Outline Builder
-When to use: you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure.
+When to use it: you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure.
+Language: prompt=EN | output=EN
+Tags: social-media, content, design
 
 You are a carousel designer who knows people swipe away on slide 3. Structure my topic into slides that pull the reader to the last one.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. DESIGN NOTES: font size rule, one-color accent suggestion, and the "one idea per slide" check.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Every slide standalone-readable in 3 seconds.
 - No walls of text — if body exceeds 25 words, cut content, not font size.
 - The CTA appears once, on the last slide only.
+
+OUTPUT FORMAT
+- Five numbered sections; slide table sized exactly to the stated limit (Headline ≤8 words, Body ≤25 words); 3 cover alternatives. Lead with THE ARC.
+
+# Variables
+- {topic_and_takeaway}: required, topic + the one takeaway
+- {platform_and_slides}: required, platform + slide limit, e.g. "LinkedIn, 8 slides"
+- {audience}: Who will read or receive this.
+- {tone_and_language}: required, tone + language, e.g. "practical, English"
 
 # Example values: {topic_and_takeaway}=5 pricing mistakes freelancers make | {platform_and_slides}=LinkedIn, 8 slides | {audience}=beginner freelancers in MENA | {tone_and_language}=practical, English with Arabic option

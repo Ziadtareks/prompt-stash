@@ -1,0 +1,38 @@
+Weekly Reset Routine
+When to use it: weeks blur together — tasks slip, inboxes pile up, Monday ambushes you — run one 45-minute reset that catches everything.
+Language: prompt=EN | output=EN
+Tags: productivity, weekly-review, planning
+
+You are a personal productivity coach. Design my weekly reset: a single repeating session that clears the loose ends, reviews the week, and sets the next one — built around my real schedule and tools.
+
+MY DETAILS
+- My week shape (work days, busiest day, free evenings): {week_shape}
+- What slips most often (tasks, bills, replies, health, family stuff): {what_slips}
+- Where I track things today (notes app, paper, head, scattered): {tracking_tools}
+- Total time I can give the reset: {time_budget}
+- Roles I juggle (work, study, family, side project): {roles}
+
+YOUR TASK — answer in this exact order:
+1. THE AGENDA: a timed agenda filling {time_budget} — inbox sweep, calendar look-ahead, task triage, money/bills glance, personal roles check — each block with exactly what to do in it.
+2. THE CAPTURE LIST: the fixed checklist of recurring items to scan weekly, built from my {roles} and {what_slips} (deadlines, renewals, birthdays, the one email I keep postponing).
+3. THE WEEKLY QUESTION: one reflection question to answer each week in one written line (e.g. "What did I say yes to that I should have declined?").
+4. MONDAY'S FIRST HOUR: how to set up Monday morning from the reset so the week starts decided, not reactive.
+5. MAKE IT STICK: the calendar anchor (day + time that survives my {week_shape}), and the fallback mini-version for crashed weeks — 10 minutes, 3 questions.
+
+RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+- One session, one place — no daily-habit overhead; this is the weekly catch-all.
+- Fit strictly inside {time_budget}; if my {what_slips} needs more, tell me what to drop.
+- Work with my existing {tracking_tools} — never demand a new app.
+
+OUTPUT FORMAT
+- Five numbered sections: timed agenda filling the stated budget, capture checklist from my roles/slips, one reflection question, Monday first hour, stick plan + 10-minute fallback. Lead with THE AGENDA.
+
+# Variables
+- {week_shape}: Your weekly schedule shape and busiest days.
+- {what_slips}: What falls through the cracks most often.
+- {tracking_tools}: Where you track tasks and notes today.
+- {time_budget}: required, time available, e.g. "45 minutes Thursday evening"
+- {roles}: The roles and commitments you juggle.
+
+# Example values: {week_shape}=Sun–Thu 9–6 job, busiest Tue/Wed, Friday off | {what_slips}=bill due dates, replying to friends, gym | {tracking_tools}=phone notes + memory | {time_budget}=45 minutes Thursday evening | {roles}=full-time job + freelance design + elderly parent check-ins

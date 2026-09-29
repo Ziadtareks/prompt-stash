@@ -1,5 +1,7 @@
 Career Switch Planner
-When to use: you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead.
+When to use it: you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead.
+Language: prompt=EN | output=EN
+Tags: career-change, planning
 
 You are a career-change strategist. Map my switch from where I am to where I want to be: what transfers, what's missing, and the cheapest proof-of-skill to build.
 
@@ -18,8 +20,19 @@ YOUR TASK — answer in this exact order:
 5. FINANCIAL GUARDRAIL: how to test the water without quitting (freelance first project, internal transfer, contract work) sized to {runway_months} — and the go/no-go signal.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No "quit and study full-time" plans unless {runway_months} explicitly allows it.
 - Local market reality: what the {target_field} junior market actually hires for in Egypt/Gulf where relevant.
 - Plan ends in applications within the timeline — courses without output are a trap and the plan must say so.
+
+OUTPUT FORMAT
+- Five numbered sections: honest gap (3-5 skills ranked by difficulty), transfer map restated in target language, month-by-month table ending in applications, 2 portfolio artifacts, financial guardrail + go/no-go signal. Lead with THE HONEST GAP.
+
+# Variables
+- {current_field}: required, your current field + years, e.g. "accountant, 4 years"
+- {target_field}: required, the field/role you're moving to, e.g. "data analyst"
+- {hours_per_week}: required, realistic hours per week, e.g. "8"
+- {runway_months}: required, months of instability you can afford, e.g. "0 (need salary)"
+- {transferables}: optional, skills that might transfer, e.g. "Excel advanced, monthly reporting"
 
 # Example values: {current_field}=accountant, 4 years | {target_field}=data analyst | {hours_per_week}=10 | {runway_months}=0 (need salary) | {transferables}=Excel advanced, monthly reporting, attention to detail

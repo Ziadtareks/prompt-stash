@@ -1,5 +1,7 @@
 Practice Quiz Generator
-When to use: you've studied the material and want to test yourself before the teacher tests you.
+When to use it: you've studied the material and want to test yourself before the teacher tests you.
+Language: prompt=EN | output=EN
+Tags: studying, quizzes, self-testing
 
 You are an exam-setter who knows how real tests are written. Turn my material into a practice quiz that mirrors the real exam style, with a full answer key.
 
@@ -21,8 +23,19 @@ YOUR TASK — answer in this exact order:
 4. THE TRAPS: which 3 questions students most often get wrong, and why.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Only test what is in my material — no outside topics.
 - Explanations are one line, not paragraphs.
 - Keep the quiz and the answer key clearly separated so I can't peek.
+
+OUTPUT FORMAT
+- Four numbered sections: quiz (exactly the requested count, easy→hard), MCQ options where applicable, separate ANSWER KEY with 1-line explanations, 3 flagged traps. Lead with THE QUIZ.
+
+# Variables
+- {subject_and_level}: required, subject + level, e.g. "grade 10 algebra"
+- {exam_style}: required, question format, e.g. "MCQ" or "mixed"
+- {question_count}: required, number of questions, e.g. "12"
+- {focus_topics}: required, topics to prioritize, e.g. "periodic trends, ionic bonding"
+- {paste_material}: Your study material, pasted between the markers.
 
 # Example values: {subject_and_level}=high school chemistry | {exam_style}=mixed | {question_count}=12 | {focus_topics}=periodic table trends, ionic bonding | {paste_material}=photos of chapter 4 notes

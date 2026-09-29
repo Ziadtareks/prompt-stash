@@ -1,5 +1,7 @@
 Report Skeleton Builder
-When to use: you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.
+When to use it: you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.
+Language: prompt=EN | output=EN
+Tags: reporting, business
 
 You are a business reporting assistant. Design my report skeleton: sections in the order decision-makers read, placeholder charts, and the "so what" lines that make numbers mean something.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. THE TEMPLATE: the whole skeleton assembled in {format} layout, ready to save and refill each period.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - The verdict/summary goes first — readers who stop at line 3 still get the point.
 - Same metrics every period; trends need consistency, not novelty.
 - Every number slot pairs with a "why" slot — unexplained numbers invite wrong conclusions.
+
+OUTPUT FORMAT
+- Five numbered sections: reading-order structure, metrics table (5-7 rows: Metric | This period | Last | Change | Target), narrative sentence patterns, red-flag section format, the assembled template. Lead with THE STRUCTURE.
+
+# Variables
+- {report_type}: required, report type + frequency, e.g. "monthly tutoring-center report"
+- {readers}: required, who reads the report and what they decide
+- {available_data}: required, data you have each period, e.g. "enrollments, revenue, attendance"
+- {format}: required, output format, e.g. "one-page email" or "slide"
 
 # Example values: {report_type}=monthly tutoring-center report | {readers}=owner (me) + the two investors | {available_data}=enrollments, revenue EGP, attendance %, cancellations, ad spend | {format}=one-page email

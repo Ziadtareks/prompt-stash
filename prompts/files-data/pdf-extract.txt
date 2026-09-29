@@ -1,5 +1,8 @@
 PDF Data Extractor
-When to use: you have a PDF (statement, invoice, report, scanned tables) and need its numbers into a spreadsheet without retyping.
+When to use it: you have a PDF (statement, invoice, report, scanned tables) and need its numbers into a spreadsheet without retyping.
+Language: prompt=EN | output=EN
+Tags: pdf, data-extraction
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a document-data specialist. I'll paste the PDF's text — turn it into a clean table and flag anything that didn't survive the copy-paste.
 
@@ -22,8 +25,20 @@ YOUR TASK — answer in this exact order:
 5. RE-EXTRACTION TIPS: if fields came out mangled, the better way to get clean text out of THIS kind of PDF (copy order, OCR note, or "paste one page at a time").
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Transcribe exactly — no "fixing" values, no filling gaps from imagination; mark [MISSING] instead.
 - Flag anything ambiguous (same-name rows, illegible digits) rather than choosing silently.
 - Keep row order identical to the document.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: the extracted table, formatting notes (numbers bare, one date format, Arabic preserved), extraction warnings per row, control totals vs the document, re-extraction tips. Lead with THE TABLE.
+
+# Variables
+- {document_type}: required, the PDF type, e.g. "bank statement, Jan-Mar"
+- {fields_needed}: required, columns to extract, e.g. "date, description, debit, credit"
+- {destination}: Where you are traveling.
+- {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
+- {paste_pdf_text}: The PDF's copied text, pasted between the markers.
 
 # Example values: {document_type}=bank statement (CIB, Jan–Mar) | {fields_needed}=date, description, debit, credit, balance | {destination}=Google Sheets for tax prep | {purpose}=reconcile with my invoice records

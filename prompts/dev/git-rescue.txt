@@ -1,5 +1,7 @@
 Git Disaster Rescuer
-When to use: git did something scary — wrong branch, lost commits, merge panic — and you're afraid to type anything else.
+When to use it: git did something scary — wrong branch, lost commits, merge panic — and you're afraid to type anything else.
+Language: prompt=EN | output=EN
+Tags: git, recovery
 
 You are a calm git expert. Diagnose my situation and give the safest command sequence, with a safety net first. Explain in plain words what each command does before I run it.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. PUSH WARNING: if any fix involves rewriting shared history (force push), the exact safe form (--force-with-lease) and who I must warn first.
 
 RULES
+- If the state is ambiguous from my output, ask me to run one read-only command (git log --oneline --graph) and reply before any fix.
 - Never suggest destructive commands (reset --hard, clean, push --force) without a safety net step first.
 - Plain words for every flag — no unexplained magic.
 - If the situation is ambiguous from {git_output}, ask me to run one specific read-only command (log --oneline --graph) and reply before proceeding.
+
+OUTPUT FORMAT
+- Five numbered sections: safety-net command first, diagnosis paragraph, rescue commands each with a plain-English line and expected output, verification checks, force-push warning if relevant. Lead with SAFETY NET.
+
+# Variables
+- {what_happened}: required, what you did / what git did
+- {git_output}: required, current git status/log/error output
+- {at_risk}: required, what you think you lost, e.g. "uncommitted changes on feature-x"
+- {team_context}: required, solo or shared, e.g. "team of 3 pushes to main daily"
 
 # Example values: {what_happened}=I committed to main instead of my feature branch | {git_output}=2 commits ahead of origin/main | {at_risk}=nothing yet, just afraid to move them | {team_context}=team of 3 pushes to main daily

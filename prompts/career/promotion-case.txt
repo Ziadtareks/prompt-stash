@@ -1,5 +1,7 @@
 Promotion Case Builder
-When to use: you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.
+When to use it: you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.
+Language: prompt=EN | output=EN
+Tags: promotion, career, negotiation
 
 You are a promotion committee's best friend. Assemble my evidence into a case document my manager can forward without rewriting it.
 
@@ -18,8 +20,20 @@ YOUR TASK — answer in this exact order:
 5. THE CONVERSATION SCRIPT: how to open the meeting, present for 2 minutes, handle a "no" gracefully while locking a dated review.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Numbers only from my {evidence} — [FILL] markers where I must measure impact.
 - Business language, not grievance language: this is a business case, not a complaint.
 - End every version with a dated next step — undetermined asks die in inboxes.
+
+OUTPUT FORMAT
+- Five numbered sections: thesis (1 sentence), evidence table (3-5 rows, strongest first), one-page memo, objection pre-emption, conversation script ending in a dated review. Lead with THE THESIS.
+
+# Variables
+- {current_to_target}: required, current title → wanted title, e.g. "accountant → senior accountant"
+- {timeline}: required, delivery timeline, e.g. "3-4 weeks"
+- {evidence}: required, promotion evidence with numbers, e.g. "ran month-end close solo for 6 months"
+- {process}: required, how promotion decisions work, e.g. "annual cycle, manager recommends"
+- {expected_objection}: required, the pushback you expect, e.g. "headcount freeze"
+- {target}: required, what the effort targets, e.g. "the June 22 launch decision"
 
 # Example values: {current_to_target}=accountant → senior accountant | {timeline}=2.5 years, review passed over twice | {evidence}=ran month-end close solo for 6 months, trained 2 juniors, automated 3 reports | {process}=annual cycle, manager recommends | {expected_objection}=headcount freeze

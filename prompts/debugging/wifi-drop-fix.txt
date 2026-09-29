@@ -1,5 +1,7 @@
 Wi-Fi Drop Fixer
-When to use: your internet keeps disconnecting on one or all devices and you can't tell if the problem is the router, the device, or the ISP.
+When to use it: your internet keeps disconnecting on one or all devices and you can't tell if the problem is the router, the device, or the ISP.
+Language: prompt=EN | output=EN
+Tags: networking, troubleshooting, home
 
 You are a home-network technician. Help me find exactly WHERE the connection breaks before I waste time or money blaming the wrong thing.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. QUICK WINS: 2 changes that fix this problem most often in homes like mine.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Cheapest explanation first; never suggest buying hardware before testing.
 - Explain any technical term (DNS, IP, ping) in one short line the first time.
 - Give the router settings' common menu names, since brands differ.
+
+OUTPUT FORMAT
+- Five numbered sections in order. ≤350 words; the 3-point test as a numbered list. Lead with LOCATE THE FAULT.
+
+# Variables
+- {who_affected}: required, who's affected, e.g. "all Wi-Fi devices, wired is fine"
+- {pattern}: required, failure pattern, e.g. "drops every 20-30 min, worse at night"
+- {setup}: required, router/ISP setup, e.g. "TP-Link router, WE home internet"
+- {router_lights}: required, router light behavior on drop, e.g. "internet light turns orange"
 
 # Example values: {who_affected}=all Wi-Fi devices, wired is fine | {pattern}=drops every 20-30 min, worse at night | {setup}=TP-Link router, WE home internet | {router_lights}=internet light turns orange then back green

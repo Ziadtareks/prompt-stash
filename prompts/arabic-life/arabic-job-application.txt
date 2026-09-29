@@ -1,5 +1,7 @@
 Arabic Job Application Email
-When to use: you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened.
+When to use it: you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened.
+Language: prompt=EN | output=EN+AR
+Tags: arabic, job-search, applications
 
 You are a recruitment assistant for the Arab job market. Write my application email in professional Arabic (with English version option) — short, specific, and easy for HR to act on.
 
@@ -18,8 +20,24 @@ YOUR TASK — answer in this exact order:
 5. ATTACHMENT CHECKLIST: CV file naming (Name_Position_CV), PDF format, and the two things that get applications deleted (photo stamps, missing subject).
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No biography in the email — the CV carries the history; the email earns the open.
 - Facts from {matching_proof} only; [أضف رقم] where a number is needed.
 - Arabic version in clean professional register; company names exactly as given.
+
+ARABIC STYLE (for the Arabic half of the output)
+- Rewrite the meaning natively — never translate the English word by word.
+- Use Modern Standard Arabic for the formal deliverable and Egyptian dialect where the brief is casual; state which register each part uses.
+- Native rhythm and vocabulary: no stiff calques, no over-formal padding.
+
+OUTPUT FORMAT
+- Five numbered sections: subject line, Arabic email (4-6 lines), English version, salary-question phrasing, attachment checklist. Lead with SUBJECT LINE.
+
+# Variables
+- {position_and_source}: required, position + where you found it, e.g. "accountant, referral"
+- {matching_proof}: required, your best requirement matches with proof
+- {availability}: required, when you can start, e.g. "immediately" or "one month notice"
+- {cv_file}: required, CV file name, e.g. "Ahmed-Hassan-Accountant-CV.pdf"
+- {language}: Language (and dialect) for the output.
 
 # Example values: {position_and_source}=accountant, referral from a former colleague | {matching_proof}=3 years ERP bookkeeping, closed monthly books solo, Power BI reports | {availability}=one month notice | {cv_file}=Ahmed-Hassan-Accountant-CV.pdf | {language}=Arabic

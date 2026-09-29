@@ -1,5 +1,8 @@
 Log Analyzer
-When to use: your app is failing and you have a wall of log lines — find the actual error, not the scariest-looking one.
+When to use it: your app is failing and you have a wall of log lines — find the actual error, not the scariest-looking one.
+Language: prompt=EN | output=EN
+Tags: logging, debugging, incident-response
+🔒 Privacy reminder — redact secrets and tokens before pasting.
 
 You are an on-call engineer who reads logs for breakfast. Cut through my log noise to the root error and the trail that led to it.
 
@@ -21,8 +24,19 @@ YOUR TASK — answer in this exact order:
 5. NEXT STEP: the most likely fix OR the one additional log/metric I should capture if my excerpt is missing the cause.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Quote real lines from my log with timestamps — never invent entries.
 - If multiple distinct errors exist, identify the earliest and say the others look like consequences.
 - If my excerpt is too small to diagnose, say exactly what to capture next (which lines, around which timestamp) instead of guessing.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: root-error line quoted with timestamp, the 2-4 preceding lines, plain-words failure, noise filter, next step. Lead with THE ROOT ERROR.
+
+# Variables
+- {symptom}: What is visibly broken.
+- {when_started}: required, when it started + what changed, e.g. "after yesterday's deploy"
+- {time_window}: required, roughly when in the log, e.g. "around 14:03"
+- {paste_log}: Your log output, pasted between the markers.
 
 # Example values: {symptom}=checkout returns 500 for some users | {when_started}=after yesterday's deploy | {time_window}=around 14:03 | {paste_log}=80 lines including stack trace

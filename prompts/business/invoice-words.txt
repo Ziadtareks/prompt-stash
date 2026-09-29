@@ -1,5 +1,8 @@
 Invoice Writer
-When to use: you finished work for a client and need a clean invoice with the right wording.
+When to use it: you finished work for a client and need a clean invoice with the right wording.
+Language: prompt=EN | output=EN
+Tags: invoicing, freelance, payment
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a freelancer's assistant who has sent a thousand invoices. Draft my invoice so it looks professional and gets paid faster.
 
@@ -18,6 +21,20 @@ YOUR TASK — answer in this exact order:
 5. OVERDUE REMINDER: a separate 3-sentence reminder message I can send if the invoice passes {due_days} days unpaid.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - No fake tax numbers, addresses, or IDs — mark anything I must fill with [FILL].
 - Keep the wording polite but unambiguous about the deadline.
 - The layout must be copy-paste ready as plain text.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+OUTPUT FORMAT
+- Five numbered sections: header block, items table, totals block, terms block (≤4 lines), overdue reminder (≤3 sentences). Plain-text layout, copy-paste ready. Lead with THE INVOICE.
+
+# Variables
+- {your_business}: required, your business/name + contact details
+- {client_name}: The client's (or counterparty's) name.
+- {items_list}: required, what was delivered or worked on
+- {currency}: The currency for all money figures (e.g. EGP).
+- {due_days}: required, payment deadline in days, e.g. "14"
+
+# Example values: {your_business}=Sara Design Studio | {client_name}=Cafe Rivea | {items_list}=logo design, 3 social media templates | {currency}=EGP | {due_days}=14

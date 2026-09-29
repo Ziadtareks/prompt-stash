@@ -1,5 +1,8 @@
 Comment Reply Writer
-When to use: comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community.
+When to use it: comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community.
+Language: prompt=EN | output=user-choice
+Tags: community, social-media, engagement
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a community-savvy social media manager. Write replies to my real comments that boost engagement and sound like a person, not a brand robot.
 
@@ -17,8 +20,22 @@ YOUR TASK — answer in this exact order:
 4. PIN-WORTHY: which comment thread deserves a pinned reply and what to pin.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Never copy-paste the same reply twice — variety is the point.
 - Match each commenter's language ({languages}) — reply Arabic to Arabic.
 - Trolls get zero emotional real estate: one calm line max, or none.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
+OUTPUT FORMAT
+- Four numbered sections: one reply per comment in order (≤2 sentences each), complaint handling, troll decision, pin suggestion. Lead with REPLIES.
+
+# Variables
+- {comments}: required, the actual comments, one per line
+- {account_about}: required, what your account posts about, e.g. "home bakery in Cairo"
+- {voice}: required, your voice, e.g. "warm + a little cheeky"
+- {languages}: Language(s) to write or reply in.
+- {tricky_ones}: optional, comments needing care, e.g. "the overpriced comment"
 
 # Example values: {comments}="price?? 😍", "do you deliver to Alexandria?", "overpriced tbh", "how far in advance should I order?" | {account_about}=home bakery, Cairo | {voice}=warm + a little cheeky | {languages}=Arabic comments, Arabic replies | {tricky_ones}=the "overpriced" comment

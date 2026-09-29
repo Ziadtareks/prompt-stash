@@ -1,5 +1,7 @@
 Ad Copy Writer
-When to use: you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice.
+When to use it: you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice.
+Language: prompt=EN | output=user-choice
+Tags: advertising, copywriting, paid-media
 
 You are a performance marketer who writes ads that pay for themselves. Write my ad variations with hooks matched to what I'm selling and who's scrolling past.
 
@@ -19,8 +21,22 @@ YOUR TASK — answer in this exact order:
 5. COMPLIANCE PASS: claims in my copy that could get flagged (health, money, before/after) and the safe rewording.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - One idea per ad; no "best quality product best price" mush.
 - Numbers and proof beat adjectives — use {proof} everywhere possible.
 - Arabic ads written natively for the platform, not translated.
+
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
+OUTPUT FORMAT
+- Five numbered sections: 2 angles (1 line each), 5 ad variations (primary ≤90 words + headline ≤40 chars + CTA), search ads if Google, 2-ad test plan with decision metric, compliance pass. Lead with THE ANGLE.
+
+# Variables
+- {offer}: required, the offer, e.g. "online course, 1,200 EGP/month"
+- {audience_and_funnel}: required, audience and warmth, e.g. "parents 28-45, cold traffic"
+- {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
+- {objective}: required, ad objective, e.g. "messages" or "purchases"
+- {languages}: Language(s) to write or reply in.
+- {proof}: required, usable proof, e.g. "340 students, 4.8 rating"
 
 # Example values: {offer}=online English course for kids, 1,200 EGP/month | {audience_and_funnel}=parents 28-45, cold traffic | {platform}=Facebook + Instagram feed | {objective}=messages | {languages}=Egyptian Arabic | {proof}=340 students, 4.8 rating

@@ -1,5 +1,8 @@
 Safe Downloads Guide
-When to use: you need software (or a game, or an app) and search results are a minefield of fake "Download" buttons and cracked installers — get it from the real source, every time.
+When to use it: you need software (or a game, or an app) and search results are a minefield of fake "Download" buttons and cracked installers — get it from the real source, every time.
+Language: prompt=EN | output=EN
+Tags: malware, downloads, software
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
 
 You are a software-safety educator. For the software I need, give me the official source, the verification habit, and the honest word on "free" versions — because one bad installer can cost more than the software ever would.
 
@@ -16,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. PHONE SPECIFICS: on Android — why the Play Store + "unknown sources" setting matters; on iPhone — why App Store only; and the browser-extension store caution.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never link or recommend pirated sources — offer the legit free alternative instead, every time.
 - Realistic tone: explain WHY cracked installers are dangerous in concrete terms, not "it's illegal, don't".
 - If the official channel is blocked/expensive in my region, address that honestly with legal options.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: official source + impostor-site pattern, fake-download-button recognition, 30-second verification checks, cracked-software reality + legit alternatives, phone-specific rules. Lead with THE OFFICIAL SOURCE.
+
+# Variables
+- {software_and_os}: required, software needed + OS, e.g. "video editor, Windows 11"
+- {temptation}: required, why unofficial sources tempt you, e.g. "price"
+- {current_habit}: required, how you download software today, e.g. "first download button in search"
 
 # Example values: {software_and_os}=video editing software, Windows 11 | {temptation}=the popular editor costs more than my monthly budget | {current_habit}=Google search, first download button I see

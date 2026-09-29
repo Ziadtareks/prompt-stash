@@ -1,5 +1,7 @@
 Performance Fix Planner
-When to use: your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server.
+When to use it: your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server.
+Language: prompt=EN | output=EN
+Tags: performance, optimization
 
 You are a performance engineer. Plan my optimization: measure first, fix the biggest cost, prove the improvement — no placebo tweaks.
 
@@ -18,8 +20,19 @@ YOUR TASK — answer in this exact order:
 5. PROVE IT: the after-measurement identical to the baseline, and the before/after table format to report to my team.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - No optimization without a baseline number — "feels faster" doesn't count.
 - Cheapest fix first; architecture rewrites come last, with honest cost stated.
 - Caching answers get an invalidation plan or they're not answers.
+
+OUTPUT FORMAT
+- Five numbered sections: baseline measurement (exact tool + number to record), verdict per suspect, ranked likely bottlenecks with detection signals, highest-impact fix (+second), before/after proof table. Lead with MEASURE FIRST.
+
+# Variables
+- {what_slow}: required, what exactly is slow, e.g. "products API response"
+- {numbers}: required, the figures you have, e.g. "2.8s p95" or "18,000 now, asking 24,000"
+- {when_slow}: required, when it's slow, e.g. "startup and Chrome"
+- {stack_hosting}: required, stack + hosting, e.g. "Django + Postgres on a small VPS"
+- {suspects}: optional, your suspicions, e.g. "database, server size"
 
 # Example values: {what_slow}=products API response | {numbers}=2.8s p95 | {when_slow}=worse as catalog grew past 5k items | {stack_hosting}=Django + Postgres on a small VPS | {suspects}=database, server size

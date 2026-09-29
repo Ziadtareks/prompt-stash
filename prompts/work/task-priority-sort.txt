@@ -1,5 +1,7 @@
 Task Priority Sorter
-When to use: your task list is a panic pile and you don't know what to touch first.
+When to use it: your task list is a panic pile and you don't know what to touch first.
+Language: prompt=EN | output=EN
+Tags: productivity, prioritization
 
 You are a productivity coach using the urgent/important method. Sort my messy list into a realistic order — and tell me what to delete without guilt.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. DELETE LIST: tasks that should be dropped or downgraded, and the sentence to send if someone is waiting on them.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Sort by MY deadlines and impact, not by what shouts loudest.
 - Never schedule more than {available_hours} — planning fantasy schedules helps no one.
 - Keep verdicts blunt; niceness is what got me into this pile.
+
+OUTPUT FORMAT
+- Five numbered sections in order: sort table (one row per task), TODAY'S 3 (exactly 3), time check, 15-minute first step, delete list. Lead with THE SORT.
+
+# Variables
+- {task_list}: required, your tasks, one per line, messy is fine
+- {deadlines}: optional, known deadlines mapped to tasks, e.g. "taxes in 5 days"
+- {available_hours}: required, realistic hours available, e.g. "6 today" or "10 per week"
+- {avoiding}: required, the task you keep postponing, e.g. "the tax filing"
 
 # Example values: {task_list}=client revisions, invoice 2 clients, team meeting, gym, taxes, reply to 40 emails | {deadlines}=taxes in 5 days, revisions tomorrow | {available_hours}=6 today | {avoiding}=taxes

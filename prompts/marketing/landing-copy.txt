@@ -1,5 +1,7 @@
 Landing Page Copy Writer
-When to use: you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section.
+When to use it: you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section.
+Language: prompt=EN | output=EN+AR
+Tags: landing-pages, conversion, copywriting
 
 You are a conversion copywriter. Write my landing page copy in the classic order: promise → proof → path. Every section earns the scroll to the next.
 
@@ -18,8 +20,24 @@ YOUR TASK — answer in this exact order:
 5. CONVERSION NOTES: the 3 things killing pages like mine (slow load, no proof above the fold, vague CTA) checked against my copy.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Cold traffic gets the problem spelled out; warm traffic can skip straight to the offer — match my {traffic}.
 - Claims stay within my {proof}; no invented statistics.
 - Arabic versions written natively with RTL layout logic in mind.
+
+ARABIC STYLE (for the Arabic half of the output)
+- Rewrite the meaning natively — never translate the English word by word.
+- Use Modern Standard Arabic for the formal deliverable and Egyptian dialect where the brief is casual; state which register each part uses.
+- Native rhythm and vocabulary: no stiff calques, no over-formal padding.
+
+OUTPUT FORMAT
+- Five numbered sections: promise stack (3 headlines + subheadline), section map with 1-2 lines of copy each, FAQ (5 objections, 2 lines each), CTA options + microcopy, conversion notes. Lead with THE PROMISE STACK.
+
+# Variables
+- {offer_and_price}: required, what you sell + price
+- {audience_and_problem}: required, who it's for and the problem it kills
+- {proof}: required, usable proof, e.g. "340 students, 4.8 rating"
+- {traffic}: required, traffic source + temperature, e.g. "warm Instagram followers"
+- {language}: Language (and dialect) for the output.
 
 # Example values: {offer_and_price}=online Quran memorization program for kids, 400 EGP/month | {audience_and_problem}=busy Muslim parents abroad, kids losing connection to Quran | {proof}=300 families, 4.9 rating, qualified Egyptian teachers | {traffic}=warm Instagram followers | {language}=English + Arabic versions

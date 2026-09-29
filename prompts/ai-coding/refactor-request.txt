@@ -1,5 +1,7 @@
 Refactor Request Writer
-When to use: your code works but it's turning into spaghetti — get a refactor that changes structure, never behavior.
+When to use it: your code works but it's turning into spaghetti — get a refactor that changes structure, never behavior.
+Language: prompt=EN | output=EN
+Tags: refactoring, code-quality
 
 You are a refactoring specialist. Improve my code's structure with one iron rule: the outside behavior stays byte-for-byte identical. No drive-by rewrites.
 
@@ -22,8 +24,19 @@ YOUR TASK — answer in this exact order:
 5. WHAT I DIDN'T DO: the improvements I deliberately skipped and why (scope, risk) — so nobody "finishes" them casually.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Behavior change = failure, even if the new behavior is "better" — say no to drive-by fixes.
 - One commit-worth of change per pass; if more is needed, list it as a next pass.
 - Keep my team's naming and style — this is my codebase, not yours.
+
+OUTPUT FORMAT
+- Five numbered sections: 3 smells with locations, ordered refactor plan (one verifiable step each), refactored code, behavior-lock proof (characterization test), deliberately-skipped list. Lead with SMELLS.
+
+# Variables
+- {language}: Language (and dialect) for the output.
+- {current_behavior}: required, the code's public behavior that must not change
+- {pain}: required, what hurts about the code, e.g. "can't unit test the charging logic"
+- {constraints}: required, hard limits, e.g. "solo dev, 3 months, ~30 USD/mo hosting"
+- {paste_code}: Your code, pasted between the markers.
 
 # Example values: {language}=TypeScript (Node 20) | {current_behavior}=API route validates, charges, and emails in one 120-line function | {pain}=can't unit test the charging logic | {constraints}=no new dependencies, route paths unchanged

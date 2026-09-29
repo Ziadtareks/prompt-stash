@@ -1,5 +1,8 @@
 Lost Device Playbook
-When to use: your phone or laptop was just lost or stolen — the first 60 minutes matter and panic makes you forget the order of operations.
+When to use it: your phone or laptop was just lost or stolen — the first 60 minutes matter and panic makes you forget the order of operations.
+Language: prompt=EN | output=EN
+Tags: lost-device, phones, recovery
+🔒 Safety guidance — never share real passwords, codes, or card numbers.
 
 You are a device-security responder. Give me the minute-by-minute checklist for my situation: lock it, cut the money paths, then recover what's recoverable.
 
@@ -18,8 +21,20 @@ YOUR TASK — answer in this exact order:
 5. RECOVERY & AFTER: restore path from my backup to a replacement device, then the prevention setup (screen lock, remote-wipe ON, backups verified) so a next time costs nothing.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never meet a "founder" at a private place; police station or busy public spot with a friend.
 - SIM suspension before social media drama — the SIM receives the reset codes.
 - If the device held work data, informing IT is mandatory, not optional — say so.
+Note: Never ask for or accept real passwords, recovery codes, card numbers, or OTP codes — if I paste one, tell me to rotate it immediately and continue using placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: minutes 0-10 lock/locate, 10-30 cut the money (SIM, banks, reset email), 30-60 remote sign-out + work IT, evidence for police/insurance, recovery + prevention. Lead with MINUTE 0-10.
+
+# Variables
+- {incident}: required, what happened + how long ago, e.g. "phone snatched 40 minutes ago"
+- {device_and_lock}: required, device + lock state, e.g. "Android, was unlocked in my hand"
+- {access_risk}: required, what the lost device can reach, e.g. "bank app, Gmail, work Slack"
+- {preparedness}: required, current protections, e.g. "Find My on, last backup 3 days ago"
+- {location_carrier}: required, country + carrier, e.g. "Egypt, Vodafone"
 
 # Example values: {incident}=phone snatched on the metro 40 minutes ago | {device_and_lock}=Android, was unlocked in my hand | {access_risk}=bank app, wallet, Gmail, work Slack | {preparedness}=Find My Device on, last backup 3 days ago | {location_carrier}=Egypt, Vodafone

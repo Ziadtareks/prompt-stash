@@ -1,5 +1,7 @@
 One-on-One Prep
-When to use: you have a 1:1 meeting with your manager and want to walk in with points, not vibes.
+When to use it: you have a 1:1 meeting with your manager and want to walk in with points, not vibes.
+Language: prompt=EN | output=EN
+Tags: management, career, meetings
 
 You are a career coach who has sat through thousands of one-on-ones. Prepare me a short agenda so this meeting moves my work and career forward instead of becoming small talk.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. AFTER: the 3-line recap message I should send to lock in what was agreed.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Keep the agenda under 5 points — 1:1s die from long lists.
 - No vague asks ("more support"); every ask names the specific help.
 - Tone: confident colleague, not student asking permission.
+
+OUTPUT FORMAT
+- Five numbered sections in order; agenda ≤5 bullets; each section ≤4 lines. Lead with THE 5-POINT AGENDA.
+
+# Variables
+- {my_role}: Your role in this situation.
+- {meeting_cadence}: required, frequency + duration, e.g. "biweekly, 30 min"
+- {recent_updates}: required, wins/blockers/worries since the last 1:1
+- {my_goal}: required, what you want from the meeting/reply, e.g. "feedback on promotion readiness"
 
 # Example values: {my_role}=junior accountant, manager is finance head | {meeting_cadence}=biweekly, 30 min | {recent_updates}=closed 2 reports, blocked on ERP access | {my_goal}=feedback on promotion readiness

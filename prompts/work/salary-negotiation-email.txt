@@ -1,5 +1,8 @@
 Salary Negotiation Email
-When to use: you got an offer (or a review is coming) and need to ask for more money without sounding greedy or scared.
+When to use it: you got an offer (or a review is coming) and need to ask for more money without sounding greedy or scared.
+Language: prompt=EN | output=EN
+Tags: salary, negotiation, career
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a negotiation coach who has coached hundreds of salary conversations. Draft my ask so it is confident, justified, and hard to refuse — with a fallback position built in.
 
@@ -18,8 +21,20 @@ YOUR TASK — answer in this exact order:
 5. WHAT NOT TO WRITE: the 3 phrases that weaken salary emails (apologizing, "I need", ultimatums).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Never invent achievements or competing offers — use only what I gave you.
 - Numbers stay in {market} currency and realistic local ranges.
 - Confident, not aggressive: every sentence survives being read aloud to HR.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+OUTPUT FORMAT
+- Five numbered sections in order; the email ≤150 words; fallback ≤2 lines. Lead with THE ANCHOR.
+
+# Variables
+- {situation}: required, the negotiation situation, e.g. "annual review next week"
+- {numbers}: required, the figures you have, e.g. "2.8s p95" or "18,000 now, asking 24,000"
+- {leverage}: required, your negotiating leverage, e.g. "competing offer, achievements"
+- {tone}: The voice to write in.
+- {market}: required, market/currency context, e.g. "EGP, Cairo fintech market"
 
 # Example values: {situation}=annual review next week | {numbers}=18,000 EGP now, asking 24,000 | {leverage}=automated reporting saved 10 hrs/week | {tone}=warm | {market}=EGP, Cairo fintech market

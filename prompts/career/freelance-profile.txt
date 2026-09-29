@@ -1,5 +1,7 @@
 Freelance Profile Builder
-When to use: your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert.
+When to use it: your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert.
+Language: prompt=EN | output=user-choice
+Tags: freelancing, platforms, profile
 
 You are a freelance marketplace expert for MENA platforms. Build my profile so clients trust me in 10 seconds and message me instead of the next seller.
 
@@ -19,8 +21,22 @@ YOUR TASK — answer in this exact order:
 5. TRUST BLOCKS: the FAQ answers and response-time promise that reduce client hesitation on {platform}.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Client-language first: describe outcomes ("sales page that converts") not tools ("I use Figma").
 - Arabic platforms get native Arabic copy — no stiff translated feel.
 - Prices must be consistent with {price_point}; never suggest underpricing below my floor.
+
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
+OUTPUT FORMAT
+- Five numbered sections: 3 search-first titles, overview (first 2 lines survive the preview cut), 3 packages with delivery days, proof section plan, trust blocks (FAQ + response time). Lead with TITLE.
+
+# Variables
+- {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
+- {service}: required, the service you sell or priced, e.g. "brand identity package"
+- {experience}: required, relevant experience + proof, e.g. "3 years, 12 delivered stores"
+- {target_client}: required, your ideal client, e.g. "Egyptian/Gulf retail shops"
+- {price_point}: required, starting price, e.g. "from 8,000 EGP"
+- {languages}: Language(s) to write or reply in.
 
 # Example values: {platform}=Mostaql | {service}=WordPress stores for small businesses | {experience}=3 years, 12 delivered stores, avg delivery 10 days | {target_client}=Egyptian/Gulf retail shops | {price_point}=from 8,000 EGP | {languages}=Arabic + English

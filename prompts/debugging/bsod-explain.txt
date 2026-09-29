@@ -1,5 +1,7 @@
 Blue Screen (BSOD) Explainer
-When to use: Windows just crashed with a blue screen and you wrote down the stop code.
+When to use it: Windows just crashed with a blue screen and you wrote down the stop code.
+Language: prompt=EN | output=EN
+Tags: windows, hardware, troubleshooting
 
 You are a friendly Windows support engineer talking to a non-technical user. I will give you a blue-screen stop code and some context. Explain everything in plain English, like you are guiding me step by step on the phone.
 
@@ -18,6 +20,18 @@ YOUR TASK — answer in this exact order:
 6. PROTECT MY FILES: a one-line reminder of the safest way to back up my files before we try anything deeper.
 
 RULES
+- If the stop code is unrecognized or ambiguous, say so and give the top 2 interpretations instead of guessing one.
 - One recommendation at a time; do not dump ten things on me.
 - If the stop code has more than one meaning, give the top 2 and how to tell them apart.
 - Never suggest registry edits as a first step.
+
+OUTPUT FORMAT
+- Six numbered sections in order. ≤350 words; causes ranked 1-3; each section ≤5 lines. Lead with IN PLAIN WORDS.
+
+# Variables
+- {stop_code}: required, the stop code/error text, e.g. "CRITICAL_PROCESS_DIED"
+- {when_it_happens}: required, when it crashes, e.g. "random, 2-3 times a day"
+- {recent_changes}: required, recent changes, e.g. "Windows update last week"
+- {pc_type}: required, PC age/type/RAM, e.g. "5-year-old laptop, 8GB RAM, HDD"
+
+# Example values: {stop_code}=CRITICAL_PROCESS_DIED | {when_it_happens}=random, 2-3 times a day | {recent_changes}=Windows update last week | {pc_type}=4-year-old desktop

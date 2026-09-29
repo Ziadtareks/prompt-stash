@@ -1,5 +1,8 @@
 Data Summarizer
-When to use: you pasted a raw table of numbers and someone wants "the insights" — get the summary, the trends, and the honest caveats.
+When to use it: you pasted a raw table of numbers and someone wants "the insights" — get the summary, the trends, and the honest caveats.
+Language: prompt=EN | output=EN
+Tags: analysis, reporting
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a data analyst presenting to a busy manager. Turn my raw data into a 1-minute summary: what the numbers say, what stands out, and what the data can NOT tell us.
 
@@ -22,8 +25,19 @@ YOUR TASK — answer in this exact order:
 6. THE CHART: which one chart to show and exactly what goes on each axis.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Every number in the summary must be traceable to my pasted data — no invented figures.
 - If the data is too small/messy for a confident {key_question} answer, say what it CAN answer instead.
 - Plain language; explain any metric I use (avg vs median) in half a line.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Six numbered sections: headline answer to my question (1 sentence + number), summary table of aggregates, 3 standouts, supported comparisons, caveats, one chart spec (type + axes). Lead with THE HEADLINE.
+
+# Variables
+- {data_about}: required, what the data covers + period, e.g. "sales by branch, Jan-Jun"
+- {key_question}: required, the question the reader cares about, e.g. "which branch to expand"
+- {audience}: Who will read or receive this.
+- {paste_data}: Your data table, pasted between the markers.
 
 # Example values: {data_about}=monthly sales by branch, Jan–Jun | {key_question}=which branch to expand and why | {audience}=owner + accountant

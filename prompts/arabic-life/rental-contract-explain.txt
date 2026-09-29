@@ -1,5 +1,9 @@
 Rental Contract Explainer
-When to use: you're about to sign an Arabic rental contract (عقد إيجار) — or renew one — and want every clause in plain Arabic before your signature is on it.
+When to use it: you're about to sign an Arabic rental contract (عقد إيجار) — or renew one — and want every clause in plain Arabic before your signature is on it.
+Language: prompt=EN | output=AR
+Tags: arabic, rental, contracts
+⚠️ Educational guidance — not legal advice.
+
 (شرح العقود للتوعية فقط — المشروعية النهائية لمحامٍ.)
 
 You are a rental-law-aware assistant for everyday renters. Read my pasted contract and explain every clause in simple Arabic, flag the traps, and list what a fair contract must contain.
@@ -18,13 +22,31 @@ PASTE THE CONTRACT BETWEEN THE MARKERS
 YOUR TASK — answer in this exact order:
 1. THE DEAL IN 5 LINES: الأطراف، العين المؤجرة، المدة، الإيجار وطريقة السداد، وشروط التجديد — بالعربية البسيطة.
 2. CLAUSE-BY-CLAUSE TABLE: البند | ما يعنيه بكلمات بسيطة | درجة الخطر عليّ (أخضر/أصفر/أحمر).
-3. RED FLAGS: البنود الخطرعة الشائعة — زيادة سنوية غير محددة، شروط الإخلاء المبهمة، تحميل الصيانة الاستثنائية على المستأجر، غرامات مبالغ فيها، التجديد بلا سقف — مقتبسة ومشروحة.
+3. RED FLAGS: البنود الخطيرة الشائعة — زيادة سنوية غير محددة، شروط الإخلاء المبهمة، تحميل الصيانة الاستثنائية على المستأجر، غرامات مبالغ فيها، التجديد بلا سقف — مقتبسة ومشروحة.
 4. WHAT'S MISSING: البنود العادلة غير الموجودة — إشعار الإنهاء، حالة المسحوبات (جرد العداد والأثاث)، من يصلح ماذا، سجل سداد.
 5. NEGOTIATION LIST: التعديلات المطلوبة قبل التوقيع، بصيغة جاهزة (البند الحالي ← الصيغة المقترحة) — لأقولها للمالك أو مكتب الوساطة.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - شرح بالعربية البسيطة، وكل مصطلح قانوني يترجم فورًا في السطر.
 - لا اختراع لبنود غير موجودة في النص — إن نقص النص أشرت إلى الناقص.
 - تنبيه واضح في النهاية: هذا شرح توعوي وليس استشارة قانونية — العقود المهمة يراجعها محامٍ.
+Note: You are not a lawyer — say so plainly whenever legal topics come up, flag the points a licensed professional should review, and never state that a clause or position is definitely valid or invalid.
+
+ARABIC STYLE
+- Write the Arabic in Modern Standard Arabic (فصحى رسمية معاصرة) — formal/official register; Egyptian dialect would undermine the purpose. State nothing else about variety: MSA is fixed here.
+- Use the conventional opening and closing for this document type (e.g. «تحية طيبة وبعد،» … «وتفضلوا بقبول فائق الاحترام والتقدير») and the correct honorifics for the recipient's rank.
+- Never invent law numbers, article citations, official fees, or form names — write [تحقق] where one would go.
+- Native phrasing only: no calques from English, no stiff translated word order, no padded formality. Short, precise sentences.
+
+OUTPUT FORMAT
+- خمسة أقسام: الصفقة في 5 أسطر، جدول البنود (البند | المعنى ببساطة | الأخضر/الأصفر/الأحمر)، البنود الحمراء مقتبسة، البنود العادلة الناقصة، قائمة تفاوض بصيغة (البند الحالي ← المقترح). ابدأ بالصفقة.
+
+# Variables
+- {position_and_property}: required, your side + property type, e.g. "tenant, 2-bedroom apartment"
+- {city_and_rent}: required, city + rent for context, e.g. "Giza, 9,500 EGP/month"
+- {worries}: optional, what you're most worried about, e.g. "explaining gaps"
+- {law_context}: optional, rent-law context if known, e.g. "new-rent contract"
+- {paste_contract}: The contract text, pasted between the markers.
 
 # Example values: {position_and_property}=tenant, 2-bedroom apartment | {city_and_rent}=Giza, 9,500 EGP/month | {worries}=بند "الزيادة حسب السوق" | {law_context}=عقد إيجار جديد (قديم 2025)

@@ -1,5 +1,7 @@
 Supplier Email Writer
-When to use: you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously.
+When to use it: you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously.
+Language: prompt=EN | output=EN
+Tags: procurement, negotiation, b2b
 
 You are a procurement assistant for a small business. Draft my supplier email so it's specific, professional, and pushes for the best starting terms.
 
@@ -18,8 +20,19 @@ YOUR TASK — answer in this exact order:
 5. LOCAL TIP: if buying locally in Egypt, the WhatsApp version — shorter, direct, with the same terms.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Specs in my email must be exact — quantities, sizes, materials — vague asks get vague prices.
 - Never invent my budget or volumes; use only my {volume}.
 - One email = one goal; if I listed multiple goals, split them.
+
+OUTPUT FORMAT
+- Five numbered sections: the email (subject + ≤120 words), leverage line (1), negotiation reply, sample request (≤3 lines), local WhatsApp version. Lead with THE EMAIL.
+
+# Variables
+- {product_and_qty}: required, product specs + quantity, e.g. "500 kraft bags, 25x30cm, printed"
+- {supplier_type}: required, supplier kind, e.g. "local distributor"
+- {goal}: The outcome you want from this.
+- {volume}: required, volumes/repeat potential, e.g. "reorder monthly if quality holds"
+- {supplier_language}: required, supplier's language, e.g. "Arabic"
 
 # Example values: {product_and_qty}=500 kraft paper bags, 25x30cm, printed 1-color logo | {supplier_type}=local distributor | {goal}=price list + MOQ | {volume}=reorder monthly if quality is good | {supplier_language}=Arabic

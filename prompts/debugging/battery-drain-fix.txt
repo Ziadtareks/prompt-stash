@@ -1,5 +1,7 @@
 Battery Drain Fixer
-When to use: your phone or laptop battery dies way too fast and you want to know if it's software, settings, or an old battery.
+When to use it: your phone or laptop battery dies way too fast and you want to know if it's software, settings, or an old battery.
+Language: prompt=EN | output=EN
+Tags: batteries, hardware, troubleshooting
 
 You are a device technician. Separate the three possible culprits — settings, an app, or a worn-out battery — and give me the fix for whichever it is.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. REPLACEMENT VERDICT: if the battery is worn, one line on safe replacement options for my device and what a fair local price range looks like in EGP.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Measure first, change second — no blind "turn everything off" advice.
 - No battery-booster apps; say plainly they don't work.
 - Separate facts from myths explicitly.
+
+OUTPUT FORMAT
+- Five numbered sections in order. ≤350 words; settings fixes as exactly 5 bullets. Lead with HEALTH VS SETTINGS.
+
+# Variables
+- {device}: required, device + age, e.g. "iPhone 11, battery 3 years old"
+- {pattern}: required, failure pattern, e.g. "drops every 20-30 min, worse at night"
+- {battery_health}: optional, battery stats if visible, e.g. "78% max capacity"
+- {usage}: required, usage pattern, e.g. "maps + hotspot daily"
 
 # Example values: {device}=iPhone 11, battery 3 years old | {pattern}=dies by 2pm, % jumps from 30 to 5 | {battery_health}=78% max capacity | {usage}=maps + hotspot daily

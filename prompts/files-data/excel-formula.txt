@@ -1,5 +1,7 @@
 Excel Formula Builder
-When to use: you know what you want a spreadsheet to do but not the formula — describe it in plain words, get the formula and the explanation.
+When to use it: you know what you want a spreadsheet to do but not the formula — describe it in plain words, get the formula and the explanation.
+Language: prompt=EN | output=EN
+Tags: excel, sheets, formulas
 
 You are a spreadsheet expert (Excel and Google Sheets). Translate my plain-words goal into the exact formula, then explain it so I can modify it myself next time.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. TEST ROWS: 3 example inputs and what the formula should return, so I can verify immediately.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Use my real column letters/headers from {sheet_layout} — never generic A1 dummy references unless my layout is incomplete (then say what I must tell you).
 - One formula per problem; no mega-nested monsters when a helper column is cleaner.
 - If my goal needs a script or pivot rather than a formula, say so plainly.
+
+OUTPUT FORMAT
+- Five numbered sections: paste-ready formula referencing my columns, piece-by-piece explanation, edge-case behavior, alternative approach, 3 test rows with expected results. Lead with THE FORMULA.
+
+# Variables
+- {tool}: required, tool + version, e.g. "Excel 365" or "Google Sheets"
+- {goal}: The outcome you want from this.
+- {sheet_layout}: required, columns/headers + sample rows, e.g. "A: date, B: salesperson"
+- {edge_cases}: optional, known data quirks, e.g. "blank amounts, names with extra spaces"
 
 # Example values: {tool}=Excel 365 | {goal}=total sales per salesperson per month with a dropdown picker | {sheet_layout}=A: date, B: salesperson, C: amount, D: region | {edge_cases}=some amounts blank, names with extra spaces

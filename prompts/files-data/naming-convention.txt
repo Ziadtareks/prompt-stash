@@ -1,5 +1,7 @@
 Naming Convention Designer
-When to use: your team's files are "doc final NEW (2).xlsx" and nobody can find anything — agree on a naming system once and stop the chaos.
+When to use it: your team's files are "doc final NEW (2).xlsx" and nobody can find anything — agree on a naming system once and stop the chaos.
+Language: prompt=EN | output=EN
+Tags: naming, organization, teams
 
 You are a documentation and information-management consultant. Design the file naming convention for my team's reality — short enough to type, structured enough to sort.
 
@@ -17,8 +19,18 @@ YOUR TASK — answer in this exact order:
 5. THE ROLLOUT: the one-page rule summary to pin in the team chat, and the amnesty plan for old files (rename only what's active; archive the rest as-is).
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - Compatible with my {storage} (some systems choke on #, ?, Arabic in URLs) — check and say.
 - Short beats complete: if the name exceeds ~60 characters, the convention loses.
 - One language for filenames (say which) — mixing directions breaks sorting and sharing.
+
+OUTPUT FORMAT
+- Five numbered sections: the pattern (segments defined), 8 correct + 4 wrong examples, sort guarantee + fixes, version marker system, rollout (pinned summary + amnesty plan). Lead with THE PATTERN.
+
+# Variables
+- {team_and_files}: required, team + file types, e.g. "3-person studio: briefs, invoices"
+- {storage}: required, where files live, e.g. "Google Drive shared"
+- {key_dimensions}: required, what a file name must show, e.g. "client, date, deliverable, version"
+- {pain_points}: required, current naming pains, e.g. "final_final chaos"
 
 # Example values: {team_and_files}=3-person design studio: client briefs, designs, invoices | {storage}=Google Drive shared | {key_dimensions}=client, date, deliverable, version | {pain_points}=final_final chaos, Arabic filenames break sharing links

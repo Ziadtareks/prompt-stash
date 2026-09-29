@@ -1,5 +1,8 @@
 Discount Offer Designer
-When to use: you want to run a sale without training customers to wait for discounts or bleeding margin.
+When to use it: you want to run a sale without training customers to wait for discounts or bleeding margin.
+Language: prompt=EN | output=EN
+Tags: promotions, pricing, retail
+ℹ️ Planning guidance with stated assumptions — not financial advice.
 
 You are a pricing strategist for small businesses. Design my promotion so it creates urgency honestly, protects my margin, and doesn't devalue the brand.
 
@@ -18,8 +21,20 @@ YOUR TASK — answer in this exact order:
 5. GUARDRAILS: who's excluded (existing-customer handling), how to end it cleanly, and the rule that stops discounts becoming the default price.
 
 RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
 - If my margin can't carry a discount, say so and propose the value-add alternative instead.
 - Deadlines must be real; the offer must actually end.
 - EGP numbers, local occasions, and delivery norms where Egypt fits.
+Note: Promise no guaranteed outcomes — state your assumptions explicitly and include one line noting these are planning estimates, not financial advice.
+
+OUTPUT FORMAT
+- Five numbered sections: mechanic + why it beats %-off, margin math with max discount, framing rules (honest urgency), announcement + reminder posts (≤60 words each), guardrails. Lead with THE MECHANIC.
+
+# Variables
+- {product_and_margin}: required, product + price + margin, e.g. "custom cakes, 700 EGP, 45% margin"
+- {reason}: required, why now, e.g. "slow season + clear the June schedule"
+- {audience_scope}: required, who the offer targets, e.g. "new customers only"
+- {idea_constraints}: optional, offer types you'd consider, e.g. "free delivery over % off"
+- {channel}: required, where the message arrived, e.g. "SMS" or "Instagram DM"
 
 # Example values: {product_and_margin}=custom cakes, avg order 700 EGP, ~45% margin | {reason}=slow summer + clear the June schedule | {audience_scope}=new customers only | {idea_constraints}=prefer free delivery over % off | {channel}=Instagram, Egyptian Arabic

@@ -1,5 +1,8 @@
 Duplicate Finder
-When to use: two lists (or one messy list) should contain the same records but don't match up — customers, payments, inventory — find the mismatches and the dupes.
+When to use it: two lists (or one messy list) should contain the same records but don't match up — customers, payments, inventory — find the mismatches and the dupes.
+Language: prompt=EN | output=EN
+Tags: data-quality, reconciliation
+🔒 Privacy reminder — redact personal or client data before pasting.
 
 You are a data reconciliation assistant. Compare my lists, find duplicates within and matches across them, and give me the cleanup actions.
 
@@ -22,8 +25,20 @@ YOUR TASK — answer in this exact order:
 5. CLEANUP ACTIONS: for each duplicate cluster — which record to keep (the rule: most complete, most recent) and what to merge.
 
 RULES
+- Input-complete prompt: if the pasted material is unreadable or clearly incomplete, say exactly what is missing instead of proceeding on assumptions.
 - Probable matches are labeled probable — never silently merge spelling variants.
 - Show my the actual matched values side by side so I can verify before acting.
 - Arabic name variants (ahmed/Ahmed/أحمد) treated via explicit rules I can check.
+Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
+
+OUTPUT FORMAT
+- Five numbered sections: within-list duplicates grouped, cross-list matches (probable ones labeled), only-in-A/only-in-B gap, normalization rules as steps, cleanup actions (keep rule per cluster). Lead with DUPLICATES WITHIN.
+
+# Variables
+- {list_purpose}: required, what the lists are + why reconcile, e.g. "payments vs customers"
+- {match_key}: required, what makes records the same, e.g. "phone number, fallback name"
+- {mess_factors}: optional, known mess factors, e.g. "Arabic/English spellings, extra spaces"
+- {paste_list_a}: required, first list, one record per line
+- {paste_list_b}: optional, second list to reconcile against
 
 # Example values: {list_purpose}=payment list vs customer list reconciliation | {match_key}=phone number, fallback name | {mess_factors}=some phones stored as +2010..., some as 010..., names in Arabic and English
