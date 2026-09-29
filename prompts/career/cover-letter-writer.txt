@@ -25,6 +25,8 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Only facts from {my_background}; [FILL] markers where a number is needed.
 - If {language_and_tone} is Arabic: formal Modern Standard Arabic, right-to-left conventions, no transliterations.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: hook (1 line), match paragraphs, angle sentence, close, the full letter assembled within the stated length. Lead with THE HOOK.
 

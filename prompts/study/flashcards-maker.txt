@@ -25,6 +25,8 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Only use facts from my material — never invent.
 - Write the cards in {language}.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Three numbered sections: the card table (exactly the requested count; # | Question | Answer), type-mix note with percentages, exactly 3 ⚠️ flags. Lead with THE CARDS.
 

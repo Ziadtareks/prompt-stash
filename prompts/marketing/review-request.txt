@@ -24,6 +24,8 @@ RULES
 - Ask after value delivered, never during payment friction.
 - Scripts in my customers' {language}, natural register.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: the trigger moment (1 line), 3 ask scripts, friction killer (direct link + staff card), unhappy-customer divert script, daily habit + target. Lead with THE MOMENT.
 

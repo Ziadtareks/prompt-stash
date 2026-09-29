@@ -24,6 +24,8 @@ RULES
 - One message = one action; two CTAs halve the response.
 - Local timing note (Egypt/Gulf) for the best send window.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: message (≤80 words), status version (≤40 words), follow-up (1 message), segmentation exclusions, anti-block do/don't list. Lead with THE MESSAGE.
 

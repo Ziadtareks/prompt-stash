@@ -23,6 +23,8 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - No "🚀 Excited to announce..." energy unless I ask for it.
 - Write in {language}; keep cultural references natural, not translated.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Four numbered sections: exactly 10 hooks (2 each of curiosity/stat/story/contrarian/pain), top-3 ranking with reasons, first paragraph for #1, anti-cliché check. Lead with TEN HOOKS.
 

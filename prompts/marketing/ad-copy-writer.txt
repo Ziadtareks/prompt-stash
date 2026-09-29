@@ -25,6 +25,8 @@ RULES
 - Numbers and proof beat adjectives — use {proof} everywhere possible.
 - Arabic ads written natively for the platform, not translated.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: 2 angles (1 line each), 5 ad variations (primary ≤90 words + headline ≤40 chars + CTA), search ads if Google, 2-ad test plan with decision metric, compliance pass. Lead with THE ANGLE.
 

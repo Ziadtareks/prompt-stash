@@ -22,6 +22,12 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Keep every explanation at my level — no unexplained jargon.
 - If the term has a different meaning outside {subject}, mention it in one line.
 
+ARABIC STYLE
+- Write the Arabic in Modern Standard Arabic (فصحى رسمية معاصرة) — formal/official register; Egyptian dialect would undermine the purpose. State nothing else about variety: MSA is fixed here.
+- Use the conventional opening and closing for this document type (e.g. «تحية طيبة وبعد،» … «وتفضلوا بقبول فائق الاحترام والتقدير») and the correct honorifics for the recipient's rank.
+- Never invent law numbers, article citations, official fees, or form names — write [تحقق] where one would go.
+- Native phrasing only: no calques from English, no stiff translated word order, no padded formality. Short, precise sentences.
+
 OUTPUT FORMAT
 - Five numbered sections in order: translation + transliteration, plain-English explanation (≤2 sentences), شرح عربي (جملتان), example pair, don't-confuse-with (1-2 terms). Lead with TRANSLATION.
 

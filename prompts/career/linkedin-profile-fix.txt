@@ -23,6 +23,8 @@ RULES
 - Every claim ties to my {skills_and_evidence}; [FILL] where I must add numbers.
 - Write it so a human likes it after the search engine finds it.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: recruiter search keywords, 3 headline options (≤220 chars), About section (5-8 lines), experience rewrite rules + one worked example, quick wins. Lead with THE KEYWORDS.
 

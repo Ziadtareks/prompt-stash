@@ -25,6 +25,8 @@ RULES
 - One CTA per email, stated once.
 - Written to "you" (one reader), never "dear subscribers".
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: the arc (1 line per email), email 1, email 2, email 3, settings note. Each email ≤140 words, one CTA each, no pitch before email 3. Lead with THE ARC.
 

@@ -23,6 +23,11 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - No over-slanging: my {audience} sets the ceiling; a work presentation stays presentable.
 - Keep proper nouns, numbers, and technical terms as they are.
 
+ARABIC STYLE
+- Write the Arabic in natural Egyptian dialect (مصري) exactly as a native would say it out loud — casual, warm, current.
+- No calques from English, no fus'ha padding, no over-formal connectors; short spoken sentences with normal Egyptian connectors (يعني، بص، خلاص).
+- Keep proper nouns, numbers, and technical terms unchanged.
+
 OUTPUT FORMAT
 - Five numbered sections: the conversion, change-log table (الفصحى | المصرية | ليه), register warnings, spoken-flow marks, regional check. Lead with THE CONVERSION.
 

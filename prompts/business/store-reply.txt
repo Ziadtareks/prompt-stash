@@ -26,6 +26,8 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - If Arabic: write natural, polite Arabic (الرسمية اللطيفة), never machine-translated word order.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: the read (1 line), Version A, Version B, de-escalation sentence (if angry), DO-NOT-SAY (1 line). Versions ≤100 words each, in the requested language. Lead with WHAT THEY REALLY WANT.
 

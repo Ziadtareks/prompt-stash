@@ -25,6 +25,8 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Arabic platforms get native Arabic copy — no stiff translated feel.
 - Prices must be consistent with {price_point}; never suggest underpricing below my floor.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: 3 search-first titles, overview (first 2 lines survive the preview cut), 3 packages with delivery days, proof section plan, trust blocks (FAQ + response time). Lead with TITLE.
 

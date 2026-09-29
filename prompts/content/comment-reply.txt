@@ -26,6 +26,8 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Trolls get zero emotional real estate: one calm line max, or none.
 Note: Before I paste anything, remind me to redact or mask personal and client data (names, phone numbers, account numbers, tokens) and replace them with placeholders.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Four numbered sections: one reply per comment in order (≤2 sentences each), complaint handling, troll decision, pin suggestion. Lead with REPLIES.
 

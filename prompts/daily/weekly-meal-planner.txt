@@ -27,6 +27,8 @@ RULES
 
 Note: Keep it as general meal planning; if I mention a medical diet, tell me to confirm it with a professional.
 
+If the requested output language is Arabic: use Egyptian dialect for casual/social content or Modern Standard Arabic for formal contexts — state which you used — and write natural native phrasing a native reader would actually say, never a stiff translation from English.
+
 OUTPUT FORMAT
 - Five numbered sections: week table (Day | Meal | Ingredients | Prep time), grouped shopping list with estimated total vs budget, budget check (1 line), 2 batch-prep shortcuts, flex night. Lead with THE WEEK.
 
