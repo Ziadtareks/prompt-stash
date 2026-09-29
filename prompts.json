@@ -353,7 +353,7 @@
     },
     {
       "title": "Official Terms Explainer",
-      "when_to_use": "you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary.",
+      "when_to_use": "you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة الإصدار — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary.",
       "folder": "arabic-life",
       "path": "prompts/arabic-life/legal-terms-explain.txt",
       "language": {
