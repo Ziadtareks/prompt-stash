@@ -3,7 +3,22 @@
 All notable changes to Prompt Stash are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); the project uses semver where MAJOR = prompt-format or breaking structural changes.
 
-## [Unreleased] — v4.1.0
+## [Unreleased] — v4.1.1
+
+### Fixed
+- Working-tree line endings: `.gitattributes` now enforces `eol=lf` for `*.txt`, `*.md`, `*.py`, `*.json`, `*.yml` and `scripts/pre-push`; 173 files had CRLF on disk after checkout (repo blobs were already LF).
+
+### Changed
+- `scripts/validate_prompts.py` additionally detects CRLF, UTF-8 BOM, duplicate prompt titles, and stale generated files (`prompts.json` / folder READMEs) — failing with clear messages.
+- `scripts/build_index.py` writes LF explicitly, so the pre-push hook is idempotent (no phantom diffs).
+- 13 generic variable explanations replaced with specific ones (what to enter + format example).
+- CONTRIBUTING.md states that CI is currently unavailable, points to local checks and the pre-push hook, and documents both Windows (PowerShell `Copy-Item`) and Git Bash hook-install commands; PR template no longer implies CI runs.
+- Arabic proofread across prompts and examples: fixed the مصراعيها idiom, a leftover untranslated term in legal-terms-explain example values, stiff phrasing (صياغة رصينة، تكثيف القصة، طابع إعلان), a doubled بالعربية, and mixed-script fragments in examples.
+
+### Not changed
+- Prompt purposes, file and folder names, the header format, license, About description, and topics (already correct).
+
+## [4.1.0] — 2026-09-29
 
 ### Changed (content quality — the format was already standard; this pass made the prompts produce specific, structured answers)
 - **All 130 prompts** now end with an explicit `OUTPUT FORMAT` section (sections in order, length/item counts, what leads).
