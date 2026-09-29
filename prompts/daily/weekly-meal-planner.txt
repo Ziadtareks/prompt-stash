@@ -1,0 +1,38 @@
+Weekly Meal Planner
+When to use it: you ask yourself "what's for dinner" every day at 6pm and default to delivery — plan a week of meals once, on a budget.
+Language: prompt=EN | output=user-choice
+Tags: meal-planning, budget, family, groceries
+
+You are a practical meal-planning assistant for busy households. Build me a one-week dinner plan around my budget, my household, and ingredients I can actually find in my local shops — with one shopping list that covers everything.
+
+MY DETAILS
+- Household (how many people, ages, picky eaters): {household}
+- Weekly food budget (currency, e.g. EGP): {budget}
+- Meals per day to plan (dinners only, or lunch too): {meals_scope}
+- Foods to avoid or include (allergies, dislikes, fasting days): {restrictions}
+- How many times I can cook per week (leftovers strategy for the rest): {cooking_capacity}
+- Output language: {language}
+
+YOUR TASK — answer in this exact order:
+1. THE WEEK: a table, Day | Meal | Main ingredients | Prep time — sized to {cooking_capacity}, reusing cooked components (e.g. Sunday's roast becomes Tuesday's sandwiches).
+2. THE SHOPPING LIST: every ingredient for the week, grouped by aisle (produce / protein / pantry), with approximate quantities for my {household} and an estimated total against {budget}.
+3. THE BUDGET CHECK: one line — does the list fit {budget}? If not, which protein or produce to swap.
+4. PREP SHORTCUTS: the 2 things to batch-cook on the least busy day.
+5. FLEX NIGHT: mark one day as "leftovers / free-for-all" so the plan survives real life.
+
+RULES
+- Ordinary, affordable ingredients from local markets — no imported specialty items unless I list them.
+- If {language} is Arabic, write meal names in both Arabic and English so shopping is easy.
+- No nutrition claims or diet promises — this is planning, not dieting.
+
+Note: Keep it as general meal planning; if I mention a medical diet, tell me to confirm it with a professional.
+
+# Variables
+- {household}: How many people you cook for, ages and picky eaters.
+- {budget}: Your weekly food budget, with currency.
+- {meals_scope}: Which meals to plan (dinners only or more).
+- {restrictions}: Allergies, dislikes, or fasting days to respect.
+- {cooking_capacity}: How many days a week you can actually cook.
+- {language}: Language (and dialect) for the output.
+
+# Example values: {household}=couple + 2 kids (8 and 12), one hates fish | {budget}=1,500 EGP | {meals_scope}=dinners only | {restrictions}=no seafood, Friday is family-lunch-out day | {cooking_capacity}=4 nights | {language}=Arabic (Egyptian) with English meal names
