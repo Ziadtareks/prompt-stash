@@ -61,6 +61,8 @@ python scripts/check_links.py        # every markdown link resolves
 
 CI runs all three on every pull request — your PR will fail if the generated files are stale, so run `build_index.py` before committing.
 
+**No CI access?** Install the local pre-push hook once and every `git push` runs the same checks: `cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push` (Git Bash on Windows).
+
 ## Proposing changes to existing prompts
 
 Open an issue with the "Prompt improvement" template, or go straight to a PR. Keep the original use case; improvements to structure, constraints, and safety are always welcome — rewrites that change the purpose need an issue first.
