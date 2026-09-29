@@ -3,6 +3,29 @@
 All notable changes to Prompt Stash are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); the project uses semver where MAJOR = prompt-format or breaking structural changes.
 
+## [Unreleased] — v4.1.0
+
+### Changed (content quality — the format was already standard; this pass made the prompts produce specific, structured answers)
+- **All 130 prompts** now end with an explicit `OUTPUT FORMAT` section (sections in order, length/item counts, what leads).
+- **Clarifying rules right-sized per prompt type:** advisory prompts keep the 3-question rule with named specifics; input-complete prompts (summarizers, translators, rewriters, cleaners) use a shorter assumptions rule; interactive prompts (feynman-explain, interview-prep, homework-hint, difficult-conversation-rehearsal) use explicit turn-taking rules.
+- **All 385 placeholder variable explanations replaced** with real docs (required/optional + format hint + example); 7 near-duplicate variables' docs corrected per file context.
+- **Arabic quality:** all 28 Arabic-capable prompts carry an `ARABIC STYLE` block — variety fixed per use case (فصحى for formal/official, Egyptian dialect for casual), anti-machine-translation rules, honorifics/closing conventions, and a ban on invented law numbers or official fees; occasion-messages now requires 2-3 formality-labeled variants per message length and cultural/religious tone rules.
+- Rubric pass across all 130 prompts (7 criteria × 0-2): average **11.24 → 13.12 / 14**; bodies with filler or generic-answer risk tightened. Details in the v4.1.0 rubric review (QUALITY.md, since removed).
+
+### Added
+- Validator checks: OUTPUT FORMAT presence, no lazy variable docs, Arabic variety statement for Arabic-output prompts, file size limit (4,500 chars), mojibake/Latin-in-Arabic-word detection.
+- `docs/testing-notes.md` — desk-check findings for 10 prompts (2 Arabic-output, 2 legal/financial, 2 dev, 1 interactive, 1 data-cleaning, 1 career, 1 security).
+- 3 new worked examples (content, daily, security-basics): **16 examples covering all 13 folders**.
+
+### Fixed
+- feynman-explain: duplicated rules, missing bullet marker, misplaced `{context}` doc.
+- password-checkup: clarifying rule duplicated the security note instead of handling missing info.
+- occasion-messages: task list contradicted its OUTPUT FORMAT (single-dialect vs formality variants).
+- ~90 files: blank-line separator after the header lost in an earlier pass; ~70 files: bullet markers on inserted rules.
+
+### Not changed
+- Prompt purposes, file and folder names, the standard header layout, the MIT license, and the zero-setup plain-text promise. Prompts already meeting the quality bar were not edited for the sake of a diff.
+
 ## [Unreleased] — v4.0.0
 
 ### Changed
