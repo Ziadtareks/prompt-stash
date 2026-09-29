@@ -32,7 +32,7 @@ OUTPUT FORMAT
 # Variables
 - {alert_type}: required, how you learned of the problem, e.g. "notification email"
 - {affected_service}: required, the breached or affected account, e.g. "old forum account"
-- {password_reuse}: The password reuse for this prompt — see Example values for a realistic fill.
+- {password_reuse}: required, where else you used that same password, e.g. "same password on my old Gmail"
 - {connected_accounts}: required, accounts that reset via the affected one, e.g. "Gmail resets bank + social"
 
 # Example values: {alert_type}=notification email from a breach-monitoring site | {affected_service}=an old forum account | {password_reuse}=same password on my old Gmail | {connected_accounts}=Gmail resets my bank + social logins
