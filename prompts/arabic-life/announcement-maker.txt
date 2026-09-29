@@ -23,6 +23,11 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Correct customary openings/closings per announcement type; no mixing celebration wording into solemn notices.
 - Natural Arabic register per {audience_and_channel} — formal print vs warm WhatsApp.
 
+ARABIC STYLE
+- Offer every message in 2-3 labeled variants at different formality levels: formal fus'ha → polite standard → warm Egyptian.
+- Follow the occasion's cultural and religious conventions: the correct customary phrases for condolences, weddings, and Eid; never mix celebratory wording into solemn messages or vice versa; never use jokes or requests in condolence notes.
+- Egyptian dialect for warmth unless the recipient or channel demands fus'ha; no stiff calques from English.
+
 OUTPUT FORMAT
 - Five numbered sections: the full Arabic announcement in the occasion's register, short WhatsApp version, print layout guidance, tone guardrails for this type, distribution timing note. Lead with THE ANNOUNCEMENT.
 

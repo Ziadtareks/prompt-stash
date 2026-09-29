@@ -23,6 +23,11 @@ RULES
 - Keep every caption under 200 characters unless I ask for longer.
 - No exaggerated claims and no fake scarcity ("last chance!") unless my post is genuinely time-limited.
 
+ARABIC STYLE
+- Write the Arabic in natural Egyptian dialect (مصري) exactly as a native would say it out loud — casual, warm, current.
+- No calques from English, no fus'ha padding, no over-formal connectors; short spoken sentences with normal Egyptian connectors (يعني، بص، خلاص).
+- Keep proper nouns, numbers, and technical terms unchanged.
+
 OUTPUT FORMAT
 - Four numbered sections in order: 5 captions (labeled 1-5 with their style), emoji note merged into each caption, CTA inside each, dialect bonus (2). Each caption ≤200 characters. Lead with CAPTIONS.
 

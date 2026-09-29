@@ -24,6 +24,11 @@ RULES
 - No fake scarcity, no "world's best", no unverifiable claims.
 - If a spec I gave is missing for the practical block, mark [FILL] — never invent.
 
+ARABIC STYLE (for the Arabic half of the output)
+- Rewrite the meaning natively — never translate the English word by word.
+- Use Modern Standard Arabic for the formal deliverable and Egyptian dialect where the brief is casual; state which register each part uses.
+- Native rhythm and vocabulary: no stiff calques, no over-formal padding.
+
 OUTPUT FORMAT
 - Five numbered sections: title line (≤8 words), short description (≤30 words), full description (100-150 words), practical block, second language version. Lead with TITLE LINE.
 

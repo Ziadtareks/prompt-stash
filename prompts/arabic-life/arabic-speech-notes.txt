@@ -23,6 +23,11 @@ Input-complete prompt: if the pasted material is unreadable or clearly incomplet
 - Humor only if my {material} supports it and {audience} allows; never at the honoree's expense.
 - Hard stop at {length_and_dialect} limit — speeches feel long at 90 seconds.
 
+ARABIC STYLE
+- Write the Arabic in natural Egyptian dialect (مصري) exactly as a native would say it out loud — casual, warm, current.
+- No calques from English, no fus'ha padding, no over-formal connectors; short spoken sentences with normal Egyptian connectors (يعني، بص، خلاص).
+- Keep proper nouns, numbers, and technical terms unchanged.
+
 OUTPUT FORMAT
 - خمسة أقسام: الهيكل، النص كاملًا بعلامات الوقف (…)، شدة القصة (ما يُحذف)، ملاحظات الإلقاء (3)، نسخة الـ30 ثانية عند التلعثم. الالتزام الصارم بمدد الزمن. ابدأ بالهيكل.
 
