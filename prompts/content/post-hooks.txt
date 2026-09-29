@@ -33,7 +33,7 @@ OUTPUT FORMAT
 - {topic_and_point}: required, topic + its core point
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
 - {audience}: Who will read or receive this.
-- {tone}: The voice to write in.
+- {tone}: required, hook voice, e.g. "contrarian", "relatable"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {topic_and_point}=freelancers underprice because they quote hourly | {platform}=LinkedIn | {audience}=Arab freelancers | {tone}=contrarian | {language}=English with Arabic option

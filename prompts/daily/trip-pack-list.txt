@@ -29,7 +29,7 @@ OUTPUT FORMAT
 - Six sections as checkbox lists: documents, clothes with quantities, tech, health/small, bag split, leave-at-home (5). No prose paragraphs. Lead with DOCUMENTS & MONEY.
 
 # Variables
-- {destination}: Where you are traveling.
+- {destination}: required, destination, e.g. "Dahab" or "Alexandria"
 - {days}: required, trip length in days, e.g. "4"
 - {weather}: required, forecast/season, e.g. "hot days, cool nights"
 - {trip_type}: required, trip type, e.g. "beach + light hiking"

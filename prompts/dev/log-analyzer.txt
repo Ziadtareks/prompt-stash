@@ -34,7 +34,7 @@ OUTPUT FORMAT
 - Five numbered sections: root-error line quoted with timestamp, the 2-4 preceding lines, plain-words failure, noise filter, next step. Lead with THE ROOT ERROR.
 
 # Variables
-- {symptom}: What is visibly broken.
+- {symptom}: required, visible failure, e.g. "checkout returns 500 for some users"
 - {when_started}: required, when it started + what changed, e.g. "after yesterday's deploy"
 - {time_window}: required, roughly when in the log, e.g. "around 14:03"
 - {paste_log}: Your log output, pasted between the markers.

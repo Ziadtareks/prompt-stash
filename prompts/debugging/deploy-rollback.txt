@@ -32,7 +32,7 @@ OUTPUT FORMAT
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
 - {what_changed}: required, what the deploy changed, e.g. "bumped a payment library major"
-- {symptom}: What is visibly broken.
+- {symptom}: required, how it is broken, e.g. "500 errors on checkout"
 - {deploy_method}: required, how you deploy, e.g. "GitHub integration, auto-deploy"
 - {time_since_deploy}: required, time since the deploy, e.g. "25 minutes"
 

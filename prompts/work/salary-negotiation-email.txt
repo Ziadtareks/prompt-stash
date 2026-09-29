@@ -34,7 +34,7 @@ OUTPUT FORMAT
 - {situation}: required, the negotiation situation, e.g. "annual review next week"
 - {numbers}: required, the figures you have, e.g. "2.8s p95" or "18,000 now, asking 24,000"
 - {leverage}: required, your negotiating leverage, e.g. "competing offer, achievements"
-- {tone}: The voice to write in.
+- {tone}: required, tone you can sustain, e.g. "warm" or "firm"
 - {market}: required, market/currency context, e.g. "EGP, Cairo fintech market"
 
 # Example values: {situation}=annual review next week | {numbers}=18,000 EGP now, asking 24,000 | {leverage}=automated reporting saved 10 hrs/week | {tone}=warm | {market}=EGP, Cairo fintech market

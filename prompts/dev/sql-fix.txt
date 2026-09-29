@@ -28,8 +28,8 @@ OUTPUT FORMAT
 - Six numbered sections: diagnosis (1 line), bug in plain words (≤3 sentences), fixed SQL with per-change comments, why it works (≤3 sentences), index suggestion or 'skip', verify steps. Lead with DIAGNOSIS.
 
 # Variables
-- {sql_query}: Your current SQL query.
+- {sql_query}: required, the query as you run it, formatted readably
 - {what_is_wrong}: required, wrong results, slow, or the error text
-- {table_schemas}: Your tables and columns.
+- {table_schemas}: required, columns, types, indexes if known, e.g. "orders(id, customer_id, total, status)"
 
 # Example values: {sql_query}=SELECT * FROM orders WHERE customer_id IN (SELECT id FROM customers WHERE city = 'Cairo') AND total > 1000 | {what_is_wrong}=returns orders twice for some customers | {table_schemas}=orders(id, customer_id, total, status), customers(id, name, city)

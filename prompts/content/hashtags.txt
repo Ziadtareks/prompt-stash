@@ -34,7 +34,7 @@ OUTPUT FORMAT
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
 - {topic}: What the post, question, or session is about.
-- {niche}: Your niche or industry.
+- {niche}: required, your industry, e.g. "handmade jewelry"
 - {audience}: Who will read or receive this.
 - {language}: Language (and dialect) for the output.
 - {number_of_hashtags}: required, hashtag count, e.g. "20"

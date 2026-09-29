@@ -29,7 +29,7 @@ OUTPUT FORMAT
 
 # Variables
 - {printer_type}: required, brand + type + age, e.g. "Canon inkjet, 3 years"
-- {symptom}: What is visibly broken.
+- {symptom}: required, exact printer behavior, e.g. "shows offline, queue stuck"
 - {connection}: required, how the printer connects, e.g. "USB", "Wi-Fi"
 - {last_worked}: required, when it last worked + what changed, e.g. "last week; router replaced"
 

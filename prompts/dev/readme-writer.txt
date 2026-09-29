@@ -27,7 +27,7 @@ OUTPUT FORMAT
 - Four numbered sections: pitch (1 line), complete README in one markdown block, quick-start gaps flagged, screenshot TODO (1 line). Lead with THE PITCH.
 
 # Variables
-- {project_name}: Your project's name.
+- {project_name}: required, project name, e.g. "Qamis"
 - {what_it_does}: What the project does, in your own words.
 - {stack}: Your technologies and versions.
 - {install_steps}: The commands you actually used to run it.

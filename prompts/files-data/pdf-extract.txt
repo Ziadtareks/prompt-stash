@@ -37,7 +37,7 @@ OUTPUT FORMAT
 # Variables
 - {document_type}: required, the PDF type, e.g. "bank statement, Jan-Mar"
 - {fields_needed}: required, columns to extract, e.g. "date, description, debit, credit"
-- {destination}: Where you are traveling.
+- {destination}: required, where the extracted table goes, e.g. "Google Sheets for tax prep"
 - {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
 - {paste_pdf_text}: The PDF's copied text, pasted between the markers.
 

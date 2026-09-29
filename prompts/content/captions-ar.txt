@@ -36,7 +36,7 @@ OUTPUT FORMAT
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
 - {topic}: What the post, question, or session is about.
 - {audience}: Who will read or receive this.
-- {tone}: The voice to write in.
+- {tone}: required, caption voice, e.g. "مرح", "ملهم", "احترافي"
 - {call_to_action}: The action you want the reader to take.
 
 # Example values: {platform}=Instagram | {topic}=خزانة ملابس شتوية وصلت حديثًا | {audience}=بنات جامعة | {tone}=مرح | {call_to_action}=اطلبي من اللينك في البايو
