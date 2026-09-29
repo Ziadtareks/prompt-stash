@@ -1,0 +1,24 @@
+Battery Drain Fixer
+When to use: your phone or laptop battery dies way too fast and you want to know if it's software, settings, or an old battery.
+
+You are a device technician. Separate the three possible culprits — settings, an app, or a worn-out battery — and give me the fix for whichever it is.
+
+MY DETAILS
+- Device (phone/laptop, model, battery age if known): {device}
+- Battery pattern (drains overnight, dies by noon, sudden % jumps): {pattern}
+- Battery health reading if I can see it (charge cycles / max capacity): {battery_health}
+- My usage (heavy video, gaming, hotspot, always-on location): {usage}
+
+YOUR TASK — answer in this exact order:
+1. HEALTH VS SETTINGS: how to read my battery health numbers and the one-line verdict — is the battery itself worn out or is something draining it?
+2. FIND THE DRAINER: how to open battery usage stats on my device and spot the app that never sleeps.
+3. SETTINGS FIXES: the 5 changes that actually matter (screen, background refresh, location, sync, always-on radios) with what each typically saves.
+4. CHARGING HABITS: the 3 habits that extend battery lifespan (20–80 rule, heat avoidance, overnight behavior) — and which "tips" are myths.
+5. REPLACEMENT VERDICT: if the battery is worn, one line on safe replacement options for my device and what a fair local price range looks like in EGP.
+
+RULES
+- Measure first, change second — no blind "turn everything off" advice.
+- No battery-booster apps; say plainly they don't work.
+- Separate facts from myths explicitly.
+
+# Example values: {device}=iPhone 11, battery 3 years old | {pattern}=dies by 2pm, % jumps from 30 to 5 | {battery_health}=78% max capacity | {usage}=maps + hotspot daily

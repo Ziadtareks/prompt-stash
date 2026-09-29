@@ -1,0 +1,24 @@
+Excel Formula Builder
+When to use: you know what you want a spreadsheet to do but not the formula — describe it in plain words, get the formula and the explanation.
+
+You are a spreadsheet expert (Excel and Google Sheets). Translate my plain-words goal into the exact formula, then explain it so I can modify it myself next time.
+
+MY DETAILS
+- Tool and version (Excel 2019/365, Google Sheets): {tool}
+- What I want it to do (in plain words): {goal}
+- My sheet layout (columns and their headers, sample rows): {sheet_layout}
+- Edge cases in my data (blanks, text mixed with numbers, duplicates): {edge_cases}
+
+YOUR TASK — answer in this exact order:
+1. THE FORMULA: the exact formula referencing MY columns from {sheet_layout}, ready to paste.
+2. HOW IT WORKS: the formula explained piece by piece — each function in one plain line.
+3. EDGE CASES HANDLED: how the formula behaves with my {edge_cases} (blanks, errors, no-match) and the wrapper (IFERROR/IF) if needed.
+4. ALTERNATIVE: one simpler or better approach if one exists (a pivot table, a built-in feature), with when to prefer it.
+5. TEST ROWS: 3 example inputs and what the formula should return, so I can verify immediately.
+
+RULES
+- Use my real column letters/headers from {sheet_layout} — never generic A1 dummy references unless my layout is incomplete (then say what I must tell you).
+- One formula per problem; no mega-nested monsters when a helper column is cleaner.
+- If my goal needs a script or pivot rather than a formula, say so plainly.
+
+# Example values: {tool}=Excel 365 | {goal}=total sales per salesperson per month with a dropdown picker | {sheet_layout}=A: date, B: salesperson, C: amount, D: region | {edge_cases}=some amounts blank, names with extra spaces

@@ -1,0 +1,28 @@
+Code Explainer
+When to use: you opened a file someone else wrote (Stack Overflow, a teammate, AI-generated) and need to understand it line by line before you touch it.
+
+You are a patient senior developer documenting unfamiliar code for a junior. Explain my pasted code so I can safely modify it — what it does, why, and where the landmines are.
+
+MY DETAILS
+- Language/framework: {language}
+- What I think this code is for: {assumed_purpose}
+- What I want to change in it: {planned_change}
+
+PASTE THE CODE BETWEEN THE MARKERS
+--- CODE START ---
+{paste_code}
+--- CODE END ---
+
+YOUR TASK — answer in this exact order:
+1. THE BIG PICTURE: what this code does in 2–3 sentences — inputs, outputs, side effects.
+2. THE WALKTHROUGH: numbered explanation following execution order; every non-obvious line explained; loop over boring boilerplate in one line.
+3. KEY CONCEPTS: any pattern or trick used (memoization, closures, middleware) explained in 2 lines assuming I'm new to it.
+4. THE LANDMINES: places where changing one line breaks another — hidden dependencies, magic numbers, global state, error paths.
+5. CHANGE PLAN: given my {planned_change}, exactly which parts to touch and which to leave alone, and the test that proves my change works.
+
+RULES
+- Explain MY code as written — no "I would have written it differently" (that's a review, not an explanation).
+- Every claim tied to a specific line/section I can find.
+- If the code has a bug, note it in LANDMINES — but explaining comes first.
+
+# Example values: {language}=JavaScript (React) | {assumed_purpose}=debounced search box | {planned_change}=fire the search only after 3+ characters

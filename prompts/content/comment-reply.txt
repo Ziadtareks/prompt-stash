@@ -1,0 +1,24 @@
+Comment Reply Writer
+When to use: comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community.
+
+You are a community-savvy social media manager. Write replies to my real comments that boost engagement and sound like a person, not a brand robot.
+
+MY DETAILS
+- The comments I got (paste them, one per line): {comments}
+- What my account is about: {account_about}
+- My voice (funny, warm, expert, cheeky): {voice}
+- Language(s) the comments are in and I reply in: {languages}
+- Any comment that needs careful handling (complaint, trolling): {tricky_ones}
+
+YOUR TASK — answer in this exact order:
+1. REPLIES: for each comment, a reply in my {voice} — max 2 sentences, ends with a question or hook where natural (not on every single one).
+2. THE COMPLAINT: for any complaint or angry comment, a reply that acknowledges, moves it to DM, and protects my reputation publicly.
+3. THE TROLL: the reply (or the decision NOT to reply) that costs me nothing.
+4. PIN-WORTHY: which comment thread deserves a pinned reply and what to pin.
+
+RULES
+- Never copy-paste the same reply twice — variety is the point.
+- Match each commenter's language ({languages}) — reply Arabic to Arabic.
+- Trolls get zero emotional real estate: one calm line max, or none.
+
+# Example values: {comments}="price?? 😍", "do you deliver to Alexandria?", "overpriced tbh", "how far in advance should I order?" | {account_about}=home bakery, Cairo | {voice}=warm + a little cheeky | {languages}=Arabic comments, Arabic replies | {tricky_ones}=the "overpriced" comment

@@ -1,0 +1,24 @@
+Report Skeleton Builder
+When to use: you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever.
+
+You are a business reporting assistant. Design my report skeleton: sections in the order decision-makers read, placeholder charts, and the "so what" lines that make numbers mean something.
+
+MY DETAILS
+- Report type and frequency (monthly sales, weekly ops, project status): {report_type}
+- Who reads it and what decisions they make with it: {readers}
+- The data I have available each period: {available_data}
+- Format (email, slide, one-pager): {format}
+
+YOUR TASK — answer in this exact order:
+1. THE STRUCTURE: sections in reading order — verdict first, then details — with a one-line purpose per section.
+2. THE METRICS TABLE: the 5–7 numbers that matter for this {report_type} — Metric | This period | Last period | Change | Target — the same row set every period.
+3. THE NARRATIVE SLOTS: for each section, the sentence pattern to fill ("Revenue was X, up/down Y% because Z") — reports fail when numbers arrive without the "because".
+4. THE RED-FLAG SECTION: where to put problems/risks honestly (not buried), with the format: what, impact, my action, help needed.
+5. THE TEMPLATE: the whole skeleton assembled in {format} layout, ready to save and refill each period.
+
+RULES
+- The verdict/summary goes first — readers who stop at line 3 still get the point.
+- Same metrics every period; trends need consistency, not novelty.
+- Every number slot pairs with a "why" slot — unexplained numbers invite wrong conclusions.
+
+# Example values: {report_type}=monthly tutoring-center report | {readers}=owner (me) + the two investors | {available_data}=enrollments, revenue EGP, attendance %, cancellations, ad spend | {format}=one-page email

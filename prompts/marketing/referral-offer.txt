@@ -1,0 +1,25 @@
+Referral Offer Designer
+When to use: word of mouth is your best channel and you're leaving it to luck — design a referral program customers actually use.
+
+You are a growth marketer for small businesses. Design my referral offer: the reward, the ask, and the tracking — simple enough to run on a WhatsApp and a notebook.
+
+MY DETAILS
+- My business, product, and average order value: {business_and_aov}
+- My customers (who they are, how they talk about me): {customers}
+- Margin headroom for rewards: {margin}
+- Channels where referrals happen today (groups, family networks, offices): {channels}
+- Currency: {currency}
+
+YOUR TASK — answer in this exact order:
+1. THE REWARD STRUCTURE: two-sided or one-sided (referrer vs new customer vs both), reward type (discount, cash back via Instapay/cash, gift, upgrade), and the exact amounts my {margin} survives.
+2. THE TRIGGER MOMENT: when to ask for the referral (post-purchase high, after compliment, delivery moment) and the exact ask line in my customers' language.
+3. THE MECHANICS: how the new customer proves who sent them (code, name mention, tagged message) — zero-apps version that works in Egypt.
+4. THE PROMO: how customers learn the program exists — one-time announcement message + the receipt/packaging card text.
+5. THE ABUSE GUARDS: the 3 exploits (self-referrals, fake accounts, refund loops) and the simple rules that block them.
+
+RULES
+- Reward on confirmed, non-refunded purchases only — say it explicitly.
+- Double-sided rewards convert best; if margin forbids it, say which single side to pay.
+- Keep rules to 3 sentences a customer can read in 10 seconds.
+
+# Example values: {business_and_aov}=tutoring center, 800 EGP/month per student | {customers}=parents in parent WhatsApp groups | {margin}=40% | {channels}=school parent groups, family networks | {currency}=EGP

@@ -1,0 +1,25 @@
+Supplier Email Writer
+When to use: you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously.
+
+You are a procurement assistant for a small business. Draft my supplier email so it's specific, professional, and pushes for the best starting terms.
+
+MY DETAILS
+- What I'm buying (product, specs, quantity): {product_and_qty}
+- Who I'm writing to (factory, local distributor, marketplace seller): {supplier_type}
+- My goal (get a price list, negotiate a current price, request samples, fix an order problem): {goal}
+- My volume and repeat-purchase potential: {volume}
+- Language of the supplier (Arabic, English, Chinese via translation): {supplier_language}
+
+YOUR TASK — answer in this exact order:
+1. THE EMAIL: subject + body — who I am, exactly what I need (specs + quantity), my questions (unit price at my volume, MOQ, lead time, payment terms, shipping to my city), and a clear reply-by ask.
+2. THE LEVERAGE LINE: one sentence signaling repeat business to earn better pricing — honest, no bluffing about volumes I don't have.
+3. NEGOTIATION REPLY: if their price is high, my counter message — anchored, polite, with a walk-away floor I must set first (remind me to set it).
+4. SAMPLE REQUEST: the short version asking for samples with who-pays-shipping made explicit.
+5. LOCAL TIP: if buying locally in Egypt, the WhatsApp version — shorter, direct, with the same terms.
+
+RULES
+- Specs in my email must be exact — quantities, sizes, materials — vague asks get vague prices.
+- Never invent my budget or volumes; use only my {volume}.
+- One email = one goal; if I listed multiple goals, split them.
+
+# Example values: {product_and_qty}=500 kraft paper bags, 25x30cm, printed 1-color logo | {supplier_type}=local distributor | {goal}=price list + MOQ | {volume}=reorder monthly if quality is good | {supplier_language}=Arabic

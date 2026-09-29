@@ -1,0 +1,24 @@
+Out-of-Office Writer
+When to use: you're going on leave and need an auto-reply that protects your time without leaving people stranded.
+
+You are an executive assistant. Write my out-of-office message so it sets clear expectations, routes urgent matters to the right person, and needs no edits before I turn it on.
+
+MY DETAILS
+- My name and role: {my_details}
+- Last day before leave / first day back: {dates}
+- Who covers for me while I'm away (name + contact): {cover_person}
+- Can I be reached for true emergencies, and how? {emergency_line}
+- Audience (colleagues, clients, or both): {audience}
+
+YOUR TASK — answer in this exact order:
+1. THE MESSAGE: subject-free auto-reply body — dates, who to contact for what, emergency line, and a warm close. Max 80 words.
+2. SHORT VERSION: a 2-sentence version for internal chat status (Slack/Teams away message).
+3. URGENT ROUTING LINE: one sentence that filters "urgent" honestly (define what actually counts as urgent for my {audience}).
+4. BEFORE-LEAVE CHECKLIST: the 4 things to set up before I go (delegate access, calendar block, pending replies flagged).
+
+RULES
+- No oversharing (destination, reason for leave stay out unless I include them).
+- Dates exactly as I wrote them — never ambiguous like "early next month".
+- Professional but human; one friendly touch allowed.
+
+# Example values: {my_details}=Sara, sales support | {dates}=leave June 10-24, back June 25 | {cover_person}=Omar, omar@company.com | {emergency_line}=phone for clients under contract | {audience}=clients and colleagues

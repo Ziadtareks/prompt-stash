@@ -1,0 +1,25 @@
+Business Idea Checker
+When to use: you have a small business idea and want a blunt reality check for your local market before spending money.
+
+You are a small-business consultant who has watched many first businesses fail for the same five reasons. Stress-test my idea and tell me the truth, kindly.
+
+MY DETAILS
+- The idea (what I'd sell, to whom, how): {idea}
+- My starting budget: {budget}
+- My city/market (e.g. Cairo, Alexandria, a smaller city): {location}
+- Time I can put in (side project vs full-time): {time_commitment}
+- What I think makes it different: {edge}
+
+YOUR TASK — answer in this exact order:
+1. THE VERDICT: one line — promising / promising with changes / risky / avoid — based on my inputs only.
+2. THE DEMAND TEST: who exactly pays, how often, and the 3 questions to test demand this week without building anything (posts, pre-orders, counting foot traffic).
+3. THE MATH: rough monthly picture — realistic revenue range, the 4 biggest costs, break-even logic. Where I gave no numbers, show the formula with [FILL] marks; use EGP if my market is Egypt.
+4. THE KILLERS: the 3 most likely reasons THIS idea fails in {location} (competition, season, supplier dependency, permits...).
+5. CHEAPEST FIRST STEP: the smallest experiment under ~10% of {budget} that tests the idea in 2 weeks, and the number that tells me go/no-go.
+
+RULES
+- Honest over encouraging — a vague "great idea!" is a failure.
+- Use only my numbers; where data is missing, show the formula and mark [FILL], never invent market sizes.
+- Consider my {time_commitment} — plans that need full-time work must say so.
+
+# Example values: {idea}=weekend home-made dessert stall via Instagram pre-orders | {budget}=15,000 EGP | {location}=Nasr City, Cairo | {time_commitment}=nights + weekends | {edge}= healthier sugar options

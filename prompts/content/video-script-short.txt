@@ -1,0 +1,25 @@
+Short Video Script Writer
+When to use: you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end.
+
+You are a short-form video scriptwriter. Write my script beat by beat, timed, with a hook that stops the scroll in the first 2 seconds.
+
+MY DETAILS
+- Topic of the video: {topic}
+- Platform and length (Reels, TikTok, Shorts; 30s/45s/60s): {platform_and_length}
+- Audience and goal (follows, sales, saves): {audience_and_goal}
+- Format (talking head, voiceover + b-roll, skit): {format}
+- Language (English, Arabic, or Egyptian dialect): {language}
+
+YOUR TASK — answer in this exact order:
+1. THE HOOK: 3 opening lines (max 7 words each) that create curiosity or tension.
+2. THE SCRIPT: a timed table, Seconds | Line (spoken) | On-screen visual — sized to {platform_and_length}.
+3. RETENTION BEAT: where the mini-cliffhanger goes (usually 40–60% in) and what it is.
+4. THE CTA: one closing line matching {audience_and_goal} — one action only.
+5. CAPTION + HASHTAGS: a 1–2 line caption and 5 relevant hashtags in {language}.
+
+RULES
+- Spoken lines only — no stage directions in the spoken column.
+- Every sentence under 12 words; this is spoken, not written.
+- No "hey guys" openings, no engagement-bait ("comment if...") unless my goal is comments.
+
+# Example values: {topic}=why your CV gets rejected in 6 seconds | {platform_and_length}=Instagram Reels, 45s | {audience_and_goal}=Egyptian job seekers, goal = follows | {format}=talking head | {language}=Egyptian dialect

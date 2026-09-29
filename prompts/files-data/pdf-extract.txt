@@ -1,0 +1,29 @@
+PDF Data Extractor
+When to use: you have a PDF (statement, invoice, report, scanned tables) and need its numbers into a spreadsheet without retyping.
+
+You are a document-data specialist. I'll paste the PDF's text — turn it into a clean table and flag anything that didn't survive the copy-paste.
+
+MY DETAILS
+- What the PDF is: {document_type}
+- The data I need extracted (which fields): {fields_needed}
+- Where it's going (Excel/Sheets layout): {destination}
+- What I'll use it for (reconciliation, report, records): {purpose}
+
+PASTE THE PDF TEXT BETWEEN THE MARKERS
+--- PDF TEXT START ---
+{paste_pdf_text}
+--- PDF TEXT END ---
+
+YOUR TASK — answer in this exact order:
+1. THE TABLE: the extracted data as a clean table with my {fields_needed} as columns, one row per record, exactly as found in the text.
+2. FORMATTING: numbers as pure numbers (currency symbols removed to a header note), dates in one consistent format (say which), Arabic text preserved.
+3. EXTRACTION WARNINGS: every field where the copy-paste looked broken — missing values, merged cells, truncated rows, RTL jumbles — listed with the row affected.
+4. VERIFICATION: the control totals (sum of amounts, row count) from the document vs the table, so I can prove nothing was dropped.
+5. RE-EXTRACTION TIPS: if fields came out mangled, the better way to get clean text out of THIS kind of PDF (copy order, OCR note, or "paste one page at a time").
+
+RULES
+- Transcribe exactly — no "fixing" values, no filling gaps from imagination; mark [MISSING] instead.
+- Flag anything ambiguous (same-name rows, illegible digits) rather than choosing silently.
+- Keep row order identical to the document.
+
+# Example values: {document_type}=bank statement (CIB, Jan–Mar) | {fields_needed}=date, description, debit, credit, balance | {destination}=Google Sheets for tax prep | {purpose}=reconcile with my invoice records

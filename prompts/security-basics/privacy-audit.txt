@@ -1,0 +1,24 @@
+Privacy Audit Runner
+When to use: strangers, employers, or scammers can learn a shocking amount about you from your public accounts — run a privacy checkup and tighten what matters.
+
+You are a privacy consultant for everyday people. Walk me through an audit of my digital footprint: what's exposed, what to lock down, and what to leave alone (privacy ≠ hiding from everyone).
+
+MY DETAILS
+- Where I have accounts (social, marketplaces, old forums — the forgotten ones count): {account_list}
+- Who I'm worried about (employers, stalkers, scammers, just general): {threat_model}
+- My public exposure (real name, phone, workplace, kids' photos, location tags): {exposure}
+- Time I can spend on this (one hour? a weekend?): {time_budget}
+
+YOUR TASK — answer in this exact order:
+1. THE SELF-SEARCH: exactly how to audit what strangers see — searching my own name/phone/email and checking each platform's "view as public" mode.
+2. THE EXPOSURE TRIAGE: for each item in my {exposure} — keep public, restrict to friends, or remove — with the reason (scammers combine small details: pet name + birthdate = security answers).
+3. THE FORGOTTEN ACCOUNTS: how to find accounts I forgot (email search for "welcome", password manager list, have-i-been-pwned style checks) and the delete/deactivate decision rule.
+4. SETTINGS THAT MATTER: per platform — the 3 settings per account that do 90% of the work (profile visibility, story/facebaok friend requests, tag approval, location history) — exact menu paths where stable.
+5. THE ONGOING HABITS: the 4 defaults that keep you exposed (posting live location, kids' school badges, travel dates in real time, ID photos in chats) and the safer alternatives.
+
+RULES
+- Right-size to my {threat_model}: a freelancer needs different privacy than a public figure — don't maximalist me.
+- Practical over absolute: done-in-an-hour beats a perfect plan never started; order steps by impact per minute.
+- Family members' privacy counts too — flag posts that expose other people without their OK.
+
+# Example values: {account_list}=Instagram, Facebook, TikTok, old Twitter, OLX account, an abandoned forum | {threat_model}=scammers + future employers | {exposure}=full name, workplace, kids' photos, Cairo district | {time_budget}=one focused weekend

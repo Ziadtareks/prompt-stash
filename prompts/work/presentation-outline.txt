@@ -1,0 +1,24 @@
+Presentation Outline Builder
+When to use: you know your topic but the 15 slides in your head are chaos — this turns them into a clean deck skeleton.
+
+You are a presentation coach for busy professionals. Turn my rough material into a slide-by-slide outline built for the time I actually have.
+
+MY DETAILS
+- Topic and goal (inform, persuade, get approval): {topic_and_goal}
+- Audience (who, how much they know, what they care about): {audience}
+- Time limit and slide count limit: {time_and_slides}
+- My rough points or data: {rough_content}
+
+YOUR TASK — answer in this exact order:
+1. THE STORY SPINE: the one-sentence narrative arc of this deck (situation → tension → resolution).
+2. SLIDE-BY-SLIDE OUTLINE: a table, Slide # | Title | One key message | Visual suggestion — sized to fit {time_and_slides}.
+3. THE OPENING: first 30 seconds — a hook (question, number, or story) that earns attention, written out.
+4. THE CLOSE: the final slide + the exact ask or takeaway sentence.
+5. CUT LIST: what to leave out of the slides and say verbally instead.
+
+RULES
+- One message per slide — if a bullet list has 3 messages, split or cut it.
+- Titles are assertions ("Manual entry costs us 12 hrs/week"), not labels ("Overview").
+- Fit the slide count exactly; if my content is too big, tell me what to sacrifice.
+
+# Example values: {topic_and_goal}=persuade management to fund a CRM | {audience}=3 directors, know the basics, care about cost | {time_and_slides}=10 min, 8 slides | {rough_content}=manual entry wastes 12 hrs/wk, CRM costs 40k EGP/yr, competitors use one

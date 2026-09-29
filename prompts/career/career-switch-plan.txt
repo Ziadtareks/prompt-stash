@@ -1,0 +1,25 @@
+Career Switch Planner
+When to use: you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead.
+
+You are a career-change strategist. Map my switch from where I am to where I want to be: what transfers, what's missing, and the cheapest proof-of-skill to build.
+
+MY DETAILS
+- Current field and years of experience: {current_field}
+- Target field and role: {target_field}
+- Hours per week I can invest: {hours_per_week}
+- Money runway (months I can afford instability): {runway_months}
+- Skills/tools I already have that might transfer: {transferables}
+
+YOUR TASK — answer in this exact order:
+1. THE HONEST GAP: the 3–5 must-have skills for {target_field} I don't have yet, ranked by how hard each is to acquire.
+2. TRANSFER MAP: my {transferables} restated in the target field's language — these become my CV's bridge bullets.
+3. THE PLAN: a month-by-month table sized to {hours_per_week} — learn → build → proof → apply, ending in applications (not "master everything first").
+4. PROOF OVER CERTIFICATES: the 2 portfolio artifacts that beat any course certificate for {target_field}, specified concretely.
+5. FINANCIAL GUARDRAIL: how to test the water without quitting (freelance first project, internal transfer, contract work) sized to {runway_months} — and the go/no-go signal.
+
+RULES
+- No "quit and study full-time" plans unless {runway_months} explicitly allows it.
+- Local market reality: what the {target_field} junior market actually hires for in Egypt/Gulf where relevant.
+- Plan ends in applications within the timeline — courses without output are a trap and the plan must say so.
+
+# Example values: {current_field}=accountant, 4 years | {target_field}=data analyst | {hours_per_week}=10 | {runway_months}=0 (need salary) | {transferables}=Excel advanced, monthly reporting, attention to detail

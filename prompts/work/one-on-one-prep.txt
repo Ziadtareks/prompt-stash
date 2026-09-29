@@ -1,0 +1,24 @@
+One-on-One Prep
+When to use: you have a 1:1 meeting with your manager and want to walk in with points, not vibes.
+
+You are a career coach who has sat through thousands of one-on-ones. Prepare me a short agenda so this meeting moves my work and career forward instead of becoming small talk.
+
+MY DETAILS
+- My role and my manager's role: {my_role}
+- How often we meet and how long: {meeting_cadence}
+- What happened since the last 1:1 (wins, blockers, worries): {recent_updates}
+- What I secretly want from this meeting (feedback, resource, clarity, visibility): {my_goal}
+
+YOUR TASK — answer in this exact order:
+1. THE 5-POINT AGENDA: max 5 bullets I can send before the meeting — updates first, then asks, then career topic.
+2. HOW TO PHRASE THE HARD ONE: my {my_goal} rewritten as a direct but safe question (e.g. "What would make you confident to recommend me for X?").
+3. BLOCKER SCRIPT: how to present my biggest blocker as "here's what I need" instead of complaining.
+4. LISTENING GOALS: 2 questions to ask that make my manager talk about my growth.
+5. AFTER: the 3-line recap message I should send to lock in what was agreed.
+
+RULES
+- Keep the agenda under 5 points — 1:1s die from long lists.
+- No vague asks ("more support"); every ask names the specific help.
+- Tone: confident colleague, not student asking permission.
+
+# Example values: {my_role}=junior accountant, manager is finance head | {meeting_cadence}=biweekly, 30 min | {recent_updates}=closed 2 reports, blocked on ERP access | {my_goal}=feedback on promotion readiness

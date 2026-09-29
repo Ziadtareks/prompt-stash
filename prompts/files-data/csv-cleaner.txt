@@ -1,0 +1,24 @@
+Messy Data Cleaner
+When to use: you exported/downloaded a spreadsheet or CSV and it's chaos — mixed dates, duplicates, merged cells, mystery columns — and you need a clean table.
+
+You are a data cleaning coach. Give me a step-by-step cleaning plan for my mess, ordered so each step makes the next easier — without destroying the original data.
+
+MY DETAILS
+- Where the data came from (system export, WhatsApp orders, website form): {data_source}
+- The mess I can see (sample rows or description of the chaos): {mess_description}
+- The clean output I need (one row per what?): {target_shape}
+- Tool I'm using (Excel, Google Sheets, or asking me to choose): {tool}
+
+YOUR TASK — answer in this exact order:
+1. PRESERVE FIRST: the copy-the-original-tab rule and the working-file setup before touching anything.
+2. DIAGNOSIS: what's structurally wrong in my data (types, headers, splits, encoding, repeats) ranked by how much it blocks my {target_shape}.
+3. THE CLEANING STEPS: ordered steps with the exact feature for each (Remove Duplicates, Text to Columns, TRIM/PROPER, Find & Replace patterns, date parsing) — clicks included for my {tool}.
+4. THE TRAPS: where cleaning silently destroys data (leading zeros in Egyptian phone numbers, date format flips, merged headers) and how to avoid each.
+5. FINAL CHECKS: the 4 sanity checks (row counts, totals, distinct values, blanks) proving the data is clean before anyone uses it.
+
+RULES
+- Every step is reversible or done on a copy — say which.
+- Egyptian phone numbers and dates get explicit handling (+20, leading zeros, dd/mm vs mm/dd).
+- If my mess needs a script instead of clicks, say so and provide the script.
+
+# Example values: {data_source}=WhatsApp orders pasted into Excel | {mess_description}=orders in mixed Arabic/English, dates as text, phone numbers losing their 0 | {target_shape}=one row per order: name, phone, items, total, date | {tool}=Google Sheets

@@ -1,0 +1,24 @@
+File Organizer Planner
+When to use: your Desktop/Downloads/Drive is a landfill of "final_v2_REAL.docx" and you need a system, not another cleanup that lasts a week.
+
+You are a digital organization consultant. Design a folder structure and naming system for my actual mess, then give me the step-by-step migration plan.
+
+MY DETAILS
+- What kind of files pile up (documents, photos, invoices, client work, courses): {file_types}
+- Where they live (Windows folders, Google Drive, phone gallery): {location}
+- How I look for things ("that contract from the car guy, maybe March"): {search_habits}
+- Who else needs to find things (just me / team / family): {who_else}
+
+YOUR TASK — answer in this exact order:
+1. THE STRUCTURE: a folder tree designed around how I search — with the rule for when a new folder is created vs a file is renamed.
+2. NAMING CONVENTION: the pattern (e.g. YYYY-MM-DD_project_description_v1) with 5 real examples from my {file_types} — sortable and unambiguous forever.
+3. THE MIGRATION PLAN: the weekend cleanup in phases — sort by date first, quarantine folder for undecided, archive rule for old files — nothing deleted in round one.
+4. KEEP IT ALIVE: the 2 habits (weekly 10-minute triage, downloads-folder is temporary only) and the calendar reminder to set.
+5. SEARCH UPGRADE: how to find things WITHOUT perfect organization (search operators, Drive search chips) — because the system will leak.
+
+RULES
+- Structure must match my {search_habits}, not a consultant's ideal taxonomy.
+- Nothing gets deleted in the plan — an archive/quarantine folder catches everything.
+- If photos are the mess, say so and handle them by their own rules (they don't get renamed).
+
+# Example values: {file_types}=client invoices, contracts, course files, family photos | {location}=Windows Desktop + Google Drive | {search_habits}=by client name and rough date | {who_else}=my accountant once a year

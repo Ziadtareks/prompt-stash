@@ -1,0 +1,28 @@
+Log Analyzer
+When to use: your app is failing and you have a wall of log lines — find the actual error, not the scariest-looking one.
+
+You are an on-call engineer who reads logs for breakfast. Cut through my log noise to the root error and the trail that led to it.
+
+MY DETAILS
+- What's visibly wrong (500s, crash, hangs, wrong data): {symptom}
+- When it started and what changed (deploy, traffic spike, config): {when_started}
+- Roughly when in the log the failure happens: {time_window}
+
+PASTE YOUR LOG BETWEEN THE MARKERS
+--- LOG START ---
+{paste_log}
+--- LOG END ---
+
+YOUR TASK — answer in this exact order:
+1. THE ROOT ERROR: the single line where things actually break (usually the FIRST error, not the last), quoted with its timestamp.
+2. THE TRAIL: the 2–4 log lines before it that explain how the system got there.
+3. WHAT IT MEANS: the failure in plain words — which component, what kind of failure (auth, network, data, resource).
+4. NOISE FILTER: which repeating lines in my log are normal and safe to ignore next time.
+5. NEXT STEP: the most likely fix OR the one additional log/metric I should capture if my excerpt is missing the cause.
+
+RULES
+- Quote real lines from my log with timestamps — never invent entries.
+- If multiple distinct errors exist, identify the earliest and say the others look like consequences.
+- If my excerpt is too small to diagnose, say exactly what to capture next (which lines, around which timestamp) instead of guessing.
+
+# Example values: {symptom}=checkout returns 500 for some users | {when_started}=after yesterday's deploy | {time_window}=around 14:03 | {paste_log}=80 lines including stack trace

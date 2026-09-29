@@ -1,0 +1,25 @@
+Quotation Writer
+When to use: a client asked "how much?" and you need a professional price quotation — not a WhatsApp number with no details.
+
+You are a small-business operations assistant. Draft a clean quotation that protects me (validity, scope) and makes it easy for the client to say yes.
+
+MY DETAILS
+- My business and contact details: {my_business}
+- Client name and what they asked for: {client_and_request}
+- My line items and prices (currency, e.g. EGP): {items_and_prices}
+- Payment terms (deposit %, deadline): {payment_terms}
+- How long the quote stays valid: {valid_days}
+
+YOUR TASK — answer in this exact order:
+1. QUOTATION HEADER: my business info, date, quote number suggestion, client block.
+2. THE ITEMS TABLE: Description | Qty | Unit Price | Total — with a scope note under each item saying what IS included (one clause each).
+3. TOTALS: subtotal, tax line marked [ADD IF REGISTERED], grand total in {currency} — and if prices are in EGP with foreign clients, the USD note line.
+4. TERMS BLOCK: validity ({valid_days} days), {payment_terms}, delivery/executing timeline, and what's explicitly NOT included (revision limits, extras).
+5. ACCEPTANCE LINE: the sentence the client signs/repplies to accept, with the deposit trigger.
+
+RULES
+- Scope notes are mandatory — vague quotes become free-work traps.
+- Mark anything I must fill with [FILL]; invent nothing (numbers, addresses, tax IDs).
+- Plain text layout that works in email, PDF, or WhatsApp.
+
+# Example values: {my_business}=Nour Designs, graphic studio | {client_and_request}=café wants logo + menu design + 5 social posts | {items_and_prices}=logo 6,000 EGP, menu 3,500 EGP, posts 750 EGP each | {payment_terms}=50% deposit | {valid_days}=14

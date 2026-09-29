@@ -1,0 +1,24 @@
+Competitor Teardown
+When to use: you're competing against 2–3 businesses doing it better (or cheaper) and need their playbook — and the gap they're leaving you.
+
+You are a competitive analyst for small businesses. Analyze my competitors from what's publicly visible and find the opening I can own.
+
+MY DETAILS
+- My business and offer: {my_business}
+- My competitors (names, links, or just descriptions): {competitors}
+- Where I keep losing to them (price, trust, visibility, speed): {losing_where}
+- My constraints (budget, size, location): {constraints}
+
+YOUR TASK — answer in this exact order:
+1. THEIR PITCH: for each competitor — what they sell, to whom, at what price, and their one-line positioning as a customer would describe it.
+2. THEIR ENGINE: where their customers come from (the channel they clearly win on) and the operational advantage it implies.
+3. THE GAP MAP: a simple matrix — factor | them | me — across price, quality signal, speed, niche focus, and service.
+4. THE OPENING: the customer segment or promise they serve badly, that fits my {constraints} — the position I can own in one sentence.
+5. THE 30-DAY MOVES: 3 actions to occupy that opening (offer tweak, content angle, partnership), each cheap enough for my size.
+
+RULES
+- Public information reasoning only — no scraping, no fake reviews, no disparagement.
+- If my {losing_where} is price, test whether the real problem is positioning before recommending a price cut.
+- The opening must be defensible by a small business — not "outspend them on ads".
+
+# Example values: {my_business}=home-laundry pickup service, Maadi | {competitors}=2 app-based laundry chains + the corner dry cleaner | {losing_where}=they look more trustworthy online | {constraints}=one van, 20k EGP/month budget

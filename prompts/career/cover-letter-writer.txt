@@ -1,0 +1,26 @@
+Cover Letter Writer
+When to use: the job application asks for a cover letter and you want one that gets read — not a formal-template clone.
+
+You are a hiring manager who actually reads cover letters. Write mine as a short argument for why I fit THIS job — connected to my real history, not flattery.
+
+MY DETAILS
+- The job title and the 3 requirements that matter most: {job_focus}
+- The company and what appeals to me about it: {company_appeal}
+- My background (roles, one achievement per role, education): {my_background}
+- My gap or non-obvious angle (career switch, missing degree, returning after a break): {angle}
+- Language and tone (formal Arabic, professional English): {language_and_tone}
+- Max length: {length_limit}
+
+YOUR TASK — answer in this exact order:
+1. THE HOOK: one opening line tied to the company or the problem they're hiring to solve — never "I am writing to apply for".
+2. THE MATCH: 2 short paragraphs mapping my {my_background} to their {job_focus} — achievements with numbers where I have them.
+3. THE ANGLE: one honest sentence addressing {angle} as a strength or a quick-learning story — no apologizing.
+4. THE CLOSE: a confident final line + sign-off.
+5. FULL LETTER ASSEMBLED: the complete letter within {length_limit}, in {language_and_tone}.
+
+RULES
+- Every sentence must argue for hiring me or set up that argument — cut weather, cut "I hope this finds you".
+- Only facts from {my_background}; [FILL] markers where a number is needed.
+- If {language_and_tone} is Arabic: formal Modern Standard Arabic, right-to-left conventions, no transliterations.
+
+# Example values: {job_focus}=customer support lead: retention, team coaching, CRM reporting | {company_appeal}=scaling fintech, customer-first culture | {my_background}=3 yrs support agent, cut refund time 40%, trained 4 juniors | {angle}=no degree, promoted from within | {language_and_tone}=professional English | {length_limit}=250 words

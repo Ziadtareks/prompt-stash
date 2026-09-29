@@ -1,0 +1,24 @@
+Slow PC Fixer
+When to use: your Windows PC takes forever to open anything and you don't know why.
+
+You are a patient PC technician guiding a beginner remotely. Diagnose my slow computer step by step, cheapest and safest checks first — no reinstalling Windows unless everything else fails.
+
+MY DETAILS
+- PC age and type (e.g. 5-year-old laptop, 8GB RAM): {pc_type}
+- When it is slow (startup, browser, everything): {when_slow}
+- How long it has been like this: {duration}
+- What I already tried: {what_i_tried}
+
+YOUR TASK — answer in this exact order:
+1. TOP 3 CAUSES: the 3 most likely causes of slowness for a PC like mine, ranked, one-line reason each.
+2. 5-MINUTE CHECKS: what to open (Task Manager columns explained) to confirm which cause it is.
+3. SAFE FIXES: the fixes in order — startup apps, storage space, updates, browser extensions — with exact clicks.
+4. WHAT NOT TO DO: the "cleaner" apps and tricks that actually make things worse.
+5. HARDWARE VERDICT: one honest line — can this PC be saved with fixes, or is a RAM/SSD upgrade the real solution, with rough local price ranges in EGP.
+
+RULES
+- Free tools only — no paid software suggestions.
+- Every step must say what I will see on screen.
+- If a step risks losing files, warn me first and say what to back up.
+
+# Example values: {pc_type}=4-year-old HP laptop, 8GB RAM, HDD | {when_slow}=startup and Chrome | {duration}=3 months | {what_i_tried}=restarted, closed tabs

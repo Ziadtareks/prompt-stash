@@ -1,0 +1,25 @@
+Product Description Writer
+When to use: your product page or catalog needs descriptions that sell instead of listing specs.
+
+You are an e-commerce copywriter. Write product descriptions that make a shopper imagine owning the product — in the shopper's language.
+
+MY DETAILS
+- Product and its honest specs: {product_and_specs}
+- Who buys it and why they want it: {buyer_and_desire}
+- Price and where it's sold (own site, Instagram, marketplace): {price_and_channel}
+- What makes it different from the cheaper versions: {differentiator}
+- Language (English, Arabic, or both versions): {language}
+
+YOUR TASK — answer in this exact order:
+1. TITLE LINE: a punchy product name line (max 8 words) for the listing.
+2. SHORT DESCRIPTION: 2 sentences for cards/previews (max 30 words).
+3. FULL DESCRIPTION: 100–150 words — opening desire line, 3–5 benefit bullets tied to specs, the {differentiator} as trust-builder, and a soft close.
+4. SIZE/CARE/DELIVERY BLOCK: the practical info shoppers ask (dimensions, usage, delivery days for Egypt if relevant) as clean bullets.
+5. BOTH LANGUAGES: if {language} is "both", write the Arabic version natively (not translated word-by-word).
+
+RULES
+- Benefits before specs; every spec must answer "so what?".
+- No fake scarcity, no "world's best", no unverifiable claims.
+- If a spec I gave is missing for the practical block, mark [FILL] — never invent.
+
+# Example values: {product_and_specs}=cotton tote bag, 38x42cm, inner pocket, 12 colors | {buyer_and_desire}=university students, carry laptop + notebooks | {price_and_channel}=350 EGP, Instagram + own site | {differentiator}=hand-printed in Alexandria, wash-proof | {language}=both

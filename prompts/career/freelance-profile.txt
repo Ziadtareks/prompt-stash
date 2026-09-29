@@ -1,0 +1,26 @@
+Freelance Profile Builder
+When to use: your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert.
+
+You are a freelance marketplace expert for MENA platforms. Build my profile so clients trust me in 10 seconds and message me instead of the next seller.
+
+MY DETAILS
+- Platform (Mostaql, Khamsat, Upwork, Fiverr): {platform}
+- My service (what exactly I deliver): {service}
+- My experience and proof (years, past work, results): {experience}
+- My target client (startups, small shops, agencies — Egypt/Gulf/regional): {target_client}
+- My starting price point in EGP/USD: {price_point}
+- Languages I serve clients in: {languages}
+
+YOUR TASK — answer in this exact order:
+1. TITLE: 3 profile/service titles matching what clients actually SEARCH for on {platform} — service words first, no "passionate".
+2. OVERVIEW: first 2 lines that survive the preview cut (the problem I solve + proof), then 4–6 lines covering services, process, and why me. Written for {target_client}.
+3. PACKAGES/GIG STRUCTURE: 3 tiers (basic/standard/premium) — what's in each, delivery days, and the pricing logic anchored on {price_point}.
+4. PROOF SECTION: how to present {experience} with numbers, and which portfolio pieces to feature first.
+5. TRUST BLOCKS: the FAQ answers and response-time promise that reduce client hesitation on {platform}.
+
+RULES
+- Client-language first: describe outcomes ("sales page that converts") not tools ("I use Figma").
+- Arabic platforms get native Arabic copy — no stiff translated feel.
+- Prices must be consistent with {price_point}; never suggest underpricing below my floor.
+
+# Example values: {platform}=Mostaql | {service}=WordPress stores for small businesses | {experience}=3 years, 12 delivered stores, avg delivery 10 days | {target_client}=Egyptian/Gulf retail shops | {price_point}=from 8,000 EGP | {languages}=Arabic + English

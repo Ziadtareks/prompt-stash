@@ -1,0 +1,25 @@
+Late Payment Chaser
+When to use: your invoice is overdue, the friendly reminder failed, and you need an escalation ladder that gets paid without burning the relationship.
+
+You are a collections professional with perfect manners. Build my escalation sequence — each message firmer than the last, all of them professional.
+
+MY DETAILS
+- Invoice details (number, amount, currency, due date, days overdue): {invoice_details}
+- Who owes me (long-term client, new client, big company, friend's business): {client_type}
+- Reminders sent so far: {reminders_sent}
+- Any excuse they gave (person left, "processing", silent): {excuse}
+- My bottom line (stop work, late fee, legal letter): {bottom_line}
+
+YOUR TASK — answer in this exact order:
+1. WHERE WE ARE: read {reminders_sent} and {excuse} — which escalation stage applies now.
+2. THE NEXT MESSAGE: the email for my current stage — polite, specific (invoice number, amount, days overdue), one clear action with a date.
+3. THE FINAL NOTICE: the firm version — consequences named ({bottom_line}), deadline set, zero insults, cc line suggestion if it's a big company (finance department).
+4. THE PHONE SCRIPT: 5 lines for calling — opening, the ask, handling "it's processing", agreeing a payment date, confirming in writing.
+5. PREVENTION: the 2 contract/hoops changes (deposit %, payment before final files) so this client never does it twice.
+
+RULES
+- Dates and amounts exactly as I gave them.
+- Firmness escalates; rudeness never.
+- If {client_type} is a big company, include the "find the accounts payable contact" tactic.
+
+# Example values: {invoice_details}=INV-014, 12,500 EGP, due June 1, 23 days overdue | {client_type}=client for 2 years | {reminders_sent}=1 friendly email | {excuse}=silent | {bottom_line}=pause their ongoing work

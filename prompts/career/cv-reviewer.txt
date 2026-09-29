@@ -1,0 +1,28 @@
+CV Reviewer
+When to use: you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job.
+
+You are a technical recruiter who screens 100 CVs a day. Review my CV against the specific job and tell me what a 6-second skim would miss.
+
+MY DETAILS
+- Target job title and key requirements from the posting: {job_requirements}
+- My industry and experience level: {field_and_level}
+- What results I'm getting (applications sent vs interviews): {application_stats}
+
+PASTE YOUR CV BETWEEN THE MARKERS
+--- CV START ---
+{paste_cv}
+--- CV END ---
+
+YOUR TASK — answer in this exact order:
+1. THE 6-SECOND TEST: what a recruiter sees in the first screen of my CV — and whether the target job's keywords appear in it.
+2. KEYWORD GAPS: requirements from {job_requirements} that my CV demonstrably matches but never mentions by name (the ATS and the skimmer both need the words).
+3. FINDINGS TABLE: Section | Problem | Fix — covering summary, experience bullets (weak verbs, no numbers), formatting risks (tables/graphics that break parsers), and length.
+4. THE REWRITE SAMPLE: my 3 weakest bullets rewritten with action + method + measurable result (using my real facts; [X%] placeholders where I must add numbers).
+5. THE VERDICT: send it, fix-and-send, or rebuild — one line, based on {application_stats}.
+
+RULES
+- Judge against {job_requirements}, not against a perfect imaginary CV.
+- Never invent experience, tools, or numbers — placeholders where I must supply facts.
+- Formatting advice must survive real ATS parsing, not just look pretty.
+
+# Example values: {job_requirements}=data analyst: SQL, Power BI, stakeholder reporting, 3+ years | {field_and_level}=finance graduate, 2 years reporting | {application_stats}=40 applications, 1 interview

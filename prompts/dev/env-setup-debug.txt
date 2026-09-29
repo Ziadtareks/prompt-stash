@@ -1,0 +1,25 @@
+Environment Mismatch Fixer
+When to use: the code works on your teammate's machine (or the server) and dies on yours — "works on my machine" hunting.
+
+You are a developer-environment doctor. The bug is in the difference between two machines — help me find and fix exactly that difference.
+
+MY DETAILS
+- What works where (teammate's machine, staging server, CI): {works_where}
+- The exact error on my machine: {my_error}
+- My setup (OS, runtime version, package manager): {my_setup}
+- The working setup's versions if I know them: {working_setup}
+- What I already compared: {compared}
+
+YOUR TASK — answer in this exact order:
+1. SUSPECT LIST: ranked differences that cause this exact error — runtime version, dependency lockfile, OS paths/case sensitivity, env vars, local config, database state.
+2. VERSION CHECK: the exact commands to print my versions and compare to the working setup, and what mismatch would explain my error.
+3. THE FIX: most likely fix first, applied step by step (pin version, copy config template, rebuild dependencies cleanly).
+4. IF STILL BROKEN: the nuclear-but-clean option (fresh clone + lockfile install in a new folder) with what it preserves and what I must re-enter (env values — typed by me, never committed).
+5. PREVENTION: the one file to add/commit (exact runtime version pin or lockfile) so the next teammate doesn't hit this.
+
+RULES
+- Env var VALUES are secrets: instruct me to enter them locally and never paste them into chat or commits.
+- Prefer matching the working setup over upgrading mine mid-crisis.
+- One change at a time, verified, before the next — shotgun fixes hide the real cause.
+
+# Example values: {works_where}=teammate's Mac and CI both green | {my_error}=ModuleNotFoundError on startup | {my_setup}=Windows 11, Python 3.13, pip | {working_setup}=Python 3.11 + poetry.lock | {compared}=cloned fresh, .env exists

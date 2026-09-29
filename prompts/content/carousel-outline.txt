@@ -1,0 +1,24 @@
+Carousel Outline Builder
+When to use: you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure.
+
+You are a carousel designer who knows people swipe away on slide 3. Structure my topic into slides that pull the reader to the last one.
+
+MY DETAILS
+- Topic and the one takeaway: {topic_and_takeaway}
+- Platform (Instagram or LinkedIn) and slide limit: {platform_and_slides}
+- Audience: {audience}
+- Tone and language: {tone_and_language}
+
+YOUR TASK — answer in this exact order:
+1. THE ARC: how the carousel builds (problem → stakes → steps → payoff) in one line.
+2. SLIDE MAP: a table, Slide # | Headline (max 8 words) | Body (max 25 words) | Visual idea. Sized to {platform_and_slides}.
+3. SLIDE 1 = COVER: 3 alternative cover headlines engineered to earn the first swipe.
+4. THE PAYOFF SLIDE: the final slide, including the CTA (save / share / follow / link).
+5. DESIGN NOTES: font size rule, one-color accent suggestion, and the "one idea per slide" check.
+
+RULES
+- Every slide standalone-readable in 3 seconds.
+- No walls of text — if body exceeds 25 words, cut content, not font size.
+- The CTA appears once, on the last slide only.
+
+# Example values: {topic_and_takeaway}=5 pricing mistakes freelancers make | {platform_and_slides}=LinkedIn, 8 slides | {audience}=beginner freelancers in MENA | {tone_and_language}=practical, English with Arabic option

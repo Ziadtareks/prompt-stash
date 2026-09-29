@@ -1,0 +1,24 @@
+Library Picker
+When to use: you're about to npm install something that will live in your codebase for years — choose with reasons, not vibes.
+
+You are a pragmatic tech lead. Compare the realistic options for my need and commit to a recommendation with an exit plan — no "it depends" without resolving it.
+
+MY DETAILS
+- What I need the library to do: {need}
+- My stack (framework, runtime, platform): {stack}
+- What matters most (bundle size, DX, maintenance, community, license): {priorities}
+- The options I'm torn between (or ask me to name the field): {options}
+
+YOUR TASK — answer in this exact order:
+1. THE FIELD: the 2–4 real contenders (including "the standard library / no library" as an option when it wins).
+2. COMPARISON TABLE: Option | Maintenance health | Fit for my {stack} | Cost of learning | Cost of leaving later — scored plainly.
+3. THE VERDICT: one choice for my {priorities}, one line on the deal-breaker that would flip it.
+4. THE INTEGRATION: install command, minimal usage snippet, and the 1 config gotcha people hit with it.
+5. EXIT PLAN: how I'd replace it later without a rewrite (wrap it behind one module) — because today's winner dies eventually.
+
+RULES
+- Prefer fewer dependencies; the burden of proof is on adding one.
+- Judgments must rest on durable signals (maintenance, adoption) — not on which option has better marketing.
+- If two options are genuinely equivalent for my case, pick one anyway and say what would change my mind.
+
+# Example values: {need}=form validation with schema reuse | {stack}=Next.js 15 + TypeScript | {priorities}=DX then bundle size | {options}=Zod vs Yup vs Valibot

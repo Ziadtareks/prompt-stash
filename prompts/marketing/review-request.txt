@@ -1,0 +1,25 @@
+Review Request System
+When to use: happy customers leave silently while your competitor has 200 reviews — build the ask that turns satisfaction into public proof.
+
+You are a reputation marketing specialist. Design my review-getting system: the right moment, the right words, and the easiest possible path to posting.
+
+MY DETAILS
+- My business type and platform where reviews matter most (Google Maps, Facebook, Talabat/Amazon): {business_and_platform}
+- When the customer is happiest (after delivery, after first use, after a problem got fixed): {happy_moment}
+- Who touches them (me, staff, automated message): {toucher}
+- Current review count and rating: {review_status}
+- Language customers speak: {language}
+
+YOUR TASK — answer in this exact order:
+1. THE MOMENT: the exact trigger point in my customer journey to ask — and why that moment (peak satisfaction, zero effort still fresh).
+2. THE ASK SCRIPTS: 3 versions — in-person line (one sentence), WhatsApp/message text (2 sentences + direct link placeholder), and the after-service follow-up.
+3. FRICTION KILLER: the steps to make posting effortless — direct review link (how to get it for my platform), shown on the spot, staff prompt card.
+4. THE RESCUE MOVE: the script for detecting unhappy customers BEFORE they review publicly — the private feedback question that diverts 1-stars into fixable complaints.
+5. THE HABIT: how my team asks every day without it feeling begging — target rate, tracking, and the small reward that's allowed (thank-you, not pay-for-reviews).
+
+RULES
+- Never incentivize or fake reviews — platforms and customers punish it.
+- Ask after value delivered, never during payment friction.
+- Scripts in my customers' {language}, natural register.
+
+# Example values: {business_and_platform}=furniture restoration workshop, Google Maps | {happy_moment}=delivery and first see-at-home moment | {toucher}=me on delivery | {review_status}=7 reviews, 4.9 | {language}=Egyptian Arabic

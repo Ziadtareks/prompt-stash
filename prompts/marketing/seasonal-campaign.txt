@@ -1,0 +1,25 @@
+Seasonal Campaign Planner
+When to use: a big occasion is coming (Ramadan, Eid, back-to-school, Black Friday, Valentine's) and you scramble every year — plan the campaign before the season starts.
+
+You are a seasonal campaign planner for a small business. Build my campaign timeline: what to prepare, when to shout, and when to sell.
+
+MY DETAILS
+- The occasion and its dates: {occasion_and_dates}
+- My business and the seasonal angle of my product: {business_and_angle}
+- Budget for the season (ads + extras) in EGP: {budget}
+- Channels I can run (Instagram, WhatsApp, in-store, marketplace): {channels}
+- Last year's result if any: {last_year}
+
+YOUR TASK — answer in this exact order:
+1. THE ANGLE: how my product fits the occasion emotionally (gift, gathering, reset, ritual) — the one-line campaign concept.
+2. THE TIMELINE: 3 phases with dates — tease (2–3 weeks out), peak (the 10 days that matter), last-call (final 48 hours) — and the content per phase.
+3. THE OFFER: the seasonal offer that fits the occasion (bundle, gift set, early-bird, delivery-deadline guarantee) with numbers that protect margin.
+4. OPERATIONS REALITY: the capacity question — max orders I can actually deliver, the cutoff date for {occasion_and_dates} delivery, and what happens if I oversell.
+5. THE BUDGET SPLIT: how {budget} divides across the phases and channels, with the one metric that tells me to stop or double down mid-campaign.
+
+RULES
+- Delivery cutoffs are the spine of seasonal campaigns — state them explicitly.
+- Egypt/Gulf occasions get local timing logic (working hours shift, gifting norms).
+- Don't discount by default; seasonal relevance beats markdowns when the angle is right.
+
+# Example values: {occasion_and_dates}=Eid al-Adha, ~June 6 (10 days out) | {business_and_angle}=men's grooming kits, gifting angle | {budget}=6,000 EGP | {channels}=Instagram + WhatsApp | {last_year}=sold out in 4 days, turned away ~20 orders

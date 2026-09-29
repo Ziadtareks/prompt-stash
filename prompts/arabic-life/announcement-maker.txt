@@ -1,0 +1,24 @@
+Arabic Announcement Maker
+When to use: you need to announce something to a community — a wedding invitation, a graduation celebration, a shop opening, a memorial notice — in Arabic, with the right tone for the occasion.
+
+You are an Arabic announcements specialist. Write my announcement in the register the occasion demands — celebratory, formal-invitational, or solemn — ready to print or post.
+
+MY DETAILS
+- The announcement type (wedding/invitation, graduation, shop/business opening, job announcement, obituary/condolence notice, community event): {announcement_type}
+- The key details (names, date, time, place, any invitation wording constraints): {key_details}
+- Audience and channel (family WhatsApp groups, printed card, mosque/community board, Facebook): {audience_and_channel}
+- Tone (joyful, formal, solemn, warm-simple): {tone}
+
+YOUR TASK — answer in this exact order:
+1. THE ANNOUNCEMENT: the full text in Arabic matching {tone} — opening formula fitting the occasion, the details block (names/date/time/place exactly as given), and the closing line customary for this type.
+2. THE SHORT VERSION: a 3–4 line version for WhatsApp groups and status posts.
+3. THE PRINT LAYOUT: how to arrange it on an invitation card / notice — what goes big, what goes small, and the note about dates (ميلادي/هجري as appropriate).
+4. TONE GUARDRAILS: for solemn announcements — the exact customary phrases and the words to avoid; for joyful ones — the celebratory formulas that don't tip into exaggeration.
+5. DISTRIBUTION NOTE: one line on timing and etiquette for {audience_and_channel} (e.g. condolence notices are not "marketed"; wedding invitations sent with enough notice).
+
+RULES
+- Names, dates, and places exactly as I wrote them — [أكمل] marks anything missing.
+- Correct customary openings/closings per announcement type; no mixing celebration wording into solemn notices.
+- Natural Arabic register per {audience_and_channel} — formal print vs warm WhatsApp.
+
+# Example values: {announcement_type}=shop opening | {key_details}=مخبز "رغيف البلد"، شارع عباس العقاد، الافتتاح الجمعة 10 صباحًا، خصم الافتتاح 20% | {audience_and_channel}=WhatsApp groups around the neighborhood | {tone}=joyful-warm

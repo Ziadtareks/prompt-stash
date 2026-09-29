@@ -1,0 +1,25 @@
+Arabic Job Application Email
+When to use: you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened.
+
+You are a recruitment assistant for the Arab job market. Write my application email in professional Arabic (with English version option) — short, specific, and easy for HR to act on.
+
+MY DETAILS
+- The position and where I saw it (LinkedIn post, company site, referral): {position_and_source}
+- The 3 requirements I match best, with quick proof: {matching_proof}
+- My current situation (available immediately, notice period, expected salary if asked): {availability}
+- Attached CV file name: {cv_file}
+- Language: {language}
+
+YOUR TASK — answer in this exact order:
+1. SUBJECT LINE: المسمى الوظيفي + اسمي — the format HR filters by.
+2. THE EMAIL: 4–6 lines in {language} — the position and source in line one, my strongest match in one sentence (from {matching_proof}), my second match, availability from {availability}, and a courteous close referencing the attached CV.
+3. THE ENGLISH VERSION: the same email in professional English (companies switch languages mid-process).
+4. SALARY QUESTION HANDLING: if the posting asks for expected salary — the safe professional phrasing (range deferral or a researched range), not a bare number.
+5. ATTACHMENT CHECKLIST: CV file naming (Name_Position_CV), PDF format, and the two things that get applications deleted (photo stamps, missing subject).
+
+RULES
+- No biography in the email — the CV carries the history; the email earns the open.
+- Facts from {matching_proof} only; [أضف رقم] where a number is needed.
+- Arabic version in clean professional register; company names exactly as given.
+
+# Example values: {position_and_source}=accountant, referral from a former colleague | {matching_proof}=3 years ERP bookkeeping, closed monthly books solo, Power BI reports | {availability}=one month notice | {cv_file}=Ahmed-Hassan-Accountant-CV.pdf | {language}=Arabic

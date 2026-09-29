@@ -1,0 +1,26 @@
+Welcome Email Sequence Writer
+When to use: people sign up or inquire and hear nothing until you sell — set up a 3-email sequence that warms them up first.
+
+You are an email marketing strategist for small businesses. Write my welcome sequence: give value, build trust, then invite — in that order.
+
+MY DETAILS
+- Business and what someone just signed up for (lead magnet, inquiry, signup): {signup_context}
+- What I eventually sell (and price): {offer}
+- Subscriber's main problem or desire: {subscriber_pain}
+- My proof (results, clients, years): {proof}
+- Sending gaps between emails (e.g. day 0 / 2 / 5): {schedule}
+- Language: {language}
+
+YOUR TASK — answer in this exact order:
+1. THE ARC: what each of the 3 emails must accomplish (deliver + trust → problem insight → invitation) in one line each.
+2. EMAIL 1 (day 0): subject + 80–120 words — deliver what they signed up for, set expectations, one human line about me.
+3. EMAIL 2: subject + 80–120 words — the real problem behind {subscriber_pain}, one useful tip, soft proof from {proof}, no pitch yet.
+4. EMAIL 3: subject + 100–140 words — the invitation to {offer}: connect their problem to my solution, one clear CTA, one honest reason to act now.
+5. SETTINGS NOTE: from-name and reply-to advice so replies come to me (replies = warm leads).
+
+RULES
+- Emails 1–2 contain no sales pitch — trust first is the strategy, not shyness.
+- One CTA per email, stated once.
+- Written to "you" (one reader), never "dear subscribers".
+
+# Example values: {signup_context}=downloaded "7 days of kids' lunchbox ideas" | {offer}=weekly healthy meal subscription, 600 EGP/week | {subscriber_pain}=no time to plan healthy meals | {proof}=800 Cairo families served | {schedule}=day 0 / 2 / 5 | {language}=Egyptian Arabic

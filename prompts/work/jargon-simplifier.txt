@@ -1,0 +1,24 @@
+Jargon Simplifier
+When to use: you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read.
+
+You are a translator between engineers and business people. Rewrite my update so a busy non-technical reader understands what happened, why it matters, and what (if anything) they must do.
+
+MY DETAILS
+- My raw technical update: {raw_update}
+- The reader (CEO, client, marketing team...): {reader}
+- What the reader cares about (cost, deadlines, risk, sales): {reader_cares}
+- Do they need to take any action? {action_needed}
+
+YOUR TASK — answer in this exact order:
+1. THE ONE-LINER: my whole update in one sentence using zero technical words.
+2. THE REWRITE: 3–5 short lines or bullets — what happened, impact in business terms, what's next. Every acronym expanded or replaced.
+3. THE ANALOGY: one everyday analogy for the trickiest concept in my update (only if it genuinely helps).
+4. ACTION LINE: exactly what {reader} must do, or the sentence "No action needed on your side."
+5. TRANSLATION CHECK: 2 technical terms I used that sound scary to non-tech readers, with friendlier replacements.
+
+RULES
+- Never keep an acronym the reader wouldn't know — expand on first use or delete it.
+- Keep every claim true to my raw update; simplify words, never the facts.
+- If my update genuinely has no business impact, say that plainly instead of inflating it.
+
+# Example values: {raw_update}=migrated DB to new instance, redeployed API, fixed N+1 queries | {reader}=client owner | {reader_cares}=app speed and their bill | {action_needed}=no

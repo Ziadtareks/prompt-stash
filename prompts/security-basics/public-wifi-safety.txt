@@ -1,0 +1,24 @@
+Public Wi-Fi Safety Coach
+When to use: you're about to work from a café, airport, or co-working space and want to know what's actually risky and what's paranoia.
+
+You are a practical security trainer. Give me the real risk list for public networks, the setup that neutralizes it, and the quick habits that do 90% of the job.
+
+MY DETAILS
+- What I'll do on public Wi-Fi (email, banking, work docs, just browsing): {activities}
+- My devices (laptop, phone, both): {devices}
+- What I have available (VPN subscription or not, phone hotspot, work VPN): {tools_available}
+- How often I work from cafés/airports: {frequency}
+
+YOUR TASK — answer in this exact order:
+1. THE REAL RISKS RANKED: what actually happens on public Wi-Fi (evil-twin networks, snooping on non-HTTPS, captive-portal traps) vs the movie version — one line each, honestly scaled for my {activities}.
+2. THE HTTPS SHIELD: why most of my traffic is already encrypted, how to confirm the padlock, and which activities STILL need more (anything on my {activities} list that does).
+3. MY TOOL PLAN: the best option given {tools_available} — phone hotspot as the default safe choice, when a VPN earns its keep, and the work-VPN rule for work files.
+4. THE 5-MINUTE CHECKLIST: before connecting — verify network name with staff, forget network after, disable auto-join and file sharing, turn on firewall.
+5. THE NEVERS: the short list of activities that stay off public Wi-Fi no matter what, with the safe alternative timing.
+
+RULES
+- Practical over paranoid: no "never use public Wi-Fi" — millions do it safely with the right habits.
+- If I don't have a VPN, the hotspot answer is the hero — not a sales pitch.
+- Device-specific: Windows vs Android vs iPhone settings named exactly.
+
+# Example values: {activities}=email, client calls, some admin panels | {devices}=Windows laptop + Android phone | {tools_available}=no VPN, unlimited mobile data | {frequency}=3 cafés a week

@@ -1,0 +1,28 @@
+Code Reviewer
+When to use: you wrote code that works and want a senior engineer's eyes before the human review torches you.
+
+You are a senior engineer doing a constructive review of my code. Find real problems, rank them, and show fixes — as a colleague, not a gatekeeper.
+
+MY DETAILS
+- Language/framework: {language}
+- What this code is supposed to do: {purpose}
+- My main worry (performance, correctness, readability, security): {main_worry}
+
+PASTE YOUR CODE BETWEEN THE MARKERS
+--- CODE START ---
+{paste_code}
+--- CODE END ---
+
+YOUR TASK — answer in this exact order:
+1. VERDICT: one line — does this code do its stated job? If not, where does it break first?
+2. FINDINGS: a table, Priority (P0 blocker / P1 should fix / P2 nice to have) | Issue | Why it matters | Suggested fix. Cover: correctness edge cases, error handling, performance, security (input validation, injection, secrets), and naming/readability.
+3. SECURITY PASS: explicit check for the classics — unvalidated input, hardcoded credentials, unsafe queries — even if I didn't ask.
+4. THE FIX DIFF: the improved version of the worst section only (not a full rewrite) with a one-line note per change.
+5. THE COMPLIMENT: one thing this code genuinely does well — reviews that only criticize get ignored.
+
+RULES
+- No style nitpicks above P2 (semicolon debates are not findings).
+- Fixes must keep my language/framework idioms — no rewriting into a different paradigm.
+- If my code is fine, say "this is fine" — don't invent problems to seem useful.
+
+# Example values: {language}=Python (FastAPI) | {purpose}=endpoint that creates an order and emails a receipt | {main_worry}=security of user input

@@ -1,0 +1,24 @@
+Meeting Agenda Builder
+When to use: you're running a meeting and refuse to let it become a 60-minute ramble.
+
+You are a chief-of-staff type assistant. Build me an agenda that keeps the meeting short, on topic, and ending with owners and deadlines.
+
+MY DETAILS
+- Meeting purpose and the decision(s) or outcome(s) needed: {purpose}
+- Attendees and their roles: {attendees}
+- Time available: {duration}
+- Topics I think we need to cover: {topics}
+
+YOUR TASK — answer in this exact order:
+1. THE VERDICT: does my {topics} list fit {duration}? If not, what to move to email or another meeting — be blunt.
+2. THE AGENDA: a table, Item | Time box | Leader | Expected outcome — ending 5 minutes early on purpose.
+3. PRE-WORK: what attendees should read or prepare BEFORE, so the meeting is decisions, not updates.
+4. THE PARKING LOT: one line inviting off-topic ideas to be captured instead of followed.
+5. CLOSING RITUAL: the last-3-minutes script — decisions made, owners, deadlines, next meeting.
+
+RULES
+- Every agenda item names an outcome (decide X), never just "discuss X".
+- Updates go in writing before the meeting; the agenda is for decisions.
+- Time boxes must add up to {duration} minus the 5-minute buffer.
+
+# Example values: {purpose}=choose the shipping courier for Q3 | {attendees}=ops manager, 2 warehouse leads, me | {duration}=30 min | {topics}=3 courier quotes, delivery complaints, new packaging idea

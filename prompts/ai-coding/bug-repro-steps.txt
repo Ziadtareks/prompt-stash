@@ -1,0 +1,24 @@
+Bug Repro Builder
+When to use: someone (or you, last week) reported a bug in one vague sentence, and "it doesn't work" is not something you can fix.
+
+You are a QA engineer. Turn my vague bug report into a minimal reproduction recipe — the exact steps that make the bug happen every time.
+
+MY DETAILS
+- The vague report: {vague_report}
+- Where it happens (page, endpoint, device, environment): {where}
+- What I know about the reporter's actions: {context}
+- What "working" looks like: {expected_behavior}
+
+YOUR TASK — answer in this exact order:
+1. QUESTIONS FIRST: the 3 questions whose answers would cut the search space in half (only if the answer truly isn't in my inputs).
+2. THE HYPOTHESES: 3 candidate causes, each with a one-line "how to trigger it on purpose".
+3. REPRO DRAFT: step-by-step recipe for the most likely hypothesis — numbered, exact clicks/requests, with the expected result at each step and the point where it diverges from {expected_behavior}.
+4. MINIMIZE: which steps to strip away once reproduced, to reach the smallest failing case (the one you'd attach to a ticket).
+5. THE TICKET: title + body ready to paste — observed vs expected, environment, repro steps, frequency.
+
+RULES
+- A repro that fails 50% of the time is a hypothesis, not a repro — label confidence honestly.
+- Never invent user actions I wasn't told about; mark assumptions with [ASSUMED].
+- Environment details (browser, OS, account state) are mandatory fields — flag them if missing.
+
+# Example values: {vague_report}=customer says checkout "sometimes" doesn't work | {where}=web checkout, Chrome mostly | {context}=she uses a promo code and pays with card | {expected_behavior}=order created, redirect to confirmation

@@ -1,0 +1,30 @@
+Phishing Spotter
+When to use: a message feels off — "your account will be closed", an unexpected invoice, a delivery fee link — check it before you tap anything.
+(Paste the message but REPLACE all links with [LINK] — never paste live links and never click to "test" them.)
+
+You are a security analyst who reads scam messages all day. Analyze the message I pasted: is it phishing, and what exactly gives it away — so I can spot the next one without you.
+
+MY DETAILS
+- Where the message arrived (SMS, WhatsApp, email, Instagram DM): {channel}
+- Who it claims to be from (bank, courier, government, my boss): {claimed_sender}
+- What it wants me to do (click, reply with a code, pay a fee, open a file): {requested_action}
+- Were you expecting anything like this? {context}
+
+PASTE THE MESSAGE BETWEEN THE MARKERS
+--- MESSAGE START ---
+{paste_message_links_redacted}
+--- MESSAGE END ---
+
+YOUR TASK — answer in this exact order:
+1. THE VERDICT: scam / very likely scam / suspicious / likely legitimate — one line, then the 2 strongest signals for the verdict.
+2. THE RED FLAGS: every tell in the message — urgency and threats, mismatch between claimed sender and details, payment to personal wallets (Vodafone Cash/Instapay to strangers), generic greeting, "verify your account" tricks — each in one line.
+3. THE VERIFICATION PATH: how to check for real WITHOUT the message's link — the official app/site/number to use instead, and the one question to ask the claimed sender through a known channel.
+4. IF I ALREADY CLICKED/PAID: the triage steps in order — what to disconnect/change/report first, and where to report it (bank hotline, provider, local cybercrime reporting).
+5. THE PATTERN LESSON: name the scam family this belongs to (fake delivery fee, bank freeze, prize, boss-impersonation) and its one signature move.
+
+RULES
+- Defensive only: help me recognize and report — never help craft or improve scam messages.
+- Never ask me to interact with the suspicious link or attachment to "check" it.
+- If it claims to be my bank, the official-app rule overrides everything: verify there, act there.
+
+# Example values: {channel}=SMS | {claimed_sender}=a courier company | {requested_action}=pay 45 EGP customs fee via a link | {context}=I do have a package coming, but not from abroad | {paste_message_links_redacted}="Your parcel is held. Pay the 45 EGP fee via [LINK] within 24h or it returns to sender."

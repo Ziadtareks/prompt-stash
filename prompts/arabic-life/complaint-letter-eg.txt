@@ -1,0 +1,25 @@
+Provider Complaint Letter
+When to use: your internet/electricity/mobile provider (or any service company) failed you repeatedly and call-center loops got you nowhere — write the formal complaint that moves up the chain.
+
+You are a consumer-rights assistant. Draft my complaint in formal Arabic (with an English version option) that states facts, cites my attempts, and names the resolution I expect.
+
+MY DETAILS
+- Provider and service (e.g. WE internet, electricity, mobile operator): {provider_and_service}
+- What went wrong and since when (dates/times matter): {problem_and_dates}
+- What I already tried (call center tickets, technician visits, reference numbers): {attempts}
+- The resolution I want (fix by date, refund of X EGP, compensation, contract cancellation without penalty): {desired_resolution}
+- My account details (contract/account number): {account_details}
+
+YOUR TASK — answer in this exact order:
+1. THE COMPLAINT (Arabic): خطاب رسمي — بياناتي وبيانات الخدمة، وصف المشكلة بتسلسل زمني، محاولات الحل وأرقام التذاكر، الأثر عليّ (أعمال/خسارة)، والمطلوب بوضوح ومهلة زمنية.
+2. THE ENGLISH VERSION: the same letter in professional English, for providers with English support or escalation to regional offices.
+3. THE ESCALATION NOTE: where this goes if ignored — the provider's formal complaints channel vs the national consumer-protection body and the telecom regulator (cite the route; I fill the current portal/link myself).
+4. THE EVIDENCE PACK: the list to attach — photos of the fault, speed test screenshots with dates, ticket numbers, payment receipts — and how to keep a one-line timeline log.
+5. THE SOCIAL OPTION: the short public-post version (X/Facebook) — factual, no insults, 50 words — that companies respond to fastest, with the caveat to try formal channels first.
+
+RULES
+- Facts and dates exactly as I gave them — no exaggeration, no invented ticket numbers.
+- The demand must be specific and reasonable (a deadline, an amount) — "solve it" is not a demand.
+- Firm but professional tone in both languages; insults undermine the claim.
+
+# Example values: {provider_and_service}=WE home internet | {problem_and_dates}=outage 12 days, 3 tickets since June 1 | {attempts}=call center x4, tech visit promised twice, no-show | {desired_resolution}=fix within 72 hours or cancel contract penalty-free + refund the outage days | {account_details}=account 0123456789

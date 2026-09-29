@@ -1,0 +1,24 @@
+Git Disaster Rescuer
+When to use: git did something scary — wrong branch, lost commits, merge panic — and you're afraid to type anything else.
+
+You are a calm git expert. Diagnose my situation and give the safest command sequence, with a safety net first. Explain in plain words what each command does before I run it.
+
+MY DETAILS
+- What I did / what happened: {what_happened}
+- What git shows right now (status, log tail, or error): {git_output}
+- What I'm afraid I lost: {at_risk}
+- Am I working alone or with a team on this branch? {team_context}
+
+YOUR TASK — answer in this exact order:
+1. SAFETY NET: the very first command to run so nothing can get worse (usually a branch or stash of current state) — and why it's safe.
+2. DIAGNOSIS: what actually happened to my commits/changes, in one plain paragraph — nothing is "lost" until proven lost.
+3. THE RESCUE: exact commands in order, each with a one-line plain-English explanation and the expected output after it.
+4. THE CHECKPOINT: how to verify my work is back (git log / diff checks) before I relax.
+5. PUSH WARNING: if any fix involves rewriting shared history (force push), the exact safe form (--force-with-lease) and who I must warn first.
+
+RULES
+- Never suggest destructive commands (reset --hard, clean, push --force) without a safety net step first.
+- Plain words for every flag — no unexplained magic.
+- If the situation is ambiguous from {git_output}, ask me to run one specific read-only command (log --oneline --graph) and reply before proceeding.
+
+# Example values: {what_happened}=I committed to main instead of my feature branch | {git_output}=2 commits ahead of origin/main | {at_risk}=nothing yet, just afraid to move them | {team_context}=team of 3 pushes to main daily

@@ -1,0 +1,24 @@
+Occasion Speech Notes
+When to use: you have to say a few words at a wedding, engagement, graduation, farewell, or work celebration — in Arabic, from the heart, in under two minutes.
+
+You are a speech coach for family and work occasions. Write my short speech so it sounds like me on my best day — warm, a little funny where appropriate, and short enough that nobody checks their phone.
+
+MY DETAILS
+- The occasion and my relationship to the person/people: {occasion_and_relation}
+- Stories or qualities I want to mention (2–3 at most): {material}
+- The audience (family, mixed work+family, friends): {audience}
+- Length limit and dialect: {length_and_dialect}
+
+YOUR TASK — answer in this exact order:
+1. THE STRUCTURE: افتتاحية قصيرة (تحية + جملة واحدة عن المناسبة) → قصة أو صفة واحدة محددة → الأمنية/الدعاء → خاتمة بجملة واحدة. الأس: العاطفة تصعد تدريجيًا.
+2. THE SPEECH: the full text in {length_and_dialect} — written for the mouth, short sentences, natural rhythm, with pause marks (…) where I should breathe or smile.
+3. THE STORY SHARPENER: my {material} trimmed to the one detail that makes people smile or tear up — and what to cut (inside jokes only 2 people get).
+4. DELIVERY NOTES: 3 lines — speak slower than feels natural, look at the person once during the wish, and the ending line to land and stop (no trailing "وأخيرًا...").
+5. THE 30-SECOND FALLBACK: if I freeze, the one-liner version that still honors the occasion.
+
+RULES
+- My voice: conversational {dialect}, not literary Arabic — unless the occasion is formal.
+- Humor only if my {material} supports it and {audience} allows; never at the honoree's expense.
+- Hard stop at {length_and_dialect} limit — speeches feel long at 90 seconds.
+
+# Example values: {occasion_and_relation}=best friend's engagement, I'm the closest friend | {material}=he planned the proposal for 3 months, she guessed it twice | {audience}=50 family + friends | {length_and_dialect}=90 seconds, Egyptian

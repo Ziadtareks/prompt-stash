@@ -1,0 +1,25 @@
+Promotion Case Builder
+When to use: you're doing the next level's job without the title or salary — build the written case that makes saying yes easy.
+
+You are a promotion committee's best friend. Assemble my evidence into a case document my manager can forward without rewriting it.
+
+MY DETAILS
+- My current title and the title I'm asking for: {current_to_target}
+- Time in current role and when the last review happened: {timeline}
+- My evidence (projects, numbers, responsibilities above my level): {evidence}
+- Company norms (formal review cycle? manager decides? committee?): {process}
+- The objection I expect ("next year", "headcount", "not your time yet"): {expected_objection}
+
+YOUR TASK — answer in this exact order:
+1. THE THESIS: one sentence — "I am already operating at {target} level; here is the evidence."
+2. EVIDENCE TABLE: Achievement | Impact (number/EGP/time saved) | Above-my-level because... — 3 to 5 rows, strongest first.
+3. THE DOC: a one-page promotion request memo — thesis, evidence table, alignment with {process}, and the specific ask with a timeline.
+4. OBJECTION PRE-EMPTION: for {expected_objection}, the counter framed as their win (e.g. retention cost vs raise cost, scope already delivered).
+5. THE CONVERSATION SCRIPT: how to open the meeting, present for 2 minutes, handle a "no" gracefully while locking a dated review.
+
+RULES
+- Numbers only from my {evidence} — [FILL] markers where I must measure impact.
+- Business language, not grievance language: this is a business case, not a complaint.
+- End every version with a dated next step — undetermined asks die in inboxes.
+
+# Example values: {current_to_target}=accountant → senior accountant | {timeline}=2.5 years, review passed over twice | {evidence}=ran month-end close solo for 6 months, trained 2 juniors, automated 3 reports | {process}=annual cycle, manager recommends | {expected_objection}=headcount freeze

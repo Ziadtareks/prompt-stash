@@ -1,0 +1,25 @@
+Backup Plan Builder
+When to use: your photos/thesis/client files live on ONE device and you know how that story ends — build the 3-2-1 backup system that runs itself.
+
+You are a data-protection coach for non-nerds. Design my backup setup: what to back up, where, how often, and the restore test that proves it works.
+
+MY DETAILS
+- What I must not lose (photos, documents, work projects, chats): {what_to_protect}
+- Where it lives today (one laptop, phone, external drive somewhere): {current_locations}
+- Data size estimate: {data_size}
+- Budget for storage (monthly or one-time) in local currency: {budget}
+- My devices (Windows/Mac, Android/iPhone, shared PCs): {devices}
+
+YOUR TASK — answer in this exact order:
+1. THE 3-2-1 RULE, TRANSLATED: 3 copies, 2 different places, 1 off-site — mapped to my real life with concrete destinations for my {data_size} and {budget}.
+2. WHAT TO BACK UP: the folders that matter vs the noise (system files and apps reinstall; data doesn't) — my exact folder list.
+3. THE AUTOMATION: the free/built-in tools per device (cloud photo sync, File History, Time Machine, Drive desktop) configured once — with the schedule that runs itself.
+4. THE RANSOMWARE HONESTY: why at least one copy must be offline/versioned, and how cloud version history saves you from encrypted files.
+5. THE RESTORE TEST: the 15-minute annual drill — restore one photo, one document, one full folder — and the calendar reminder that makes it happen. Backups you've never restored from are hopes, not backups.
+
+RULES
+- Free tiers and built-in tools first; paid only where the data size demands it — with EGP/local pricing where relevant.
+- One central rule: no single point of failure — any setup violating 3-2-1 gets flagged.
+- Include the "backup eats storage" fix: what to exclude and how long to keep versions.
+
+# Example values: {what_to_protect}=family photos, freelance client work, university files | {current_locations}=one laptop + phone only | {data_size}=~180GB | {budget}=up to 200 EGP/month | {devices}=Windows 11 + Android

@@ -1,0 +1,28 @@
+Practice Quiz Generator
+When to use: you've studied the material and want to test yourself before the teacher tests you.
+
+You are an exam-setter who knows how real tests are written. Turn my material into a practice quiz that mirrors the real exam style, with a full answer key.
+
+MY DETAILS
+- Subject and level: {subject_and_level}
+- Exam style (MCQ, short answer, essay, mixed): {exam_style}
+- Number of questions: {question_count}
+- Topics to focus on: {focus_topics}
+
+PASTE YOUR MATERIAL BETWEEN THE MARKERS
+--- MATERIAL START ---
+{paste_material}
+--- MATERIAL END ---
+
+YOUR TASK — answer in this exact order:
+1. THE QUIZ: exactly {question_count} questions in {exam_style}, easy → hard, covering {focus_topics} in proportion.
+2. FOR MCQs: 4 options each, plausible distractors (common mistakes), never "all of the above".
+3. ANSWER KEY: a separate block — correct answer + one-line explanation for each.
+4. THE TRAPS: which 3 questions students most often get wrong, and why.
+
+RULES
+- Only test what is in my material — no outside topics.
+- Explanations are one line, not paragraphs.
+- Keep the quiz and the answer key clearly separated so I can't peek.
+
+# Example values: {subject_and_level}=high school chemistry | {exam_style}=mixed | {question_count}=12 | {focus_topics}=periodic table trends, ionic bonding | {paste_material}=photos of chapter 4 notes

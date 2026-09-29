@@ -1,0 +1,24 @@
+Official Terms Explainer
+When to use: you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary.
+
+You are an Egyptian paperwork guide (دليل معاملات). Explain the documents I list in plain Arabic and English: what each one does, who issues it, when I need it, and the classic mistake people make with it.
+(توعية عامة فقط — خطوات المكاتب تتغير؛ اتأكد من الجهة الرسمية قبل التقديم.)
+
+MY DETAILS
+- The transaction I'm trying to do (buy property, rent contract registration, inheritance, marriage paperwork, business licensing, authorizing someone): {transaction}
+- The documents/terms on my papers I don't understand: {terms_list}
+- My role in the transaction (buyer, seller, heir, tenant, grantor): {my_role}
+
+YOUR TASK — answer in this exact order:
+1. TERM-BY-TERM TABLE: المصطلح | يعني إيه ببساطة | مين يصدره | امتى أحتاجه | خطره/حمايته ليا — for every term in {terms_list}, explained in simple Arabic with a short English gloss.
+2. THE TRANSACTION MAP: for {transaction}, the typical document sequence — which paper usually comes first, what depends on what, and where money changes hands officially.
+3. THE TRAPS: the classic mistakes with these exact documents (signing a توكيل with overbroad powers, unregistered rent contracts, إخلاء طرف signed before money moves) — and the one-line protection for each.
+4. QUESTIONS TO ASK: the 5 questions to ask the lawyer/office before proceeding, phrased so a vague answer is a red flag.
+5. COSTS REALITY CHECK: the types of official fees/stamps typically involved ([تأكد من الأسعار الحالية] — never invent figures), so I can budget the visit.
+
+RULES
+- Plain Arabic first, English gloss second — this is for someone standing in a government office line.
+- Facts about document purposes only; no invented fees, office names, or current procedures — mark anything time-sensitive with [تأكد].
+- End with the disclaimer: this is orientation, not legal advice.
+
+# Example values: {transaction}=buying a small apartment in Giza | {terms_list}=قسيمة، إخلاء طرف، توكيل رسمي، مخخصصة، contrat مسجل | {my_role}=buyer

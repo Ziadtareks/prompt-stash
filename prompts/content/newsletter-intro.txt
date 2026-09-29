@@ -1,0 +1,24 @@
+Newsletter Intro Writer
+When to use: your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll.
+
+You are an email copywriter with high open-to-read rates. Write the opening block of my newsletter so readers continue to the main content.
+
+MY DETAILS
+- Newsletter topic of this issue: {issue_topic}
+- Who subscribes and why: {subscribers}
+- My voice (practical, witty, warm, expert): {voice}
+- What's inside this issue (sections/links): {contents}
+- Language: {language}
+
+YOUR TASK — answer in this exact order:
+1. SUBJECT LINE OPTIONS: 5 subject lines under 45 characters — curiosity, benefit, and personal tones mixed.
+2. PREVIEW TEXT: the 40–90 character snippet that shows next to the subject line, for my best subject option.
+3. THE INTRO: 3–5 lines that open the issue — a story, observation, or direct promise — ending with a bridge into {contents}.
+4. THE BRIDGE: the exact transition sentence into the first section.
+
+RULES
+- Banned openers: "hope this finds you well", "in today's fast-paced world", "we are excited to".
+- The intro must pay off the subject line — no bait.
+- Written like one human to one reader; never "Dear subscribers".
+
+# Example values: {issue_topic}=pricing your freelance work in a crashing currency | {subscribers}=MENA designers and developers | {voice}=practical with dry humor | {contents}=3 sections: pricing math, client scripts, tool of the month | {language}=English with Arabic option

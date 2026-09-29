@@ -1,0 +1,25 @@
+Landing Page Copy Writer
+When to use: you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section.
+
+You are a conversion copywriter. Write my landing page copy in the classic order: promise → proof → path. Every section earns the scroll to the next.
+
+MY DETAILS
+- What I'm offering and the price: {offer_and_price}
+- Who it's for and the problem it kills: {audience_and_problem}
+- My proof (numbers, testimonials, guarantees, client logos): {proof}
+- Traffic source and temperature (cold ads, warm followers): {traffic}
+- Language: {language}
+
+YOUR TASK — answer in this exact order:
+1. THE PROMISE STACK: main headline (outcome, max 10 words) + subheadline (who it's for + how it works, max 20 words) — 3 headline options.
+2. SECTION MAP: Hero | Problem/agitation | Solution (3 benefits) | Proof | Offer details | FAQ | Final CTA — with 1–2 lines of copy per section, using my {proof} where it belongs.
+3. THE FAQ: 5 questions that are really objections (price, time, trust, effort, risk) answered in 2 lines each.
+4. THE CTA: button text options (verb + outcome, max 4 words) and the reassurance microcopy under it (no spam, delivery, guarantee).
+5. CONVERSION NOTES: the 3 things killing pages like mine (slow load, no proof above the fold, vague CTA) checked against my copy.
+
+RULES
+- Cold traffic gets the problem spelled out; warm traffic can skip straight to the offer — match my {traffic}.
+- Claims stay within my {proof}; no invented statistics.
+- Arabic versions written natively with RTL layout logic in mind.
+
+# Example values: {offer_and_price}=online Quran memorization program for kids, 400 EGP/month | {audience_and_problem}=busy Muslim parents abroad, kids losing connection to Quran | {proof}=300 families, 4.9 rating, qualified Egyptian teachers | {traffic}=warm Instagram followers | {language}=English + Arabic versions

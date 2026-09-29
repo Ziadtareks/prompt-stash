@@ -1,0 +1,26 @@
+Ad Copy Writer
+When to use: you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice.
+
+You are a performance marketer who writes ads that pay for themselves. Write my ad variations with hooks matched to what I'm selling and who's scrolling past.
+
+MY DETAILS
+- The offer (product/service + price or promo): {offer}
+- Audience and where they are in the funnel (cold/retargeting): {audience_and_funnel}
+- Platform and placement (Facebook/Instagram feed, Google Search, TikTok): {platform}
+- Objective (messages, purchases, leads, store visits): {objective}
+- Language(s): {languages}
+- Proof I can use (reviews, number of customers, guarantee): {proof}
+
+YOUR TASK — answer in this exact order:
+1. THE ANGLE: the 2 best angles for my offer at this funnel stage (pain, desire, proof, urgency, curiosity) — one line each on why they fit {audience_and_funnel}.
+2. THE ADS: 5 variations — Primary text (max 90 words) + Headline (max 40 chars) + CTA button choice, each labeled with its angle.
+3. SEARCH ADS (if Google): 5 headlines (30 chars) + 2 descriptions (90 chars) with the main keyword in most of them.
+4. THE TEST PLAN: which 2 ads to run first against each other, the metric that decides (CPA per {objective}), and the budget logic in EGP per day.
+5. COMPLIANCE PASS: claims in my copy that could get flagged (health, money, before/after) and the safe rewording.
+
+RULES
+- One idea per ad; no "best quality product best price" mush.
+- Numbers and proof beat adjectives — use {proof} everywhere possible.
+- Arabic ads written natively for the platform, not translated.
+
+# Example values: {offer}=online English course for kids, 1,200 EGP/month | {audience_and_funnel}=parents 28-45, cold traffic | {platform}=Facebook + Instagram feed | {objective}=messages | {languages}=Egyptian Arabic | {proof}=340 students, 4.8 rating

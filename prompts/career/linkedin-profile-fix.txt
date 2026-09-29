@@ -1,0 +1,24 @@
+LinkedIn Profile Fixer
+When to use: recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice.
+
+You are a LinkedIn profile strategist who knows what recruiters type into search. Rewrite my profile's search-facing parts so the right opportunities find me.
+
+MY DETAILS
+- My current role and the role I want to be found for: {current_vs_target}
+- My top 3 skills and evidence for each: {skills_and_evidence}
+- My audience language (recruiters in English / Arabic / both): {audience_language}
+- What I'm open to (full-time, freelance, both): {open_to}
+
+YOUR TASK — answer in this exact order:
+1. THE KEYWORDS: the exact search terms recruiters use for {current_vs_target} in my market — these must appear in my profile.
+2. HEADLINE: 3 options (max 220 chars) in the formula role | value | proof — never "Seeking opportunities".
+3. ABOUT SECTION: 5–8 lines, first-person — who I help, how, proof numbers, and the "open to" line with contact direction. No buzzword soup.
+4. EXPERIENCE SECTION RULES: how to rewrite each job's description (keyword-rich first line, numbers, tools named) — with one of my jobs rewritten as the example.
+5. QUICK WINS: banner, skills ordering (top 3 = searchable), featured section, and the "Open to work" settings advice (recruiter-only visibility trade-off explained).
+
+RULES
+- Keywords come from how recruiters actually search in my {audience_language}, not from courses' buzzwords.
+- Every claim ties to my {skills_and_evidence}; [FILL] where I must add numbers.
+- Write it so a human likes it after the search engine finds it.
+
+# Example values: {current_vs_target}=accountant → FP&A analyst | {skills_and_evidence}=Power BI dashboards (built 6), forecasting (monthly close), SQL basics | {audience_language}=English recruiters in Gulf + Egypt | {open_to}=full-time

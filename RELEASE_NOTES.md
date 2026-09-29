@@ -1,51 +1,37 @@
-# v2.0.0 — The Big Vault (2026-09-29)
+# v3.0.0 — The 120+ Vault (2026-09-29)
 
-Prompt Stash grows from 9 to **29 prompts** across 7 categories. All 9 original files are unchanged.
+Prompt Stash scales from 29 to **125 prompts across 13 folders**. All 29 previous files are unchanged.
 
-## New in v2.0.0 — 4 new folders, 20 new prompts
+## New in v3.0.0
 
-```
-prompts/
-├── study/     (NEW — 5 files)
-│   ├── summarize-lesson.txt
-│   ├── flashcards-maker.txt
-│   ├── exam-revision.txt
-│   ├── translate-term.txt
-│   └── essay-outline.txt
-├── business/  (NEW — 5 files)
-│   ├── store-reply.txt
-│   ├── invoice-words.txt
-│   ├── price-calc-explain.txt
-│   ├── booking-confirm.txt
-│   └── refund-apology.txt
-├── dev/       (NEW — 5 files)
-│   ├── readme-writer.txt
-│   ├── commit-message.txt
-│   ├── regex-explain.txt
-│   ├── sql-fix.txt
-│   └── api-error.txt
-└── daily/     (NEW — 5 files)
-    ├── habit-plan.txt
-    ├── budget-split.txt
-    ├── trip-pack-list.txt
-    ├── workout-plan.txt
-    └── sleep-routine.txt
-```
+### Existing folders topped up to 10 each (+36)
+- **debugging** 3 → 10: slow-pc-fix, wifi-drop-fix, printer-fix, phone-storage-fix, battery-drain-fix, overheating-fix, email-bounce-fix
+- **work** 3 → 10: one-on-one-prep, salary-negotiation-email, out-of-office-writer, presentation-outline, meeting-agenda, jargon-simplifier, task-priority-sort
+- **content** 3 → 10: video-script-short, post-hooks, content-calendar, carousel-outline, product-description, newsletter-intro, comment-reply
+- **study** 5 → 10: practice-quiz, feynman-explain, formula-explainer, homework-hint, mistake-log-analyzer
+- **business** 5 → 10: quotation-writer, contract-summary, supplier-email, late-payment-chaser, idea-check
+- **dev** 5 → 10: git-rescue, log-analyzer, code-reviewer, env-setup-debug, dockerfile-fix
 
-Highlights: bilingual EN ↔ AR term translator, invoice + refund templates for small businesses, a regex explainer with token tables, and realistic habit/budget/sleep plans designed to survive bad days.
+### 6 new folders × 10 (+60)
+- **ai-coding**: feature-to-prompt, code-explainer, refactor-request, test-writer, bug-repro-steps, library-picker, migrate-code, performance-fix, prompt-improver, architecture-suggest
+- **career**: cv-reviewer, cover-letter-writer, linkedin-profile-fix, interview-prep, star-story-builder, career-switch-plan, freelance-profile, promotion-case, rejection-reply, skills-gap-map
+- **marketing**: ad-copy-writer, email-sequence, discount-offer, customer-persona, competitor-teardown, landing-copy, whatsapp-broadcast, review-request, referral-offer, seasonal-campaign
+- **files-data**: excel-formula, csv-cleaner, data-summarizer, file-organizer, pdf-extract, sql-from-question, chart-picker, duplicate-finder, report-skeleton, naming-convention
+- **security-basics**: password-checkup, phishing-spotter, 2fa-setup-guide, scam-check, breach-response, public-wifi-safety, device-loss-plan, backup-plan, privacy-audit, safe-downloads
+- **arabic-life**: formal-arabic-email, complaint-letter-eg, occasion-messages, rental-contract-explain, arabic-speech-notes, school-note-writer, dialect-coach, arabic-job-application, legal-terms-explain, announcement-maker
 
-## Full collection (v2.0.0)
+## Standards raised in v3
 
-- **debugging** (3): website-error-fix, bsod-explain, deploy-rollback
-- **work** (3): meeting-notes-fix, reply-tone, cv-bullets
-- **content** (3): captions-ar, hashtags, bio-maker
-- **study** (5): summarize-lesson, flashcards-maker, exam-revision, translate-term, essay-outline
-- **business** (5): store-reply, invoice-words, price-calc-explain, booking-confirm, refund-apology
-- **dev** (5): readme-writer, commit-message, regex-explain, sql-fix, api-error
-- **daily** (5): habit-plan, budget-split, trip-pack-list, workout-plan, sleep-routine
+- Every new file ends with a **`# Example values`** line showing realistic fills for the variables.
+- **Egypt-relevant by default where fitting**: EGP pricing, Instapay/Vodafone Cash/Fawry, WhatsApp-first business, local occasions (Ramadan/Eid/back-to-school), Arabic output options.
+- **security-basics is defensive-only**: no prompt ever asks for your real passwords — they design the system and the habits.
+- Professional register: precise, no fluff, no duplicated topics across the 125.
 
-Same strict format as v1: title on line 1, "when to use" on line 2, then the full prompt with `{variables}`.
+## Final count by folder (125 total)
 
-## v1.0.0 (2026-09-29)
+debugging 10 · work 10 · content 10 · study 10 · business 10 · dev 10 · daily 5 · ai-coding 10 · career 10 · marketing 10 · files-data 10 · security-basics 10 · arabic-life 10
 
-Initial release: 9 plain-text prompts across debugging, work, and content. See the v1.0.0 release for the original file list.
+## History
+
+- **v2.0.0** — The Big Vault: 29 prompts across 7 categories (added study, business, dev, daily).
+- **v1.0.0** — First public release: 9 prompts across debugging, work, content.

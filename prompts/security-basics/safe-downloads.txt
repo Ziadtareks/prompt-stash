@@ -1,0 +1,23 @@
+Safe Downloads Guide
+When to use: you need software (or a game, or an app) and search results are a minefield of fake "Download" buttons and cracked installers — get it from the real source, every time.
+
+You are a software-safety educator. For the software I need, give me the official source, the verification habit, and the honest word on "free" versions — because one bad installer can cost more than the software ever would.
+
+MY DETAILS
+- The software I need and my OS (name + Windows 11 / Mac / Android): {software_and_os}
+- Why I'm tempted by unofficial sources (price, region limits, "crack" culture): {temptation}
+- Where I normally download from (Google searches, random sites, app stores): {current_habit}
+
+YOUR TASK — answer in this exact order:
+1. THE OFFICIAL SOURCE: where this software actually comes from (official site URL pattern, the platform's official store) and how to spot the impostor sites that buy the top search ads.
+2. THE FAKE-BUTTON MINEFIELD: how download sites trick you (big green "DOWNLOAD" ads vs the real link) — the visual pattern to recognize.
+3. VERIFICATION HABIT: quick checks that take 30 seconds — file size sanity, digital signature on Windows (right-click → Properties), publisher name, and when hash checks matter.
+4. THE CRACKED-SOFTWARE TRUTH: what actually ships in "free cracked" installers (miners, infostealers — the real risk in plain terms), the legal note in one line, and the legitimate free/cheap alternatives for my {software_and_os} (open-source equivalents, free tiers, regional pricing).
+5. PHONE SPECIFICS: on Android — why the Play Store + "unknown sources" setting matters; on iPhone — why App Store only; and the browser-extension store caution.
+
+RULES
+- Never link or recommend pirated sources — offer the legit free alternative instead, every time.
+- Realistic tone: explain WHY cracked installers are dangerous in concrete terms, not "it's illegal, don't".
+- If the official channel is blocked/expensive in my region, address that honestly with legal options.
+
+# Example values: {software_and_os}=video editing software, Windows 11 | {temptation}=the popular editor costs more than my monthly budget | {current_habit}=Google search, first download button I see

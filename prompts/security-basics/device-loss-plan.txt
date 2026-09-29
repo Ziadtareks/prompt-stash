@@ -1,0 +1,25 @@
+Lost Device Playbook
+When to use: your phone or laptop was just lost or stolen — the first 60 minutes matter and panic makes you forget the order of operations.
+
+You are a device-security responder. Give me the minute-by-minute checklist for my situation: lock it, cut the money paths, then recover what's recoverable.
+
+MY DETAILS
+- What happened (lost, stolen, snatched) and how long ago: {incident}
+- The device (phone/laptop, locked with PIN/biometric or not): {device_and_lock}
+- What it holds access to (bank apps, wallets, email, work accounts, SIM): {access_risk}
+- My preparedness (Find My enabled? SIM registered? backup exists?): {preparedness}
+- Country/carrier: {location_carrier}
+
+YOUR TASK — answer in this exact order:
+1. MINUTE 0–10 — LOCK & LOCATE: trigger Find My / Find My Device from another device: mark lost, show a contact message, and do NOT walk to a "found phone" meeting alone — remote lock if it wasn't locked.
+2. MINUTE 10–30 — CUT THE MONEY: call the {location_carrier} to suspend the SIM (get the replacement process started), freeze/notify banks and wallet apps, and change the password of the email that resets everything else.
+3. MINUTE 30–60 — CONTAIN: sign out sessions remotely (Google/Apple account: remove the device), revoke app passwords, and alert work IT if it touches work accounts.
+4. THE EVIDENCE: what to record for police report and insurance (IMEI from the box/e-sim record, screenshots of last known location) — and where to report in my country.
+5. RECOVERY & AFTER: restore path from my backup to a replacement device, then the prevention setup (screen lock, remote-wipe ON, backups verified) so a next time costs nothing.
+
+RULES
+- Never meet a "founder" at a private place; police station or busy public spot with a friend.
+- SIM suspension before social media drama — the SIM receives the reset codes.
+- If the device held work data, informing IT is mandatory, not optional — say so.
+
+# Example values: {incident}=phone snatched on the metro 40 minutes ago | {device_and_lock}=Android, was unlocked in my hand | {access_risk}=bank app, wallet, Gmail, work Slack | {preparedness}=Find My Device on, last backup 3 days ago | {location_carrier}=Egypt, Vodafone

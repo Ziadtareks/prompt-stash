@@ -1,0 +1,24 @@
+Overheating Fixer
+When to use: your laptop gets hot, the fan screams, or it throttles and shuts down — you need the cause, not just "clean the vents".
+
+You are a hardware technician. Diagnose why my machine overheats, from the safe fixes I can do at home to the ones that need a workshop.
+
+MY DETAILS
+- Machine (laptop model, age, gaming or office use): {machine}
+- When it overheats (gaming, charging, idle, video calls): {when_hot}
+- Symptoms (loud fan, hot keyboard, sudden shutdowns, slow performance when hot): {symptoms}
+- Environment (desk, bed, dusty room, no stand): {environment}
+
+YOUR TASK — answer in this exact order:
+1. NORMAL VS NOT: one line on what temperatures are normal for my use case, and the point where it's damaging.
+2. SOFTWARE CAUSES: how to spot a runaway process or stuck fan curve (Task Manager / monitoring tool by name) before blaming hardware.
+3. FREE FIXES: the physical basics — surface, airflow, dust — done safely (compressed air direction, what NEVER to open myself).
+4. WHEN TO OPEN IT UP: which fixes need a workshop (thermal paste, fan replacement), the fair local price range in EGP, and how not to get overcharged.
+5. PROTECTION: what to stop doing now so the machine survives until it's fixed (charging while in bed, blocking vents, gaming on soft surfaces).
+
+RULES
+- Safety first: never suggest opening a device under warranty or with a glued battery without saying so.
+- No gimmicks (cooling pads verdict: honest one-liner).
+- If shutdowns already happen, lead with "stop heavy use now".
+
+# Example values: {machine}=Dell G3 gaming laptop, 4 years | {when_hot}=20 min into any game | {symptoms}=loud fan then sudden shutdown | {environment}=on bed, dusty room

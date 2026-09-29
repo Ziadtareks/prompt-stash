@@ -1,0 +1,25 @@
+WhatsApp Broadcast Writer
+When to use: you need to message your customers on WhatsApp (status, broadcast list, or groups) without getting muted or blocked.
+
+You are a WhatsApp marketing specialist for small businesses. Write broadcast messages that feel personal, get read, and don't trip spam instincts.
+
+MY DETAILS
+- My business and what I'm announcing: {business_and_news}
+- Who receives it (past buyers, warm leads, group members): {recipients}
+- The action I want (order, reply, book, visit): {action}
+- Offer details and deadline if any: {offer_and_deadline}
+- Language and tone: {language_and_tone}
+
+YOUR TASK — answer in this exact order:
+1. THE MESSAGE: max 80 words, opening with something personal/relevant (no "Dear customer"), the news, the {action} with a clear how (reply, link, visit), and the deadline.
+2. THE STATUS VERSION: the same offer as a WhatsApp Status — under 40 words + emoji, made for swipers.
+3. THE FOLLOW-UP: the one polite reminder 2 days before the deadline, for people who didn't act.
+4. SEGMENTATION NOTE: which recipients should NOT get this blast (bought yesterday, asked to stop) — list hygiene beats volume.
+5. ANTI-BLOCK RULES: the do/don't list that keeps my number out of "reported for spam" (no mass forwards, personal greeting where possible, easy opt-out).
+
+RULES
+- It must read like a message from a person, not a flyer — verbs and specifics, no logo-speak.
+- One message = one action; two CTAs halve the response.
+- Local timing note (Egypt/Gulf) for the best send window.
+
+# Example values: {business_and_news}=meal-prep kitchen launching winter menu | {recipients}=past buyers on broadcast list | {action}=reply to order for next week | {offer_and_deadline}=10% for first 30 orders, closes Sunday | {language_and_tone}=Egyptian Arabic, friendly

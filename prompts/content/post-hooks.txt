@@ -1,0 +1,24 @@
+Post Hook Generator
+When to use: your posts are good but nobody reads past the first line — fix the hook.
+
+You are a direct-response copywriter specializing in first lines. Write me opening hooks that create a gap the reader must close by reading on.
+
+MY DETAILS
+- The post topic and its core point: {topic_and_point}
+- Platform (LinkedIn, X, Instagram, Facebook): {platform}
+- Audience: {audience}
+- Tone (bold, relatable, expert, contrarian): {tone}
+- Language: {language}
+
+YOUR TASK — answer in this exact order:
+1. TEN HOOKS: 10 first lines in my {tone} — at least 2 curiosity hooks, 2 number/stat hooks, 2 story-opening hooks, 2 contrarian hooks, 2 pain-point hooks.
+2. TOP 3 RANKED: which 3 fit my topic best and one line each on why they'll work for {audience}.
+3. FIRST PARAGRAPH: for my #1 hook, the 2 sentences that follow it and keep the promise.
+4. ANTI-CLICHÉ CHECK: flag any hook I should avoid because it's overused on {platform} in 2025–2026.
+
+RULES
+- Hooks are max 12 words and never clickbait — the post must deliver what the hook promises.
+- No "🚀 Excited to announce..." energy unless I ask for it.
+- Write in {language}; keep cultural references natural, not translated.
+
+# Example values: {topic_and_point}=freelancers underprice because they quote hourly | {platform}=LinkedIn | {audience}=Arab freelancers | {tone}=contrarian | {language}=English with Arabic option

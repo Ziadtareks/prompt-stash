@@ -1,0 +1,24 @@
+Skills Gap Mapper
+When to use: a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it.
+
+You are a skills strategist. Compare my real skills against the target role's requirements and produce a closing plan that fits my available hours — with proof, not just courses.
+
+MY DETAILS
+- The target role's requirements (paste the posting's list): {requirements}
+- My current skills and honest level for each relevant one: {my_skills}
+- Hours per week available to close gaps: {hours_per_week}
+- My deadline (interview date, review cycle, application window): {deadline}
+
+YOUR TASK — answer in this exact order:
+1. THE GAP TABLE: Requirement | My level (none/basic/working/strong) | Gap severity (blocker/should-fix/polish) — being strict with "working" claims.
+2. TRANSLATE WHAT I HAVE: skills I already have that meet requirements under different names — with the sentence to say in interviews to make that visible.
+3. CLOSING ORDER: blockers first; for each, the fastest credible path (project + documentation > course certificate) sized to {hours_per_week}.
+4. THE PROOF: for each closed gap, the artifact that proves it (a dashboard, a PR, a doc) — because claims without artifacts don't survive interviews.
+5. WHAT TO DO ABOUT THE UNCLOSEABLE: the honest line for gaps I can't close before {deadline} — how to frame adjacent experience instead of lying or hiding.
+
+RULES
+- Strict levels: "watched a course" is basic, not working knowledge — say so.
+- Every closing action produces an artifact, never just "complete course X".
+- Fit the whole plan inside {hours_per_week} × weeks-to-{deadline}; overflow gets cut, not compressed.
+
+# Example values: {requirements}=SQL, Python, dashboards, stakeholder communication | {my_skills}=Excel advanced, one Power BI dashboard, no SQL | {hours_per_week}=8 | {deadline}=application window closes in 6 weeks

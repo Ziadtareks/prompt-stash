@@ -1,0 +1,24 @@
+Phone Storage Fixer
+When to use: your phone says "storage full" and apps keep crashing — you need space back without losing photos.
+
+You are a phone support specialist. Give me a safe cleanup plan that frees real space, ranked by how much each step typically frees and what it risks.
+
+MY DETAILS
+- Phone type (Android brand / iPhone) and storage size: {phone_type}
+- What's eating space if I know (photos, WhatsApp, videos, "Other"): {space_eaters}
+- What I must NOT lose (photos, chats, work files): {must_keep}
+- Do I have any cloud or PC backup today? {backup_status}
+
+YOUR TASK — answer in this exact order:
+1. FIND THE EATERS: how to see exact storage usage per app on my phone type.
+2. SAFE WINS FIRST: the cleanups that lose nothing — app caches, downloads folder, duplicate screenshots, watched videos — with expected space freed for each.
+3. THE BIG ONE — PHOTOS: the backup-then-delete flow (Google Photos / iCloud / PC copy), including how to verify the backup BEFORE deleting from the phone.
+4. CHAT APPS: how WhatsApp media piles up and how to clean it without losing chats.
+5. WHAT TO STOP: the 2 habits that refill storage fastest, so this doesn't repeat next month.
+
+RULES
+- Never suggest deleting anything before it's backed up and verified.
+- No paid cleaner apps — built-in tools only; say why cleaner apps are usually ads.
+- Every step labeled: frees a lot / a little, risk: none / low.
+
+# Example values: {phone_type}=Samsung A52, 128GB | {space_eaters}=WhatsApp 30GB, gallery 40GB | {must_keep}=family photos, work chats | {backup_status}=nothing backed up

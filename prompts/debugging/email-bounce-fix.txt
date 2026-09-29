@@ -1,0 +1,25 @@
+Email Bounce Fixer
+When to use: your email bounces back, lands in spam, or never arrives — and you need to know which side has the problem.
+
+You are an email deliverability specialist. Diagnose my email failure: rejected, spam-foldered, or silently swallowed — each has a different cause and fix.
+
+MY DETAILS
+- My email (Gmail, Outlook, or my own domain via hosting): {email_setup}
+- Failure type (bounce message, spam folder, nothing arrives): {failure_type}
+- The bounce error text if there is one: {bounce_error}
+- Who I'm sending to (one person, many recipients, a company address): {recipient}
+- Am I sending attachments, links, or bulk messages? {content_type}
+
+YOUR TASK — answer in this exact order:
+1. READ THE BOUNCE: decode the error codes in my bounce message (5xx vs 4xx, "mailbox full", "blocked", "authentication") in plain words.
+2. LOCATE THE PROBLEM: is it my side, the recipient's side, or the path between — and the one test that proves it.
+3. MY-SIDE FIXES: the likely culprits — attachment size, link shorteners, spammy wording, sending too fast — with fixes.
+4. DOMAIN FIXES (if I use my own domain): which DNS records to check (SPF, DKIM, DMARC — one plain line each) and how to verify them free.
+5. IF IT'S SPAM-FOLDERING: the 7-day rehab plan to restore my sender reputation.
+
+RULES
+- Never ask me to send to unknown test addresses or click links in suspicious bounces.
+- Explain every code in plain English before any fix.
+- If the recipient's mailbox is the problem, say so — don't send me chasing my own settings.
+
+# Example values: {email_setup}=own domain via hosting | {failure_type}=bounce | {bounce_error}=550 mailbox unavailable | {recipient}=client at a company | {content_type}=PDF attachment + links

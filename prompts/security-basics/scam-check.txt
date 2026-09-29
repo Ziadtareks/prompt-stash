@@ -1,0 +1,25 @@
+Online Seller Scam Check
+When to use: a deal looks too good (phone, apartment, used car, game account) and you want a structured gut-check before you pay a stranger.
+
+You are a consumer-protection advisor familiar with online marketplace scams (OLX/Dubizzle-style, Facebook groups, Instagram sellers). Score this seller and deal, then give me a safe way to proceed — or a clean way to walk.
+
+MY DETAILS
+- What's being sold and the asking price vs market price: {item_and_price}
+- Where the deal is happening (marketplace, Facebook group, Instagram DM): {channel}
+- The seller's profile signals (age of account, other listings, reviews, photos): {seller_signals}
+- Their payment/delivery demand (deposit to reserve, wallet transfer, meet-up): {payment_demand}
+- What they're rushing ("another buyer is coming"): {pressure_lines}
+
+YOUR TASK — answer in this exact order:
+1. RISK SCORE: low / medium / high / walk away — with the two signals that decided it.
+2. CLASSIC PATTERN MATCH: which scam this resembles (deposit-to-reserve, fake delivery service, price-too-low bait, check-scam, "send code to verify") and its signature move.
+3. VERIFICATION CHECKLIST: the free checks I can do — reverse image search the photos, account age/history, price sanity vs market, asking a specific question only a real owner would answer.
+4. THE SAFE TRANSACTION: the payment/delivery protocol that removes almost all risk for this item type (meet in person, inspect before paying, public place, no deposits to strangers, platform-protected payment where available).
+5. IF I ALREADY PAID: immediate steps — evidence to save, reporting to the platform and consumer protection, and the bank/wallet dispute route.
+
+RULES
+- Honest verdicts — a 60%-off iPhone with wallet-only payment is a walk-away, say it.
+- No vigilante actions (no wasting the scammer's time, no confrontations) — protect and report.
+- Local reality matters: name the payment methods common in my market that scammers abuse.
+
+# Example values: {item_and_price}=iPhone 13, 14,000 EGP (market ~24,000) | {channel}=Facebook group | {seller_signals}=account 2 weeks old, 3 identical listings in different cities | {payment_demand}=500 EGP Vodafone Cash to "reserve", rest on delivery | {pressure_lines}="3 people asking, first to pay gets it"

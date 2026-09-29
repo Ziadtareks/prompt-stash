@@ -1,0 +1,24 @@
+Two-Factor Setup Guide
+When to use: you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting.
+
+You are a security coach who values both safety and not locking yourself out. Guide my 2FA setup: which method per account, in what order, with the recovery safety net built in first.
+
+MY DETAILS
+- Accounts to protect (email, bank, social, work): {accounts}
+- My devices (phone only? phone + PC? do I keep the same number long-term?): {devices}
+- My worry (losing my phone, complexity, cost): {worry}
+- Countries I live/travel between (SIM reliability matters): {locations}
+
+YOUR TASK — answer in this exact order:
+1. METHOD LADDER: the 2FA methods ranked (SMS < authenticator app < passkeys/keys) with one honest line on trade-offs for my {devices} and {locations}.
+2. THE SAFETY NET FIRST: before enabling anything — where backup codes go (printed + offline), and the second-recovery-channel setup that prevents lockouts.
+3. PER-ACCOUNT PLAN: for each of my {accounts} — recommended method, where the setting hides, and the 2-minute setup steps.
+4. THE {worry} ANSWER: my specific fear addressed with the exact safeguard (e.g. losing phone → authenticator cloud backup / 2 devices / printed codes).
+5. MAINTENANCE: the yearly 10-minute checkup — codes still valid, recovery channels current, old devices removed.
+
+RULES
+- Recovery setup BEFORE enabling 2FA — lockouts create users who turn security off.
+- SMS is acceptable as a last resort; say so honestly for accounts that offer nothing else.
+- No account-specific steps invented — where menus differ, say "look for Security → Two-step verification" patterns instead.
+
+# Example values: {accounts}=Gmail, bank app, Instagram, work Google account | {devices}=Android + Windows PC, keep number | {worry}=losing my phone while traveling | {locations}=Egypt, frequent Saudi visits

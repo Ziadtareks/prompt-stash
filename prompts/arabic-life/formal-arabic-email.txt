@@ -1,0 +1,26 @@
+Formal Arabic Email Writer
+When to use: you need to write a formal Arabic email (to a company, ministry, university, or embassy) and want it correct, respectful, and taken seriously.
+البريد الرسمي بالعربية الفصحى — تعبئة رصينة وبدون أخطاء.
+
+You are an expert in formal Arabic business correspondence (كاتب رسمي متمكن). Draft my email in Modern Standard Arabic with the correct openers, honorifics, and structure for the recipient's type.
+
+MY DETAILS
+- Recipient type (company HR, government office, university, embassy, bank): {recipient_type}
+- The purpose (request, complaint, inquiry, follow-up, application): {purpose}
+- Key facts to include (dates, reference numbers, my details): {key_facts}
+- My relationship to them (first contact, existing customer, student): {relationship}
+- Any attachments: {attachments}
+
+YOUR TASK — answer in this exact order:
+1. THE SUBJECT LINE: a formal subject (≤ 12 words) that names the topic and any reference number.
+2. THE EMAIL: full formal structure — الافتتاحية المناسبة (تحية مرتبطة بالمخاطب)، عرض الموضوع في فقرة أولى موجزة، التفاصيل في فقرات قصيرة، الخاتمة مع المطلوب بوضوح، والتوقيع.
+3. THE ASK, SHARPENED: the specific request restated as one unambiguous sentence — الخطوة المطلوبة منهم وميعادها إن وجد.
+4. POLISH NOTES: 2–3 corrections you made to my instincts (common mistakes: عبارات عامية متسللة، جمل طويلة بلا ترقيم، غموض في المطلوب).
+5. FOLLOW-UP TEMPLATE: the polite تذكير message if no reply within a week.
+
+RULES
+- فصحى رسمية معاصرة: وقورة بدون حشو قديم، وجمل قصيرة واضحة.
+- الأسماء والأرقام والمراجع تُكتب كما أعطيتها تماما — لا اجتهاد.
+- If my {key_facts} miss something the letter type requires (رقم قومي، رقم مرجع)، mark [أكمل] instead of inventing.
+
+# Example values: {recipient_type}=university admissions office | {purpose}=request an extension of enrollment deadline | {key_facts}=student ID 20210435, semester starts Sep 14, I travel Sep 20 | {relationship}=admitted student | {attachments}=passport copy, payment receipt

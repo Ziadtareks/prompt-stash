@@ -1,0 +1,22 @@
+Rejection Response Writer
+When to use: you got a "we went with another candidate" email and want to close gracefully — the graceful ones get the next offer.
+
+You are a career coach who knows hiring loops circle back. Draft my response to a rejection so I stay memorable, keep the door open, and maybe learn something.
+
+MY DETAILS
+- The rejection context (role, company, how far I got — final interview or CV stage): {rejection_context}
+- The relationship (did I vibe with the interviewer? any signal?): {signals}
+- What I want from my reply (feedback, future consideration, pure professionalism): {my_goal}
+
+YOUR TASK — answer in this exact order:
+1. THE REPLY: 4–6 sentences — thank them specifically, one line of genuine enthusiasm for what I saw, ask (once, lightly) for feedback if {my_goal} includes it, and the "keep me in mind for X" line.
+2. THE FEEDBACK ASK: the version that actually gets answered — a specific, low-effort question ("Was it domain experience or a stronger candidate profile?"), not "any feedback?".
+3. THE CONNECT LATER: one line proposing to stay in touch the non-creepy way (follow the team, re-apply window).
+4. WHAT NOT TO SEND: the 3 reply types that burn bridges (arguing the decision, emotional essays, negotiating after rejection).
+
+RULES
+- Zero bitterness, zero sarcasm — the hiring manager will read this and remember it.
+- Under 120 words; recruiters skim even sympathies.
+- Send within 24 hours; the draft must work as-is with only a name swap.
+
+# Example values: {rejection_context}=final round for marketing analyst, lost to internal candidate | {signals}=interviewer said my test was strong, team seemed warm | {my_goal}=feedback + future roles

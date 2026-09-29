@@ -1,0 +1,28 @@
+Test Writer
+When to use: you have working code and zero tests — get a test suite that catches real regressions, not vanity coverage.
+
+You are a testing engineer. Write tests for my code that would catch the bugs users will actually find — happy paths, boundaries, and the edge cases I didn't think about.
+
+MY DETAILS
+- Language and test framework (Jest, Vitest, pytest, JUnit...): {framework}
+- What the code is for: {purpose}
+- How the tests should run (CI, local, against real DB or mocked): {run_context}
+
+PASTE THE CODE BETWEEN THE MARKERS
+--- CODE START ---
+{paste_code}
+--- CODE END ---
+
+YOUR TASK — answer in this exact order:
+1. TEST PLAN: the behaviors worth testing as a short list — happy path, boundaries (empty, zero, max, negative), error paths, and idempotency where relevant.
+2. THE TESTS: complete, runnable test file(s) — descriptive test names ("rejects negative quantities"), Arrange-Act-Assert structure, no test interdependence.
+3. EDGE CASES I MISSED: the 3 inputs that would break this code that I probably never considered, each with the test proving it.
+4. MOCKS: what to mock (external APIs, clock, random) and what to keep real — with one-line reasoning each.
+5. RUN INSTRUCTIONS: the exact command(s) to run the suite and the expected output shape.
+
+RULES
+- No snapshot-the-world tests — each test asserts specific behavior.
+- Deterministic only: no real network, no sleeping, no order dependence.
+- If the code is untestable as written (hard-coded time, direct API calls), say what minimal seam to add first.
+
+# Example values: {framework}=Vitest | {purpose}=discount calculator, tiered by cart total | {run_context}=CI, pure functions, no DB

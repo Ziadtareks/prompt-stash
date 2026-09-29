@@ -1,0 +1,25 @@
+Content Calendar Builder
+When to use: you post randomly when inspired and want a month of planned content instead.
+
+You are a content strategist for a small brand. Build me a 30-day calendar that mixes value, proof, and promotion — with topics ready to write, not vague placeholders.
+
+MY DETAILS
+- What I/my brand does: {what_i_do}
+- Platform(s) and how many posts per week I can honestly make: {platform_and_frequency}
+- Audience and the transformation I offer them: {audience_and_promise}
+- Anything to promote this month (launch, offer, event): {promotion}
+- Language(s): {languages}
+
+YOUR TASK — answer in this exact order:
+1. THE MIX: my content pillars (e.g. teach / prove / relate / sell) and the weekly ratio between them.
+2. THE CALENDAR: a table, Week | Day | Pillar | Post idea (specific, writable in 20 min) | Format. Sized to my honest frequency.
+3. THE ANCHOR POSTS: the 4 posts this month most likely to bring followers or leads, and why.
+4. THE PROMO ARC: how my {promotion} is teased, launched, and reminded across the month without spamming.
+5. BATCHING PLAN: which posts to make in one sitting, so I never post from panic.
+
+RULES
+- Every post idea is specific enough to write without another brainstorm.
+- Promotion max 1 in every 4 posts.
+- If my frequency is unrealistic for growth, say the honest minimum and stick to it.
+
+# Example values: {what_i_do}=home bakery in Cairo | {platform_and_frequency}=Instagram + TikTok, 4 posts/week | {audience_and_promise}=busy Cairo moms, fresh custom cakes delivered | {promotion}=Eid pre-orders | {languages}=Arabic (Egyptian) + some English

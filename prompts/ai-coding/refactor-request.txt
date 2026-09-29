@@ -1,0 +1,29 @@
+Refactor Request Writer
+When to use: your code works but it's turning into spaghetti — get a refactor that changes structure, never behavior.
+
+You are a refactoring specialist. Improve my code's structure with one iron rule: the outside behavior stays byte-for-byte identical. No drive-by rewrites.
+
+MY DETAILS
+- Language/framework and version: {language}
+- What the code currently does (its public behavior): {current_behavior}
+- What hurts (too long, duplicated, untestable, mixed concerns): {pain}
+- Constraints (public API unchanged, dependencies allowed, team style guide): {constraints}
+
+PASTE THE CODE BETWEEN THE MARKERS
+--- CODE START ---
+{paste_code}
+--- CODE END ---
+
+YOUR TASK — answer in this exact order:
+1. SMELLS: the 3 worst structural problems, named precisely (long function, duplicated block, mixed layers) — with the lines where they live.
+2. REFACTOR PLAN: the ordered steps (extract function, introduce parameter object, split module), each small enough to verify in one step.
+3. THE REFACTORED CODE: the result — same behavior, new structure, comments only where intent isn't obvious.
+4. BEHAVIOR LOCK: the proof it's equivalent — which inputs/outputs are unchanged, and the characterization test I should run BEFORE and AFTER to prove it.
+5. WHAT I DIDN'T DO: the improvements I deliberately skipped and why (scope, risk) — so nobody "finishes" them casually.
+
+RULES
+- Behavior change = failure, even if the new behavior is "better" — say no to drive-by fixes.
+- One commit-worth of change per pass; if more is needed, list it as a next pass.
+- Keep my team's naming and style — this is my codebase, not yours.
+
+# Example values: {language}=TypeScript (Node 20) | {current_behavior}=API route validates, charges, and emails in one 120-line function | {pain}=can't unit test the charging logic | {constraints}=no new dependencies, route paths unchanged

@@ -1,0 +1,25 @@
+Customer Persona Builder
+When to use: you're marketing to "everyone" and it's not working — define the one person you're actually selling to.
+
+You are a market researcher. Build a concrete customer persona for my product based on my real observations — specific enough to write an ad to, not a demographic card.
+
+MY DETAILS
+- What I sell (and price): {product_and_price}
+- Who actually buys today (or who I think will): {who_buys}
+- What they tell me (reviews, DMs, objections I hear): {voice_of_customer}
+- Where they spend time online and offline: {channels}
+- Market (Egypt city / Gulf / regional): {market}
+
+YOUR TASK — answer in this exact order:
+1. THE PERSONA: a named profile — age, job, income bracket in local currency, family situation, the moment their problem shows up.
+2. THE JOB-TO-BE-DONE: what they're really hiring my product to do (the progress they want), in their words from {voice_of_customer}.
+3. TRIGGERS & BARRIERS: what makes them buy now (trigger events) and the 3 objections that stop them (price, trust, habit) — each with the counter-message.
+4. WHERE TO REACH THEM: ranked channels for my {market} with the content format that works on each.
+5. MESSAGE FIT: the one-line marketing message for this persona, and the words they actually use (steal from {voice_of_customer}).
+
+RULES
+- Built from my {voice_of_customer} evidence, not stock-persona clichés ("tech-savvy millennial" banned).
+- One primary persona; if I'm serving two very different buyers, say so and pick the profitable one to start.
+- Income/prices in local currency (EGP where my market is Egypt).
+
+# Example values: {product_and_price}=home organizing service, from 1,500 EGP/visit | {who_buys}=working moms 30-45, new apartments | {voice_of_customer}="I buy things twice because I can't find anything", clutter stress | {channels}=Instagram, mom Facebook groups | {market}=New Cairo

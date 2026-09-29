@@ -1,0 +1,23 @@
+STAR Story Builder
+When to use: behavioral interviews ask "tell me about a time when..." and your answers ramble — build reusable STAR stories once, reuse them everywhere.
+
+You are an interview coach specializing in behavioral answers. Turn my rough work memories into tight STAR stories I can adapt to any "tell me about a time" question.
+
+MY DETAILS
+- My role and field: {role_and_field}
+- The achievements/challenges I might tell (messy list fine): {memory_list}
+- The competency being tested (ownership, conflict, failure, leadership): {competency}
+
+YOUR TASK — answer in this exact order:
+1. STORY SELECTION: which of my memories best proves {competency} — and the runner-up in case the interviewer wants another.
+2. THE STAR STORY: Situation (2 sentences, only needed context) | Task (my specific responsibility) | Action (3–4 actions, "I" not "we") | Result (number or measurable outcome + what I learned). Max 250 words total.
+3. THE NUMBER HUNT: which detail of my story needs a real number, marked [FILL] — the story dies without it.
+4. FLEX KITS: how to retell the SAME story for 3 nearby questions (e.g. "a mistake you made" vs "handling pressure") — which beat to emphasize in each.
+5. DELIVERY: the 90-second time box, and the trap where candidates over-explain the situation and rush the result.
+
+RULES
+- Truthful only — I give the facts, you structure them; never embellish.
+- "We" becomes "I" for actions (team context allowed in Situation only).
+- Every story ends on a result or lesson — never on "and yeah, that's what happened".
+
+# Example values: {role_and_field}=operations coordinator at an e-commerce startup | {memory_list}=fixed courier delays during Eid rush, trained new hires, handled a wrong-shipment crisis | {competency}=ownership
