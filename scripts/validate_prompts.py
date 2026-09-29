@@ -102,8 +102,16 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
         err("prompt body is empty")
     if "TASK" not in body:
         err("body has no task/structure marker (expected 'TASK' section)")
-    if "3 clarifying questions" not in body:
-        err("body lacks the clarifying-question rule ('ask up to 3 clarifying questions')")
+    # Clarifying/assumption handling — advisory prompts use the 3-question rule;
+    # input-complete prompts (rewriters, summarizers, translators, cleaners) may
+    # use the shorter "say what's missing instead of proceeding on assumptions" rule;
+    # interactive prompts use explicit turn-taking rules instead.
+    if not re.search(
+        r"clarifying questions|assumptions|instead of guessing|Interaction rules:|"
+        r"ambiguous|wait for my (answer|reply|attempt)|ask (up to|at most) \d+ questions?",
+        body,
+    ):
+        err("body lacks a clarifying-question, assumptions, or interaction rule")
 
     missing = used - set(declared)
     extra = set(declared) - used
