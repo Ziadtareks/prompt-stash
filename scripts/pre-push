@@ -1,0 +1,16 @@
+#!/bin/sh
+# Prompt Stash pre-push hook — runs the library checks before any push.
+# Install (from the repo root):  cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+set -e
+echo "[pre-push] validating prompts..."
+python scripts/validate_prompts.py
+echo "[pre-push] rebuilding index and folder READMEs..."
+python scripts/build_index.py
+if ! git diff --quiet -- prompts.json prompts/*/README.md; then
+  echo "[pre-push] generated files are stale — run: python scripts/build_index.py" >&2
+  git diff --name-only -- prompts.json prompts/*/README.md >&2
+  exit 1
+fi
+echo "[pre-push] checking markdown links..."
+python scripts/check_links.py
+echo "[pre-push] all checks passed."
