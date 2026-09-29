@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: verdict (1 line: promising / promising with changes / risky / avoid), demand test (3 questions), unit math with [FILL] marks, 3 killers, cheapest first step with a go/no-go number. Lead with THE VERDICT.
 
 # Variables
-- {idea}: The idea for this prompt — see Example values for a realistic fill.
-- {budget}: The budget for this prompt — see Example values for a realistic fill.
-- {location}: The location for this prompt — see Example values for a realistic fill.
-- {time_commitment}: The time commitment for this prompt — see Example values for a realistic fill.
-- {edge}: The edge for this prompt — see Example values for a realistic fill.
+- {idea}: required, the business idea, e.g. "weekend dessert stall via Instagram pre-orders"
+- {budget}: required, budget with currency, e.g. "15,000 EGP"
+- {location}: required, city/market or place, e.g. "Nasr City, Cairo"
+- {time_commitment}: required, hours you can invest, e.g. "nights + weekends"
+- {edge}: required, your claimed differentiator, e.g. "healthier sugar options"
 
 # Example values: {idea}=weekend home-made dessert stall via Instagram pre-orders | {budget}=15,000 EGP | {location}=Nasr City, Cairo | {time_commitment}=nights + weekends | {edge}= healthier sugar options

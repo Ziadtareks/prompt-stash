@@ -33,9 +33,9 @@ OUTPUT FORMAT
 
 # Variables
 - {language}: Language (and dialect) for the output.
-- {current_behavior}: The current behavior for this prompt — see Example values for a realistic fill.
-- {pain}: The pain for this prompt — see Example values for a realistic fill.
-- {constraints}: The constraints for this prompt — see Example values for a realistic fill.
+- {current_behavior}: required, the code's public behavior that must not change
+- {pain}: required, what hurts about the code, e.g. "can't unit test the charging logic"
+- {constraints}: required, hard limits, e.g. "solo dev, 3 months, ~30 USD/mo hosting"
 - {paste_code}: Your code, pasted between the markers.
 
 # Example values: {language}=TypeScript (Node 20) | {current_behavior}=API route validates, charges, and emails in one 120-line function | {pain}=can't unit test the charging logic | {constraints}=no new dependencies, route paths unchanged

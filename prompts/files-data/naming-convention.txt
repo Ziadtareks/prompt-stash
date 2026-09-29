@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: the pattern (segments defined), 8 correct + 4 wrong examples, sort guarantee + fixes, version marker system, rollout (pinned summary + amnesty plan). Lead with THE PATTERN.
 
 # Variables
-- {team_and_files}: The team and files for this prompt — see Example values for a realistic fill.
-- {storage}: The storage for this prompt — see Example values for a realistic fill.
-- {key_dimensions}: The key dimensions for this prompt — see Example values for a realistic fill.
-- {pain_points}: The pain points for this prompt — see Example values for a realistic fill.
+- {team_and_files}: required, team + file types, e.g. "3-person studio: briefs, invoices"
+- {storage}: required, where files live, e.g. "Google Drive shared"
+- {key_dimensions}: required, what a file name must show, e.g. "client, date, deliverable, version"
+- {pain_points}: required, current naming pains, e.g. "final_final chaos"
 
 # Example values: {team_and_files}=3-person design studio: client briefs, designs, invoices | {storage}=Google Drive shared | {key_dimensions}=client, date, deliverable, version | {pain_points}=final_final chaos, Arabic filenames break sharing links

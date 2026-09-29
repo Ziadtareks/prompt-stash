@@ -32,10 +32,10 @@ OUTPUT FORMAT
 - Four numbered sections: for each length (short/medium/long) give 2-3 labeled variants at different formality levels (فصحى رسمية → مصرية ودية), the personal-touch version, the 20-second spoken version, DON'TS (2). Lead with the VARIANTS.
 
 # Variables
-- {occasion}: The occasion for this prompt — see Example values for a realistic fill.
+- {occasion}: required, the occasion, e.g. "graduation with honors"
 - {recipient}: Who this message is for and your relationship to them.
-- {personal_details}: The personal details for this prompt — see Example values for a realistic fill.
-- {channel}: The channel for this prompt — see Example values for a realistic fill.
-- {dialect}: The dialect for this prompt — see Example values for a realistic fill.
+- {personal_details}: optional, names + detail to weave in, e.g. "engineering faculty, first in class"
+- {channel}: required, where the message arrived, e.g. "SMS" or "Instagram DM"
+- {dialect}: required, dialect/register, e.g. "Egyptian" or "formal-leaning Egyptian"
 
 # Example values: {occasion}=graduation with honors | {recipient}=my manager's daughter (I was invited to the party) | {personal_details}=engineering faculty, first in class | {channel}=WhatsApp to the manager | {dialect}=formal-leaning Egyptian

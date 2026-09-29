@@ -32,9 +32,9 @@ OUTPUT FORMAT
 
 # Variables
 - {other_party}: Who the conversation is with and your relationship.
-- {situation_and_ask}: What happened and what you need to say or ask.
+- {situation_and_ask}: required, situation + what you need to say or ask
 - {fear}: What you're afraid will happen.
 - {opening_line}: Your rough opening line so far.
-- {context}: Culture, language, and setting of the conversation.
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
 
 # Example values: {other_party}=my landlord of 3 years | {situation_and_ask}=he raised the rent 30% mid-lease; I want him to honor the contract or split the difference | {fear}=he non-renews me out of spite | {opening_line}="Thank you for meeting me — I want to talk about the renewal letter." | {context}=Cairo, polite but firm Arabic

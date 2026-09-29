@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: mechanic + why it beats %-off, margin math with max discount, framing rules (honest urgency), announcement + reminder posts (≤60 words each), guardrails. Lead with THE MECHANIC.
 
 # Variables
-- {product_and_margin}: The product and margin for this prompt — see Example values for a realistic fill.
-- {reason}: The reason for this prompt — see Example values for a realistic fill.
-- {audience_scope}: The audience scope for this prompt — see Example values for a realistic fill.
-- {idea_constraints}: The idea constraints for this prompt — see Example values for a realistic fill.
-- {channel}: The channel for this prompt — see Example values for a realistic fill.
+- {product_and_margin}: required, product + price + margin, e.g. "custom cakes, 700 EGP, 45% margin"
+- {reason}: required, why now, e.g. "slow season + clear the June schedule"
+- {audience_scope}: required, who the offer targets, e.g. "new customers only"
+- {idea_constraints}: optional, offer types you'd consider, e.g. "free delivery over % off"
+- {channel}: required, where the message arrived, e.g. "SMS" or "Instagram DM"
 
 # Example values: {product_and_margin}=custom cakes, avg order 700 EGP, ~45% margin | {reason}=slow summer + clear the June schedule | {audience_scope}=new customers only | {idea_constraints}=prefer free delivery over % off | {channel}=Instagram, Egyptian Arabic

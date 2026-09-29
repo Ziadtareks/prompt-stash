@@ -28,10 +28,10 @@ OUTPUT FORMAT
 - Six numbered sections as headings, in order. ≤450 words total; ≤3 causes; each check ≤3 steps; fix ≤6 steps. Lead with WHAT HAPPENED.
 
 # Variables
-- {what_i_was_doing}: The what i was doing for this prompt — see Example values for a realistic fill.
+- {what_i_was_doing}: required, what you were doing when it broke
 - {stack}: Your technologies and versions.
 - {error_message}: The exact error text you received.
-- {yes_no_and_when}: The yes no and when for this prompt — see Example values for a realistic fill.
+- {yes_no_and_when}: required, did it work before + when, e.g. "worked fine yesterday"
 - {what_i_tried}: What you already attempted, so it is not repeated.
 
 # Example values: {what_i_was_doing}=opening my site after editing a page | {stack}=WordPress on shared hosting | {error_message}=Error establishing a database connection | {yes_no_and_when}=worked fine yesterday | {what_i_tried}=refreshed, restarted hosting

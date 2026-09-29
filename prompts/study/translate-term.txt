@@ -32,7 +32,7 @@ OUTPUT FORMAT
 - Five numbered sections in order: translation + transliteration, plain-English explanation (≤2 sentences), شرح عربي (جملتان), example pair, don't-confuse-with (1-2 terms). Lead with TRANSLATION.
 
 # Variables
-- {term}: The term for this prompt — see Example values for a realistic fill.
+- {term}: required, the English term, e.g. "opportunity cost"
 - {subject}: The subject or field this belongs to.
 - {level}: Your level (school, university, professional).
 

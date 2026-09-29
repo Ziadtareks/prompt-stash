@@ -30,10 +30,10 @@ OUTPUT FORMAT
 - Five numbered sections: the trigger moment (1 line), 3 ask scripts, friction killer (direct link + staff card), unhappy-customer divert script, daily habit + target. Lead with THE MOMENT.
 
 # Variables
-- {business_and_platform}: The business and platform for this prompt — see Example values for a realistic fill.
-- {happy_moment}: The happy moment for this prompt — see Example values for a realistic fill.
-- {toucher}: The toucher for this prompt — see Example values for a realistic fill.
-- {review_status}: The review status for this prompt — see Example values for a realistic fill.
+- {business_and_platform}: required, business + the review platform that matters, e.g. "workshop, Google Maps"
+- {happy_moment}: required, peak satisfaction moment, e.g. "delivery at home"
+- {toucher}: required, who asks for the review, e.g. "me on delivery"
+- {review_status}: required, current count + rating, e.g. "7 reviews, 4.9"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {business_and_platform}=furniture restoration workshop, Google Maps | {happy_moment}=delivery and first see-at-home moment | {toucher}=me on delivery | {review_status}=7 reviews, 4.9 | {language}=Egyptian Arabic

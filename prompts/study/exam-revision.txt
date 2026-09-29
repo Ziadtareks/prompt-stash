@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: day-by-day table (Day | Topics | Hours | Goal), daily shape (1 line), mock slot, last-day list, drop list (ranked). Hours per day never exceed the stated cap. Lead with THE PLAN.
 
 # Variables
-- {exam_date}: The date of your exam.
-- {days_available}: The days available for this prompt — see Example values for a realistic fill.
-- {hours_per_day}: The hours per day for this prompt — see Example values for a realistic fill.
-- {topics_list}: The topics list for this prompt — see Example values for a realistic fill.
+- {exam_date}: required, exam date, e.g. "June 20"
+- {days_available}: required, study days from today, e.g. "10"
+- {hours_per_day}: required, honest study hours per day, e.g. "2"
+- {topics_list}: required, topics + difficulty, e.g. "kinematics easy, momentum hard"
 
 # Example values: {exam_date}=June 20 | {days_available}=10 | {hours_per_day}=2 | {topics_list}=kinematics easy, dynamics hard, energy medium, momentum hard

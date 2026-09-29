@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: refined feature (states + permissions listed), one copy-paste build-prompt block, exactly 5 acceptance statements, scope-guard line, 2 pre-written follow-ups. Lead with THE REFINED FEATURE.
 
 # Variables
-- {feature_idea}: The feature idea for this prompt — see Example values for a realistic fill.
+- {feature_idea}: required, the feature in your own words, e.g. "users save posts to read later"
 - {stack}: Your technologies and versions.
-- {codebase_patterns}: The codebase patterns for this prompt — see Example values for a realistic fill.
-- {definition_of_done}: The definition of done for this prompt — see Example values for a realistic fill.
+- {codebase_patterns}: required, conventions the AI must match, e.g. "server actions + optimistic UI"
+- {definition_of_done}: required, done criteria, e.g. "works logged-in only, undo toast, empty state"
 
 # Example values: {feature_idea}=users can save posts to read later | {stack}=Next.js 15, Supabase, Tailwind | {codebase_patterns}=server actions + optimistic UI pattern | {definition_of_done}=works logged-in only, undo toast, empty state

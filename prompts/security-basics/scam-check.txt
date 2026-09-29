@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: risk score + 2 deciding signals, classic pattern match, free verification checklist, safe-transaction protocol, if-already-paid steps. Lead with RISK SCORE.
 
 # Variables
-- {item_and_price}: The item and price for this prompt — see Example values for a realistic fill.
-- {channel}: The channel for this prompt — see Example values for a realistic fill.
-- {seller_signals}: The seller signals for this prompt — see Example values for a realistic fill.
-- {payment_demand}: The payment demand for this prompt — see Example values for a realistic fill.
-- {pressure_lines}: The pressure lines for this prompt — see Example values for a realistic fill.
+- {item_and_price}: required, item + asking vs market price, e.g. "iPhone 13, 14k vs ~24k EGP"
+- {channel}: required, where the message arrived, e.g. "SMS" or "Instagram DM"
+- {seller_signals}: required, profile signals, e.g. "account 2 weeks old, duplicated listings"
+- {payment_demand}: required, how they want payment, e.g. "500 EGP wallet transfer to reserve"
+- {pressure_lines}: required, urgency lines used, e.g. "3 people asking, first to pay gets it"
 
 # Example values: {item_and_price}=iPhone 13, 14,000 EGP (market ~24,000) | {channel}=Facebook group | {seller_signals}=account 2 weeks old, 3 identical listings in different cities | {payment_demand}=500 EGP Vodafone Cash to "reserve", rest on delivery | {pressure_lines}="3 people asking, first to pay gets it"

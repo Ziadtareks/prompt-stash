@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order; slide table sized to the stated limit; opening hook written out verbatim. Lead with THE STORY SPINE.
 
 # Variables
-- {topic_and_goal}: The topic and goal for this prompt — see Example values for a realistic fill.
+- {topic_and_goal}: required, topic + what the deck must achieve, e.g. "persuade funding"
 - {audience}: Who will read or receive this.
-- {time_and_slides}: The time and slides for this prompt — see Example values for a realistic fill.
-- {rough_content}: The rough content for this prompt — see Example values for a realistic fill.
+- {time_and_slides}: required, time limit + slide count, e.g. "10 min, 8 slides"
+- {rough_content}: required, your rough points or data for the deck
 
 # Example values: {topic_and_goal}=persuade management to fund a CRM | {audience}=3 directors, know the basics, care about cost | {time_and_slides}=10 min, 8 slides | {rough_content}=manual entry wastes 12 hrs/wk, CRM costs 40k EGP/yr, competitors use one

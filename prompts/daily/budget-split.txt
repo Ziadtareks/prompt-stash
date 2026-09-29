@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: warning check (1 line, only if fixed costs >60%), split table (Category | Amount | %), one weekly allowance number, 3 cuts ranked with savings, emergency-fund line. Lead with WARNING CHECK or THE SPLIT.
 
 # Variables
-- {monthly_income}: The monthly income for this prompt — see Example values for a realistic fill.
-- {fixed_costs}: The fixed costs for this prompt — see Example values for a realistic fill.
-- {savings_goal}: The savings goal for this prompt — see Example values for a realistic fill.
+- {monthly_income}: required, take-home income, e.g. "14,000 EGP"
+- {fixed_costs}: required, monthly fixed costs list, e.g. "rent 5,500, utilities 1,200"
+- {savings_goal}: required, goal + amount, e.g. "20,000 EGP emergency fund"
 - {currency}: The currency for all money figures (e.g. EGP).
 
 # Example values: {monthly_income}=15,000 EGP | {fixed_costs}=rent 6,000, utilities 1,200, transport 1,000, internet 500 | {savings_goal}=20,000 EGP emergency fund | {currency}=EGP

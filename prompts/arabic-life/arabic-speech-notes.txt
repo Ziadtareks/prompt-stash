@@ -32,10 +32,10 @@ OUTPUT FORMAT
 - خمسة أقسام: الهيكل، النص كاملًا بعلامات الوقف (…)، شدة القصة (ما يُحذف)، ملاحظات الإلقاء (3)، نسخة الـ30 ثانية عند التلعثم. الالتزام الصارم بمدد الزمن. ابدأ بالهيكل.
 
 # Variables
-- {occasion_and_relation}: The occasion and relation for this prompt — see Example values for a realistic fill.
-- {material}: The material for this prompt — see Example values for a realistic fill.
+- {occasion_and_relation}: required, occasion + your relationship, e.g. "best friend's engagement"
+- {material}: required, stories or qualities to mention, 2-3 max
 - {audience}: Who will read or receive this.
-- {length_and_dialect}: The length and dialect for this prompt — see Example values for a realistic fill.
-- {dialect}: The dialect for this prompt — see Example values for a realistic fill.
+- {length_and_dialect}: required, length/time limit + dialect, e.g. "90 seconds, Egyptian"
+- {dialect}: required, dialect/register, e.g. "Egyptian" or "formal-leaning Egyptian"
 
 # Example values: {occasion_and_relation}=best friend's engagement, I'm the closest friend | {material}=he planned the proposal for 3 months, she guessed it twice | {audience}=50 family + friends | {length_and_dialect}=90 seconds, Egyptian

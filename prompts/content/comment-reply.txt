@@ -32,10 +32,10 @@ OUTPUT FORMAT
 - Four numbered sections: one reply per comment in order (≤2 sentences each), complaint handling, troll decision, pin suggestion. Lead with REPLIES.
 
 # Variables
-- {comments}: The comments for this prompt — see Example values for a realistic fill.
-- {account_about}: The account about for this prompt — see Example values for a realistic fill.
-- {voice}: The voice for this prompt — see Example values for a realistic fill.
+- {comments}: required, the actual comments, one per line
+- {account_about}: required, what your account posts about, e.g. "home bakery in Cairo"
+- {voice}: required, your voice, e.g. "warm + a little cheeky"
 - {languages}: Language(s) to write or reply in.
-- {tricky_ones}: The tricky ones for this prompt — see Example values for a realistic fill.
+- {tricky_ones}: optional, comments needing care, e.g. "the overpriced comment"
 
 # Example values: {comments}="price?? 😍", "do you deliver to Alexandria?", "overpriced tbh", "how far in advance should I order?" | {account_about}=home bakery, Cairo | {voice}=warm + a little cheeky | {languages}=Arabic comments, Arabic replies | {tricky_ones}=the "overpriced" comment

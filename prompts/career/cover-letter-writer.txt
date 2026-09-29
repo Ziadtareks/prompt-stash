@@ -31,11 +31,11 @@ OUTPUT FORMAT
 - Five numbered sections: hook (1 line), match paragraphs, angle sentence, close, the full letter assembled within the stated length. Lead with THE HOOK.
 
 # Variables
-- {job_focus}: The job focus for this prompt — see Example values for a realistic fill.
-- {company_appeal}: The company appeal for this prompt — see Example values for a realistic fill.
-- {my_background}: The my background for this prompt — see Example values for a realistic fill.
-- {angle}: The angle for this prompt — see Example values for a realistic fill.
-- {language_and_tone}: The language and tone for this prompt — see Example values for a realistic fill.
+- {job_focus}: required, the 3 requirements that matter most
+- {company_appeal}: required, what appeals to you about the company, e.g. "customer-first fintech"
+- {my_background}: required, your background in ~3 lines
+- {angle}: required, your non-obvious strength or situation, e.g. "no degree, promoted from within"
+- {language_and_tone}: required, language + tone, e.g. "Egyptian Arabic, friendly"
 - {length_limit}: Maximum length for the output.
 
 # Example values: {job_focus}=customer support lead: retention, team coaching, CRM reporting | {company_appeal}=scaling fintech, customer-first culture | {my_background}=3 yrs support agent, cut refund time 40%, trained 4 juniors | {angle}=no degree, promoted from within | {language_and_tone}=professional English | {length_limit}=250 words

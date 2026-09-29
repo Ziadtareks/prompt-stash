@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: contain (first 30 min), stop-the-dominoes order, lock-the-doors checklist, damage assessment (skipped checks), 6-month fallout watch. Lead with CONTAIN.
 
 # Variables
-- {alert_type}: The alert type for this prompt — see Example values for a realistic fill.
-- {affected_service}: The affected service for this prompt — see Example values for a realistic fill.
+- {alert_type}: required, how you learned of the problem, e.g. "notification email"
+- {affected_service}: required, the breached or affected account, e.g. "old forum account"
 - {password_reuse}: The password reuse for this prompt — see Example values for a realistic fill.
-- {connected_accounts}: The connected accounts for this prompt — see Example values for a realistic fill.
+- {connected_accounts}: required, accounts that reset via the affected one, e.g. "Gmail resets bank + social"
 
 # Example values: {alert_type}=notification email from a breach-monitoring site | {affected_service}=an old forum account | {password_reuse}=same password on my old Gmail | {connected_accounts}=Gmail resets my bank + social logins

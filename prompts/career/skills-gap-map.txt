@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: gap table (Requirement | My level | Severity), translation of what I already have, closing order sized to stated hours, proof artifact per gap, honest framing for unclosable gaps before the deadline. Lead with THE GAP TABLE.
 
 # Variables
-- {requirements}: The requirements for this prompt — see Example values for a realistic fill.
-- {my_skills}: The my skills for this prompt — see Example values for a realistic fill.
-- {hours_per_week}: The hours per week for this prompt — see Example values for a realistic fill.
-- {deadline}: The deadline for this prompt — see Example values for a realistic fill.
+- {requirements}: required, the target requirements list, pasted
+- {my_skills}: required, your skills + honest levels, e.g. "Excel advanced, no SQL"
+- {hours_per_week}: required, realistic hours per week, e.g. "8"
+- {deadline}: required, date or timeframe, e.g. "Friday 5pm" or "in 3 weeks"
 
 # Example values: {requirements}=SQL, Python, dashboards, stakeholder communication | {my_skills}=Excel advanced, one Power BI dashboard, no SQL | {hours_per_week}=8 | {deadline}=application window closes in 6 weeks

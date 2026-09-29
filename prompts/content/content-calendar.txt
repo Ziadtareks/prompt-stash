@@ -28,10 +28,10 @@ OUTPUT FORMAT
 - Five numbered sections in order; calendar table with one row per post for the stated frequency × 4 weeks; every post idea writable in 20 minutes. Lead with THE MIX.
 
 # Variables
-- {what_i_do}: The what i do for this prompt — see Example values for a realistic fill.
-- {platform_and_frequency}: The platform and frequency for this prompt — see Example values for a realistic fill.
-- {audience_and_promise}: The audience and promise for this prompt — see Example values for a realistic fill.
-- {promotion}: The promotion for this prompt — see Example values for a realistic fill.
+- {what_i_do}: required, what you or your brand does, e.g. "home bakery in Cairo"
+- {platform_and_frequency}: required, platform + honest frequency, e.g. "IG + TikTok, 4/week"
+- {audience_and_promise}: required, audience and the transformation you offer
+- {promotion}: optional, anything to promote this month, e.g. "Eid pre-orders"
 - {languages}: Language(s) to write or reply in.
 
 # Example values: {what_i_do}=home bakery in Cairo | {platform_and_frequency}=Instagram + TikTok, 4 posts/week | {audience_and_promise}=busy Cairo moms, fresh custom cakes delivered | {promotion}=Eid pre-orders | {languages}=Arabic (Egyptian) + some English

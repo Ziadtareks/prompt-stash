@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order. ≤350 words; fix steps numbered, ≤8 steps. Lead with SYMPTOM TRIAGE.
 
 # Variables
-- {printer_type}: The printer type for this prompt — see Example values for a realistic fill.
+- {printer_type}: required, brand + type + age, e.g. "Canon inkjet, 3 years"
 - {symptom}: What is visibly broken.
-- {connection}: The connection for this prompt — see Example values for a realistic fill.
-- {last_worked}: The last worked for this prompt — see Example values for a realistic fill.
+- {connection}: required, how the printer connects, e.g. "USB", "Wi-Fi"
+- {last_worked}: required, when it last worked + what changed, e.g. "last week; router replaced"
 
 # Example values: {printer_type}=Canon inkjet, 3 years old | {symptom}=shows offline, queue stuck | {connection}=Wi-Fi | {last_worked}=last week; Wi-Fi router was replaced

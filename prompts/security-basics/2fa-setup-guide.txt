@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: method ladder with trade-offs, safety-net setup BEFORE enabling, per-account plan with steps, my-worry answer, yearly 10-minute checkup. Lead with METHOD LADDER.
 
 # Variables
-- {accounts}: The accounts for this prompt — see Example values for a realistic fill.
-- {devices}: The devices for this prompt — see Example values for a realistic fill.
-- {worry}: The worry for this prompt — see Example values for a realistic fill.
-- {locations}: The locations for this prompt — see Example values for a realistic fill.
+- {accounts}: required, the accounts to protect, e.g. "Gmail, bank app, Instagram"
+- {devices}: required, your devices, e.g. "Windows 11 laptop + Android phone"
+- {worry}: required, your main objection/worry, e.g. "losing my phone while traveling"
+- {locations}: required, where you live/travel, e.g. "Egypt, frequent Saudi visits"
 
 # Example values: {accounts}=Gmail, bank app, Instagram, work Google account | {devices}=Android + Windows PC, keep number | {worry}=losing my phone while traveling | {locations}=Egypt, frequent Saudi visits

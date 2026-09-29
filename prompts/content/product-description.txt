@@ -33,10 +33,10 @@ OUTPUT FORMAT
 - Five numbered sections: title line (≤8 words), short description (≤30 words), full description (100-150 words), practical block, second language version. Lead with TITLE LINE.
 
 # Variables
-- {product_and_specs}: The product and specs for this prompt — see Example values for a realistic fill.
-- {buyer_and_desire}: The buyer and desire for this prompt — see Example values for a realistic fill.
-- {price_and_channel}: The price and channel for this prompt — see Example values for a realistic fill.
-- {differentiator}: The differentiator for this prompt — see Example values for a realistic fill.
+- {product_and_specs}: required, product + honest specs, e.g. "cotton tote, 38x42cm, 12 colors"
+- {buyer_and_desire}: required, who buys and why they want it, e.g. "students, carry laptop + notes"
+- {price_and_channel}: required, price + where it's sold, e.g. "350 EGP, Instagram + own site"
+- {differentiator}: required, why it's not the cheap version, e.g. "hand-printed, wash-proof"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {product_and_specs}=cotton tote bag, 38x42cm, inner pocket, 12 colors | {buyer_and_desire}=university students, carry laptop + notebooks | {price_and_channel}=350 EGP, Instagram + own site | {differentiator}=hand-printed in Alexandria, wash-proof | {language}=both

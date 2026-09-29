@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: real risks ranked vs movie version, HTTPS shield explanation, tool plan from what I have, 5-minute pre-connect checklist, the nevers + safe alternatives. Lead with REAL RISKS.
 
 # Variables
-- {activities}: The activities for this prompt — see Example values for a realistic fill.
-- {devices}: The devices for this prompt — see Example values for a realistic fill.
-- {tools_available}: The tools available for this prompt — see Example values for a realistic fill.
-- {frequency}: The frequency for this prompt — see Example values for a realistic fill.
+- {activities}: required, what you'll do on the network, e.g. "email, client calls"
+- {devices}: required, your devices, e.g. "Windows 11 laptop + Android phone"
+- {tools_available}: required, what you have, e.g. "no VPN, unlimited mobile data"
+- {frequency}: required, how often in this situation, e.g. "3 cafés a week"
 
 # Example values: {activities}=email, client calls, some admin panels | {devices}=Windows laptop + Android phone | {tools_available}=no VPN, unlimited mobile data | {frequency}=3 cafés a week

@@ -32,9 +32,9 @@ OUTPUT FORMAT
 - Five numbered sections: the full Arabic announcement in the occasion's register, short WhatsApp version, print layout guidance, tone guardrails for this type, distribution timing note. Lead with THE ANNOUNCEMENT.
 
 # Variables
-- {announcement_type}: The announcement type for this prompt — see Example values for a realistic fill.
-- {key_details}: The key details for this prompt — see Example values for a realistic fill.
-- {audience_and_channel}: The audience and channel for this prompt — see Example values for a realistic fill.
+- {announcement_type}: required, occasion type, e.g. "shop opening" or "condolence notice"
+- {key_details}: required, names, date, time, place exactly as they should appear
+- {audience_and_channel}: required, who the announcement reaches and where, e.g. "family WhatsApp groups"
 - {tone}: The voice to write in.
 
 # Example values: {announcement_type}=shop opening | {key_details}=مخبز "رغيف البلد"، شارع عباس العقاد، الافتتاح الجمعة 10 صباحًا، خصم الافتتاح 20% | {audience_and_channel}=WhatsApp groups around the neighborhood | {tone}=joyful-warm

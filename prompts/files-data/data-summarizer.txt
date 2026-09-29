@@ -35,8 +35,8 @@ OUTPUT FORMAT
 - Six numbered sections: headline answer to my question (1 sentence + number), summary table of aggregates, 3 standouts, supported comparisons, caveats, one chart spec (type + axes). Lead with THE HEADLINE.
 
 # Variables
-- {data_about}: The data about for this prompt — see Example values for a realistic fill.
-- {key_question}: The key question for this prompt — see Example values for a realistic fill.
+- {data_about}: required, what the data covers + period, e.g. "sales by branch, Jan-Jun"
+- {key_question}: required, the question the reader cares about, e.g. "which branch to expand"
 - {audience}: Who will read or receive this.
 - {paste_data}: Your data table, pasted between the markers.
 

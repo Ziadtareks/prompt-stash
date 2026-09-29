@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: pattern classification with percentages, dominant problem (1 blunt line), a specific fix per pattern, study-method verdict (1 line), 3 next-exam actions. Lead with THE PATTERN.
 
 # Variables
-- {subject_and_exam}: The subject and exam for this prompt — see Example values for a realistic fill.
-- {scores}: The scores for this prompt — see Example values for a realistic fill.
-- {mistake_list}: The mistake list for this prompt — see Example values for a realistic fill.
-- {study_method}: The study method for this prompt — see Example values for a realistic fill.
+- {subject_and_exam}: required, subject + exam type, e.g. "physics final"
+- {scores}: required, score vs full mark, e.g. "62/100"
+- {mistake_list}: required, your mistakes: question idea, your answer, correct answer
+- {study_method}: required, how you studied, e.g. "reread the textbook twice, no practice"
 
 # Example values: {subject_and_exam}=physics final | {scores}=62/100 | {mistake_list}=3 unit conversions wrong, 2 questions misread "initial" as "final", ran out of time on last 2 | {study_method}=reread the textbook twice, no practice problems

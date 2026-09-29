@@ -33,9 +33,9 @@ OUTPUT FORMAT
 
 # Variables
 - {decision}: The choice you're facing.
-- {options}: Your realistic options (2–4).
-- {priorities}: What matters to you in this decision.
-- {constraints}: Your constraints and deadline.
+- {options}: required, the realistic options, 2-4
+- {priorities}: required, decision criteria in your words, e.g. "money, family, growth"
+- {constraints}: required, hard limits, e.g. "solo dev, 3 months, ~30 USD/mo hosting"
 - {lean}: The option you're currently leaning toward.
 
 # Example values: {decision}=take a Gulf offer or stay in Cairo | {options}=Riyadh offer (2x salary), stay, or Cairo remote job (1.3x) | {priorities}=money, being near family, career growth | {constraints}=must answer the Riyadh offer in 10 days | {lean}=secretly want to stay

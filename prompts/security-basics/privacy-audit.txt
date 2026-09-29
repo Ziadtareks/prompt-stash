@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: self-search method, exposure triage (keep/restrict/remove + why), forgotten-account hunt, 3 highest-impact settings per platform, ongoing habits. Ordered by impact per minute of effort. Lead with THE SELF-SEARCH.
 
 # Variables
-- {account_list}: The account list for this prompt — see Example values for a realistic fill.
-- {threat_model}: The threat model for this prompt — see Example values for a realistic fill.
-- {exposure}: The exposure for this prompt — see Example values for a realistic fill.
-- {time_budget}: The time budget for this prompt — see Example values for a realistic fill.
+- {account_list}: optional, platforms you have accounts on, e.g. "Instagram, TikTok, an old forum"
+- {threat_model}: required, who you're worried about, e.g. "scammers + future employers"
+- {exposure}: required, what's publicly visible about you, e.g. "workplace, kids' photos, district"
+- {time_budget}: required, time available, e.g. "45 minutes Thursday evening"
 
 # Example values: {account_list}=Instagram, Facebook, TikTok, old Twitter, OLX account, an abandoned forum | {threat_model}=scammers + future employers | {exposure}=full name, workplace, kids' photos, Cairo district | {time_budget}=one focused weekend

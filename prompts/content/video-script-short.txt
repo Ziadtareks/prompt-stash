@@ -31,9 +31,9 @@ OUTPUT FORMAT
 
 # Variables
 - {topic}: What the post, question, or session is about.
-- {platform_and_length}: The platform and length for this prompt — see Example values for a realistic fill.
-- {audience_and_goal}: The audience and goal for this prompt — see Example values for a realistic fill.
-- {format}: The format for this prompt — see Example values for a realistic fill.
+- {platform_and_length}: required, platform + length, e.g. "Instagram Reels, 45s"
+- {audience_and_goal}: required, audience and the action you want, e.g. "job seekers, goal = follows"
+- {format}: required, output format, e.g. "one-page email" or "slide"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {topic}=why your CV gets rejected in 6 seconds | {platform_and_length}=Instagram Reels, 45s | {audience_and_goal}=Egyptian job seekers, goal = follows | {format}=talking head | {language}=Egyptian dialect

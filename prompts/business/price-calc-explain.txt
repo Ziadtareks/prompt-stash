@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: value map (one line per inclusion), 3 reframes, 3 ready replies (≤4 sentences each), honest verdict (1 line), discount rule. Lead with VALUE MAP.
 
 # Variables
-- {service}: The service for this prompt — see Example values for a realistic fill.
-- {price}: The price for this prompt — see Example values for a realistic fill.
-- {what_included}: The what included for this prompt — see Example values for a realistic fill.
-- {competitor_price}: The competitor price for this prompt — see Example values for a realistic fill.
+- {service}: required, the service you sell or priced, e.g. "brand identity package"
+- {price}: required, your price, e.g. "18,000 EGP"
+- {what_included}: required, exactly what the price includes
+- {competitor_price}: optional, competitor price range if known, e.g. "8,000-30,000 EGP"
 
 # Example values: {service}=brand identity package | {price}=18,000 EGP | {what_included}=logo system, color palette, 20-page brand guide, 2 revision rounds | {competitor_price}=8,000-30,000 EGP range

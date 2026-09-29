@@ -28,10 +28,10 @@ OUTPUT FORMAT
 - Five numbered sections in order. ≤400 words; decode the real bounce codes quoted from my message. Lead with READ THE BOUNCE.
 
 # Variables
-- {email_setup}: The email setup for this prompt — see Example values for a realistic fill.
-- {failure_type}: The failure type for this prompt — see Example values for a realistic fill.
-- {bounce_error}: The bounce error for this prompt — see Example values for a realistic fill.
+- {email_setup}: required, your email setup, e.g. "own domain via hosting"
+- {failure_type}: required, how email fails, e.g. "bounce" or "spam folder"
+- {bounce_error}: optional, the exact bounce text, e.g. "550 mailbox unavailable"
 - {recipient}: Who this message is for and your relationship to them.
-- {content_type}: The content type for this prompt — see Example values for a realistic fill.
+- {content_type}: required, what the message contains, e.g. "PDF attachment + links"
 
 # Example values: {email_setup}=own domain via hosting | {failure_type}=bounce | {bounce_error}=550 mailbox unavailable | {recipient}=client at a company | {content_type}=PDF attachment + links

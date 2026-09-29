@@ -31,7 +31,7 @@ OUTPUT FORMAT
 - Three numbered sections: the card table (exactly the requested count; # | Question | Answer), type-mix note with percentages, exactly 3 ⚠️ flags. Lead with THE CARDS.
 
 # Variables
-- {number_of_cards}: The number of cards for this prompt — see Example values for a realistic fill.
+- {number_of_cards}: required, card count, e.g. "15"
 - {language}: Language (and dialect) for the output.
 - {paste_material}: Your study material, pasted between the markers.
 

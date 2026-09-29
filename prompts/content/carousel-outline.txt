@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections; slide table sized exactly to the stated limit (Headline ≤8 words, Body ≤25 words); 3 cover alternatives. Lead with THE ARC.
 
 # Variables
-- {topic_and_takeaway}: The topic and takeaway for this prompt — see Example values for a realistic fill.
-- {platform_and_slides}: The platform and slides for this prompt — see Example values for a realistic fill.
+- {topic_and_takeaway}: required, topic + the one takeaway
+- {platform_and_slides}: required, platform + slide limit, e.g. "LinkedIn, 8 slides"
 - {audience}: Who will read or receive this.
-- {tone_and_language}: The tone and language for this prompt — see Example values for a realistic fill.
+- {tone_and_language}: required, tone + language, e.g. "practical, English"
 
 # Example values: {topic_and_takeaway}=5 pricing mistakes freelancers make | {platform_and_slides}=LinkedIn, 8 slides | {audience}=beginner freelancers in MENA | {tone_and_language}=practical, English with Arabic option

@@ -29,8 +29,8 @@ OUTPUT FORMAT
 - Five numbered sections: official source + impostor-site pattern, fake-download-button recognition, 30-second verification checks, cracked-software reality + legit alternatives, phone-specific rules. Lead with THE OFFICIAL SOURCE.
 
 # Variables
-- {software_and_os}: The software and os for this prompt — see Example values for a realistic fill.
-- {temptation}: The temptation for this prompt — see Example values for a realistic fill.
-- {current_habit}: The current habit for this prompt — see Example values for a realistic fill.
+- {software_and_os}: required, software needed + OS, e.g. "video editor, Windows 11"
+- {temptation}: required, why unofficial sources tempt you, e.g. "price"
+- {current_habit}: required, how you download software today, e.g. "first download button in search"
 
 # Example values: {software_and_os}=video editing software, Windows 11 | {temptation}=the popular editor costs more than my monthly budget | {current_habit}=Google search, first download button I see

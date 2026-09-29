@@ -29,8 +29,8 @@ OUTPUT FORMAT
 
 # Variables
 - {destination}: Where you are traveling.
-- {days}: The days for this prompt — see Example values for a realistic fill.
-- {weather}: The weather for this prompt — see Example values for a realistic fill.
-- {trip_type}: The trip type for this prompt — see Example values for a realistic fill.
+- {days}: required, trip length in days, e.g. "4"
+- {weather}: required, forecast/season, e.g. "hot days, cool nights"
+- {trip_type}: required, trip type, e.g. "beach + light hiking"
 
 # Example values: {destination}=Dahab | {days}=4 | {weather}=hot days, cool nights | {trip_type}=beach + light hiking

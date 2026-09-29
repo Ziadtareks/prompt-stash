@@ -30,10 +30,10 @@ OUTPUT FORMAT
 - Five numbered sections: message (≤80 words), status version (≤40 words), follow-up (1 message), segmentation exclusions, anti-block do/don't list. Lead with THE MESSAGE.
 
 # Variables
-- {business_and_news}: The business and news for this prompt — see Example values for a realistic fill.
-- {recipients}: The recipients for this prompt — see Example values for a realistic fill.
-- {action}: The action for this prompt — see Example values for a realistic fill.
-- {offer_and_deadline}: The offer and deadline for this prompt — see Example values for a realistic fill.
-- {language_and_tone}: The language and tone for this prompt — see Example values for a realistic fill.
+- {business_and_news}: required, business + what you're announcing, e.g. "Sweet Meter, winter menu"
+- {recipients}: required, who receives the message, e.g. "past buyers on broadcast list"
+- {action}: required, the single action you want recipients to take, e.g. "reply to pre-order"
+- {offer_and_deadline}: required, offer + real deadline, e.g. "10% for first 30, closes Thursday"
+- {language_and_tone}: required, language + tone, e.g. "Egyptian Arabic, friendly"
 
 # Example values: {business_and_news}=meal-prep kitchen launching winter menu | {recipients}=past buyers on broadcast list | {action}=reply to order for next week | {offer_and_deadline}=10% for first 30 orders, closes Sunday | {language_and_tone}=Egyptian Arabic, friendly

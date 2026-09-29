@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: ≤3 clarifying questions (only if needed), 3 hypotheses with trigger hints, numbered repro recipe with expected-vs-actual at the divergence, minimization notes, ticket-ready title + body. Lead with QUESTIONS or HYPOTHESES.
 
 # Variables
-- {vague_report}: The vague report for this prompt — see Example values for a realistic fill.
-- {where}: The where for this prompt — see Example values for a realistic fill.
-- {context}: The context for this prompt — see Example values for a realistic fill.
-- {expected_behavior}: The expected behavior for this prompt — see Example values for a realistic fill.
+- {vague_report}: required, the vague bug report, e.g. "checkout sometimes doesn't work"
+- {where}: required, where it happens, e.g. "web checkout, Chrome mostly"
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
+- {expected_behavior}: required, what should happen, e.g. "order created + redirect to confirmation"
 
 # Example values: {vague_report}=customer says checkout "sometimes" doesn't work | {where}=web checkout, Chrome mostly | {context}=she uses a promo code and pays with card | {expected_behavior}=order created, redirect to confirmation

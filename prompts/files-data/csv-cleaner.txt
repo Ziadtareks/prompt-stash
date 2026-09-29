@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Five numbered sections: preserve-first setup, diagnosis ranked, ordered cleaning steps with exact clicks, traps (phone zeros, date flips), 4 final sanity checks. Lead with PRESERVE FIRST.
 
 # Variables
-- {data_source}: The data source for this prompt — see Example values for a realistic fill.
-- {mess_description}: The mess description for this prompt — see Example values for a realistic fill.
-- {target_shape}: The target shape for this prompt — see Example values for a realistic fill.
-- {tool}: The tool for this prompt — see Example values for a realistic fill.
+- {data_source}: required, where the data came from, e.g. "WhatsApp orders pasted in"
+- {mess_description}: required, the chaos you can see, e.g. "dates as text, lost leading zeros"
+- {target_shape}: required, the clean output shape, e.g. "one row per order"
+- {tool}: required, tool + version, e.g. "Excel 365" or "Google Sheets"
 
 # Example values: {data_source}=WhatsApp orders pasted into Excel | {mess_description}=orders in mixed Arabic/English, dates as text, phone numbers losing their 0 | {target_shape}=one row per order: name, phone, items, total, date | {tool}=Google Sheets

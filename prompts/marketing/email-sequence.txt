@@ -31,11 +31,11 @@ OUTPUT FORMAT
 - Five numbered sections: the arc (1 line per email), email 1, email 2, email 3, settings note. Each email ≤140 words, one CTA each, no pitch before email 3. Lead with THE ARC.
 
 # Variables
-- {signup_context}: The signup context for this prompt — see Example values for a realistic fill.
-- {offer}: The offer for this prompt — see Example values for a realistic fill.
-- {subscriber_pain}: The subscriber pain for this prompt — see Example values for a realistic fill.
-- {proof}: The proof for this prompt — see Example values for a realistic fill.
-- {schedule}: The schedule for this prompt — see Example values for a realistic fill.
+- {signup_context}: required, what they signed up for, e.g. "downloaded lunchbox ideas PDF"
+- {offer}: required, the offer, e.g. "online course, 1,200 EGP/month"
+- {subscriber_pain}: required, the subscriber's main problem, e.g. "no time to plan meals"
+- {proof}: required, usable proof, e.g. "340 students, 4.8 rating"
+- {schedule}: required, send gaps, e.g. "day 0 / 2 / 5"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {signup_context}=downloaded "7 days of kids' lunchbox ideas" | {offer}=weekly healthy meal subscription, 600 EGP/week | {subscriber_pain}=no time to plan healthy meals | {proof}=800 Cairo families served | {schedule}=day 0 / 2 / 5 | {language}=Egyptian Arabic

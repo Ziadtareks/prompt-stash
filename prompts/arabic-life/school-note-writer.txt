@@ -33,10 +33,10 @@ OUTPUT FORMAT
 - Four numbered sections: the formal Arabic note, the 3-line WhatsApp version, the medical-certificate line if illness-related, polite-firmness phrasing if needed. Lead with THE NOTE.
 
 # Variables
-- {note_type}: The note type for this prompt — see Example values for a realistic fill.
-- {child_details}: The child details for this prompt — see Example values for a realistic fill.
-- {dates_and_reason}: The dates and reason for this prompt — see Example values for a realistic fill.
-- {pickup_person}: The pickup person for this prompt — see Example values for a realistic fill.
-- {parent_contact}: The parent contact for this prompt — see Example values for a realistic fill.
+- {note_type}: required, note type, e.g. "absence excuse, 3 days"
+- {child_details}: required, child's full name, class and school, e.g. "Youssef Ahmed, 5/B, Al-Nour School"
+- {dates_and_reason}: required, dates + reason, e.g. "12-14 May, illness with certificate"
+- {pickup_person}: optional, who picks up + relation + ID note
+- {parent_contact}: required, your name/phone as sign-off, e.g. "his mother, 0100xxxxxxx"
 
 # Example values: {note_type}=absence excuse, 3 days | {child_details}=يوسف أحمد محمد، صف 5/ب، مدرسة المستقبل | {dates_and_reason}=12–14 مايو، مرض شديد مع إصدار شهادة طبية | {pickup_person}=(none) | {parent_contact}=والدة الطالب، 0100xxxxxxx

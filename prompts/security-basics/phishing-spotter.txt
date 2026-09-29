@@ -37,10 +37,10 @@ OUTPUT FORMAT
 - Five numbered sections: verdict + 2 strongest signals, red-flag list (1 line each), official-channel verification path, if-already-clicked/paid triage, scam-family lesson. Lead with THE VERDICT.
 
 # Variables
-- {channel}: The channel for this prompt — see Example values for a realistic fill.
-- {claimed_sender}: The claimed sender for this prompt — see Example values for a realistic fill.
-- {requested_action}: The requested action for this prompt — see Example values for a realistic fill.
-- {context}: The context for this prompt — see Example values for a realistic fill.
-- {paste_message_links_redacted}: The paste message links redacted for this prompt — see Example values for a realistic fill.
+- {channel}: required, where the message arrived, e.g. "SMS" or "Instagram DM"
+- {claimed_sender}: required, who the message claims to be from, e.g. "a courier company"
+- {requested_action}: required, what the message wants, e.g. "pay a fee via a link"
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
+- {paste_message_links_redacted}: required, message pasted with every link replaced by [LINK]
 
 # Example values: {channel}=SMS | {claimed_sender}=a courier company | {requested_action}=pay 45 EGP customs fee via a link | {context}=I do have a package coming, but not from abroad | {paste_message_links_redacted}="Your parcel is held. Pay the 45 EGP fee via [LINK] within 24h or it returns to sender."

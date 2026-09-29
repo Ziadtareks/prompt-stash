@@ -33,10 +33,10 @@ OUTPUT FORMAT
 - Five numbered sections: promise stack (3 headlines + subheadline), section map with 1-2 lines of copy each, FAQ (5 objections, 2 lines each), CTA options + microcopy, conversion notes. Lead with THE PROMISE STACK.
 
 # Variables
-- {offer_and_price}: The offer and price for this prompt — see Example values for a realistic fill.
-- {audience_and_problem}: The audience and problem for this prompt — see Example values for a realistic fill.
-- {proof}: The proof for this prompt — see Example values for a realistic fill.
-- {traffic}: The traffic for this prompt — see Example values for a realistic fill.
+- {offer_and_price}: required, what you sell + price
+- {audience_and_problem}: required, who it's for and the problem it kills
+- {proof}: required, usable proof, e.g. "340 students, 4.8 rating"
+- {traffic}: required, traffic source + temperature, e.g. "warm Instagram followers"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {offer_and_price}=online Quran memorization program for kids, 400 EGP/month | {audience_and_problem}=busy Muslim parents abroad, kids losing connection to Quran | {proof}=300 families, 4.9 rating, qualified Egyptian teachers | {traffic}=warm Instagram followers | {language}=English + Arabic versions

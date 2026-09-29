@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: reward structure with amounts the stated margin survives, the trigger moment + exact ask line, zero-app mechanics, one-time announcement text, 3 abuse guards. Lead with THE REWARD STRUCTURE.
 
 # Variables
-- {business_and_aov}: The business and aov for this prompt — see Example values for a realistic fill.
-- {customers}: The customers for this prompt — see Example values for a realistic fill.
-- {margin}: The margin for this prompt — see Example values for a realistic fill.
-- {channels}: The channels for this prompt — see Example values for a realistic fill.
+- {business_and_aov}: required, business + average order value, e.g. "tutoring center, 800 EGP/month"
+- {customers}: required, who your customers are, e.g. "parents in school WhatsApp groups"
+- {margin}: required, margin headroom, e.g. "40%"
+- {channels}: required, where word of mouth happens today, e.g. "parent WhatsApp groups"
 - {currency}: The currency for all money figures (e.g. EGP).
 
 # Example values: {business_and_aov}=tutoring center, 800 EGP/month per student | {customers}=parents in parent WhatsApp groups | {margin}=40% | {channels}=school parent groups, family networks | {currency}=EGP

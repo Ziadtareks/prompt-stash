@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: 3-2-1 mapped to my devices/budget, exact folder list to protect, automation setup per device, offline/versioned copy for ransomware, 15-minute restore drill + reminder. Lead with 3-2-1 TRANSLATED.
 
 # Variables
-- {what_to_protect}: The what to protect for this prompt — see Example values for a realistic fill.
-- {current_locations}: The current locations for this prompt — see Example values for a realistic fill.
-- {data_size}: The data size for this prompt — see Example values for a realistic fill.
-- {budget}: The budget for this prompt — see Example values for a realistic fill.
-- {devices}: The devices for this prompt — see Example values for a realistic fill.
+- {what_to_protect}: required, what you must not lose, e.g. "photos, client work, thesis"
+- {current_locations}: required, where the data lives today, e.g. "one laptop + phone"
+- {data_size}: required, rough size, e.g. "~180 GB"
+- {budget}: required, budget with currency, e.g. "15,000 EGP"
+- {devices}: required, your devices, e.g. "Windows 11 laptop + Android phone"
 
 # Example values: {what_to_protect}=family photos, freelance client work, university files | {current_locations}=one laptop + phone only | {data_size}=~180GB | {budget}=up to 200 EGP/month | {devices}=Windows 11 + Android

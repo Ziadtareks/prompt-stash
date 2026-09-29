@@ -30,8 +30,8 @@ OUTPUT FORMAT
 
 # Variables
 - {question}: Your question in plain words.
-- {schema}: The schema for this prompt — see Example values for a realistic fill.
-- {flavor}: The flavor for this prompt — see Example values for a realistic fill.
-- {table_sizes}: The table sizes for this prompt — see Example values for a realistic fill.
+- {schema}: required, tables + columns, pasted
+- {flavor}: required, SQL dialect, e.g. "Postgres" or "MySQL"
+- {table_sizes}: required, rough row counts, e.g. "orders ~200k rows"
 
 # Example values: {question}=top 10 customers by total spend this year, with their city | {schema}=customers(id, name, city), orders(id, customer_id, total, created_at, status) | {flavor}=Postgres | {table_sizes}=orders ~200k rows

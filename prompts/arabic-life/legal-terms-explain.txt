@@ -36,8 +36,8 @@ OUTPUT FORMAT
 - خمسة أقسام: جدول المصطلح بمصطلح، خريطة خطوات المعاملة، الفخ الشائع لكل مستند، 5 أسئلة للمحامي/المكتب، تنبيه التكاليف بعلامات [تأكد]. ابدأ بجدول المصطلحات.
 
 # Variables
-- {transaction}: The transaction for this prompt — see Example values for a realistic fill.
-- {terms_list}: The terms list for this prompt — see Example values for a realistic fill.
+- {transaction}: required, the transaction you're doing, e.g. "buying a small apartment"
+- {terms_list}: required, the terms on your papers, e.g. "توكيل، إخلاء طرف، قسيمة"
 - {my_role}: Your role in this situation.
 
 # Example values: {transaction}=buying a small apartment in Giza | {terms_list}=قسيمة، إخلاء طرف، توكيل رسمي، مخخصصة، contrat مسجل | {my_role}=buyer

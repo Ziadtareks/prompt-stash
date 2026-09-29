@@ -35,10 +35,10 @@ OUTPUT FORMAT
 - Five numbered sections: within-list duplicates grouped, cross-list matches (probable ones labeled), only-in-A/only-in-B gap, normalization rules as steps, cleanup actions (keep rule per cluster). Lead with DUPLICATES WITHIN.
 
 # Variables
-- {list_purpose}: The list purpose for this prompt — see Example values for a realistic fill.
-- {match_key}: The match key for this prompt — see Example values for a realistic fill.
-- {mess_factors}: The mess factors for this prompt — see Example values for a realistic fill.
-- {paste_list_a}: The paste list a for this prompt — see Example values for a realistic fill.
-- {paste_list_b}: The paste list b for this prompt — see Example values for a realistic fill.
+- {list_purpose}: required, what the lists are + why reconcile, e.g. "payments vs customers"
+- {match_key}: required, what makes records the same, e.g. "phone number, fallback name"
+- {mess_factors}: optional, known mess factors, e.g. "Arabic/English spellings, extra spaces"
+- {paste_list_a}: required, first list, one record per line
+- {paste_list_b}: optional, second list to reconcile against
 
 # Example values: {list_purpose}=payment list vs customer list reconciliation | {match_key}=phone number, fallback name | {mess_factors}=some phones stored as +2010..., some as 010..., names in Arabic and English

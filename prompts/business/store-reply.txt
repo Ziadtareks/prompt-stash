@@ -32,9 +32,9 @@ OUTPUT FORMAT
 - Five numbered sections: the read (1 line), Version A, Version B, de-escalation sentence (if angry), DO-NOT-SAY (1 line). Versions ≤100 words each, in the requested language. Lead with WHAT THEY REALLY WANT.
 
 # Variables
-- {store_name}: The store name for this prompt — see Example values for a realistic fill.
-- {customer_message}: The customer message for this prompt — see Example values for a realistic fill.
-- {resolution}: The resolution for this prompt — see Example values for a realistic fill.
-- {reply_language}: The reply language for this prompt — see Example values for a realistic fill.
+- {store_name}: required, store/business name, e.g. "Nour Home"
+- {customer_message}: required, the customer's message, redacted, pasted as-is
+- {resolution}: required, what you can offer, e.g. "resend express + 10% coupon"
+- {reply_language}: required, language to reply in, e.g. "Arabic"
 
 # Example values: {store_name}=Nour Home | {customer_message}=ordered a lamp 3 weeks ago, nothing arrived, nobody answers | {resolution}=resend with express shipping + 10% coupon | {reply_language}=Arabic

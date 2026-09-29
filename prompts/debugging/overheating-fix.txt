@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order. ≤350 words; free fixes ≤4 steps. Lead with NORMAL VS NOT.
 
 # Variables
-- {machine}: The machine for this prompt — see Example values for a realistic fill.
-- {when_hot}: The when hot for this prompt — see Example values for a realistic fill.
-- {symptoms}: The symptoms for this prompt — see Example values for a realistic fill.
-- {environment}: The environment for this prompt — see Example values for a realistic fill.
+- {machine}: required, machine + age + use, e.g. "Dell G3, 4 years, gaming"
+- {when_hot}: required, when it overheats, e.g. "20 min into any game"
+- {symptoms}: required, symptoms, e.g. "loud fan, hot keyboard, sudden shutdowns"
+- {environment}: required, usage environment, e.g. "on bed, dusty room"
 
 # Example values: {machine}=Dell G3 gaming laptop, 4 years | {when_hot}=20 min into any game | {symptoms}=loud fan then sudden shutdown | {environment}=on bed, dusty room

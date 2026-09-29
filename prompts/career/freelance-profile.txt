@@ -32,10 +32,10 @@ OUTPUT FORMAT
 
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
-- {service}: The service for this prompt — see Example values for a realistic fill.
-- {experience}: The experience for this prompt — see Example values for a realistic fill.
-- {target_client}: The target client for this prompt — see Example values for a realistic fill.
-- {price_point}: The price point for this prompt — see Example values for a realistic fill.
+- {service}: required, the service you sell or priced, e.g. "brand identity package"
+- {experience}: required, relevant experience + proof, e.g. "3 years, 12 delivered stores"
+- {target_client}: required, your ideal client, e.g. "Egyptian/Gulf retail shops"
+- {price_point}: required, starting price, e.g. "from 8,000 EGP"
 - {languages}: Language(s) to write or reply in.
 
 # Example values: {platform}=Mostaql | {service}=WordPress stores for small businesses | {experience}=3 years, 12 delivered stores, avg delivery 10 days | {target_client}=Egyptian/Gulf retail shops | {price_point}=from 8,000 EGP | {languages}=Arabic + English

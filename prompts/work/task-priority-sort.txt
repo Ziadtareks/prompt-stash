@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order: sort table (one row per task), TODAY'S 3 (exactly 3), time check, 15-minute first step, delete list. Lead with THE SORT.
 
 # Variables
-- {task_list}: The task list for this prompt — see Example values for a realistic fill.
-- {deadlines}: The deadlines for this prompt — see Example values for a realistic fill.
-- {available_hours}: The available hours for this prompt — see Example values for a realistic fill.
-- {avoiding}: The avoiding for this prompt — see Example values for a realistic fill.
+- {task_list}: required, your tasks, one per line, messy is fine
+- {deadlines}: optional, known deadlines mapped to tasks, e.g. "taxes in 5 days"
+- {available_hours}: required, realistic hours available, e.g. "6 today" or "10 per week"
+- {avoiding}: required, the task you keep postponing, e.g. "the tax filing"
 
 # Example values: {task_list}=client revisions, invoice 2 clients, team meeting, gym, taxes, reply to 40 emails | {deadlines}=taxes in 5 days, revisions tomorrow | {available_hours}=6 today | {avoiding}=taxes

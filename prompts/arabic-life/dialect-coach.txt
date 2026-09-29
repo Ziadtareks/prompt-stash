@@ -32,9 +32,9 @@ OUTPUT FORMAT
 - Five numbered sections: the conversion, change-log table (الفصحى | المصرية | ليه), register warnings, spoken-flow marks, regional check. Lead with THE CONVERSION.
 
 # Variables
-- {formal_text}: The formal text for this prompt — see Example values for a realistic fill.
-- {context}: The context for this prompt — see Example values for a realistic fill.
+- {formal_text}: required, the fus'ha text to convert
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
 - {audience}: Who will read or receive this.
-- {formality}: The formality for this prompt — see Example values for a realistic fill.
+- {formality}: required, dialect formality level, e.g. "polished but friendly"
 
 # Example values: {formal_text}=يسعدنا أن نعلن عن وصول منتجاتنا الجديدة إلى جميع الفروع، وتفضلوا بزيارتنا لتجربتها | {context}=Instagram reel voiceover for a bakery | {audience}=Cairo general, 20–40 | {formality}=polished but friendly

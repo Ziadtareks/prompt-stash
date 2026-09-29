@@ -31,11 +31,11 @@ OUTPUT FORMAT
 - Five numbered sections: header, items table with a scope note per line, totals, terms (validity, deposit, timeline, exclusions), acceptance line. Plain-text, copy-paste ready. Lead with QUOTATION HEADER.
 
 # Variables
-- {my_business}: The my business for this prompt — see Example values for a realistic fill.
-- {client_and_request}: The client and request for this prompt — see Example values for a realistic fill.
-- {items_and_prices}: The items and prices for this prompt — see Example values for a realistic fill.
-- {payment_terms}: The payment terms for this prompt — see Example values for a realistic fill.
-- {valid_days}: The valid days for this prompt — see Example values for a realistic fill.
+- {my_business}: required, your business + contact info, e.g. "Nour Designs, hello@…"
+- {client_and_request}: required, client + what they asked for, e.g. "Cafe Rivea, logo + menu"
+- {items_and_prices}: required, line items + prices, e.g. "logo 6,000 EGP, menu 3,500 EGP"
+- {payment_terms}: required, deposit % and deadlines, e.g. "50% deposit"
+- {valid_days}: required, quote validity in days, e.g. "14"
 - {currency}: The currency for all money figures (e.g. EGP).
 
 # Example values: {my_business}=Nour Designs, graphic studio | {client_and_request}=café wants logo + menu design + 5 social posts | {items_and_prices}=logo 6,000 EGP, menu 3,500 EGP, posts 750 EGP each | {payment_terms}=50% deposit | {valid_days}=14

@@ -35,10 +35,10 @@ OUTPUT FORMAT
 - Five numbered sections: the extracted table, formatting notes (numbers bare, one date format, Arabic preserved), extraction warnings per row, control totals vs the document, re-extraction tips. Lead with THE TABLE.
 
 # Variables
-- {document_type}: The document type for this prompt — see Example values for a realistic fill.
-- {fields_needed}: The fields needed for this prompt — see Example values for a realistic fill.
+- {document_type}: required, the PDF type, e.g. "bank statement, Jan-Mar"
+- {fields_needed}: required, columns to extract, e.g. "date, description, debit, credit"
 - {destination}: Where you are traveling.
-- {purpose}: The purpose for this prompt — see Example values for a realistic fill.
+- {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
 - {paste_pdf_text}: The PDF's copied text, pasted between the markers.
 
 # Example values: {document_type}=bank statement (CIB, Jan–Mar) | {fields_needed}=date, description, debit, credit, balance | {destination}=Google Sheets for tax prep | {purpose}=reconcile with my invoice records

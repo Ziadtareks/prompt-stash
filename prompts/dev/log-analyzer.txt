@@ -35,8 +35,8 @@ OUTPUT FORMAT
 
 # Variables
 - {symptom}: What is visibly broken.
-- {when_started}: The when started for this prompt — see Example values for a realistic fill.
-- {time_window}: The time window for this prompt — see Example values for a realistic fill.
+- {when_started}: required, when it started + what changed, e.g. "after yesterday's deploy"
+- {time_window}: required, roughly when in the log, e.g. "around 14:03"
 - {paste_log}: Your log output, pasted between the markers.
 
 # Example values: {symptom}=checkout returns 500 for some users | {when_started}=after yesterday's deploy | {time_window}=around 14:03 | {paste_log}=80 lines including stack trace

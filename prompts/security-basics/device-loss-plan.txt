@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: minutes 0-10 lock/locate, 10-30 cut the money (SIM, banks, reset email), 30-60 remote sign-out + work IT, evidence for police/insurance, recovery + prevention. Lead with MINUTE 0-10.
 
 # Variables
-- {incident}: The incident for this prompt — see Example values for a realistic fill.
-- {device_and_lock}: The device and lock for this prompt — see Example values for a realistic fill.
-- {access_risk}: The access risk for this prompt — see Example values for a realistic fill.
-- {preparedness}: The preparedness for this prompt — see Example values for a realistic fill.
-- {location_carrier}: The location carrier for this prompt — see Example values for a realistic fill.
+- {incident}: required, what happened + how long ago, e.g. "phone snatched 40 minutes ago"
+- {device_and_lock}: required, device + lock state, e.g. "Android, was unlocked in my hand"
+- {access_risk}: required, what the lost device can reach, e.g. "bank app, Gmail, work Slack"
+- {preparedness}: required, current protections, e.g. "Find My on, last backup 3 days ago"
+- {location_carrier}: required, country + carrier, e.g. "Egypt, Vodafone"
 
 # Example values: {incident}=phone snatched on the metro 40 minutes ago | {device_and_lock}=Android, was unlocked in my hand | {access_risk}=bank app, wallet, Gmail, work Slack | {preparedness}=Find My Device on, last backup 3 days ago | {location_carrier}=Egypt, Vodafone

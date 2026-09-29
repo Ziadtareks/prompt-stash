@@ -28,8 +28,8 @@ OUTPUT FORMAT
 
 # Variables
 - {my_role}: Your role in this situation.
-- {meeting_cadence}: The meeting cadence for this prompt — see Example values for a realistic fill.
-- {recent_updates}: The recent updates for this prompt — see Example values for a realistic fill.
-- {my_goal}: The my goal for this prompt — see Example values for a realistic fill.
+- {meeting_cadence}: required, frequency + duration, e.g. "biweekly, 30 min"
+- {recent_updates}: required, wins/blockers/worries since the last 1:1
+- {my_goal}: required, what you want from the meeting/reply, e.g. "feedback on promotion readiness"
 
 # Example values: {my_role}=junior accountant, manager is finance head | {meeting_cadence}=biweekly, 30 min | {recent_updates}=closed 2 reports, blocked on ERP access | {my_goal}=feedback on promotion readiness

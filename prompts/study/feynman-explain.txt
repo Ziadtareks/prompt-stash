@@ -28,6 +28,6 @@ OUTPUT FORMAT
 # Variables
 - {topic}: What the post, question, or session is about.
 - {level}: Your level (school, university, professional).
-- {context}: The context for this prompt — see Example values for a realistic fill.
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
 
 # Example values: {topic}=how neural networks learn (backpropagation) | {level}=1st-year CS student | {context}=written final exam

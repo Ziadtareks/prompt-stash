@@ -26,9 +26,9 @@ OUTPUT FORMAT
 - Four numbered sections: 3 subject lines, the message (≤150 words: own it → refund details → timeline → gesture → invite back), timeline honesty (1 line), 3 banned phrases. Lead with SUBJECT LINE OPTIONS.
 
 # Variables
-- {customer_name}: The customer name for this prompt — see Example values for a realistic fill.
-- {what_went_wrong}: The what went wrong for this prompt — see Example values for a realistic fill.
-- {refund_amount}: The refund amount for this prompt — see Example values for a realistic fill.
-- {store_name}: The store name for this prompt — see Example values for a realistic fill.
+- {customer_name}: required, customer name, e.g. "Khaled"
+- {what_went_wrong}: required, what failed for the customer, honest, e.g. "wrong size shipped twice"
+- {refund_amount}: required, amount + destination, e.g. "1,200 EGP to the original card"
+- {store_name}: required, store/business name, e.g. "Nour Home"
 
 # Example values: {customer_name}=Khaled | {what_went_wrong}=wrong size shipped twice | {refund_amount}=1,200 EGP to the original card | {store_name}=Metro Wear

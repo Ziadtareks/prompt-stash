@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: folder tree, naming pattern with 5 real + 4 wrong examples, phased migration (nothing deleted in round one), 2 keeping-alive habits, search upgrade. Lead with THE STRUCTURE.
 
 # Variables
-- {file_types}: The file types for this prompt — see Example values for a realistic fill.
-- {location}: The location for this prompt — see Example values for a realistic fill.
-- {search_habits}: The search habits for this prompt — see Example values for a realistic fill.
-- {who_else}: The who else for this prompt — see Example values for a realistic fill.
+- {file_types}: required, what piles up, e.g. "invoices, contracts, course files, photos"
+- {location}: required, city/market or place, e.g. "Nasr City, Cairo"
+- {search_habits}: required, how you look for files, e.g. "by client name and rough date"
+- {who_else}: optional, who else needs to find files, e.g. "my accountant once a year"
 
 # Example values: {file_types}=client invoices, contracts, course files, family photos | {location}=Windows Desktop + Google Drive | {search_habits}=by client name and rough date | {who_else}=my accountant once a year

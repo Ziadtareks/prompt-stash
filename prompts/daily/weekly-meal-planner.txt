@@ -34,7 +34,7 @@ OUTPUT FORMAT
 
 # Variables
 - {household}: How many people you cook for, ages and picky eaters.
-- {budget}: Your weekly food budget, with currency.
+- {budget}: required, budget with currency, e.g. "15,000 EGP"
 - {meals_scope}: Which meals to plan (dinners only or more).
 - {restrictions}: Allergies, dislikes, or fasting days to respect.
 - {cooking_capacity}: How many days a week you can actually cook.

@@ -25,8 +25,8 @@ OUTPUT FORMAT
 - Four numbered sections: the reply (4-6 sentences, ≤120 words), specific feedback ask, stay-in-touch line, 3 replies to never send. Lead with THE REPLY.
 
 # Variables
-- {rejection_context}: The rejection context for this prompt — see Example values for a realistic fill.
-- {signals}: The signals for this prompt — see Example values for a realistic fill.
-- {my_goal}: The my goal for this prompt — see Example values for a realistic fill.
+- {rejection_context}: required, role + how far you got, e.g. "final round, lost to internal hire"
+- {signals}: optional, rapport/signals from the process, e.g. "they liked my test"
+- {my_goal}: required, what you want from the meeting/reply, e.g. "feedback on promotion readiness"
 
 # Example values: {rejection_context}=final round for marketing analyst, lost to internal candidate | {signals}=interviewer said my test was strong, team seemed warm | {my_goal}=feedback + future roles

@@ -29,7 +29,7 @@ OUTPUT FORMAT
 - Four numbered sections: exactly 10 hooks (2 each of curiosity/stat/story/contrarian/pain), top-3 ranking with reasons, first paragraph for #1, anti-cliché check. Lead with TEN HOOKS.
 
 # Variables
-- {topic_and_point}: The topic and point for this prompt — see Example values for a realistic fill.
+- {topic_and_point}: required, topic + its core point
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
 - {audience}: Who will read or receive this.
 - {tone}: The voice to write in.

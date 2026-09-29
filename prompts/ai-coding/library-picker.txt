@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: the 2-4 real contenders (including stdlib/no-library), comparison table, one committed verdict + flip condition, install + minimal usage + gotcha, exit plan (wrap-behind-module). Lead with THE FIELD.
 
 # Variables
-- {need}: The need for this prompt — see Example values for a realistic fill.
+- {need}: required, what you need the library to do, e.g. "form validation with schema reuse"
 - {stack}: Your technologies and versions.
-- {priorities}: The priorities for this prompt — see Example values for a realistic fill.
-- {options}: The options for this prompt — see Example values for a realistic fill.
+- {priorities}: required, decision criteria in your words, e.g. "money, family, growth"
+- {options}: required, the realistic options, 2-4
 
 # Example values: {need}=form validation with schema reuse | {stack}=Next.js 15 + TypeScript | {priorities}=DX then bundle size | {options}=Zod vs Yup vs Valibot

@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: chart type + why it beats alternatives, exact spec (axes, sort, format, highlight), headline written as the finding, honesty check, 5-minute build steps. Lead with THE CHART.
 
 # Variables
-- {data}: The data for this prompt — see Example values for a realistic fill.
-- {message}: The message for this prompt — see Example values for a realistic fill.
-- {medium}: The medium for this prompt — see Example values for a realistic fill.
+- {data}: required, the data to visualize — paste it or describe it
+- {message}: required, the suspicious message with links replaced by [LINK]
+- {medium}: required, where the chart appears, e.g. "investor slide"
 - {audience}: Who will read or receive this.
 
 # Example values: {data}=monthly revenue by channel, 12 months, 4 channels | {message}=our Instagram channel went from nothing to 30% of revenue | {medium}=slide in an investor update | {audience}=non-technical executives

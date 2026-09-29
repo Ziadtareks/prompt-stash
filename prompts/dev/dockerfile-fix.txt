@@ -32,10 +32,10 @@ OUTPUT FORMAT
 - Five numbered sections: the breaking line quoted, corrected Dockerfile with comments, size/speed pass applied only where relevant, run checks, build+run verify commands. Lead with THE BREAKER.
 
 # Variables
-- {problem}: The problem for this prompt — see Example values for a realistic fill.
-- {error_output}: The error output for this prompt — see Example values for a realistic fill.
+- {problem}: required, what's wrong, e.g. "image 1.4GB, rebuilds everything each change"
+- {error_output}: optional, the build/run error text
 - {stack}: Your technologies and versions.
-- {services}: The services for this prompt — see Example values for a realistic fill.
-- {paste_dockerfile}: The paste dockerfile for this prompt — see Example values for a realistic fill.
+- {services}: optional, companion services needed, e.g. "Postgres via compose"
+- {paste_dockerfile}: required, Dockerfile or compose file between the markers
 
 # Example values: {problem}=image is 1.4GB and rebuilds everything on each change | {error_output}=(none, just slow) | {stack}=Node 20 + TypeScript | {services}=yes, Postgres via compose

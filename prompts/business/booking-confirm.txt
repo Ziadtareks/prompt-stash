@@ -27,10 +27,10 @@ OUTPUT FORMAT
 - Four numbered sections: SMS (≤300 characters), email (subject + ≤120 words), reminder line (1), no-show line (1). Lead with SMS VERSION.
 
 # Variables
-- {business_type}: The business type for this prompt — see Example values for a realistic fill.
-- {customer_name}: The customer name for this prompt — see Example values for a realistic fill.
-- {date_time}: The date time for this prompt — see Example values for a realistic fill.
-- {location_or_link}: The location or link for this prompt — see Example values for a realistic fill.
-- {cancellation_policy}: The cancellation policy for this prompt — see Example values for a realistic fill.
+- {business_type}: required, business category, e.g. "dental clinic"
+- {customer_name}: required, customer name, e.g. "Khaled"
+- {date_time}: required, exact booking date and time, e.g. "Tuesday March 4, 5:30 PM"
+- {location_or_link}: required, address or meeting link
+- {cancellation_policy}: required, your reschedule/cancel rules, e.g. "free up to 24h before"
 
 # Example values: {business_type}=dental clinic | {customer_name}=Mona Adel | {date_time}=Tuesday March 4, 5:30 PM | {location_or_link}=Zamalek branch, 2nd floor | {cancellation_policy}=free reschedule up to 24h before

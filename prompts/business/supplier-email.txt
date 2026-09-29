@@ -28,10 +28,10 @@ OUTPUT FORMAT
 - Five numbered sections: the email (subject + ≤120 words), leverage line (1), negotiation reply, sample request (≤3 lines), local WhatsApp version. Lead with THE EMAIL.
 
 # Variables
-- {product_and_qty}: The product and qty for this prompt — see Example values for a realistic fill.
-- {supplier_type}: The supplier type for this prompt — see Example values for a realistic fill.
+- {product_and_qty}: required, product specs + quantity, e.g. "500 kraft bags, 25x30cm, printed"
+- {supplier_type}: required, supplier kind, e.g. "local distributor"
 - {goal}: The outcome you want from this.
-- {volume}: The volume for this prompt — see Example values for a realistic fill.
-- {supplier_language}: The supplier language for this prompt — see Example values for a realistic fill.
+- {volume}: required, volumes/repeat potential, e.g. "reorder monthly if quality holds"
+- {supplier_language}: required, supplier's language, e.g. "Arabic"
 
 # Example values: {product_and_qty}=500 kraft paper bags, 25x30cm, printed 1-color logo | {supplier_type}=local distributor | {goal}=price list + MOQ | {volume}=reorder monthly if quality is good | {supplier_language}=Arabic

@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: paste-ready formula referencing my columns, piece-by-piece explanation, edge-case behavior, alternative approach, 3 test rows with expected results. Lead with THE FORMULA.
 
 # Variables
-- {tool}: The tool for this prompt — see Example values for a realistic fill.
+- {tool}: required, tool + version, e.g. "Excel 365" or "Google Sheets"
 - {goal}: The outcome you want from this.
-- {sheet_layout}: The sheet layout for this prompt — see Example values for a realistic fill.
-- {edge_cases}: The edge cases for this prompt — see Example values for a realistic fill.
+- {sheet_layout}: required, columns/headers + sample rows, e.g. "A: date, B: salesperson"
+- {edge_cases}: optional, known data quirks, e.g. "blank amounts, names with extra spaces"
 
 # Example values: {tool}=Excel 365 | {goal}=total sales per salesperson per month with a dropdown picker | {sheet_layout}=A: date, B: salesperson, C: amount, D: region | {edge_cases}=some amounts blank, names with extra spaces

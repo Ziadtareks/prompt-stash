@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Structured tutoring exchange: restate the question (1 line) → Hint Level 1 only → wait for my attempt → one level per message → full solution only after I answer or give up → close with one similar practice question.
 
 # Variables
-- {subject_and_level}: The subject and level for this prompt — see Example values for a realistic fill.
+- {subject_and_level}: required, subject + level, e.g. "grade 10 algebra"
 - {question}: Your question in plain words.
 - {what_i_tried}: What you already attempted, so it is not repeated.
-- {stuck_point}: The stuck point for this prompt — see Example values for a realistic fill.
+- {stuck_point}: required, the exact step where you're stuck, e.g. "the factoring step"
 
 # Example values: {subject_and_level}=grade 10 algebra | {question}=solve 3(x-2)² = 48 | {what_i_tried}=expanded the square, got stuck at 3x²-12x-36=0 | {stuck_point}=the factoring step

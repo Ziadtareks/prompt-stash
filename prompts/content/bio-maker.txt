@@ -29,10 +29,10 @@ OUTPUT FORMAT
 
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
-- {who_i_am}: The who i am for this prompt — see Example values for a realistic fill.
-- {content_topics}: The content topics for this prompt — see Example values for a realistic fill.
-- {target_audience}: The target audience for this prompt — see Example values for a realistic fill.
-- {unique_angle}: The unique angle for this prompt — see Example values for a realistic fill.
-- {link_purpose}: The link purpose for this prompt — see Example values for a realistic fill.
+- {who_i_am}: required, who you are, e.g. "freelance photographer"
+- {content_topics}: required, what you post about, e.g. "portraits, Cairo streets"
+- {target_audience}: required, who you want to attract, e.g. "brands and couples"
+- {unique_angle}: required, what makes you different, e.g. "same-day preview gallery"
+- {link_purpose}: optional, what your bio link promotes, e.g. "booking form"
 
 # Example values: {platform}=Instagram | {who_i_am}=freelance photographer | {content_topics}=portraits, Cairo streets, behind-the-scenes | {target_audience}=brands and couples planning shoots | {unique_angle}=same-day preview gallery | {link_purpose}=booking form

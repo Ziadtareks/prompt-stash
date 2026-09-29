@@ -36,10 +36,10 @@ OUTPUT FORMAT
 - Six numbered sections: the deal (≤5 lines), clause table (Clause | Plain meaning | Green/Yellow/Red), red flags quoted briefly, what's missing, negotiation questions (3), disclaimer line. Lead with THE DEAL.
 
 # Variables
-- {contract_type}: The contract type for this prompt — see Example values for a realistic fill.
-- {my_side}: The my side for this prompt — see Example values for a realistic fill.
-- {my_priority}: The my priority for this prompt — see Example values for a realistic fill.
-- {gut_feeling}: The gut feeling for this prompt — see Example values for a realistic fill.
+- {contract_type}: required, contract type + your side, e.g. "freelance contract, I'm the freelancer"
+- {my_side}: required, which side you are, e.g. "the tenant"
+- {my_priority}: required, what you care about most, e.g. "payment and revisions"
+- {gut_feeling}: optional, what already feels off, e.g. "it says unlimited revisions somewhere"
 - {paste_contract}: The contract text, pasted between the markers.
 
 # Example values: {contract_type}=freelance web design contract | {my_side}=the freelancer | {my_priority}=payment and revisions | {gut_feeling}=it says "unlimited revisions" somewhere

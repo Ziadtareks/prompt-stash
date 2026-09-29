@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: named persona, job-to-be-done in customer words, triggers + 3 objections with counter-messages, ranked channels, one-line message using their vocabulary. Lead with THE PERSONA.
 
 # Variables
-- {product_and_price}: The product and price for this prompt — see Example values for a realistic fill.
-- {who_buys}: The who buys for this prompt — see Example values for a realistic fill.
-- {voice_of_customer}: The voice of customer for this prompt — see Example values for a realistic fill.
-- {channels}: The channels for this prompt — see Example values for a realistic fill.
-- {market}: The market for this prompt — see Example values for a realistic fill.
+- {product_and_price}: required, product/service + price
+- {who_buys}: required, who actually buys today, e.g. "working moms 30-45"
+- {voice_of_customer}: required, what customers actually say, e.g. review and DM quotes
+- {channels}: required, where word of mouth happens today, e.g. "parent WhatsApp groups"
+- {market}: required, market/currency context, e.g. "EGP, Cairo fintech market"
 
 # Example values: {product_and_price}=home organizing service, from 1,500 EGP/visit | {who_buys}=working moms 30-45, new apartments | {voice_of_customer}="I buy things twice because I can't find anything", clutter stress | {channels}=Instagram, mom Facebook groups | {market}=New Cairo

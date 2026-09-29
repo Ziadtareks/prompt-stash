@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: stage verdict (1 line), next-stage email (≤120 words), final notice (≤150 words), 5-line phone script, prevention (2 changes). Lead with WHERE WE ARE.
 
 # Variables
-- {invoice_details}: The invoice details for this prompt — see Example values for a realistic fill.
-- {client_type}: The client type for this prompt — see Example values for a realistic fill.
-- {reminders_sent}: The reminders sent for this prompt — see Example values for a realistic fill.
-- {excuse}: The excuse for this prompt — see Example values for a realistic fill.
-- {bottom_line}: The bottom line for this prompt — see Example values for a realistic fill.
+- {invoice_details}: required, number, amount, due date, days overdue, e.g. "INV-014, 12,500 EGP, 23 days late"
+- {client_type}: required, relationship to the debtor, e.g. "client for 2 years"
+- {reminders_sent}: required, reminders so far, e.g. "1 friendly email"
+- {excuse}: optional, the debtor's excuse, e.g. "silent" or "processing"
+- {bottom_line}: required, your escalation limit, e.g. "pause their ongoing work"
 
 # Example values: {invoice_details}=INV-014, 12,500 EGP, due June 1, 23 days overdue | {client_type}=client for 2 years | {reminders_sent}=1 friendly email | {excuse}=silent | {bottom_line}=pause their ongoing work

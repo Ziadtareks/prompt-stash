@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order. ≤350 words; the 3-point test as a numbered list. Lead with LOCATE THE FAULT.
 
 # Variables
-- {who_affected}: The who affected for this prompt — see Example values for a realistic fill.
-- {pattern}: The pattern for this prompt — see Example values for a realistic fill.
-- {setup}: The setup for this prompt — see Example values for a realistic fill.
-- {router_lights}: The router lights for this prompt — see Example values for a realistic fill.
+- {who_affected}: required, who's affected, e.g. "all Wi-Fi devices, wired is fine"
+- {pattern}: required, failure pattern, e.g. "drops every 20-30 min, worse at night"
+- {setup}: required, router/ISP setup, e.g. "TP-Link router, WE home internet"
+- {router_lights}: required, router light behavior on drop, e.g. "internet light turns orange"
 
 # Example values: {who_affected}=all Wi-Fi devices, wired is fine | {pattern}=drops every 20-30 min, worse at night | {setup}=TP-Link router, WE home internet | {router_lights}=internet light turns orange then back green

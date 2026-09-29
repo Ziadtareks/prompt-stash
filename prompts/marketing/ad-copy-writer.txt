@@ -31,11 +31,11 @@ OUTPUT FORMAT
 - Five numbered sections: 2 angles (1 line each), 5 ad variations (primary ≤90 words + headline ≤40 chars + CTA), search ads if Google, 2-ad test plan with decision metric, compliance pass. Lead with THE ANGLE.
 
 # Variables
-- {offer}: The offer for this prompt — see Example values for a realistic fill.
-- {audience_and_funnel}: The audience and funnel for this prompt — see Example values for a realistic fill.
+- {offer}: required, the offer, e.g. "online course, 1,200 EGP/month"
+- {audience_and_funnel}: required, audience and warmth, e.g. "parents 28-45, cold traffic"
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
-- {objective}: The objective for this prompt — see Example values for a realistic fill.
+- {objective}: required, ad objective, e.g. "messages" or "purchases"
 - {languages}: Language(s) to write or reply in.
-- {proof}: The proof for this prompt — see Example values for a realistic fill.
+- {proof}: required, usable proof, e.g. "340 students, 4.8 rating"
 
 # Example values: {offer}=online English course for kids, 1,200 EGP/month | {audience_and_funnel}=parents 28-45, cold traffic | {platform}=Facebook + Instagram feed | {objective}=messages | {languages}=Egyptian Arabic | {proof}=340 students, 4.8 rating

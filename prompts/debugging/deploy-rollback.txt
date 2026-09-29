@@ -30,9 +30,9 @@ OUTPUT FORMAT
 
 # Variables
 - {platform}: Where this will be published or used (Instagram, X, TikTok, LinkedIn…).
-- {what_changed}: The what changed for this prompt — see Example values for a realistic fill.
+- {what_changed}: required, what the deploy changed, e.g. "bumped a payment library major"
 - {symptom}: What is visibly broken.
-- {deploy_method}: The deploy method for this prompt — see Example values for a realistic fill.
-- {time_since_deploy}: The time since deploy for this prompt — see Example values for a realistic fill.
+- {deploy_method}: required, how you deploy, e.g. "GitHub integration, auto-deploy"
+- {time_since_deploy}: required, time since the deploy, e.g. "25 minutes"
 
 # Example values: {platform}=Vercel | {what_changed}=bumped a payment library to the latest major version | {symptom}=checkout returns 500 for card payments | {deploy_method}=GitHub integration, auto-deploy on push | {time_since_deploy}=25 minutes

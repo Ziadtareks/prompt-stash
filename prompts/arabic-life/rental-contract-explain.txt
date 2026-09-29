@@ -43,10 +43,10 @@ OUTPUT FORMAT
 - خمسة أقسام: الصفقة في 5 أسطر، جدول البنود (البند | المعنى ببساطة | الأخضر/الأصفر/الأحمر)، البنود الحمراء مقتبسة، البنود العادلة الناقصة، قائمة تفاوض بصيغة (البند الحالي ← المقترح). ابدأ بالصفقة.
 
 # Variables
-- {position_and_property}: The position and property for this prompt — see Example values for a realistic fill.
-- {city_and_rent}: The city and rent for this prompt — see Example values for a realistic fill.
-- {worries}: The worries for this prompt — see Example values for a realistic fill.
-- {law_context}: The law context for this prompt — see Example values for a realistic fill.
+- {position_and_property}: required, your side + property type, e.g. "tenant, 2-bedroom apartment"
+- {city_and_rent}: required, city + rent for context, e.g. "Giza, 9,500 EGP/month"
+- {worries}: optional, what you're most worried about, e.g. "explaining gaps"
+- {law_context}: optional, rent-law context if known, e.g. "new-rent contract"
 - {paste_contract}: The contract text, pasted between the markers.
 
 # Example values: {position_and_property}=tenant, 2-bedroom apartment | {city_and_rent}=Giza, 9,500 EGP/month | {worries}=بند "الزيادة حسب السوق" | {law_context}=عقد إيجار جديد (قديم 2025)

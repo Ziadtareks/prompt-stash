@@ -30,9 +30,9 @@ OUTPUT FORMAT
 - Four numbered sections: 2 thesis options, the outline (section-by-section with a word split summing to the stated count), one topic sentence per body paragraph, research list (3-5 source types). Lead with THESIS OPTIONS.
 
 # Variables
-- {essay_question}: The essay question for this prompt — see Example values for a realistic fill.
-- {word_count}: The word count for this prompt — see Example values for a realistic fill.
-- {academic_level}: The academic level for this prompt — see Example values for a realistic fill.
-- {key_sources}: The key sources for this prompt — see Example values for a realistic fill.
+- {essay_question}: required, the essay question or title
+- {word_count}: required, target word count, e.g. "1000"
+- {academic_level}: required, level of study, e.g. "high school senior" or "2nd-year university"
+- {key_sources}: optional, sources or points that must appear
 
 # Example values: {essay_question}=Does social media do more harm than good to teenagers? | {word_count}=1000 | {academic_level}=high school senior | {key_sources}=class readings on attention and mental health

@@ -28,7 +28,7 @@ OUTPUT FORMAT
 
 # Variables
 - {habit}: The habit you want to build.
-- {current_routine}: The current routine for this prompt — see Example values for a realistic fill.
+- {current_routine}: required, your typical day, e.g. "wake 7, work 9-5, dinner 8"
 - {obstacle}: What stopped you last time.
 
 # Example values: {habit}=read 20 pages a day | {current_routine}=wake 7, work 9-5, dinner 8, scroll until midnight | {obstacle}=too tired after dinner

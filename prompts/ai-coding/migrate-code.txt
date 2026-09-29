@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: inventory (change vs stay), stages where each ends shippable with a proof check, strangler plan if continuous, risky-stage tests + rollback, cleanup checklist. Lead with INVENTORY.
 
 # Variables
-- {from_to}: The from to for this prompt — see Example values for a realistic fill.
-- {scope}: The scope for this prompt — see Example values for a realistic fill.
-- {shipping_constraint}: The shipping constraint for this prompt — see Example values for a realistic fill.
-- {riskiest}: The riskiest for this prompt — see Example values for a realistic fill.
+- {from_to}: required, migration from → to with versions, e.g. "class components → hooks"
+- {scope}: required, migration scope, e.g. "12 components in one module"
+- {shipping_constraint}: required, big-bang vs continuous, e.g. "must ship continuously"
+- {riskiest}: required, the riskiest part, e.g. "the payment form component"
 
 # Example values: {from_to}=React 18 class components → function components with hooks | {scope}=12 components in one dashboard module | {shipping_constraint}=continuous, no feature branch for weeks | {riskiest}=the payment form component

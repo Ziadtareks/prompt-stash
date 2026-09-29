@@ -29,9 +29,9 @@ OUTPUT FORMAT
 - Five numbered sections: recruiter search keywords, 3 headline options (≤220 chars), About section (5-8 lines), experience rewrite rules + one worked example, quick wins. Lead with THE KEYWORDS.
 
 # Variables
-- {current_vs_target}: The current vs target for this prompt — see Example values for a realistic fill.
-- {skills_and_evidence}: The skills and evidence for this prompt — see Example values for a realistic fill.
-- {audience_language}: The audience language for this prompt — see Example values for a realistic fill.
-- {open_to}: The open to for this prompt — see Example values for a realistic fill.
+- {current_vs_target}: required, role you have vs role you want, e.g. "accountant → FP&A analyst"
+- {skills_and_evidence}: required, top skills + evidence, e.g. "Power BI (built 6 dashboards)"
+- {audience_language}: required, language your audience/recruiters use, e.g. "English recruiters in Gulf"
+- {open_to}: required, what you're open to, e.g. "full-time" or "freelance + full-time"
 
 # Example values: {current_vs_target}=accountant → FP&A analyst | {skills_and_evidence}=Power BI dashboards (built 6), forecasting (monthly close), SQL basics | {audience_language}=English recruiters in Gulf + Egypt | {open_to}=full-time

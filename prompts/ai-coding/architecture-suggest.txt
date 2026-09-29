@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: component diagram in text, one-line boring-tech justification per box, core data model, 3 painful-to-change decisions to make now, postponed list with triggers. Lead with THE ARCHITECTURE.
 
 # Variables
-- {app_summary}: The app summary for this prompt — see Example values for a realistic fill.
-- {scale}: The scale for this prompt — see Example values for a realistic fill.
-- {constraints}: The constraints for this prompt — see Example values for a realistic fill.
-- {must_haves}: The must haves for this prompt — see Example values for a realistic fill.
+- {app_summary}: required, what the app does, who uses it, main actions
+- {scale}: required, honest expected scale, e.g. "500 users/day"
+- {constraints}: required, hard limits, e.g. "solo dev, 3 months, ~30 USD/mo hosting"
+- {must_haves}: required, non-negotiables, e.g. "auth, payments, file uploads, email"
 
 # Example values: {app_summary}=tutoring marketplace: tutors list slots, students book and pay | {scale}=500 users/day, few GB files | {constraints}=solo dev, 3 months, ~30 USD/mo hosting | {must_haves}=auth, payments, file uploads, email notifications

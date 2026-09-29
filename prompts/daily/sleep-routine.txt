@@ -30,8 +30,8 @@ OUTPUT FORMAT
 - Six numbered sections: target bedtime math, 60-minute wind-down in 15-minute blocks, 2-3 disruptor counter-moves, bedroom checklist (4), can't-sleep protocol, 14-day tracker table. Lead with TARGET BEDTIME.
 
 # Variables
-- {wake_up_time}: The wake up time for this prompt — see Example values for a realistic fill.
-- {bedtime_now}: The bedtime now for this prompt — see Example values for a realistic fill.
+- {wake_up_time}: required, required wake time, e.g. "6:30 AM"
+- {bedtime_now}: required, when you actually sleep now, e.g. "1:30 AM"
 - {main_disruptor}: What hurts your sleep most.
 
 # Example values: {wake_up_time}=6:30 AM | {bedtime_now}=1:30 AM | {main_disruptor}=phone in bed

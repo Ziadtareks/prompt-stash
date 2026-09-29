@@ -28,10 +28,10 @@ OUTPUT FORMAT
 - Five numbered sections: honest gap (3-5 skills ranked by difficulty), transfer map restated in target language, month-by-month table ending in applications, 2 portfolio artifacts, financial guardrail + go/no-go signal. Lead with THE HONEST GAP.
 
 # Variables
-- {current_field}: The current field for this prompt — see Example values for a realistic fill.
-- {target_field}: The target field for this prompt — see Example values for a realistic fill.
-- {hours_per_week}: The hours per week for this prompt — see Example values for a realistic fill.
-- {runway_months}: The runway months for this prompt — see Example values for a realistic fill.
-- {transferables}: The transferables for this prompt — see Example values for a realistic fill.
+- {current_field}: required, your current field + years, e.g. "accountant, 4 years"
+- {target_field}: required, the field/role you're moving to, e.g. "data analyst"
+- {hours_per_week}: required, realistic hours per week, e.g. "8"
+- {runway_months}: required, months of instability you can afford, e.g. "0 (need salary)"
+- {transferables}: optional, skills that might transfer, e.g. "Excel advanced, monthly reporting"
 
 # Example values: {current_field}=accountant, 4 years | {target_field}=data analyst | {hours_per_week}=10 | {runway_months}=0 (need salary) | {transferables}=Excel advanced, monthly reporting, attention to detail

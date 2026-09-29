@@ -25,7 +25,7 @@ OUTPUT FORMAT
 - Five numbered sections: best message in a code block (subject ≤50 chars + body ≤3 lines), 2 alternatives, type verdict (1 line), split advice, breaking-change footer if needed. Lead with BEST MESSAGE.
 
 # Variables
-- {changes_summary_or_diff}: The changes summary or diff for this prompt — see Example values for a realistic fill.
+- {changes_summary_or_diff}: required, summary or paste of the changes
 - {commit_type}: The type of change you think it is (feat, fix…).
 
 # Example values: {changes_summary_or_diff}=moved email sending into a background queue, added retry with backoff | {commit_type}=refactor

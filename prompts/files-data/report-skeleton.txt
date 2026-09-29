@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: reading-order structure, metrics table (5-7 rows: Metric | This period | Last | Change | Target), narrative sentence patterns, red-flag section format, the assembled template. Lead with THE STRUCTURE.
 
 # Variables
-- {report_type}: The report type for this prompt — see Example values for a realistic fill.
-- {readers}: The readers for this prompt — see Example values for a realistic fill.
-- {available_data}: The available data for this prompt — see Example values for a realistic fill.
-- {format}: The format for this prompt — see Example values for a realistic fill.
+- {report_type}: required, report type + frequency, e.g. "monthly tutoring-center report"
+- {readers}: required, who reads the report and what they decide
+- {available_data}: required, data you have each period, e.g. "enrollments, revenue, attendance"
+- {format}: required, output format, e.g. "one-page email" or "slide"
 
 # Example values: {report_type}=monthly tutoring-center report | {readers}=owner (me) + the two investors | {available_data}=enrollments, revenue EGP, attendance %, cancellations, ad spend | {format}=one-page email

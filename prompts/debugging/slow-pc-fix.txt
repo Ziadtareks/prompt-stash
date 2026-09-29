@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order. ≤350 words; ≤3 causes, ≤5 checks, fixes as numbered steps. Lead with TOP 3 CAUSES.
 
 # Variables
-- {pc_type}: The pc type for this prompt — see Example values for a realistic fill.
-- {when_slow}: The when slow for this prompt — see Example values for a realistic fill.
-- {duration}: The duration for this prompt — see Example values for a realistic fill.
+- {pc_type}: required, PC age/type/RAM, e.g. "5-year-old laptop, 8GB RAM, HDD"
+- {when_slow}: required, when it's slow, e.g. "startup and Chrome"
+- {duration}: required, how long it has been like this, e.g. "3 months"
 - {what_i_tried}: What you already attempted, so it is not repeated.
 
 # Example values: {pc_type}=4-year-old HP laptop, 8GB RAM, HDD | {when_slow}=startup and Chrome | {duration}=3 months | {what_i_tried}=restarted, closed tabs

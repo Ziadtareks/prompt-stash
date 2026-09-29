@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Four numbered sections: quiz (exactly the requested count, easy→hard), MCQ options where applicable, separate ANSWER KEY with 1-line explanations, 3 flagged traps. Lead with THE QUIZ.
 
 # Variables
-- {subject_and_level}: The subject and level for this prompt — see Example values for a realistic fill.
-- {exam_style}: The exam style for this prompt — see Example values for a realistic fill.
-- {question_count}: The question count for this prompt — see Example values for a realistic fill.
-- {focus_topics}: The focus topics for this prompt — see Example values for a realistic fill.
+- {subject_and_level}: required, subject + level, e.g. "grade 10 algebra"
+- {exam_style}: required, question format, e.g. "MCQ" or "mixed"
+- {question_count}: required, number of questions, e.g. "12"
+- {focus_topics}: required, topics to prioritize, e.g. "periodic trends, ionic bonding"
 - {paste_material}: Your study material, pasted between the markers.
 
 # Example values: {subject_and_level}=high school chemistry | {exam_style}=mixed | {question_count}=12 | {focus_topics}=periodic table trends, ionic bonding | {paste_material}=photos of chapter 4 notes

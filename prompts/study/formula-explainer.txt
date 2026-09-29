@@ -27,8 +27,8 @@ OUTPUT FORMAT
 - Six numbered sections in order: in-words sentence, symbol table, intuition (2-3 lines), worked example line by line with units balancing, when-to-use + lookalike, memory hook (1 line). Lead with IN WORDS.
 
 # Variables
-- {formula}: The formula for this prompt — see Example values for a realistic fill.
-- {subject_and_level}: The subject and level for this prompt — see Example values for a realistic fill.
-- {context}: The context for this prompt — see Example values for a realistic fill.
+- {formula}: required, the formula to explain, e.g. "F = m·a"
+- {subject_and_level}: required, subject + level, e.g. "grade 10 algebra"
+- {context}: required, situation context, e.g. "Cairo, polite but firm Arabic"
 
 # Example values: {formula}=F = m·a | {subject_and_level}=middle school physics | {context}=homework problem about pushing a box

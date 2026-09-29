@@ -26,8 +26,8 @@ OUTPUT FORMAT
 - Five numbered sections: story selection (+runner-up), STAR story ≤250 words with [FILL] for the missing number, flex kits for 3 nearby questions, delivery notes (90-second box + ending). Lead with STORY SELECTION.
 
 # Variables
-- {role_and_field}: The role and field for this prompt — see Example values for a realistic fill.
-- {memory_list}: The memory list for this prompt — see Example values for a realistic fill.
-- {competency}: The competency for this prompt — see Example values for a realistic fill.
+- {role_and_field}: required, role + field, e.g. "ops coordinator at an e-commerce startup"
+- {memory_list}: required, rough memories/achievements to draw from
+- {competency}: required, the behavior being tested, e.g. "ownership"
 
 # Example values: {role_and_field}=operations coordinator at an e-commerce startup | {memory_list}=fixed courier delays during Eid rush, trained new hires, handled a wrong-shipment crisis | {competency}=ownership

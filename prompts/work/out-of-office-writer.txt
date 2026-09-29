@@ -27,10 +27,10 @@ OUTPUT FORMAT
 - Four numbered sections: MESSAGE (≤80 words), SHORT VERSION (2 sentences), URGENT ROUTING (1 sentence), CHECKLIST (4 items). Lead with THE MESSAGE.
 
 # Variables
-- {my_details}: The my details for this prompt — see Example values for a realistic fill.
-- {dates}: The dates for this prompt — see Example values for a realistic fill.
-- {cover_person}: The cover person for this prompt — see Example values for a realistic fill.
-- {emergency_line}: The emergency line for this prompt — see Example values for a realistic fill.
+- {my_details}: required, your name and role, e.g. "Sara, sales support"
+- {dates}: required, exact dates, e.g. "leave June 10-24, back June 25"
+- {cover_person}: required, who covers you + contact, e.g. "Omar, omar@company.com"
+- {emergency_line}: optional, how you can be reached for true emergencies, e.g. "phone for contract clients"
 - {audience}: Who will read or receive this.
 
 # Example values: {my_details}=Sara, sales support | {dates}=leave June 10-24, back June 25 | {cover_person}=Omar, omar@company.com | {emergency_line}=phone for clients under contract | {audience}=clients and colleagues

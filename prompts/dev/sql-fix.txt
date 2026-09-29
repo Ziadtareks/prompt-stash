@@ -28,7 +28,7 @@ OUTPUT FORMAT
 
 # Variables
 - {sql_query}: Your current SQL query.
-- {what_is_wrong}: The what is wrong for this prompt — see Example values for a realistic fill.
+- {what_is_wrong}: required, wrong results, slow, or the error text
 - {table_schemas}: Your tables and columns.
 
 # Example values: {sql_query}=SELECT * FROM orders WHERE customer_id IN (SELECT id FROM customers WHERE city = 'Cairo') AND total > 1000 | {what_is_wrong}=returns orders twice for some customers | {table_schemas}=orders(id, customer_id, total, status), customers(id, name, city)

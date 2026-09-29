@@ -31,10 +31,10 @@ OUTPUT FORMAT
 - Five numbered sections: header block, items table, totals block, terms block (≤4 lines), overdue reminder (≤3 sentences). Plain-text layout, copy-paste ready. Lead with THE INVOICE.
 
 # Variables
-- {your_business}: The your business for this prompt — see Example values for a realistic fill.
+- {your_business}: required, your business/name + contact details
 - {client_name}: The client's (or counterparty's) name.
-- {items_list}: The items list for this prompt — see Example values for a realistic fill.
+- {items_list}: required, what was delivered or worked on
 - {currency}: The currency for all money figures (e.g. EGP).
-- {due_days}: The due days for this prompt — see Example values for a realistic fill.
+- {due_days}: required, payment deadline in days, e.g. "14"
 
 # Example values: {your_business}=Sara Design Studio | {client_name}=Cafe Rivea | {items_list}=logo design, 3 social media templates | {currency}=EGP | {due_days}=14

@@ -35,8 +35,8 @@ OUTPUT FORMAT
 
 # Variables
 - {language}: Language (and dialect) for the output.
-- {purpose}: The purpose for this prompt — see Example values for a realistic fill.
-- {main_worry}: The main worry for this prompt — see Example values for a realistic fill.
+- {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
+- {main_worry}: optional, your biggest concern, e.g. "security of user input"
 - {paste_code}: Your code, pasted between the markers.
 
 # Example values: {language}=Python (FastAPI) | {purpose}=endpoint that creates an order and emails a receipt | {main_worry}=security of user input

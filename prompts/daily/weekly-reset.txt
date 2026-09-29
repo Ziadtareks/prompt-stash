@@ -31,7 +31,7 @@ OUTPUT FORMAT
 - {week_shape}: Your weekly schedule shape and busiest days.
 - {what_slips}: What falls through the cracks most often.
 - {tracking_tools}: Where you track tasks and notes today.
-- {time_budget}: Time available for the weekly reset.
+- {time_budget}: required, time available, e.g. "45 minutes Thursday evening"
 - {roles}: The roles and commitments you juggle.
 
 # Example values: {week_shape}=Sun–Thu 9–6 job, busiest Tue/Wed, Friday off | {what_slips}=bill due dates, replying to friends, gym | {tracking_tools}=phone notes + memory | {time_budget}=45 minutes Thursday evening | {roles}=full-time job + freelance design + elderly parent check-ins

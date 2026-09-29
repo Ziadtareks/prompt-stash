@@ -29,10 +29,10 @@ OUTPUT FORMAT
 - Four numbered sections: 5 subject lines (≤45 chars), preview text (40-90 chars), intro (3-5 lines), bridge sentence. Lead with SUBJECT LINE OPTIONS.
 
 # Variables
-- {issue_topic}: The issue topic for this prompt — see Example values for a realistic fill.
-- {subscribers}: The subscribers for this prompt — see Example values for a realistic fill.
-- {voice}: The voice for this prompt — see Example values for a realistic fill.
-- {contents}: The contents for this prompt — see Example values for a realistic fill.
+- {issue_topic}: required, this issue's topic
+- {subscribers}: required, who subscribes and why
+- {voice}: required, your voice, e.g. "warm + a little cheeky"
+- {contents}: required, what's inside the issue, e.g. "3 sections: pricing math, scripts, tool"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {issue_topic}=pricing your freelance work in a crashing currency | {subscribers}=MENA designers and developers | {voice}=practical with dry humor | {contents}=3 sections: pricing math, client scripts, tool of the month | {language}=English with Arabic option

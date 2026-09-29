@@ -36,6 +36,6 @@ OUTPUT FORMAT
 - {niche}: Your niche or industry.
 - {audience}: Who will read or receive this.
 - {language}: Language (and dialect) for the output.
-- {number_of_hashtags}: The number of hashtags for this prompt — see Example values for a realistic fill.
+- {number_of_hashtags}: required, hashtag count, e.g. "20"
 
 # Example values: {platform}=Instagram | {topic}=handmade silver rings | {niche}=handmade jewelry | {audience}=women 20-35 in Egypt and the Gulf | {language}=Arabic + English | {number_of_hashtags}=20

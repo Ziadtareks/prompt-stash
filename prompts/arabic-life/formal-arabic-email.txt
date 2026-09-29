@@ -36,10 +36,10 @@ OUTPUT FORMAT
 - خمسة أقسام بالترتيب: سطر الموضوع، النص الكامل، الطلب مصاغًا بجملة واحدة، ملاحظات الصقل (2-3)، قالب التذكير. لا تتجاوز 200 كلمة في النص. ابدأ بسطر الموضوع.
 
 # Variables
-- {recipient_type}: The recipient type for this prompt — see Example values for a realistic fill.
-- {purpose}: The purpose for this prompt — see Example values for a realistic fill.
-- {key_facts}: The key facts for this prompt — see Example values for a realistic fill.
-- {relationship}: The relationship for this prompt — see Example values for a realistic fill.
-- {attachments}: The attachments for this prompt — see Example values for a realistic fill.
+- {recipient_type}: required, recipient type, e.g. "university admissions office"
+- {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
+- {key_facts}: required, facts to include, e.g. "student ID 20210435, semester starts Sep 14"
+- {relationship}: required, relationship to recipient, e.g. "admitted student"
+- {attachments}: optional, files you're attaching, e.g. "passport copy, payment receipt"
 
 # Example values: {recipient_type}=university admissions office | {purpose}=request an extension of enrollment deadline | {key_facts}=student ID 20210435, semester starts Sep 14, I travel Sep 20 | {relationship}=admitted student | {attachments}=passport copy, payment receipt

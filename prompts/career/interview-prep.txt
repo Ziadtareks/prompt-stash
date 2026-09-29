@@ -29,9 +29,9 @@ OUTPUT FORMAT
 - Interactive session: confirm setup in 1 line, then one question per message. After each answer: score /10, what worked, the missing piece, a model-answer skeleton (not a script). Round 2 re-asks my 2 weakest questions reworded. Close with STAR stories to prepare, worry defusals, and 3 questions to ask them.
 
 # Variables
-- {role_and_company}: The role and company for this prompt — see Example values for a realistic fill.
-- {stage_format}: The stage format for this prompt — see Example values for a realistic fill.
-- {my_background}: The my background for this prompt — see Example values for a realistic fill.
-- {worries}: The worries for this prompt — see Example values for a realistic fill.
+- {role_and_company}: required, role + company type, e.g. "data analyst at a Cairo fintech"
+- {stage_format}: required, interview stage + format + duration, e.g. "technical panel, 45 min"
+- {my_background}: required, your background in ~3 lines
+- {worries}: optional, what you're most worried about, e.g. "explaining gaps"
 
 # Example values: {role_and_company}=data analyst at a Cairo fintech | {stage_format}=technical panel, 45 min | {my_background}=2 yrs reporting, SQL + Power BI, fintech-adjacent | {worries}=no degree in CS, explaining gaps

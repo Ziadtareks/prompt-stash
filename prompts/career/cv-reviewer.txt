@@ -31,9 +31,9 @@ OUTPUT FORMAT
 - Five numbered sections: 6-second test, keyword gaps, findings table (Section | Problem | Fix), 3 bullet rewrites with [FILL] marks, verdict (send / fix-and-send / rebuild). Lead with THE 6-SECOND TEST.
 
 # Variables
-- {job_requirements}: The job requirements for this prompt — see Example values for a realistic fill.
-- {field_and_level}: The field and level for this prompt — see Example values for a realistic fill.
-- {application_stats}: The application stats for this prompt — see Example values for a realistic fill.
-- {paste_cv}: The paste cv for this prompt — see Example values for a realistic fill.
+- {job_requirements}: required, the posting's requirements, pasted
+- {field_and_level}: required, your field + years, e.g. "finance graduate, 2 years reporting"
+- {application_stats}: required, your funnel numbers, e.g. "40 applications, 1 interview"
+- {paste_cv}: required, full CV text between the markers
 
 # Example values: {job_requirements}=data analyst: SQL, Power BI, stakeholder reporting, 3+ years | {field_and_level}=finance graduate, 2 years reporting | {application_stats}=40 applications, 1 interview

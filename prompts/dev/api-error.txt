@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: plain-words meaning (general + specific), 3 ranked causes tied to my request, fixes with a corrected request, 1-minute retest command, retry rule (1 line). Lead with IN PLAIN WORDS.
 
 # Variables
-- {method_and_endpoint}: The method and endpoint for this prompt — see Example values for a realistic fill.
+- {method_and_endpoint}: required, e.g. "POST /v1/orders"
 - {status_code}: The HTTP status code returned.
-- {response_body}: The response body for this prompt — see Example values for a realistic fill.
-- {request_you_sent}: The request you sent for this prompt — see Example values for a realistic fill.
+- {response_body}: required, the API response body, secrets redacted
+- {request_you_sent}: required, the request you sent, secrets redacted
 
 # Example values: {method_and_endpoint}=POST /v1/orders | {status_code}=422 | {response_body}={"error":"invalid_currency"} | {request_you_sent}=body had currency: "EGP " with a trailing space

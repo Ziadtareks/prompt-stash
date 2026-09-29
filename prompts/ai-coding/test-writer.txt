@@ -31,9 +31,9 @@ OUTPUT FORMAT
 - Five numbered sections: test plan (behaviors list), complete runnable test file, 3 missed edge cases with tests, mock decisions with reasons, run commands. Lead with TEST PLAN.
 
 # Variables
-- {framework}: The framework for this prompt — see Example values for a realistic fill.
-- {purpose}: The purpose for this prompt — see Example values for a realistic fill.
-- {run_context}: The run context for this prompt — see Example values for a realistic fill.
+- {framework}: required, test framework, e.g. "Vitest" or "pytest"
+- {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
+- {run_context}: required, how tests run, e.g. "CI, pure functions, no DB"
 - {paste_code}: Your code, pasted between the markers.
 
 # Example values: {framework}=Vitest | {purpose}=discount calculator, tiered by cart total | {run_context}=CI, pure functions, no DB

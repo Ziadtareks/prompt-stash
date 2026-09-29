@@ -33,10 +33,10 @@ OUTPUT FORMAT
 - Five numbered sections: subject line, Arabic email (4-6 lines), English version, salary-question phrasing, attachment checklist. Lead with SUBJECT LINE.
 
 # Variables
-- {position_and_source}: The position and source for this prompt — see Example values for a realistic fill.
-- {matching_proof}: The matching proof for this prompt — see Example values for a realistic fill.
-- {availability}: The availability for this prompt — see Example values for a realistic fill.
-- {cv_file}: The cv file for this prompt — see Example values for a realistic fill.
+- {position_and_source}: required, position + where you found it, e.g. "accountant, referral"
+- {matching_proof}: required, your best requirement matches with proof
+- {availability}: required, when you can start, e.g. "immediately" or "one month notice"
+- {cv_file}: required, CV file name, e.g. "Ahmed-Hassan-Accountant-CV.pdf"
 - {language}: Language (and dialect) for the output.
 
 # Example values: {position_and_source}=accountant, referral from a former colleague | {matching_proof}=3 years ERP bookkeeping, closed monthly books solo, Power BI reports | {availability}=one month notice | {cv_file}=Ahmed-Hassan-Accountant-CV.pdf | {language}=Arabic

@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections: diagnosis ranked, rewritten prompt in one copy-paste block, why-it-works (1 line per change), reusable context block, iteration follow-up prompt. Lead with THE DIAGNOSIS.
 
 # Variables
-- {my_prompt}: The my prompt for this prompt — see Example values for a realistic fill.
-- {ai_output}: The ai output for this prompt — see Example values for a realistic fill.
-- {what_wrong}: The what wrong for this prompt — see Example values for a realistic fill.
-- {real_context}: The real context for this prompt — see Example values for a realistic fill.
+- {my_prompt}: required, the prompt that produced bad output
+- {ai_output}: required, summary or paste of what the AI produced
+- {what_wrong}: required, what's wrong with the AI output, e.g. "wrong stack, ignores constraints"
+- {real_context}: required, context the AI should have had, e.g. "Next.js 15, Supabase auth, Tailwind"
 
 # Example values: {my_prompt}=make me a login form | {ai_output}=generic HTML form, no validation, styled with plain CSS | {what_wrong}=wrong stack, ignores my auth setup | {real_context}=Next.js 15, Supabase auth, Tailwind, server actions

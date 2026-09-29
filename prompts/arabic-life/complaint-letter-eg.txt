@@ -37,10 +37,10 @@ OUTPUT FORMAT
 - خمسة أقسام: الشكوى بالعربية، النسخة الإنجليزية، مسار التصعيد، حزمة الأدلة، نسخة المنشور العام (≤50 كلمة). ابدأ بالشكوى العربية.
 
 # Variables
-- {provider_and_service}: The provider and service for this prompt — see Example values for a realistic fill.
-- {problem_and_dates}: The problem and dates for this prompt — see Example values for a realistic fill.
-- {attempts}: The attempts for this prompt — see Example values for a realistic fill.
-- {desired_resolution}: The desired resolution for this prompt — see Example values for a realistic fill.
-- {account_details}: The account details for this prompt — see Example values for a realistic fill.
+- {provider_and_service}: required, provider + service, e.g. "WE home internet"
+- {problem_and_dates}: required, what failed + since when, e.g. "outage 12 days, 3 tickets since June 1"
+- {attempts}: required, resolution attempts so far with ticket numbers, e.g. "4 calls, ticket 8812"
+- {desired_resolution}: required, outcome you want, e.g. "fix in 72h or penalty-free cancellation"
+- {account_details}: required, your reference numbers with the provider, e.g. "account 0123456789"
 
 # Example values: {provider_and_service}=WE home internet | {problem_and_dates}=outage 12 days, 3 tickets since June 1 | {attempts}=call center x4, tech visit promised twice, no-show | {desired_resolution}=fix within 72 hours or cancel contract penalty-free + refund the outage days | {account_details}=account 0123456789

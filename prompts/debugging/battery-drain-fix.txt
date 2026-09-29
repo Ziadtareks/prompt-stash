@@ -27,9 +27,9 @@ OUTPUT FORMAT
 - Five numbered sections in order. ≤350 words; settings fixes as exactly 5 bullets. Lead with HEALTH VS SETTINGS.
 
 # Variables
-- {device}: The device for this prompt — see Example values for a realistic fill.
-- {pattern}: The pattern for this prompt — see Example values for a realistic fill.
-- {battery_health}: The battery health for this prompt — see Example values for a realistic fill.
-- {usage}: The usage for this prompt — see Example values for a realistic fill.
+- {device}: required, device + age, e.g. "iPhone 11, battery 3 years old"
+- {pattern}: required, failure pattern, e.g. "drops every 20-30 min, worse at night"
+- {battery_health}: optional, battery stats if visible, e.g. "78% max capacity"
+- {usage}: required, usage pattern, e.g. "maps + hotspot daily"
 
 # Example values: {device}=iPhone 11, battery 3 years old | {pattern}=dies by 2pm, % jumps from 30 to 5 | {battery_health}=78% max capacity | {usage}=maps + hotspot daily
