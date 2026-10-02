@@ -4,17 +4,16 @@
  ╔═══════════════════════════════════════════════════════════════════════════╗
  ║   P R O M P T   S T A S H                                                 ║
  ║   130 Production-Grade AI Prompts • Zero Setup • Pure Copy-Paste          ║
- ║   Built for Builders, Freelancers & Students  •  English + Arabic         ║
+ ║   Built for Builders, Freelancers, Teams & Students • 100% Plain Text     ║
  ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-> **Stop talking to AI like a chatbot. Start directing it like a senior teammate.**  
-> **وجّه نماذج الذكاء الاصطناعي بدقة واحترافية كفريق عمل متكامل بدلاً من المحادثات العامة العشوائية.**
+> **Stop talking to AI like a chatbot. Start directing it like a senior teammate.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 ![Prompts](https://img.shields.io/badge/Prompts-130%20Ready-8b5cf6?style=for-the-badge)
 ![Folders](https://img.shields.io/badge/Categories-13%20Hubs-3b82f6?style=for-the-badge)
-![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20AR%20(فصحى%20%2B%20مصري)-f59e0b?style=for-the-badge)
+![Format](https://img.shields.io/badge/Format-Plain%20.txt-success?style=for-the-badge)
 [![Worked Examples](https://img.shields.io/badge/Worked%20Examples-16%20Real%20Cases-ec4899?style=for-the-badge)](examples/README.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-06b6d4?style=for-the-badge)](CONTRIBUTING.md)
 
@@ -47,24 +46,24 @@ Just 130 battle-tested `.txt` files engineered with strict roles, ordered execut
 
 ---
 
-## 🎯 Fast-Track Solutions (حسب الاحتياج المباشر)
+## 🎯 Fast-Track Solutions
 
 Click your current bottleneck and grab the exact prompt built for it:
 
-* 💥 **"تعطل الموقع أو ظهور أخطاء برمجية غير متوقعة"**  
-  → [`debugging/website-error-fix`](prompts/debugging/website-error-fix.txt) (تشخيص الطبقات البرمجية، تحديد السبب الجذري، واقتراح اختبارات التحقق)
-* 🐙 **"أخطاء في إدارة الفروع أو التعديلات عبر Git"**  
-  → [`dev/git-rescue`](prompts/dev/git-rescue.txt) (إصلاح مسار العمل واستعادة التعديلات خطوة بخطوة بأمان)
-* 📝 **"تلخيص وتوثيق ملاحظات الاجتماعات المطولة"**  
-  → [`work/meeting-notes-fix`](prompts/work/meeting-notes-fix.txt) (استخراج ملخص تنفيذي، القرارات المتخذة، وجدول المهام والمسؤوليات)
-* 🎯 **"مراجعة وتطوير السيرة الذاتية (CV) للتقديم على وظيفة محددة"**  
-  → [`career/cv-reviewer`](prompts/career/cv-reviewer.txt) (تقييم دقيق لنقاط القوة والضعف ومطابقة متطلبات الوصف الوظيفي)
-* 🇪🇬 **"صياغة نصوص وحملات إعلانية بالعامية المصرية الطبيعية"**  
-  → [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) (تحويل النصوص للفصحى أو العامية المصرية بسلاسة ودون ترجمة آلية مصطنعة)
-* 💸 **"توزيع وتخطيط الميزانية والمصاريف الشهرية"**  
-  → [`daily/budget-split`](prompts/daily/budget-split.txt) (خطة متوازنة لتقسيم الدخل، الادخار، والمصاريف الأساسية والطارئة)
-* 🎣 **"التحقق من أمان الرسائل والروابط المشبوهة"**  
-  → [`security-basics/phishing-spotter`](prompts/security-basics/phishing-spotter.txt) (فحص مؤشرات التصيد والاحتيال الإلكتروني قبل اتخاذ أي إجراء)
+* 💥 **"My website or script crashed with an unexpected error"**  
+  → [`debugging/website-error-fix`](prompts/debugging/website-error-fix.txt) (diagnoses system layer, isolates root cause, and provides regression tests)
+* 🐙 **"Git history is messy and I need to rescue changes safely"**  
+  → [`dev/git-rescue`](prompts/dev/git-rescue.txt) (step-by-step branch repair without data loss)
+* 📝 **"Need to turn messy meeting notes into clear action items"**  
+  → [`work/meeting-notes-fix`](prompts/work/meeting-notes-fix.txt) (produces an executive summary, key decisions, and an owner/deadline table)
+* 🎯 **"Tailoring a CV for a specific job description"**  
+  → [`career/cv-reviewer`](prompts/career/cv-reviewer.txt) (line-by-line audit against target role requirements and ATS standards)
+* 🌐 **"Converting formal Arabic copy into natural, fluent Egyptian dialect"**  
+  → [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) (natural spoken phrasing without awkward machine translations)
+* 💸 **"Planning a realistic monthly budget and expense split"**  
+  → [`daily/budget-split`](prompts/daily/budget-split.txt) (balanced allocation across necessities, savings, and discretionary spending)
+* 🎣 **"Checking suspicious emails, messages, or links for scam indicators"**  
+  → [`security-basics/phishing-spotter`](prompts/security-basics/phishing-spotter.txt) (identifies phishing red flags before opening links or attachments)
 
 ---
 
@@ -78,7 +77,7 @@ Instead of wandering through dozens of folders, jump straight to your track:
    ┌─────────────────┬──────────────────────────┼─────────────────────────┬─────────────────┐
    │                 │                          │                         │                 │
 ┌──┴───────────┐  ┌──┴───────────────┐  ┌───────┴──────────┐  ┌───────────┴────────┐  ┌─────┴──────────────┐
-│ 💻 Code & AI │  │ 💼 Work & Career │  │ 🏪 Biz & Growth  │  │ 🇪🇬 Arabic & Social │  │ 🧠 Life & Security │
+│ 💻 Code & AI │  │ 💼 Work & Career │  │ 🏪 Biz & Growth  │  │ 🌐 Social & Culture│  │ 🧠 Life & Security │
 │  (30 Files)  │  │    (20 Files)    │  │    (20 Files)    │  │    (20 Files)      │  │    (40 Files)      │
 └──────────────┘  └──────────────────┘  └──────────────────┘  └────────────────────┘  └────────────────────┘
 ```
@@ -96,9 +95,9 @@ Instead of wandering through dozens of folders, jump straight to your track:
 * 🏪 [**business**](prompts/business/README.md) `(10 prompts)` — Professional quotes, late-payment chasers, supplier requests, refund apologies, and contract summaries.
 * 📣 [**marketing**](prompts/marketing/README.md) `(10 prompts)` — High-converting WhatsApp broadcasts, ad copy variants, customer personas, seasonal campaigns, and review requests.
 
-### 4. 🇪🇬 The Local Pulse (Arabic Life & Social Content)
-* 🇪🇬 [**arabic-life**](prompts/arabic-life/README.md) `(10 prompts)` — عقود الإيجار، التوكيلات، خطابات التظلم والشكاوى الرسمية، والمراسلات الإدارية والأكاديمية بالفصحى الرصينة.
-* ✍️ [**content**](prompts/content/README.md) `(10 prompts)` — سيناريوهات الفيديو القصير (Reels/TikTok)، نصوص المنشورات، خطافات جذب الانتباه، ومنشورات التمرير التتابعية (Carousels).
+### 4. 🌐 Regional & Cultural Communication (Social & Local Context)
+* 🌐 [**arabic-life**](prompts/arabic-life/README.md) `(10 prompts)` — Real estate contracts, official paperwork, formal administrative petitions, and academic correspondence.
+* ✍️ [**content**](prompts/content/README.md) `(10 prompts)` — Short-form video scripts (Reels/TikTok), social captions, engagement hooks, and carousel frameworks.
 
 ### 5. 🧠 The Life OS (Daily Systems, Study & Digital Safety)
 * 🌱 [**daily**](prompts/daily/README.md) `(10 prompts)` — 50/30/20 budget splitting, weekly meal prep on a budget, habit roadmaps, and packing checklists.
@@ -126,25 +125,20 @@ Our most popular, high-utility prompts:
 | 10 | **Quotation Writer** | Professional price quotes with protective terms | [`business/quotation-writer`](prompts/business/quotation-writer.txt) |
 | 11 | **Feature-to-Prompt Translator** | Turn your vague idea into precise specs an AI coder can build | [`ai-coding/feature-to-prompt`](prompts/ai-coding/feature-to-prompt.txt) |
 | 12 | **Phishing Spotter** | Sanity-check weird SMS, emails, or links safely | [`security-basics/phishing-spotter`](prompts/security-basics/phishing-spotter.txt) |
-| 13 | **Formal Arabic Email** | إيميلات رسمية بفصحى رصينة تليق بالشركات والجامعات | [`arabic-life/formal-arabic-email`](prompts/arabic-life/formal-arabic-email.txt) |
-| 14 | **Egyptian Dialect Coach** | صياغة مصرية تلقائية بدون مصطلحات مترجمة حرفياً | [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) |
+| 13 | **Formal Arabic Email** | Professional Modern Standard Arabic correspondence for companies and universities | [`arabic-life/formal-arabic-email`](prompts/arabic-life/formal-arabic-email.txt) |
+| 14 | **Egyptian Dialect Coach** | Authentic Egyptian spoken phrasing without awkward machine translation | [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) |
 | 15 | **Flashcard Maker** | Complex lecture notes → ready-to-use study flashcards | [`study/flashcards-maker`](prompts/study/flashcards-maker.txt) |
 
 ---
 
-## 🇪🇬 دليل الاستخدام السريع (باللغة العربية)
+## 🚀 Quick Start Guide
 
-تم تصميم **Prompt Stash** ليكون مرجعاً عملياً ومباشراً دون الحاجة لأي إعدادات أو برمجيات إضافية:
+Using **Prompt Stash** requires zero setup or external dependencies:
 
-1. **اختر التصنيف المناسب:** تصفح أحد المجلدات الـ 13 أعلاه وفق طبيعة المهمة المطلوبة.
-2. **افتح ملف الـ `.txt`:** يحتوي كل ملف على دور محدد للنموذج، مهام متسلسلة بدقة، ومتغيرات واضحة بين أقواس `{variable}`.
-3. **استبدل المتغيرات ببياناتك:** استعن بقسم `# Variables` في نهاية الملف لمعرفة وظيفة كل متغير، مع الاسترشاد بالمثال التوضيحي المرفق تحت `# Example values`.
-4. **انسخ وألصق في النموذج مباشرة:** يعمل البرومبت فوراً مع ChatGPT، Claude، Gemini، أو أي نموذج آخر، مع ضمان الحصول على مخرجات منظمة في جداول ونقاط محددة دون إطناب أو اعتذارات مصطنعة.
-
-> 💡 **معايير استخدام اللغة العربية في المكتبة:**
-> - **العربية الفصحى المعاصرة:** معتمدة للمراسلات الرسمية والإدارية، الوثائق القانونية، والخطابات الأكاديمية.
-> - **العامية المصرية الحية:** معتمدة للمحتوى التسويقي، منصات التواصل الاجتماعي، ونصوص الفيديو القصير.
-> - **حظر الترجمة الآلية الحرفية (Anti-calque):** صياغة عربية أصيلة تراعي السياق اللغوي والثقافي وتتجنب التراكيب الأجنبية المترجمة حرفياً.
+1. **Choose a category:** Browse one of the 13 folders above according to your task.
+2. **Open the `.txt` file:** Each prompt defines a specific role, sequential tasks, and placeholders marked as `{variable}`.
+3. **Fill the variables:** Check the `# Variables` block at the bottom of the file for field descriptions and realistic format examples under `# Example values`.
+4. **Copy and paste directly:** Works out-of-the-box with ChatGPT, Claude, Gemini, or any LLM, producing structured outputs (tables, steps, and summaries) without apologies or filler text.
 
 ---
 
@@ -155,7 +149,7 @@ Every single file explicitly declares its language protocol on Line 3:
 | Header Tag | What it means |
 |---|---|
 | `Language: prompt=EN \| output=EN` | English prompt, English output. |
-| `Language: prompt=EN \| output=AR` | English prompt, Arabic output (MSA or Egyptian dialect specified inside). |
+| `Language: prompt=EN \| output=AR` | English prompt, Arabic output (Modern Standard Arabic or Egyptian dialect specified inside). |
 | `Language: prompt=EN \| output=EN+AR` | Generates a dual-language side-by-side output. |
 | `Language: prompt=EN \| output=user-choice` | Includes a `{language}` variable — you decide on the fly. |
 
