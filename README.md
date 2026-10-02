@@ -4,12 +4,12 @@
  ╔═══════════════════════════════════════════════════════════════════════════╗
  ║   P R O M P T   S T A S H                                                 ║
  ║   130 Production-Grade AI Prompts • Zero Setup • Pure Copy-Paste          ║
- ║   Built for Builders, Freelancers & Students  •  English + Arabic (مصري)  ║
+ ║   Built for Builders, Freelancers & Students  •  English + Arabic         ║
  ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
 > **Stop talking to AI like a chatbot. Start directing it like a senior teammate.**  
-> **بطل تكلّم الذكاء الاصطناعي كأنه شات... وجّهه كأنه شريك شغال معاك على نفس التاسك.**
+> **وجّه نماذج الذكاء الاصطناعي بدقة واحترافية كفريق عمل متكامل بدلاً من المحادثات العامة العشوائية.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 ![Prompts](https://img.shields.io/badge/Prompts-130%20Ready-8b5cf6?style=for-the-badge)
@@ -47,24 +47,24 @@ Just 130 battle-tested `.txt` files engineered with strict roles, ordered execut
 
 ---
 
-## 🚨 What's Your Emergency Right Now?
+## 🎯 Fast-Track Solutions (حسب الاحتياج المباشر)
 
 Click your current bottleneck and grab the exact prompt built for it:
 
-* 💥 **"My website or script crashed and threw an error"**  
-  → [`debugging/website-error-fix`](prompts/debugging/website-error-fix.txt) (diagnoses layers, isolates root cause, writes tests)
-* 🐙 **"I made a mess in Git and need to save my work without crying"**  
-  → [`dev/git-rescue`](prompts/dev/git-rescue.txt) (step-by-step unbreaking without data loss)
-* 📝 **"Just finished a 1-hour call and my notes look like hieroglyphics"**  
-  → [`work/meeting-notes-fix`](prompts/work/meeting-notes-fix.txt) (turns messy bullets into an executive action table)
-* 🎯 **"Recruiters aren't replying to my job applications"**  
-  → [`career/cv-reviewer`](prompts/career/cv-reviewer.txt) (brutal line-by-line teardown against target job specs)
-* 🇪🇬 **"عايز بوست أو سكريبت فيديو بالعامية المصرية من غير ترجمة جوجل المعاقة"**  
-  → [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) (يحوّل الفصحى أو الإنجليزي لكلام مصري أصيل وسلس)
-* 💸 **"المرتب بيطير في أول 10 أيام في الشهر وعايز تقسيمة واقعية"**  
-  → [`daily/budget-split`](prompts/daily/budget-split.txt) (خطة تقسيم مصاريف حقيقية بنسب منطقية ومصاريف طوارئ)
-* 🎣 **"A weird message or email arrived and smells like a scam"**  
-  → [`security-basics/phishing-spotter`](prompts/security-basics/phishing-spotter.txt) (checks red flags before you tap any link)
+* 💥 **"تعطل الموقع أو ظهور أخطاء برمجية غير متوقعة"**  
+  → [`debugging/website-error-fix`](prompts/debugging/website-error-fix.txt) (تشخيص الطبقات البرمجية، تحديد السبب الجذري، واقتراح اختبارات التحقق)
+* 🐙 **"أخطاء في إدارة الفروع أو التعديلات عبر Git"**  
+  → [`dev/git-rescue`](prompts/dev/git-rescue.txt) (إصلاح مسار العمل واستعادة التعديلات خطوة بخطوة بأمان)
+* 📝 **"تلخيص وتوثيق ملاحظات الاجتماعات المطولة"**  
+  → [`work/meeting-notes-fix`](prompts/work/meeting-notes-fix.txt) (استخراج ملخص تنفيذي، القرارات المتخذة، وجدول المهام والمسؤوليات)
+* 🎯 **"مراجعة وتطوير السيرة الذاتية (CV) للتقديم على وظيفة محددة"**  
+  → [`career/cv-reviewer`](prompts/career/cv-reviewer.txt) (تقييم دقيق لنقاط القوة والضعف ومطابقة متطلبات الوصف الوظيفي)
+* 🇪🇬 **"صياغة نصوص وحملات إعلانية بالعامية المصرية الطبيعية"**  
+  → [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) (تحويل النصوص للفصحى أو العامية المصرية بسلاسة ودون ترجمة آلية مصطنعة)
+* 💸 **"توزيع وتخطيط الميزانية والمصاريف الشهرية"**  
+  → [`daily/budget-split`](prompts/daily/budget-split.txt) (خطة متوازنة لتقسيم الدخل، الادخار، والمصاريف الأساسية والطارئة)
+* 🎣 **"التحقق من أمان الرسائل والروابط المشبوهة"**  
+  → [`security-basics/phishing-spotter`](prompts/security-basics/phishing-spotter.txt) (فحص مؤشرات التصيد والاحتيال الإلكتروني قبل اتخاذ أي إجراء)
 
 ---
 
@@ -97,8 +97,8 @@ Instead of wandering through dozens of folders, jump straight to your track:
 * 📣 [**marketing**](prompts/marketing/README.md) `(10 prompts)` — High-converting WhatsApp broadcasts, ad copy variants, customer personas, seasonal campaigns, and review requests.
 
 ### 4. 🇪🇬 The Local Pulse (Arabic Life & Social Content)
-* 🇪🇬 [**arabic-life**](prompts/arabic-life/README.md) `(10 prompts)` — عقود الإيجار، التوكيلات، خطابات التظلم والشكاوى الرسمية، وإيميلات الجامعات بالفصحى الرصينة.
-* ✍️ [**content**](prompts/content/README.md) `(10 prompts)` — سكريبتات ريلز وتيك توك، كابشنات إنستجرام، أفكار هوكس تجذب المشاهدين، وبوستات كاروسيل متسلسلة.
+* 🇪🇬 [**arabic-life**](prompts/arabic-life/README.md) `(10 prompts)` — عقود الإيجار، التوكيلات، خطابات التظلم والشكاوى الرسمية، والمراسلات الإدارية والأكاديمية بالفصحى الرصينة.
+* ✍️ [**content**](prompts/content/README.md) `(10 prompts)` — سيناريوهات الفيديو القصير (Reels/TikTok)، نصوص المنشورات، خطافات جذب الانتباه، ومنشورات التمرير التتابعية (Carousels).
 
 ### 5. 🧠 The Life OS (Daily Systems, Study & Digital Safety)
 * 🌱 [**daily**](prompts/daily/README.md) `(10 prompts)` — 50/30/20 budget splitting, weekly meal prep on a budget, habit roadmaps, and packing checklists.
@@ -132,19 +132,19 @@ Our most popular, high-utility prompts:
 
 ---
 
-## 🇪🇬 دليل الاستخدام السريع (بالعربي وعلى بلاطة)
+## 🇪🇬 دليل الاستخدام السريع (باللغة العربية)
 
-لو دي أول مرة تشوف فيها المستودع، الفكرة أبسط مما تتخيل:
+تم تصميم **Prompt Stash** ليكون مرجعاً عملياً ومباشراً دون الحاجة لأي إعدادات أو برمجيات إضافية:
 
-1. **مش محتاج كورسات برومبت ولا حفظ:** اختار أي فولدر من الـ 13 فولدر فوق حسب المشكلة اللي عندك.
-2. **افتح ملف الـ `.txt`:** هتلاقي البرومبت مكتوب ومجهّز، وفيه أقواس `{variable}` مكان تفاصيلك الشخصية.
-3. **عدل اللي بين الأقواس:** بص على آخر الملف تحت `# Variables` هتلاقي شرح لكل متغير ومثال حقيقي تقدر تقلد زيه.
-4. **انسخ وحط في الذكاء الاصطناعي:** سواء بتستخدم ChatGPT، Claude، أو Gemini.. هتاخد رد مباشر ومنظم جداً (جداول، خطوات محددة، من غير رغي ولا اعتذارات ذكاء اصطناعي).
+1. **اختر التصنيف المناسب:** تصفح أحد المجلدات الـ 13 أعلاه وفق طبيعة المهمة المطلوبة.
+2. **افتح ملف الـ `.txt`:** يحتوي كل ملف على دور محدد للنموذج، مهام متسلسلة بدقة، ومتغيرات واضحة بين أقواس `{variable}`.
+3. **استبدل المتغيرات ببياناتك:** استعن بقسم `# Variables` في نهاية الملف لمعرفة وظيفة كل متغير، مع الاسترشاد بالمثال التوضيحي المرفق تحت `# Example values`.
+4. **انسخ وألصق في النموذج مباشرة:** يعمل البرومبت فوراً مع ChatGPT، Claude، Gemini، أو أي نموذج آخر، مع ضمان الحصول على مخرجات منظمة في جداول ونقاط محددة دون إطناب أو اعتذارات مصطنعة.
 
-> 💎 **قاعدتنا في العربي:**
-> - **الفصحى:** للخطابات الرسمية، الإيميلات الإدارية، والعقود.
-> - **العامية المصرية:** للإعلانات، السوشيال ميديا، والواتساب.
-> - **ممنوع تماماً:** الجمل المترجمة حرفياً من الإنجليزي اللي بتخلي الكلام ناشف ومصطنع!
+> 💡 **معايير استخدام اللغة العربية في المكتبة:**
+> - **العربية الفصحى المعاصرة:** معتمدة للمراسلات الرسمية والإدارية، الوثائق القانونية، والخطابات الأكاديمية.
+> - **العامية المصرية الحية:** معتمدة للمحتوى التسويقي، منصات التواصل الاجتماعي، ونصوص الفيديو القصير.
+> - **حظر الترجمة الآلية الحرفية (Anti-calque):** صياغة عربية أصيلة تراعي السياق اللغوي والثقافي وتتجنب التراكيب الأجنبية المترجمة حرفياً.
 
 ---
 
