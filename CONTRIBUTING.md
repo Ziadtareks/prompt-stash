@@ -61,7 +61,7 @@ python scripts/build_index.py        # regenerate prompts.json + folder READMEs 
 python scripts/check_links.py        # every markdown link resolves
 ```
 
-CI runs automatically on every PR (validate → rebuild → stale-check → link-check), so you don't *have* to run anything locally — but running the three commands first saves you a round trip. Either way, run `build_index.py` before committing so the generated files are fresh.
+CI runs automatically on every PR (validate → rebuild → stale-check → link-check) — **as soon as GitHub Actions is available for the account**. Current status (Oct 2026): the workflow is enabled and correct, but GitHub reports *"Actions has been disabled for this user"* at the account level, so no runs fire yet — resolving that requires contacting [GitHub Support](https://support.github.com/contact). Until it's lifted: run the three commands locally, and use the pre-push hook below. Either way, run `build_index.py` before committing so the generated files are fresh.
 
 **Pre-push hook (recommended):** install it once and every `git push` runs the same checks.
 - Git Bash (Windows/macOS/Linux): `cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`

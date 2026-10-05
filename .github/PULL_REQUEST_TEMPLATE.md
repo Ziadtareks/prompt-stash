@@ -16,4 +16,4 @@
 - [ ] `python scripts/check_links.py` passes
 - [ ] No secrets, no real personal data, no fabricated statistics or claims
 
-> CI runs all three checks automatically on this PR — you can rely on it, but running them locally first saves a round trip.
+> These three checks run in CI on every PR once GitHub Actions is available for the account (currently blocked at the account level — see CONTRIBUTING.md). Until then, run them locally; it saves a round trip.
