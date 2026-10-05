@@ -39,4 +39,4 @@ OUTPUT FORMAT
 - {length_and_dialect}: required, length/time limit + dialect, e.g. "90 seconds, Egyptian"
 - {dialect}: required, dialect/register, e.g. "Egyptian" or "formal-leaning Egyptian"
 
-# Example values: {occasion_and_relation}=best friend's engagement, I'm the closest friend | {material}=he planned the proposal for 3 months, she guessed it twice | {audience}=50 family + friends | {length_and_dialect}=90 seconds, Egyptian
+# Example values: {occasion_and_relation}=best friend's engagement, I'm the closest friend | {material}=he planned the proposal for 3 months, she guessed it twice | {audience}=50 family + friends | {length_and_dialect}=90 seconds, Egyptian | {dialect}=Egyptian, conversational

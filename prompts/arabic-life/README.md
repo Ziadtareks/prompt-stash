@@ -1,4 +1,4 @@
-# 🇪🇬 arabic-life — 10 prompts
+# 🇪🇬 arabic-life — 11 prompts
 
 > Formal Arabic, Egyptian dialect and Egypt paperwork — done right.
 
@@ -6,20 +6,21 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`announcement-maker.txt`](announcement-maker.txt) | Arabic Announcement Maker | you need to announce something to a community — a wedding invitation, a graduation celebration, a shop opening, a memorial notice — in Arabic, with the right tone for the occasion. | EN→AR |
-| [`arabic-job-application.txt`](arabic-job-application.txt) | Arabic Job Application Email | you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened. | EN→EN+AR |
-| [`arabic-speech-notes.txt`](arabic-speech-notes.txt) | Occasion Speech Notes | you have to say a few words at a wedding, engagement, graduation, farewell, or work celebration — in Arabic, from the heart, in under two minutes. | EN→AR |
-| [`complaint-letter-eg.txt`](complaint-letter-eg.txt) | Provider Complaint Letter | your internet/electricity/mobile provider (or any service company) failed you repeatedly and call-center loops got you nowhere — write the formal complaint that moves up the chain. | EN→EN+AR |
-| [`dialect-coach.txt`](dialect-coach.txt) | Egyptian Dialect Coach | you wrote (or plan to say) something in formal Arabic and it needs to sound Egyptian — natural, warm, and current — for a video, ad, presentation, or voice note. | EN→AR |
-| [`formal-arabic-email.txt`](formal-arabic-email.txt) | Formal Arabic Email Writer | you need to write a formal Arabic email (to a company, ministry, university, or embassy) and want it correct, respectful, and taken seriously. | EN→AR |
-| [`legal-terms-explain.txt`](legal-terms-explain.txt) | Official Terms Explainer | you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة الإصدار — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary. | EN→EN+AR |
-| [`occasion-messages.txt`](occasion-messages.txt) | Occasion Messages Writer | you need the right Arabic message — congratulations, condolences, get-well, invitation — and "alf mabrook" isn't enough, but a copy-paste cliché isn't you either. | EN→AR |
-| [`rental-contract-explain.txt`](rental-contract-explain.txt) | Rental Contract Explainer | you're about to sign an Arabic rental contract (عقد إيجار) — or renew one — and want every clause in plain Arabic before your signature is on it. | EN→AR |
-| [`school-note-writer.txt`](school-note-writer.txt) | School Note Writer | you need to write to your child's school in Arabic — absence excuse, early pickup, permission, or an inquiry to the teacher — quickly and correctly. | EN→AR |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`announcement-maker.txt`](announcement-maker.txt) | Arabic Announcement Maker | you need to announce something to a community — a wedding invitation, a graduation celebration, a shop opening, a memorial notice — in Arabic, with the right tone for the occasion. | EN→AR | arabic, announcements, community |
+| [`arabic-job-application.txt`](arabic-job-application.txt) | Arabic Job Application Email | you're applying to an Egyptian/Arab company by email (or responding to a hiring post) and need the message plus short attached-CV note that gets opened. | EN→EN+AR | arabic, job-search, applications |
+| [`arabic-speech-notes.txt`](arabic-speech-notes.txt) | Occasion Speech Notes | you have to say a few words at a wedding, engagement, graduation, farewell, or work celebration — in Arabic, from the heart, in under two minutes. | EN→AR | arabic, speeches, occasions |
+| [`complaint-letter-eg.txt`](complaint-letter-eg.txt) | Provider Complaint Letter | your internet/electricity/mobile provider (or any service company) failed you repeatedly and call-center loops got you nowhere — write the formal complaint that moves up the chain. | EN→EN+AR | arabic, consumer-rights, complaints |
+| [`dialect-coach.txt`](dialect-coach.txt) | Egyptian Dialect Coach | you wrote (or plan to say) something in formal Arabic and it needs to sound Egyptian — natural, warm, and current — for a video, ad, presentation, or voice note. | EN→AR | egyptian-arabic, dialect, localization |
+| [`formal-arabic-email.txt`](formal-arabic-email.txt) | Formal Arabic Email Writer | you need to write a formal Arabic email (to a company, ministry, university, or embassy) and want it correct, respectful, and taken seriously. | EN→AR | arabic, email, formal-writing |
+| [`legal-terms-explain.txt`](legal-terms-explain.txt) | Official Terms Explainer | you're handed Egyptian paperwork — توكيل، إخلاء طرف، قسيمة، تصديق، مخخصصة، شهادة ميلاد حديثة الإصدار — and the terms are a fog. Understand what each paper does before you queue at the real estate office or the notary. | EN→EN+AR | arabic, paperwork, egypt |
+| [`occasion-messages.txt`](occasion-messages.txt) | Occasion Messages Writer | you need the right Arabic message — congratulations, condolences, get-well, invitation — and "alf mabrook" isn't enough, but a copy-paste cliché isn't you either. | EN→AR | arabic, social, occasions |
+| [`paperwork-guide.txt`](paperwork-guide.txt) | Government Paperwork Navigator | you need an official Egyptian document — توثيق، شهادة قيد، رخصة، تصريح — and you don't know which office, which papers, or in what order, so you don't waste three mornings standing in the wrong queue. | EN→AR | arabic, government, paperwork, egypt |
+| [`rental-contract-explain.txt`](rental-contract-explain.txt) | Rental Contract Explainer | you're about to sign an Arabic rental contract (عقد إيجار) — or renew one — and want every clause in plain Arabic before your signature is on it. | EN→AR | arabic, rental, contracts |
+| [`school-note-writer.txt`](school-note-writer.txt) | School Note Writer | you need to write to your child's school in Arabic — absence excuse, early pickup, permission, or an inquiry to the teacher — quickly and correctly. | EN→AR | arabic, school, parents |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

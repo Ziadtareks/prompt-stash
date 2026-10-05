@@ -49,4 +49,4 @@ OUTPUT FORMAT
 - {law_context}: optional, rent-law context if known, e.g. "new-rent contract"
 - {paste_contract}: The contract text, pasted between the markers.
 
-# Example values: {position_and_property}=tenant, 2-bedroom apartment | {city_and_rent}=Giza, 9,500 EGP/month | {worries}=بند "الزيادة حسب السوق" | {law_context}=عقد إيجار جديد، خاضع لقانون الإيجار المحدّث
+# Example values: {position_and_property}=tenant, 2-bedroom apartment | {city_and_rent}=Giza, 9,500 EGP/month | {worries}=بند "الزيادة حسب السوق" | {law_context}=عقد إيجار جديد، خاضع لقانون الإيجار المحدّث | {paste_contract}=the full contract text — 6 clauses: rent, annual increase, deposit, maintenance, duration, handover

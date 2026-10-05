@@ -42,4 +42,4 @@ OUTPUT FORMAT
 - {gut_feeling}: optional, what already feels off, e.g. "it says unlimited revisions somewhere"
 - {paste_contract}: The contract text, pasted between the markers.
 
-# Example values: {contract_type}=freelance web design contract | {my_side}=the freelancer | {my_priority}=payment and revisions | {gut_feeling}=it says "unlimited revisions" somewhere
+# Example values: {contract_type}=freelance web design contract | {my_side}=the freelancer | {my_priority}=payment and revisions | {gut_feeling}=it says "unlimited revisions" somewhere | {paste_contract}=the 4-page freelance contract, pasted from the PDF

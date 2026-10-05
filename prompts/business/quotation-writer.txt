@@ -38,4 +38,4 @@ OUTPUT FORMAT
 - {valid_days}: required, quote validity in days, e.g. "14"
 - {currency}: The currency for all money figures (e.g. EGP).
 
-# Example values: {my_business}=Nour Designs, graphic studio | {client_and_request}=café wants logo + menu design + 5 social posts | {items_and_prices}=logo 6,000 EGP, menu 3,500 EGP, posts 750 EGP each | {payment_terms}=50% deposit | {valid_days}=14
+# Example values: {my_business}=Nour Designs, graphic studio | {client_and_request}=café wants logo + menu design + 5 social posts | {items_and_prices}=logo 6,000 EGP, menu 3,500 EGP, posts 750 EGP each | {payment_terms}=50% deposit | {valid_days}=14 | {currency}=EGP

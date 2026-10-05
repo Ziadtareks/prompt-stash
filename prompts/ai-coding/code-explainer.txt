@@ -37,4 +37,4 @@ OUTPUT FORMAT
 - {planned_change}: required, what you intend to change, e.g. "fire search only after 3+ chars"
 - {paste_code}: Your code, pasted between the markers.
 
-# Example values: {language}=JavaScript (React) | {assumed_purpose}=debounced search box | {planned_change}=fire the search only after 3+ characters
+# Example values: {language}=JavaScript (React) | {assumed_purpose}=debounced search box | {planned_change}=fire the search only after 3+ characters | {paste_code}=my 40-line React SearchBox component that calls /api/search on every keystroke

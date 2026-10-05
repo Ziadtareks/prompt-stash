@@ -1,4 +1,4 @@
-# 💼 work — 10 prompts
+# 💼 work — 11 prompts
 
 > Meetings, emails, priorities and the career conversations in between.
 
@@ -6,20 +6,21 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`cv-bullets.txt`](cv-bullets.txt) | CV Bullet Writer | you know what you did at a job, but you cannot turn it into resume bullets that sound impressive. | EN→EN |
-| [`jargon-simplifier.txt`](jargon-simplifier.txt) | Jargon Simplifier | you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read. | EN→EN |
-| [`meeting-agenda.txt`](meeting-agenda.txt) | Meeting Agenda Builder | you're running a meeting and refuse to let it become a 60-minute ramble. | EN→EN |
-| [`meeting-notes-fix.txt`](meeting-notes-fix.txt) | Meeting Notes Cleaner | you left a meeting with messy notes or a transcript and need something people can actually read. | EN→EN |
-| [`one-on-one-prep.txt`](one-on-one-prep.txt) | One-on-One Prep | you have a 1:1 meeting with your manager and want to walk in with points, not vibes. | EN→EN |
-| [`out-of-office-writer.txt`](out-of-office-writer.txt) | Out-of-Office Writer | you're going on leave and need an auto-reply that protects your time without leaving people stranded. | EN→EN |
-| [`presentation-outline.txt`](presentation-outline.txt) | Presentation Outline Builder | you know your topic but the 15 slides in your head are chaos — this turns them into a clean deck skeleton. | EN→EN |
-| [`reply-tone.txt`](reply-tone.txt) | Reply Tone Rewriter | you wrote a reply to an email or message, but the tone feels off — too harsh, too soft, or too stiff. | EN→EN |
-| [`salary-negotiation-email.txt`](salary-negotiation-email.txt) | Salary Negotiation Email | you got an offer (or a review is coming) and need to ask for more money without sounding greedy or scared. | EN→EN |
-| [`task-priority-sort.txt`](task-priority-sort.txt) | Task Priority Sorter | your task list is a panic pile and you don't know what to touch first. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`cv-bullets.txt`](cv-bullets.txt) | CV Bullet Writer | you know what you did at a job, but you cannot turn it into resume bullets that sound impressive. | EN→EN | resume, career, writing |
+| [`jargon-simplifier.txt`](jargon-simplifier.txt) | Jargon Simplifier | you wrote a technical update and your non-technical boss/client's eyes will glaze over — rewrite it so they get it in one read. | EN→EN | communication, technical-writing |
+| [`meeting-agenda.txt`](meeting-agenda.txt) | Meeting Agenda Builder | you're running a meeting and refuse to let it become a 60-minute ramble. | EN→EN | meetings, facilitation |
+| [`meeting-notes-fix.txt`](meeting-notes-fix.txt) | Meeting Notes Cleaner | you left a meeting with messy notes or a transcript and need something people can actually read. | EN→EN | meetings, productivity, summary |
+| [`one-on-one-prep.txt`](one-on-one-prep.txt) | One-on-One Prep | you have a 1:1 meeting with your manager and want to walk in with points, not vibes. | EN→EN | management, career, meetings |
+| [`out-of-office-writer.txt`](out-of-office-writer.txt) | Out-of-Office Writer | you're going on leave and need an auto-reply that protects your time without leaving people stranded. | EN→EN | email, leave, communication |
+| [`presentation-outline.txt`](presentation-outline.txt) | Presentation Outline Builder | you know your topic but the 15 slides in your head are chaos — this turns them into a clean deck skeleton. | EN→EN | presentations, communication |
+| [`reply-tone.txt`](reply-tone.txt) | Reply Tone Rewriter | you wrote a reply to an email or message, but the tone feels off — too harsh, too soft, or too stiff. | EN→EN | email, communication, rewriting |
+| [`salary-negotiation-email.txt`](salary-negotiation-email.txt) | Salary Negotiation Email | you got an offer (or a review is coming) and need to ask for more money without sounding greedy or scared. | EN→EN | salary, negotiation, career |
+| [`status-update-email.txt`](status-update-email.txt) | Status Update Email Writer | your manager asks "any updates?" and you need a status email that reads as "on it" — progress visible, risks flagged early, nothing buried. | EN→user-choice | work, email, status-update |
+| [`task-priority-sort.txt`](task-priority-sort.txt) | Task Priority Sorter | your task list is a panic pile and you don't know what to touch first. | EN→EN | productivity, prioritization |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

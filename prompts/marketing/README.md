@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`ad-copy-writer.txt`](ad-copy-writer.txt) | Ad Copy Writer | you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice. | EN→user-choice |
-| [`competitor-teardown.txt`](competitor-teardown.txt) | Competitor Teardown | you're competing against 2–3 businesses doing it better (or cheaper) and need their playbook — and the gap they're leaving you. | EN→EN |
-| [`customer-persona.txt`](customer-persona.txt) | Customer Persona Builder | you're marketing to "everyone" and it's not working — define the one person you're actually selling to. | EN→EN |
-| [`discount-offer.txt`](discount-offer.txt) | Discount Offer Designer | you want to run a sale without training customers to wait for discounts or bleeding margin. | EN→EN |
-| [`email-sequence.txt`](email-sequence.txt) | Welcome Email Sequence Writer | people sign up or inquire and hear nothing until you sell — set up a 3-email sequence that warms them up first. | EN→user-choice |
-| [`landing-copy.txt`](landing-copy.txt) | Landing Page Copy Writer | you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section. | EN→EN+AR |
-| [`referral-offer.txt`](referral-offer.txt) | Referral Offer Designer | word of mouth is your best channel and you're leaving it to luck — design a referral program customers actually use. | EN→EN |
-| [`review-request.txt`](review-request.txt) | Review Request System | happy customers leave silently while your competitor has 200 reviews — build the ask that turns satisfaction into public proof. | EN→user-choice |
-| [`seasonal-campaign.txt`](seasonal-campaign.txt) | Seasonal Campaign Planner | a big occasion is coming (Ramadan, Eid, back-to-school, Black Friday, Valentine's) and you scramble every year — plan the campaign before the season starts. | EN→EN |
-| [`whatsapp-broadcast.txt`](whatsapp-broadcast.txt) | WhatsApp Broadcast Writer | you need to message your customers on WhatsApp (status, broadcast list, or groups) without getting muted or blocked. | EN→user-choice |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`ad-copy-writer.txt`](ad-copy-writer.txt) | Ad Copy Writer | you're putting money behind an ad (Meta, Google, TikTok) and need copy that converts — not slogans that sound nice. | EN→user-choice | advertising, copywriting, paid-media |
+| [`competitor-teardown.txt`](competitor-teardown.txt) | Competitor Teardown | you're competing against 2–3 businesses doing it better (or cheaper) and need their playbook — and the gap they're leaving you. | EN→EN | competitive-analysis, strategy |
+| [`customer-persona.txt`](customer-persona.txt) | Customer Persona Builder | you're marketing to "everyone" and it's not working — define the one person you're actually selling to. | EN→EN | research, positioning, marketing |
+| [`discount-offer.txt`](discount-offer.txt) | Discount Offer Designer | you want to run a sale without training customers to wait for discounts or bleeding margin. | EN→EN | promotions, pricing, retail |
+| [`email-sequence.txt`](email-sequence.txt) | Welcome Email Sequence Writer | people sign up or inquire and hear nothing until you sell — set up a 3-email sequence that warms them up first. | EN→user-choice | email-marketing, automation |
+| [`landing-copy.txt`](landing-copy.txt) | Landing Page Copy Writer | you have traffic (ads, link in bio) hitting a page that converts nobody — write the page section by section. | EN→EN+AR | landing-pages, conversion, copywriting |
+| [`referral-offer.txt`](referral-offer.txt) | Referral Offer Designer | word of mouth is your best channel and you're leaving it to luck — design a referral program customers actually use. | EN→EN | referrals, growth, loyalty |
+| [`review-request.txt`](review-request.txt) | Review Request System | happy customers leave silently while your competitor has 200 reviews — build the ask that turns satisfaction into public proof. | EN→user-choice | reviews, reputation, local-business |
+| [`seasonal-campaign.txt`](seasonal-campaign.txt) | Seasonal Campaign Planner | a big occasion is coming (Ramadan, Eid, back-to-school, Black Friday, Valentine's) and you scramble every year — plan the campaign before the season starts. | EN→EN | campaigns, seasonal, retail |
+| [`whatsapp-broadcast.txt`](whatsapp-broadcast.txt) | WhatsApp Broadcast Writer | you need to message your customers on WhatsApp (status, broadcast list, or groups) without getting muted or blocked. | EN→user-choice | whatsapp, local-marketing |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

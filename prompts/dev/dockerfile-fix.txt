@@ -39,4 +39,4 @@ OUTPUT FORMAT
 - {services}: optional, companion services needed, e.g. "Postgres via compose"
 - {paste_dockerfile}: required, Dockerfile or compose file between the markers
 
-# Example values: {problem}=image is 1.4GB and rebuilds everything on each change | {error_output}=(none, just slow) | {stack}=Node 20 + TypeScript | {services}=yes, Postgres via compose
+# Example values: {problem}=image is 1.4GB and rebuilds everything on each change | {error_output}=(none, just slow) | {stack}=Node 20 + TypeScript | {services}=yes, Postgres via compose | {paste_dockerfile}=the 12-line Dockerfile (node:latest, npm install, CMD npm start)

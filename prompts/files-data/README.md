@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`chart-picker.txt`](chart-picker.txt) | Chart Picker | you have numbers to present and no idea which chart tells the story — pick the right one and design it so the point lands in 3 seconds. | EN→EN |
-| [`csv-cleaner.txt`](csv-cleaner.txt) | Messy Data Cleaner | you exported/downloaded a spreadsheet or CSV and it's chaos — mixed dates, duplicates, merged cells, mystery columns — and you need a clean table. | EN→EN |
-| [`data-summarizer.txt`](data-summarizer.txt) | Data Summarizer | you pasted a raw table of numbers and someone wants "the insights" — get the summary, the trends, and the honest caveats. | EN→EN |
-| [`duplicate-finder.txt`](duplicate-finder.txt) | Duplicate Finder | two lists (or one messy list) should contain the same records but don't match up — customers, payments, inventory — find the mismatches and the dupes. | EN→EN |
-| [`excel-formula.txt`](excel-formula.txt) | Excel Formula Builder | you know what you want a spreadsheet to do but not the formula — describe it in plain words, get the formula and the explanation. | EN→EN |
-| [`file-organizer.txt`](file-organizer.txt) | File Organizer Planner | your Desktop/Downloads/Drive is a landfill of "final_v2_REAL.docx" and you need a system, not another cleanup that lasts a week. | EN→EN |
-| [`naming-convention.txt`](naming-convention.txt) | Naming Convention Designer | your team's files are "doc final NEW (2).xlsx" and nobody can find anything — agree on a naming system once and stop the chaos. | EN→EN |
-| [`pdf-extract.txt`](pdf-extract.txt) | PDF Data Extractor | you have a PDF (statement, invoice, report, scanned tables) and need its numbers into a spreadsheet without retyping. | EN→EN |
-| [`report-skeleton.txt`](report-skeleton.txt) | Report Skeleton Builder | you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever. | EN→EN |
-| [`sql-from-question.txt`](sql-from-question.txt) | Question-to-SQL Translator | you have a database and a plain-English question — get the SQL query AND the understanding, not a black-box answer. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`chart-picker.txt`](chart-picker.txt) | Chart Picker | you have numbers to present and no idea which chart tells the story — pick the right one and design it so the point lands in 3 seconds. | EN→EN | visualization, data, design |
+| [`csv-cleaner.txt`](csv-cleaner.txt) | Messy Data Cleaner | you exported/downloaded a spreadsheet or CSV and it's chaos — mixed dates, duplicates, merged cells, mystery columns — and you need a clean table. | EN→EN | data-cleaning, spreadsheets |
+| [`data-summarizer.txt`](data-summarizer.txt) | Data Summarizer | you pasted a raw table of numbers and someone wants "the insights" — get the summary, the trends, and the honest caveats. | EN→EN | analysis, reporting |
+| [`duplicate-finder.txt`](duplicate-finder.txt) | Duplicate Finder | two lists (or one messy list) should contain the same records but don't match up — customers, payments, inventory — find the mismatches and the dupes. | EN→EN | data-quality, reconciliation |
+| [`excel-formula.txt`](excel-formula.txt) | Excel Formula Builder | you know what you want a spreadsheet to do but not the formula — describe it in plain words, get the formula and the explanation. | EN→EN | excel, sheets, formulas |
+| [`file-organizer.txt`](file-organizer.txt) | File Organizer Planner | your Desktop/Downloads/Drive is a landfill of "final_v2_REAL.docx" and you need a system, not another cleanup that lasts a week. | EN→EN | organization, files, workflow |
+| [`naming-convention.txt`](naming-convention.txt) | Naming Convention Designer | your team's files are "doc final NEW (2).xlsx" and nobody can find anything — agree on a naming system once and stop the chaos. | EN→EN | naming, organization, teams |
+| [`pdf-extract.txt`](pdf-extract.txt) | PDF Data Extractor | you have a PDF (statement, invoice, report, scanned tables) and need its numbers into a spreadsheet without retyping. | EN→EN | pdf, data-extraction |
+| [`report-skeleton.txt`](report-skeleton.txt) | Report Skeleton Builder | you have raw numbers and a monthly/weekly report due — build the report structure once, then it's fill-in-the-blanks forever. | EN→EN | reporting, business |
+| [`sql-from-question.txt`](sql-from-question.txt) | Question-to-SQL Translator | you have a database and a plain-English question — get the SQL query AND the understanding, not a black-box answer. | EN→EN | sql, databases, analytics |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

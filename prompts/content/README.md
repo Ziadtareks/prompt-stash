@@ -1,4 +1,4 @@
-# ✍️ content — 10 prompts
+# ✍️ content — 12 prompts
 
 > Posts, captions, hooks and calendars — bilingual where it matters.
 
@@ -6,20 +6,22 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`bio-maker.txt`](bio-maker.txt) | Social Bio Maker | your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it. | EN→EN |
-| [`captions-ar.txt`](captions-ar.txt) | Arabic Caption Writer | you have a photo or video ready and need an engaging Arabic caption for social media. | EN→AR |
-| [`carousel-outline.txt`](carousel-outline.txt) | Carousel Outline Builder | you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure. | EN→EN |
-| [`comment-reply.txt`](comment-reply.txt) | Comment Reply Writer | comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community. | EN→user-choice |
-| [`content-calendar.txt`](content-calendar.txt) | Content Calendar Builder | you post randomly when inspired and want a month of planned content instead. | EN→EN |
-| [`hashtags.txt`](hashtags.txt) | Hashtag Finder | you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses. | EN→EN |
-| [`newsletter-intro.txt`](newsletter-intro.txt) | Newsletter Intro Writer | your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll. | EN→user-choice |
-| [`post-hooks.txt`](post-hooks.txt) | Post Hook Generator | your posts are good but nobody reads past the first line — fix the hook. | EN→user-choice |
-| [`product-description.txt`](product-description.txt) | Product Description Writer | your product page or catalog needs descriptions that sell instead of listing specs. | EN→EN+AR |
-| [`video-script-short.txt`](video-script-short.txt) | Short Video Script Writer | you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end. | EN→user-choice |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`bio-maker.txt`](bio-maker.txt) | Social Bio Maker | your profile bio is empty, outdated, or says nothing — and you have 2 minutes to fix it. | EN→EN | social-media, branding, profile |
+| [`captions-ar.txt`](captions-ar.txt) | Arabic Caption Writer | you have a photo or video ready and need an engaging Arabic caption for social media. | EN→AR | arabic, social-media, captions |
+| [`carousel-outline.txt`](carousel-outline.txt) | Carousel Outline Builder | you want a swipeable Instagram/LinkedIn carousel and need the slide-by-slide structure. | EN→EN | social-media, content, design |
+| [`comment-reply.txt`](comment-reply.txt) | Comment Reply Writer | comments are piling up on your posts and you're replying with "Thanks! 🙏" — write replies that turn commenters into a community. | EN→user-choice | community, social-media, engagement |
+| [`content-calendar.txt`](content-calendar.txt) | Content Calendar Builder | you post randomly when inspired and want a month of planned content instead. | EN→EN | content-strategy, planning, social-media |
+| [`hashtags.txt`](hashtags.txt) | Hashtag Finder | you want hashtags that actually help a post get discovered — not the same 5 dead tags everyone uses. | EN→EN | social-media, hashtags, discovery |
+| [`instagram-captions.txt`](instagram-captions.txt) | Instagram Caption Writer | the photo or video is ready, you're stuck on the caption — get English captions that sound like a person, not a template, with the hook in the first line. | EN→EN | instagram, captions, social-media |
+| [`linkedin-post.txt`](linkedin-post.txt) | LinkedIn Post Writer | you have a story or milestone worth posting but staring at the empty composer — get a LinkedIn post that sounds like you, hooks in the first two lines, and works in English or Egyptian Arabic. | EN→user-choice | linkedin, content, personal-branding |
+| [`newsletter-intro.txt`](newsletter-intro.txt) | Newsletter Intro Writer | your newsletter opens with "We hope this email finds you well" and people are deleting it — write an opener that earns the scroll. | EN→user-choice | email, newsletters, copywriting |
+| [`post-hooks.txt`](post-hooks.txt) | Post Hook Generator | your posts are good but nobody reads past the first line — fix the hook. | EN→user-choice | copywriting, hooks, social-media |
+| [`product-description.txt`](product-description.txt) | Product Description Writer | your product page or catalog needs descriptions that sell instead of listing specs. | EN→EN+AR | ecommerce, copywriting |
+| [`video-script-short.txt`](video-script-short.txt) | Short Video Script Writer | you need a 30–60 second Reel/TikTok/Shorts script that people watch to the end. | EN→user-choice | video, scriptwriting, short-form |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

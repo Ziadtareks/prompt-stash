@@ -37,4 +37,4 @@ OUTPUT FORMAT
 - {run_context}: required, how tests run, e.g. "CI, pure functions, no DB"
 - {paste_code}: Your code, pasted between the markers.
 
-# Example values: {framework}=Vitest | {purpose}=discount calculator, tiered by cart total | {run_context}=CI, pure functions, no DB
+# Example values: {framework}=Vitest | {purpose}=discount calculator, tiered by cart total | {run_context}=CI, pure functions, no DB | {paste_code}=the ~30-line tiered discount calculator function (pure, no I/O)

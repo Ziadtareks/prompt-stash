@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`budget-split.txt`](budget-split.txt) | Budget Splitter | payday came, and somehow the money is gone before the month ends. | EN→EN |
-| [`decision-matrix.txt`](decision-matrix.txt) | Big Decision Matrix | you're stuck between two or three big options (job offer, city, degree, big purchase) and keep going in circles — score it once, properly. | EN→EN |
-| [`difficult-conversation-rehearsal.txt`](difficult-conversation-rehearsal.txt) | Difficult Conversation Rehearsal | you keep rehearsing a hard conversation in your head — practice it out loud with a stand-in first, and walk in with lines that hold. | EN→EN |
-| [`expenses-review.txt`](expenses-review.txt) | Monthly Expenses Review | the month ended, you know roughly what you spent and dread looking — turn your expenses list into a calm review with three fixes. | EN→EN |
-| [`habit-plan.txt`](habit-plan.txt) | Habit Plan Builder | you want to build a habit and you keep quitting by day four. | EN→EN |
-| [`sleep-routine.txt`](sleep-routine.txt) | Sleep Routine Fixer | you scroll until 2am and feel wrecked every morning. | EN→EN |
-| [`trip-pack-list.txt`](trip-pack-list.txt) | Trip Packing List | you always arrive and realize you forgot something important. | EN→EN |
-| [`weekly-meal-planner.txt`](weekly-meal-planner.txt) | Weekly Meal Planner | you ask yourself "what's for dinner" every day at 6pm and default to delivery — plan a week of meals once, on a budget. | EN→user-choice |
-| [`weekly-reset.txt`](weekly-reset.txt) | Weekly Reset Routine | weeks blur together — tasks slip, inboxes pile up, Monday ambushes you — run one 45-minute reset that catches everything. | EN→EN |
-| [`workout-plan.txt`](workout-plan.txt) | Beginner Workout Plan | you want to start exercising at home with no equipment and no idea where to begin. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`budget-split.txt`](budget-split.txt) | Budget Splitter | payday came, and somehow the money is gone before the month ends. | EN→EN | budgeting, personal-finance |
+| [`decision-matrix.txt`](decision-matrix.txt) | Big Decision Matrix | you're stuck between two or three big options (job offer, city, degree, big purchase) and keep going in circles — score it once, properly. | EN→EN | decision-making, planning, personal |
+| [`difficult-conversation-rehearsal.txt`](difficult-conversation-rehearsal.txt) | Difficult Conversation Rehearsal | you keep rehearsing a hard conversation in your head — practice it out loud with a stand-in first, and walk in with lines that hold. | EN→EN | communication, difficult-conversations, role-play |
+| [`expenses-review.txt`](expenses-review.txt) | Monthly Expenses Review | the month ended, you know roughly what you spent and dread looking — turn your expenses list into a calm review with three fixes. | EN→EN | budgeting, monthly-review, personal-finance |
+| [`habit-plan.txt`](habit-plan.txt) | Habit Plan Builder | you want to build a habit and you keep quitting by day four. | EN→EN | habits, behavior, productivity |
+| [`sleep-routine.txt`](sleep-routine.txt) | Sleep Routine Fixer | you scroll until 2am and feel wrecked every morning. | EN→EN | sleep, health, routines |
+| [`trip-pack-list.txt`](trip-pack-list.txt) | Trip Packing List | you always arrive and realize you forgot something important. | EN→EN | travel, checklists |
+| [`weekly-meal-planner.txt`](weekly-meal-planner.txt) | Weekly Meal Planner | you ask yourself "what's for dinner" every day at 6pm and default to delivery — plan a week of meals once, on a budget. | EN→user-choice | meal-planning, budget, family, groceries |
+| [`weekly-reset.txt`](weekly-reset.txt) | Weekly Reset Routine | weeks blur together — tasks slip, inboxes pile up, Monday ambushes you — run one 45-minute reset that catches everything. | EN→EN | productivity, weekly-review, planning |
+| [`workout-plan.txt`](workout-plan.txt) | Beginner Workout Plan | you want to start exercising at home with no equipment and no idea where to begin. | EN→EN | fitness, exercise, beginners |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

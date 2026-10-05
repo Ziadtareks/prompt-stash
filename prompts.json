@@ -1,20 +1,20 @@
 {
   "name": "Prompt Stash",
-  "total": 130,
+  "total": 135,
   "folders": {
     "debugging": 10,
-    "work": 10,
-    "content": 10,
+    "work": 11,
+    "content": 12,
     "study": 10,
     "business": 10,
-    "dev": 10,
+    "dev": 11,
     "daily": 10,
     "ai-coding": 10,
     "career": 10,
     "marketing": 10,
     "files-data": 10,
     "security-basics": 10,
-    "arabic-life": 10
+    "arabic-life": 11
   },
   "prompts": [
     {
@@ -35,7 +35,8 @@
         "scale",
         "constraints",
         "must_haves"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Bug Repro Builder",
@@ -55,7 +56,8 @@
         "where",
         "context",
         "expected_behavior"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Code Explainer",
@@ -75,7 +77,8 @@
         "assumed_purpose",
         "planned_change",
         "paste_code"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Feature-to-Prompt Translator",
@@ -96,7 +99,8 @@
         "stack",
         "codebase_patterns",
         "definition_of_done"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Library Picker",
@@ -117,7 +121,8 @@
         "stack",
         "priorities",
         "options"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Code Migration Planner",
@@ -137,7 +142,8 @@
         "scope",
         "shipping_constraint",
         "riskiest"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Performance Fix Planner",
@@ -158,7 +164,8 @@
         "when_slow",
         "stack_hosting",
         "suspects"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Prompt Improver (for coding)",
@@ -178,7 +185,8 @@
         "ai_output",
         "what_wrong",
         "real_context"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Refactor Request Writer",
@@ -199,7 +207,8 @@
         "pain",
         "constraints",
         "paste_code"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Test Writer",
@@ -219,7 +228,8 @@
         "purpose",
         "run_context",
         "paste_code"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Arabic Announcement Maker",
@@ -240,7 +250,8 @@
         "key_details",
         "audience_and_channel",
         "tone"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Arabic Job Application Email",
@@ -262,7 +273,8 @@
         "availability",
         "cv_file",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Occasion Speech Notes",
@@ -284,7 +296,8 @@
         "audience",
         "length_and_dialect",
         "dialect"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Provider Complaint Letter",
@@ -306,7 +319,8 @@
         "attempts",
         "desired_resolution",
         "account_details"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Egyptian Dialect Coach",
@@ -327,7 +341,8 @@
         "context",
         "audience",
         "formality"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Formal Arabic Email Writer",
@@ -349,7 +364,8 @@
         "key_facts",
         "relationship",
         "attachments"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Official Terms Explainer",
@@ -369,7 +385,8 @@
         "transaction",
         "terms_list",
         "my_role"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Occasion Messages Writer",
@@ -391,7 +408,31 @@
         "personal_details",
         "channel",
         "dialect"
-      ]
+      ],
+      "safety": false
+    },
+    {
+      "title": "Government Paperwork Navigator",
+      "when_to_use": "you need an official Egyptian document — توثيق، شهادة قيد، رخصة، تصريح — and you don't know which office, which papers, or in what order, so you don't waste three mornings standing in the wrong queue.",
+      "folder": "arabic-life",
+      "path": "prompts/arabic-life/paperwork-guide.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "AR"
+      },
+      "tags": [
+        "arabic",
+        "government",
+        "paperwork",
+        "egypt"
+      ],
+      "variables": [
+        "paper",
+        "my_case",
+        "deadline",
+        "constraints"
+      ],
+      "safety": true
     },
     {
       "title": "Rental Contract Explainer",
@@ -413,7 +454,8 @@
         "worries",
         "law_context",
         "paste_contract"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "School Note Writer",
@@ -435,7 +477,8 @@
         "dates_and_reason",
         "pickup_person",
         "parent_contact"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Booking Confirmation Message",
@@ -456,7 +499,8 @@
         "date_time",
         "location_or_link",
         "cancellation_policy"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Contract Summary Checker",
@@ -478,7 +522,8 @@
         "my_priority",
         "gut_feeling",
         "paste_contract"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Business Idea Checker",
@@ -500,7 +545,8 @@
         "location",
         "time_commitment",
         "edge"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Invoice Writer",
@@ -522,7 +568,8 @@
         "items_list",
         "currency",
         "due_days"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Late Payment Chaser",
@@ -544,7 +591,8 @@
         "reminders_sent",
         "excuse",
         "bottom_line"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Price Explainer",
@@ -565,7 +613,8 @@
         "price",
         "what_included",
         "competitor_price"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Quotation Writer",
@@ -588,7 +637,8 @@
         "payment_terms",
         "valid_days",
         "currency"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Refund Apology Letter",
@@ -608,7 +658,8 @@
         "what_went_wrong",
         "refund_amount",
         "store_name"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Customer Reply Writer",
@@ -628,7 +679,8 @@
         "customer_message",
         "resolution",
         "reply_language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Supplier Email Writer",
@@ -650,7 +702,8 @@
         "goal",
         "volume",
         "supplier_language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Career Switch Planner",
@@ -671,7 +724,8 @@
         "hours_per_week",
         "runway_months",
         "transferables"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Cover Letter Writer",
@@ -693,7 +747,8 @@
         "angle",
         "language_and_tone",
         "length_limit"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "CV Reviewer",
@@ -714,7 +769,8 @@
         "field_and_level",
         "application_stats",
         "paste_cv"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Freelance Profile Builder",
@@ -737,7 +793,8 @@
         "target_client",
         "price_point",
         "languages"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Interview Prep Coach",
@@ -758,7 +815,8 @@
         "stage_format",
         "my_background",
         "worries"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "LinkedIn Profile Fixer",
@@ -778,7 +836,8 @@
         "skills_and_evidence",
         "audience_language",
         "open_to"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Promotion Case Builder",
@@ -801,7 +860,8 @@
         "process",
         "expected_objection",
         "target"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Rejection Response Writer",
@@ -820,7 +880,8 @@
         "rejection_context",
         "signals",
         "my_goal"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Skills Gap Mapper",
@@ -841,7 +902,8 @@
         "my_skills",
         "hours_per_week",
         "deadline"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "STAR Story Builder",
@@ -861,7 +923,8 @@
         "role_and_field",
         "memory_list",
         "competency"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Social Bio Maker",
@@ -884,7 +947,8 @@
         "target_audience",
         "unique_angle",
         "link_purpose"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Arabic Caption Writer",
@@ -906,7 +970,8 @@
         "audience",
         "tone",
         "call_to_action"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Carousel Outline Builder",
@@ -927,7 +992,8 @@
         "platform_and_slides",
         "audience",
         "tone_and_language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Comment Reply Writer",
@@ -949,7 +1015,8 @@
         "voice",
         "languages",
         "tricky_ones"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Content Calendar Builder",
@@ -971,7 +1038,8 @@
         "audience_and_promise",
         "promotion",
         "languages"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Hashtag Finder",
@@ -994,7 +1062,53 @@
         "audience",
         "language",
         "number_of_hashtags"
-      ]
+      ],
+      "safety": false
+    },
+    {
+      "title": "Instagram Caption Writer",
+      "when_to_use": "the photo or video is ready, you're stuck on the caption — get English captions that sound like a person, not a template, with the hook in the first line.",
+      "folder": "content",
+      "path": "prompts/content/instagram-captions.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "instagram",
+        "captions",
+        "social-media"
+      ],
+      "variables": [
+        "platform",
+        "topic",
+        "audience",
+        "tone",
+        "call_to_action"
+      ],
+      "safety": false
+    },
+    {
+      "title": "LinkedIn Post Writer",
+      "when_to_use": "you have a story or milestone worth posting but staring at the empty composer — get a LinkedIn post that sounds like you, hooks in the first two lines, and works in English or Egyptian Arabic.",
+      "folder": "content",
+      "path": "prompts/content/linkedin-post.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "linkedin",
+        "content",
+        "personal-branding"
+      ],
+      "variables": [
+        "topic_and_story",
+        "my_role",
+        "goal",
+        "language_audience"
+      ],
+      "safety": false
     },
     {
       "title": "Newsletter Intro Writer",
@@ -1016,7 +1130,8 @@
         "voice",
         "contents",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Post Hook Generator",
@@ -1038,7 +1153,8 @@
         "audience",
         "tone",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Product Description Writer",
@@ -1059,7 +1175,8 @@
         "price_and_channel",
         "differentiator",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Short Video Script Writer",
@@ -1081,7 +1198,8 @@
         "audience_and_goal",
         "format",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Budget Splitter",
@@ -1101,7 +1219,8 @@
         "fixed_costs",
         "savings_goal",
         "currency"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Big Decision Matrix",
@@ -1123,7 +1242,8 @@
         "priorities",
         "constraints",
         "lean"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Difficult Conversation Rehearsal",
@@ -1145,7 +1265,8 @@
         "fear",
         "opening_line",
         "context"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Monthly Expenses Review",
@@ -1167,7 +1288,8 @@
         "savings_status",
         "suspect",
         "currency"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Habit Plan Builder",
@@ -1187,7 +1309,8 @@
         "habit",
         "current_routine",
         "obstacle"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Sleep Routine Fixer",
@@ -1207,7 +1330,8 @@
         "wake_up_time",
         "bedtime_now",
         "main_disruptor"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Trip Packing List",
@@ -1227,7 +1351,8 @@
         "days",
         "weather",
         "trip_type"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Weekly Meal Planner",
@@ -1251,7 +1376,8 @@
         "restrictions",
         "cooking_capacity",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Weekly Reset Routine",
@@ -1273,7 +1399,8 @@
         "tracking_tools",
         "time_budget",
         "roles"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Beginner Workout Plan",
@@ -1294,7 +1421,8 @@
         "minutes_per_session",
         "fitness_level",
         "goal"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Battery Drain Fixer",
@@ -1315,7 +1443,8 @@
         "pattern",
         "battery_health",
         "usage"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Blue Screen (BSOD) Explainer",
@@ -1336,7 +1465,8 @@
         "when_it_happens",
         "recent_changes",
         "pc_type"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Deploy Rollback Plan",
@@ -1358,7 +1488,8 @@
         "symptom",
         "deploy_method",
         "time_since_deploy"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Email Bounce Fixer",
@@ -1380,7 +1511,8 @@
         "bounce_error",
         "recipient",
         "content_type"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Overheating Fixer",
@@ -1401,7 +1533,8 @@
         "when_hot",
         "symptoms",
         "environment"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Phone Storage Fixer",
@@ -1422,7 +1555,8 @@
         "space_eaters",
         "must_keep",
         "backup_status"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Printer Fixer",
@@ -1442,7 +1576,8 @@
         "symptom",
         "connection",
         "last_worked"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Slow PC Fixer",
@@ -1463,7 +1598,8 @@
         "when_slow",
         "duration",
         "what_i_tried"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Website Error Fixer",
@@ -1486,7 +1622,8 @@
         "error_message",
         "yes_no_and_when",
         "what_i_tried"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Wi-Fi Drop Fixer",
@@ -1507,7 +1644,8 @@
         "pattern",
         "setup",
         "router_lights"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "API Error Decoder",
@@ -1527,7 +1665,8 @@
         "status_code",
         "response_body",
         "request_you_sent"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Code Reviewer",
@@ -1548,7 +1687,8 @@
         "purpose",
         "main_worry",
         "paste_code"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Commit Message Writer",
@@ -1566,7 +1706,8 @@
       "variables": [
         "changes_summary_or_diff",
         "commit_type"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Dockerfile Fixer",
@@ -1588,7 +1729,8 @@
         "stack",
         "services",
         "paste_dockerfile"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Environment Mismatch Fixer",
@@ -1610,7 +1752,8 @@
         "my_setup",
         "working_setup",
         "compared"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Git Disaster Rescuer",
@@ -1630,7 +1773,8 @@
         "git_output",
         "at_risk",
         "team_context"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Log Analyzer",
@@ -1651,7 +1795,8 @@
         "when_started",
         "time_window",
         "paste_log"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "README Writer",
@@ -1671,7 +1816,8 @@
         "what_it_does",
         "stack",
         "install_steps"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Regex Explainer",
@@ -1689,7 +1835,30 @@
       "variables": [
         "regex_pattern",
         "sample_text"
-      ]
+      ],
+      "safety": false
+    },
+    {
+      "title": "Security-Focused Code Review",
+      "when_to_use": "you're about to merge or ship code that touches auth, user input, payments, or secrets — get a defensive security pass that finds the holes before someone else does.",
+      "folder": "dev",
+      "path": "prompts/dev/security-review.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "EN"
+      },
+      "tags": [
+        "security",
+        "code-review",
+        "defensive"
+      ],
+      "variables": [
+        "paste_code",
+        "stack_and_context",
+        "auth_context",
+        "data_sensitivity"
+      ],
+      "safety": true
     },
     {
       "title": "SQL Query Fixer",
@@ -1709,7 +1878,8 @@
         "sql_query",
         "what_is_wrong",
         "table_schemas"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Chart Picker",
@@ -1730,7 +1900,8 @@
         "message",
         "medium",
         "audience"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Messy Data Cleaner",
@@ -1750,7 +1921,8 @@
         "mess_description",
         "target_shape",
         "tool"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Data Summarizer",
@@ -1770,7 +1942,8 @@
         "key_question",
         "audience",
         "paste_data"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Duplicate Finder",
@@ -1791,7 +1964,8 @@
         "mess_factors",
         "paste_list_a",
         "paste_list_b"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Excel Formula Builder",
@@ -1812,7 +1986,8 @@
         "goal",
         "sheet_layout",
         "edge_cases"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "File Organizer Planner",
@@ -1833,7 +2008,8 @@
         "location",
         "search_habits",
         "who_else"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Naming Convention Designer",
@@ -1854,7 +2030,8 @@
         "storage",
         "key_dimensions",
         "pain_points"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "PDF Data Extractor",
@@ -1875,7 +2052,8 @@
         "destination",
         "purpose",
         "paste_pdf_text"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Report Skeleton Builder",
@@ -1895,7 +2073,8 @@
         "readers",
         "available_data",
         "format"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Question-to-SQL Translator",
@@ -1916,7 +2095,8 @@
         "schema",
         "flavor",
         "table_sizes"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Ad Copy Writer",
@@ -1939,7 +2119,8 @@
         "objective",
         "languages",
         "proof"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Competitor Teardown",
@@ -1959,7 +2140,8 @@
         "competitors",
         "losing_where",
         "constraints"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Customer Persona Builder",
@@ -1981,7 +2163,8 @@
         "voice_of_customer",
         "channels",
         "market"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Discount Offer Designer",
@@ -2003,7 +2186,8 @@
         "audience_scope",
         "idea_constraints",
         "channel"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Welcome Email Sequence Writer",
@@ -2025,7 +2209,8 @@
         "proof",
         "schedule",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Landing Page Copy Writer",
@@ -2047,7 +2232,8 @@
         "proof",
         "traffic",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Referral Offer Designer",
@@ -2069,7 +2255,8 @@
         "margin",
         "channels",
         "currency"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Review Request System",
@@ -2091,7 +2278,8 @@
         "toucher",
         "review_status",
         "language"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Seasonal Campaign Planner",
@@ -2113,7 +2301,8 @@
         "budget",
         "channels",
         "last_year"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "WhatsApp Broadcast Writer",
@@ -2134,7 +2323,8 @@
         "action",
         "offer_and_deadline",
         "language_and_tone"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Two-Factor Setup Guide",
@@ -2155,7 +2345,8 @@
         "devices",
         "worry",
         "locations"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Backup Plan Builder",
@@ -2176,7 +2367,8 @@
         "data_size",
         "budget",
         "devices"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Breach Response Playbook",
@@ -2196,7 +2388,8 @@
         "affected_service",
         "password_reuse",
         "connected_accounts"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Lost Device Playbook",
@@ -2218,7 +2411,8 @@
         "access_risk",
         "preparedness",
         "location_carrier"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Password Hygiene Coach",
@@ -2239,7 +2433,8 @@
         "devices",
         "friction",
         "important_accounts"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Phishing Spotter",
@@ -2261,7 +2456,8 @@
         "requested_action",
         "context",
         "paste_message_links_redacted"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Privacy Audit Runner",
@@ -2282,7 +2478,8 @@
         "threat_model",
         "exposure",
         "time_budget"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Public Wi-Fi Safety Coach",
@@ -2303,7 +2500,8 @@
         "devices",
         "tools_available",
         "frequency"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Safe Downloads Guide",
@@ -2323,7 +2521,8 @@
         "software_and_os",
         "temptation",
         "current_habit"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Online Seller Scam Check",
@@ -2345,7 +2544,8 @@
         "seller_signals",
         "payment_demand",
         "pressure_lines"
-      ]
+      ],
+      "safety": true
     },
     {
       "title": "Essay Outline Builder",
@@ -2366,7 +2566,8 @@
         "word_count",
         "academic_level",
         "key_sources"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Exam Revision Planner",
@@ -2387,7 +2588,8 @@
         "days_available",
         "hours_per_day",
         "topics_list"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Feynman Explain-Back",
@@ -2407,7 +2609,8 @@
         "topic",
         "level",
         "context"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Flashcard Maker",
@@ -2427,7 +2630,8 @@
         "number_of_cards",
         "language",
         "paste_material"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Formula Explainer",
@@ -2447,7 +2651,8 @@
         "formula",
         "subject_and_level",
         "context"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Homework Hint Giver",
@@ -2468,7 +2673,8 @@
         "question",
         "what_i_tried",
         "stuck_point"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Mistake Log Analyzer",
@@ -2489,7 +2695,8 @@
         "scores",
         "mistake_list",
         "study_method"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Practice Quiz Generator",
@@ -2511,7 +2718,8 @@
         "question_count",
         "focus_topics",
         "paste_material"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Lesson Summarizer",
@@ -2531,7 +2739,8 @@
         "subject",
         "exam_focus",
         "paste_lesson"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Term Translator (EN ↔ AR)",
@@ -2551,7 +2760,8 @@
         "term",
         "subject",
         "level"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "CV Bullet Writer",
@@ -2572,7 +2782,8 @@
         "target_job",
         "number_of_bullets",
         "raw_duties"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Jargon Simplifier",
@@ -2592,7 +2803,8 @@
         "reader",
         "reader_cares",
         "action_needed"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Meeting Agenda Builder",
@@ -2612,7 +2824,8 @@
         "attendees",
         "duration",
         "topics"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Meeting Notes Cleaner",
@@ -2632,7 +2845,8 @@
         "paste_notes",
         "meeting_purpose",
         "audience"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "One-on-One Prep",
@@ -2653,7 +2867,8 @@
         "meeting_cadence",
         "recent_updates",
         "my_goal"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Out-of-Office Writer",
@@ -2675,7 +2890,8 @@
         "cover_person",
         "emergency_line",
         "audience"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Presentation Outline Builder",
@@ -2695,7 +2911,8 @@
         "audience",
         "time_and_slides",
         "rough_content"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Reply Tone Rewriter",
@@ -2717,7 +2934,8 @@
         "goal",
         "length_limit",
         "draft_reply"
-      ]
+      ],
+      "safety": false
     },
     {
       "title": "Salary Negotiation Email",
@@ -2739,7 +2957,32 @@
         "leverage",
         "tone",
         "market"
-      ]
+      ],
+      "safety": true
+    },
+    {
+      "title": "Status Update Email Writer",
+      "when_to_use": "your manager asks \"any updates?\" and you need a status email that reads as \"on it\" — progress visible, risks flagged early, nothing buried.",
+      "folder": "work",
+      "path": "prompts/work/status-update-email.txt",
+      "language": {
+        "prompt": "EN",
+        "output": "user-choice"
+      },
+      "tags": [
+        "work",
+        "email",
+        "status-update"
+      ],
+      "variables": [
+        "audience",
+        "project",
+        "period",
+        "raw_notes",
+        "tone",
+        "output_language"
+      ],
+      "safety": false
     },
     {
       "title": "Task Priority Sorter",
@@ -2759,7 +3002,8 @@
         "deadlines",
         "available_hours",
         "avoiding"
-      ]
+      ],
+      "safety": false
     }
   ]
 }

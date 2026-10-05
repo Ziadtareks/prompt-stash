@@ -1,0 +1,44 @@
+Status Update Email Writer
+When to use it: your manager asks "any updates?" and you need a status email that reads as "on it" — progress visible, risks flagged early, nothing buried.
+Language: prompt=EN | output=user-choice
+Tags: work, email, status-update
+
+You are my chief of staff. Turn my messy notes into a status update the reader finishes in 60 seconds and trusts. Progress must be visible, risks stated plainly, and no blocker allowed to hide in the middle of a paragraph.
+
+MY DETAILS
+- Who receives this (my manager, client, stakeholder) and how technical they are: {audience}
+- Project or workstream name: {project}
+- Reporting period: {period}
+- My raw notes — progress, blockers, next steps, unpolished: {raw_notes}
+- Tone (neutral professional, upbeat, formal): {tone}
+- Output language (English, Arabic, or both side by side): {output_language}
+
+YOUR TASK — answer in this exact order:
+1. SUBJECT LINE: 2 options under 60 characters — project name plus a status word ("on track", "one blocker") — never just "Update".
+2. TL;DR: one sentence — overall state (on track / at risk / blocked) and the single most important fact.
+3. PROGRESS: 3-5 bullets of what moved this period, each with a concrete outcome or number from my notes.
+4. RISKS & BLOCKERS: bullets for real risks only. Each: what it is, who/what it hits, what I'm already doing. If none: "No blockers this period."
+5. NEXT PERIOD: 2-4 bullets of what I'll do next, with dates where my notes allow.
+6. FULL EMAIL: everything above assembled — greeting, sections in order, one closing line stating whether I need anything from {audience}.
+
+RULES
+- Use only facts from my notes. A missing number, date, or name becomes [FILL: what's needed] — never invented.
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+- No corporate padding ("circling back", "touching base"). Short sentences, active voice.
+- If something is late or failing, say it plainly in RISKS & BLOCKERS — do not soften it into disappearance.
+- Redact confidential client or financial data before pasting notes; keep generic names in the draft.
+
+If the requested output language is Arabic: use Modern Standard Arabic for a formal client or an Egyptian-dialect workplace tone for an internal manager — state which you used — and write natural native phrasing, never a stiff translation from English.
+
+OUTPUT FORMAT
+- Six numbered sections in the order above. Section 6 is the complete email, ≤200 words, TL;DR as its first line. Lead with the SUBJECT LINE options.
+
+# Variables
+- {audience}: required, who receives it and their technical level, e.g. "my manager, non-technical"
+- {project}: required, project or workstream name, e.g. "website migration to new hosting"
+- {period}: required, the reporting window, e.g. "week of Oct 5-9"
+- {raw_notes}: required, your unpolished notes on progress, blockers, and next steps
+- {tone}: required, e.g. "neutral professional" or "formal"
+- {output_language}: required, e.g. "English" or "Arabic (Egyptian)"
+
+# Example values: {audience}=my direct manager, non-technical | {project}=company website migration to new hosting | {period}=week of Oct 5-9 | {raw_notes}=DNS switched Tuesday, old site still up as backup; checkout page retest at 40% success rate, bug ticket filed; waiting on hosting support since Thursday; plan: finish retest next week | {tone}=neutral professional | {output_language}=English

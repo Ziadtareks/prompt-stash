@@ -40,4 +40,4 @@ OUTPUT FORMAT
 - {audience}: Who will read or receive this.
 - {paste_data}: Your data table, pasted between the markers.
 
-# Example values: {data_about}=monthly sales by branch, Jan–Jun | {key_question}=which branch to expand and why | {audience}=owner + accountant
+# Example values: {data_about}=monthly sales by branch, Jan–Jun | {key_question}=which branch to expand and why | {audience}=owner + accountant | {paste_data}=the Jan-Jun table: 6 rows x 4 columns (branch, month, revenue, orders)

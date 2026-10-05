@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`architecture-suggest.txt`](architecture-suggest.txt) | Architecture Suggester | you're starting a project and the blank architecture diagram is intimidating — get a simple, boring, correct structure. | EN→EN |
-| [`bug-repro-steps.txt`](bug-repro-steps.txt) | Bug Repro Builder | someone (or you, last week) reported a bug in one vague sentence, and "it doesn't work" is not something you can fix. | EN→EN |
-| [`code-explainer.txt`](code-explainer.txt) | Code Explainer | you opened a file someone else wrote (Stack Overflow, a teammate, AI-generated) and need to understand it line by line before you touch it. | EN→EN |
-| [`feature-to-prompt.txt`](feature-to-prompt.txt) | Feature-to-Prompt Translator | you know what feature you want the AI to build, but your one-line request gets you junk code — this turns it into a prompt that works. | EN→EN |
-| [`library-picker.txt`](library-picker.txt) | Library Picker | you're about to npm install something that will live in your codebase for years — choose with reasons, not vibes. | EN→EN |
-| [`migrate-code.txt`](migrate-code.txt) | Code Migration Planner | you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once. | EN→EN |
-| [`performance-fix.txt`](performance-fix.txt) | Performance Fix Planner | your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server. | EN→EN |
-| [`prompt-improver.txt`](prompt-improver.txt) | Prompt Improver (for coding) | the AI keeps giving you wrong or half-right code — the problem is usually your prompt, not the model. Fix the input. | EN→EN |
-| [`refactor-request.txt`](refactor-request.txt) | Refactor Request Writer | your code works but it's turning into spaghetti — get a refactor that changes structure, never behavior. | EN→EN |
-| [`test-writer.txt`](test-writer.txt) | Test Writer | you have working code and zero tests — get a test suite that catches real regressions, not vanity coverage. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`architecture-suggest.txt`](architecture-suggest.txt) | Architecture Suggester | you're starting a project and the blank architecture diagram is intimidating — get a simple, boring, correct structure. | EN→EN | architecture, system-design |
+| [`bug-repro-steps.txt`](bug-repro-steps.txt) | Bug Repro Builder | someone (or you, last week) reported a bug in one vague sentence, and "it doesn't work" is not something you can fix. | EN→EN | debugging, qa |
+| [`code-explainer.txt`](code-explainer.txt) | Code Explainer | you opened a file someone else wrote (Stack Overflow, a teammate, AI-generated) and need to understand it line by line before you touch it. | EN→EN | code-reading, learning |
+| [`feature-to-prompt.txt`](feature-to-prompt.txt) | Feature-to-Prompt Translator | you know what feature you want the AI to build, but your one-line request gets you junk code — this turns it into a prompt that works. | EN→EN | prompt-engineering, coding, ai |
+| [`library-picker.txt`](library-picker.txt) | Library Picker | you're about to npm install something that will live in your codebase for years — choose with reasons, not vibes. | EN→EN | dependencies, architecture, decision-making |
+| [`migrate-code.txt`](migrate-code.txt) | Code Migration Planner | you need to move code to a new version, framework, or pattern (class→hooks, JS→TS, REST lib→new API) without breaking everything at once. | EN→EN | migration, refactoring |
+| [`performance-fix.txt`](performance-fix.txt) | Performance Fix Planner | your app is slow, everyone has opinions, and you need to find the actual bottleneck before buying a bigger server. | EN→EN | performance, optimization |
+| [`prompt-improver.txt`](prompt-improver.txt) | Prompt Improver (for coding) | the AI keeps giving you wrong or half-right code — the problem is usually your prompt, not the model. Fix the input. | EN→EN | prompt-engineering, meta |
+| [`refactor-request.txt`](refactor-request.txt) | Refactor Request Writer | your code works but it's turning into spaghetti — get a refactor that changes structure, never behavior. | EN→EN | refactoring, code-quality |
+| [`test-writer.txt`](test-writer.txt) | Test Writer | you have working code and zero tests — get a test suite that catches real regressions, not vanity coverage. | EN→EN | testing, quality |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

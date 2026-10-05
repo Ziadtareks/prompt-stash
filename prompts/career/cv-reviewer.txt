@@ -37,4 +37,4 @@ OUTPUT FORMAT
 - {application_stats}: required, your funnel numbers, e.g. "40 applications, 1 interview"
 - {paste_cv}: required, full CV text between the markers
 
-# Example values: {job_requirements}=data analyst: SQL, Power BI, stakeholder reporting, 3+ years | {field_and_level}=finance graduate, 2 years reporting | {application_stats}=40 applications, 1 interview
+# Example values: {job_requirements}=data analyst: SQL, Power BI, stakeholder reporting, 3+ years | {field_and_level}=finance graduate, 2 years reporting | {application_stats}=40 applications, 1 interview | {paste_cv}=my 2-page CV text (education, 2 jobs, skills section)

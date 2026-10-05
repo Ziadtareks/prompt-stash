@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`essay-outline.txt`](essay-outline.txt) | Essay Outline Builder | you have an essay assignment and a blank page — this builds the skeleton so you can write. | EN→EN |
-| [`exam-revision.txt`](exam-revision.txt) | Exam Revision Planner | an exam is coming and you do not know how to split your remaining days. | EN→EN |
-| [`feynman-explain.txt`](feynman-explain.txt) | Feynman Explain-Back | you "understood" the lesson but can't explain it — this tests whether you really got it. | EN→EN |
-| [`flashcards-maker.txt`](flashcards-maker.txt) | Flashcard Maker | you have study material and want ready-to-use question-and-answer flashcards. | EN→user-choice |
-| [`formula-explainer.txt`](formula-explainer.txt) | Formula Explainer | you can read the letters in a formula but have no idea what it actually does or when to use it. | EN→EN |
-| [`homework-hint.txt`](homework-hint.txt) | Homework Hint Giver | you're stuck on homework and want a hint that teaches — not the answer pasted in front of you. | EN→EN |
-| [`mistake-log-analyzer.txt`](mistake-log-analyzer.txt) | Mistake Log Analyzer | you keep losing marks on exams and blame "carelessness" — this finds the real pattern behind your mistakes. | EN→EN |
-| [`practice-quiz.txt`](practice-quiz.txt) | Practice Quiz Generator | you've studied the material and want to test yourself before the teacher tests you. | EN→EN |
-| [`summarize-lesson.txt`](summarize-lesson.txt) | Lesson Summarizer | you attended a class or watched a lecture and need clean notes you can actually revise from. | EN→EN |
-| [`translate-term.txt`](translate-term.txt) | Term Translator (EN ↔ AR) | you hit an English term in your studies and want the Arabic meaning properly explained — not just a dictionary word. | EN→EN+AR |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`essay-outline.txt`](essay-outline.txt) | Essay Outline Builder | you have an essay assignment and a blank page — this builds the skeleton so you can write. | EN→EN | writing, academic, outlines |
+| [`exam-revision.txt`](exam-revision.txt) | Exam Revision Planner | an exam is coming and you do not know how to split your remaining days. | EN→EN | studying, planning, exams |
+| [`feynman-explain.txt`](feynman-explain.txt) | Feynman Explain-Back | you "understood" the lesson but can't explain it — this tests whether you really got it. | EN→EN | studying, understanding, tutoring |
+| [`flashcards-maker.txt`](flashcards-maker.txt) | Flashcard Maker | you have study material and want ready-to-use question-and-answer flashcards. | EN→user-choice | studying, flashcards, memory |
+| [`formula-explainer.txt`](formula-explainer.txt) | Formula Explainer | you can read the letters in a formula but have no idea what it actually does or when to use it. | EN→EN | math, science, learning |
+| [`homework-hint.txt`](homework-hint.txt) | Homework Hint Giver | you're stuck on homework and want a hint that teaches — not the answer pasted in front of you. | EN→EN | studying, tutoring, homework |
+| [`mistake-log-analyzer.txt`](mistake-log-analyzer.txt) | Mistake Log Analyzer | you keep losing marks on exams and blame "carelessness" — this finds the real pattern behind your mistakes. | EN→EN | studying, exams, improvement |
+| [`practice-quiz.txt`](practice-quiz.txt) | Practice Quiz Generator | you've studied the material and want to test yourself before the teacher tests you. | EN→EN | studying, quizzes, self-testing |
+| [`summarize-lesson.txt`](summarize-lesson.txt) | Lesson Summarizer | you attended a class or watched a lecture and need clean notes you can actually revise from. | EN→EN | studying, notes, summarizing |
+| [`translate-term.txt`](translate-term.txt) | Term Translator (EN ↔ AR) | you hit an English term in your studies and want the Arabic meaning properly explained — not just a dictionary word. | EN→EN+AR | arabic, translation, vocabulary |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

@@ -1,4 +1,4 @@
-# 💻 dev — 10 prompts
+# 💻 dev — 11 prompts
 
 > Everyday developer repairs — git, SQL, logs, reviews, Docker.
 
@@ -6,20 +6,21 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`api-error.txt`](api-error.txt) | API Error Decoder | an API returns an error code and the documentation didn't actually help. | EN→EN |
-| [`code-reviewer.txt`](code-reviewer.txt) | Code Reviewer | you wrote code that works and want a senior engineer's eyes before the human review torches you. | EN→EN |
-| [`commit-message.txt`](commit-message.txt) | Commit Message Writer | you have staged changes and "fixed stuff" is not a commit message. | EN→EN |
-| [`dockerfile-fix.txt`](dockerfile-fix.txt) | Dockerfile Fixer | your Docker build fails, the image is huge, or the container crashes on run — build files fixed layer by layer. | EN→EN |
-| [`env-setup-debug.txt`](env-setup-debug.txt) | Environment Mismatch Fixer | the code works on your teammate's machine (or the server) and dies on yours — "works on my machine" hunting. | EN→EN |
-| [`git-rescue.txt`](git-rescue.txt) | Git Disaster Rescuer | git did something scary — wrong branch, lost commits, merge panic — and you're afraid to type anything else. | EN→EN |
-| [`log-analyzer.txt`](log-analyzer.txt) | Log Analyzer | your app is failing and you have a wall of log lines — find the actual error, not the scariest-looking one. | EN→EN |
-| [`readme-writer.txt`](readme-writer.txt) | README Writer | you built a project and the README is empty, messy, or embarrassing. | EN→EN |
-| [`regex-explain.txt`](regex-explain.txt) | Regex Explainer | you found a regular expression in some code and have no idea what it actually matches. | EN→EN |
-| [`sql-fix.txt`](sql-fix.txt) | SQL Query Fixer | your SQL query returns wrong rows, or it is slow and you do not know why. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`api-error.txt`](api-error.txt) | API Error Decoder | an API returns an error code and the documentation didn't actually help. | EN→EN | apis, debugging |
+| [`code-reviewer.txt`](code-reviewer.txt) | Code Reviewer | you wrote code that works and want a senior engineer's eyes before the human review torches you. | EN→EN | code-review, quality, security |
+| [`commit-message.txt`](commit-message.txt) | Commit Message Writer | you have staged changes and "fixed stuff" is not a commit message. | EN→EN | git, conventions |
+| [`dockerfile-fix.txt`](dockerfile-fix.txt) | Dockerfile Fixer | your Docker build fails, the image is huge, or the container crashes on run — build files fixed layer by layer. | EN→EN | docker, devops, containers |
+| [`env-setup-debug.txt`](env-setup-debug.txt) | Environment Mismatch Fixer | the code works on your teammate's machine (or the server) and dies on yours — "works on my machine" hunting. | EN→EN | environment, debugging, setup |
+| [`git-rescue.txt`](git-rescue.txt) | Git Disaster Rescuer | git did something scary — wrong branch, lost commits, merge panic — and you're afraid to type anything else. | EN→EN | git, recovery |
+| [`log-analyzer.txt`](log-analyzer.txt) | Log Analyzer | your app is failing and you have a wall of log lines — find the actual error, not the scariest-looking one. | EN→EN | logging, debugging, incident-response |
+| [`readme-writer.txt`](readme-writer.txt) | README Writer | you built a project and the README is empty, messy, or embarrassing. | EN→EN | documentation, open-source |
+| [`regex-explain.txt`](regex-explain.txt) | Regex Explainer | you found a regular expression in some code and have no idea what it actually matches. | EN→EN | regex, learning |
+| [`security-review.txt`](security-review.txt) | Security-Focused Code Review | you're about to merge or ship code that touches auth, user input, payments, or secrets — get a defensive security pass that finds the holes before someone else does. | EN→EN | security, code-review, defensive |
+| [`sql-fix.txt`](sql-fix.txt) | SQL Query Fixer | your SQL query returns wrong rows, or it is slow and you do not know why. | EN→EN | sql, databases, debugging |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

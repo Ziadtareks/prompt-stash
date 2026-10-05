@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`2fa-setup-guide.txt`](2fa-setup-guide.txt) | Two-Factor Setup Guide | you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting. | EN→EN |
-| [`backup-plan.txt`](backup-plan.txt) | Backup Plan Builder | your photos/thesis/client files live on ONE device and you know how that story ends — build the 3-2-1 backup system that runs itself. | EN→EN |
-| [`breach-response.txt`](breach-response.txt) | Breach Response Playbook | you got that email — "your password appeared in a data leak" — or news broke that a service you use was breached. Here's exactly what to do, in order. | EN→EN |
-| [`device-loss-plan.txt`](device-loss-plan.txt) | Lost Device Playbook | your phone or laptop was just lost or stolen — the first 60 minutes matter and panic makes you forget the order of operations. | EN→EN |
-| [`password-checkup.txt`](password-checkup.txt) | Password Hygiene Coach | you have 40 accounts, 3 passwords you reuse everywhere, and a nagging feeling — build a system you can actually live with. | EN→EN |
-| [`phishing-spotter.txt`](phishing-spotter.txt) | Phishing Spotter | a message feels off — "your account will be closed", an unexpected invoice, a delivery fee link — check it before you tap anything. | EN→EN |
-| [`privacy-audit.txt`](privacy-audit.txt) | Privacy Audit Runner | strangers, employers, or scammers can learn a shocking amount about you from your public accounts — run a privacy checkup and tighten what matters. | EN→EN |
-| [`public-wifi-safety.txt`](public-wifi-safety.txt) | Public Wi-Fi Safety Coach | you're about to work from a café, airport, or co-working space and want to know what's actually risky and what's paranoia. | EN→EN |
-| [`safe-downloads.txt`](safe-downloads.txt) | Safe Downloads Guide | you need software (or a game, or an app) and search results are a minefield of fake "Download" buttons and cracked installers — get it from the real source, every time. | EN→EN |
-| [`scam-check.txt`](scam-check.txt) | Online Seller Scam Check | a deal looks too good (phone, apartment, used car, game account) and you want a structured gut-check before you pay a stranger. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`2fa-setup-guide.txt`](2fa-setup-guide.txt) | Two-Factor Setup Guide | you know you should turn on 2FA but the options (SMS, app, keys) are confusing — pick the right method per account and set it up in one sitting. | EN→EN | 2fa, accounts, security |
+| [`backup-plan.txt`](backup-plan.txt) | Backup Plan Builder | your photos/thesis/client files live on ONE device and you know how that story ends — build the 3-2-1 backup system that runs itself. | EN→EN | backup, data-protection |
+| [`breach-response.txt`](breach-response.txt) | Breach Response Playbook | you got that email — "your password appeared in a data leak" — or news broke that a service you use was breached. Here's exactly what to do, in order. | EN→EN | breaches, incident-response |
+| [`device-loss-plan.txt`](device-loss-plan.txt) | Lost Device Playbook | your phone or laptop was just lost or stolen — the first 60 minutes matter and panic makes you forget the order of operations. | EN→EN | lost-device, phones, recovery |
+| [`password-checkup.txt`](password-checkup.txt) | Password Hygiene Coach | you have 40 accounts, 3 passwords you reuse everywhere, and a nagging feeling — build a system you can actually live with. | EN→EN | passwords, managers, security |
+| [`phishing-spotter.txt`](phishing-spotter.txt) | Phishing Spotter | a message feels off — "your account will be closed", an unexpected invoice, a delivery fee link — check it before you tap anything. | EN→EN | phishing, scams, email-security |
+| [`privacy-audit.txt`](privacy-audit.txt) | Privacy Audit Runner | strangers, employers, or scammers can learn a shocking amount about you from your public accounts — run a privacy checkup and tighten what matters. | EN→EN | privacy, social-media, footprint |
+| [`public-wifi-safety.txt`](public-wifi-safety.txt) | Public Wi-Fi Safety Coach | you're about to work from a café, airport, or co-working space and want to know what's actually risky and what's paranoia. | EN→EN | wifi, privacy, networks |
+| [`safe-downloads.txt`](safe-downloads.txt) | Safe Downloads Guide | you need software (or a game, or an app) and search results are a minefield of fake "Download" buttons and cracked installers — get it from the real source, every time. | EN→EN | malware, downloads, software |
+| [`scam-check.txt`](scam-check.txt) | Online Seller Scam Check | a deal looks too good (phone, apartment, used car, game account) and you want a structured gut-check before you pay a stranger. | EN→EN | scams, marketplace, fraud |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

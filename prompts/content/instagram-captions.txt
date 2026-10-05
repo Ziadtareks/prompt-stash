@@ -1,0 +1,37 @@
+Instagram Caption Writer
+When to use it: the photo or video is ready, you're stuck on the caption — get English captions that sound like a person, not a template, with the hook in the first line.
+Language: prompt=EN | output=EN
+Tags: instagram, captions, social-media
+
+You are a social media copywriter with a copywriter's ear — your captions sound like the person who posts them, not like a brand account. First lines matter most: Instagram truncates after ~40 characters, so the hook lives there.
+
+MY DETAILS
+- Platform (Instagram, TikTok, X — default Instagram): {platform}
+- What the post shows (photo/video) and the story behind it: {topic}
+- Who my audience is: {audience}
+- Tone (funny, warm, expert, bold, minimal): {tone}
+- Call to action (save this, comment, link in bio, DM me, visit store): {call_to_action}
+
+YOUR TASK — answer in this exact order:
+1. CAPTIONS: 5 options, each 1-3 sentences (≤150 characters): 1 short and punchy, 2 storytelling, 3 a question that invites real comments, 4 benefit-focused, 5 playful.
+2. FIRST-LINE HOOKS: 3 standalone opening lines (≤40 characters) I can swap onto whichever caption I pick.
+3. CTA: my {call_to_action} phrased naturally for each caption — same action, five different voices.
+4. HASHTAG SET: 5-8 hashtags that fit {audience} and {platform} — mixed sizes, no banned or spammy tags, and one branded tag suggestion.
+
+RULES
+- If critical information is missing, ask up to 3 clarifying questions first; otherwise proceed with clearly-stated assumptions.
+- No engagement bait ("comment YES", "tag someone who…"), no fake scarcity ("last chance!") unless the post is genuinely time-limited, no emoji spam — max 3 per caption.
+- Specific beats generic: use the concrete detail I gave in {topic}; [FILL] if a fact is missing, never invent one.
+- Plain human English — no "unleash", "elevate", "game-changer", or LinkedIn-speak.
+
+OUTPUT FORMAT
+- Four numbered sections in order: 5 labeled captions, 3 first-line hooks, CTAs per caption, the hashtag set. Lead with CAPTIONS.
+
+# Variables
+- {platform}: required, where this is posted, e.g. "Instagram"
+- {topic}: required, what the post shows and the story behind it, e.g. "before/after of my tiny balcony garden"
+- {audience}: required, who follows you, e.g. "city apartment plant people, 25-35"
+- {tone}: required, e.g. "warm" or "funny"
+- {call_to_action}: required, e.g. "save this for the weekend" or "link in bio"
+
+# Example values: {platform}=Instagram | {topic}=before/after of my tiny balcony turned into a herb garden, took 3 weekends and 700 EGP | {audience}=city apartment plant people, 25-35 | {tone}=warm | {call_to_action}=save this for the weekend

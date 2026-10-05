@@ -41,4 +41,4 @@ OUTPUT FORMAT
 - {purpose}: required, purpose, e.g. "choose the Q3 courier" or "decide or align"
 - {paste_pdf_text}: The PDF's copied text, pasted between the markers.
 
-# Example values: {document_type}=bank statement (CIB, Jan–Mar) | {fields_needed}=date, description, debit, credit, balance | {destination}=Google Sheets for tax prep | {purpose}=reconcile with my invoice records
+# Example values: {document_type}=bank statement (CIB, Jan–Mar) | {fields_needed}=date, description, debit, credit, balance | {destination}=Google Sheets for tax prep | {purpose}=reconcile with my invoice records | {paste_pdf_text}=the statement's copied text — 45 transaction lines

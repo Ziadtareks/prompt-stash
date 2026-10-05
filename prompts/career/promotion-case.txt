@@ -36,4 +36,4 @@ OUTPUT FORMAT
 - {expected_objection}: required, the pushback you expect, e.g. "headcount freeze"
 - {target}: required, what the effort targets, e.g. "the June 22 launch decision"
 
-# Example values: {current_to_target}=accountant → senior accountant | {timeline}=2.5 years, review passed over twice | {evidence}=ran month-end close solo for 6 months, trained 2 juniors, automated 3 reports | {process}=annual cycle, manager recommends | {expected_objection}=headcount freeze
+# Example values: {current_to_target}=accountant → senior accountant | {timeline}=2.5 years, review passed over twice | {evidence}=ran month-end close solo for 6 months, trained 2 juniors, automated 3 reports | {process}=annual cycle, manager recommends | {expected_objection}=headcount freeze | {target}=senior accountant

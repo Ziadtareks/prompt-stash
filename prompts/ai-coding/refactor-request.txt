@@ -39,4 +39,4 @@ OUTPUT FORMAT
 - {constraints}: required, hard limits, e.g. "solo dev, 3 months, ~30 USD/mo hosting"
 - {paste_code}: Your code, pasted between the markers.
 
-# Example values: {language}=TypeScript (Node 20) | {current_behavior}=API route validates, charges, and emails in one 120-line function | {pain}=can't unit test the charging logic | {constraints}=no new dependencies, route paths unchanged
+# Example values: {language}=TypeScript (Node 20) | {current_behavior}=API route validates, charges, and emails in one 120-line function | {pain}=can't unit test the charging logic | {constraints}=no new dependencies, route paths unchanged | {paste_code}=the 120-line checkout() route handler from my FastAPI app

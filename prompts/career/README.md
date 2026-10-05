@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`career-switch-plan.txt`](career-switch-plan.txt) | Career Switch Planner | you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead. | EN→EN |
-| [`cover-letter-writer.txt`](cover-letter-writer.txt) | Cover Letter Writer | the job application asks for a cover letter and you want one that gets read — not a formal-template clone. | EN→user-choice |
-| [`cv-reviewer.txt`](cv-reviewer.txt) | CV Reviewer | you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job. | EN→EN |
-| [`freelance-profile.txt`](freelance-profile.txt) | Freelance Profile Builder | your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert. | EN→user-choice |
-| [`interview-prep.txt`](interview-prep.txt) | Interview Prep Coach | you have an interview coming and want to practice answers out loud, not just read "top 50 questions". | EN→EN |
-| [`linkedin-profile-fix.txt`](linkedin-profile-fix.txt) | LinkedIn Profile Fixer | recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice. | EN→user-choice |
-| [`promotion-case.txt`](promotion-case.txt) | Promotion Case Builder | you're doing the next level's job without the title or salary — build the written case that makes saying yes easy. | EN→EN |
-| [`rejection-reply.txt`](rejection-reply.txt) | Rejection Response Writer | you got a "we went with another candidate" email and want to close gracefully — the graceful ones get the next offer. | EN→EN |
-| [`skills-gap-map.txt`](skills-gap-map.txt) | Skills Gap Mapper | a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it. | EN→EN |
-| [`star-story-builder.txt`](star-story-builder.txt) | STAR Story Builder | behavioral interviews ask "tell me about a time when..." and your answers ramble — build reusable STAR stories once, reuse them everywhere. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`career-switch-plan.txt`](career-switch-plan.txt) | Career Switch Planner | you want to move into a different field and the internet says "just learn to code" — build a realistic bridge plan instead. | EN→EN | career-change, planning |
+| [`cover-letter-writer.txt`](cover-letter-writer.txt) | Cover Letter Writer | the job application asks for a cover letter and you want one that gets read — not a formal-template clone. | EN→user-choice | cover-letters, job-search |
+| [`cv-reviewer.txt`](cv-reviewer.txt) | CV Reviewer | you have a CV and a job you want — this finds exactly why it isn't landing interviews for THAT job. | EN→EN | resume, career, job-search |
+| [`freelance-profile.txt`](freelance-profile.txt) | Freelance Profile Builder | your freelance profile (Mostaql, Khamsat, Upwork, Fiverr) gets views but no orders — rewrite it to convert. | EN→user-choice | freelancing, platforms, profile |
+| [`interview-prep.txt`](interview-prep.txt) | Interview Prep Coach | you have an interview coming and want to practice answers out loud, not just read "top 50 questions". | EN→EN | interviews, career, practice |
+| [`linkedin-profile-fix.txt`](linkedin-profile-fix.txt) | LinkedIn Profile Fixer | recruiters search LinkedIn daily and your profile is invisible — optimize it to be found, not just to look nice. | EN→user-choice | linkedin, personal-branding |
+| [`promotion-case.txt`](promotion-case.txt) | Promotion Case Builder | you're doing the next level's job without the title or salary — build the written case that makes saying yes easy. | EN→EN | promotion, career, negotiation |
+| [`rejection-reply.txt`](rejection-reply.txt) | Rejection Response Writer | you got a "we went with another candidate" email and want to close gracefully — the graceful ones get the next offer. | EN→EN | job-search, communication |
+| [`skills-gap-map.txt`](skills-gap-map.txt) | Skills Gap Mapper | a job posting (or promotion) lists skills you half-have — map exactly what's missing and the fastest honest way to fill it. | EN→EN | skills, career, learning |
+| [`star-story-builder.txt`](star-story-builder.txt) | STAR Story Builder | behavioral interviews ask "tell me about a time when..." and your answers ramble — build reusable STAR stories once, reuse them everywhere. | EN→EN | interviews, behavioral, storytelling |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.

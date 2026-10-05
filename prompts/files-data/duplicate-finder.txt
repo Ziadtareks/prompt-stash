@@ -41,4 +41,4 @@ OUTPUT FORMAT
 - {paste_list_a}: required, first list, one record per line
 - {paste_list_b}: optional, second list to reconcile against
 
-# Example values: {list_purpose}=payment list vs customer list reconciliation | {match_key}=phone number, fallback name | {mess_factors}=some phones stored as +2010..., some as 010..., names in Arabic and English
+# Example values: {list_purpose}=payment list vs customer list reconciliation | {match_key}=phone number, fallback name | {mess_factors}=some phones stored as +2010..., some as 010..., names in Arabic and English | {paste_list_a}=the payments list, 120 rows | {paste_list_b}=the customers list, 95 rows

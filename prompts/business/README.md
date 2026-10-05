@@ -6,20 +6,20 @@
 
 ← Back to the [main README](../../README.md).
 
-| File | Title | When to use it | Language |
-|---|---|---|---|
-| [`booking-confirm.txt`](booking-confirm.txt) | Booking Confirmation Message | someone booked your service or appointment and needs a confirmation message. | EN→EN |
-| [`contract-summary.txt`](contract-summary.txt) | Contract Summary Checker | someone handed you a contract and you want to know what you're actually agreeing to before signing. | EN→EN |
-| [`idea-check.txt`](idea-check.txt) | Business Idea Checker | you have a small business idea and want a blunt reality check for your local market before spending money. | EN→EN |
-| [`invoice-words.txt`](invoice-words.txt) | Invoice Writer | you finished work for a client and need a clean invoice with the right wording. | EN→EN |
-| [`late-payment-chaser.txt`](late-payment-chaser.txt) | Late Payment Chaser | your invoice is overdue, the friendly reminder failed, and you need an escalation ladder that gets paid without burning the relationship. | EN→EN |
-| [`price-calc-explain.txt`](price-calc-explain.txt) | Price Explainer | a client says your price is too high and you need to justify it without panicking or instantly discounting. | EN→EN |
-| [`quotation-writer.txt`](quotation-writer.txt) | Quotation Writer | a client asked "how much?" and you need a professional price quotation — not a WhatsApp number with no details. | EN→EN |
-| [`refund-apology.txt`](refund-apology.txt) | Refund Apology Letter | you must refund a customer and you want to keep their trust (and maybe their business). | EN→EN |
-| [`store-reply.txt`](store-reply.txt) | Customer Reply Writer | a customer messaged your store and you need a professional reply fast. | EN→user-choice |
-| [`supplier-email.txt`](supplier-email.txt) | Supplier Email Writer | you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously. | EN→EN |
+| File | Title | When to use it | Language | Tags |
+|---|---|---|---|---|
+| [`booking-confirm.txt`](booking-confirm.txt) | Booking Confirmation Message | someone booked your service or appointment and needs a confirmation message. | EN→EN | customer-service, bookings |
+| [`contract-summary.txt`](contract-summary.txt) | Contract Summary Checker | someone handed you a contract and you want to know what you're actually agreeing to before signing. | EN→EN | contracts, legal, review |
+| [`idea-check.txt`](idea-check.txt) | Business Idea Checker | you have a small business idea and want a blunt reality check for your local market before spending money. | EN→EN | entrepreneurship, validation, market-research |
+| [`invoice-words.txt`](invoice-words.txt) | Invoice Writer | you finished work for a client and need a clean invoice with the right wording. | EN→EN | invoicing, freelance, payment |
+| [`late-payment-chaser.txt`](late-payment-chaser.txt) | Late Payment Chaser | your invoice is overdue, the friendly reminder failed, and you need an escalation ladder that gets paid without burning the relationship. | EN→EN | payments, collections, freelance |
+| [`price-calc-explain.txt`](price-calc-explain.txt) | Price Explainer | a client says your price is too high and you need to justify it without panicking or instantly discounting. | EN→EN | pricing, negotiation, sales |
+| [`quotation-writer.txt`](quotation-writer.txt) | Quotation Writer | a client asked "how much?" and you need a professional price quotation — not a WhatsApp number with no details. | EN→EN | proposals, pricing, freelance |
+| [`refund-apology.txt`](refund-apology.txt) | Refund Apology Letter | you must refund a customer and you want to keep their trust (and maybe their business). | EN→EN | customer-service, refunds |
+| [`store-reply.txt`](store-reply.txt) | Customer Reply Writer | a customer messaged your store and you need a professional reply fast. | EN→user-choice | customer-service, ecommerce |
+| [`supplier-email.txt`](supplier-email.txt) | Supplier Email Writer | you need to ask a supplier for prices, samples, or better terms — and sound like a buyer they take seriously. | EN→EN | procurement, negotiation, b2b |
 
 ## File format
 
 Title · when-to-use · `Language:` · `Tags:` · body · `# Variables` · `# Example values`.
-See the [main README](../../README.md#-file-format) for details.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md#the-format-non-negotiable) for the full spec.
