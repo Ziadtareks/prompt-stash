@@ -7,6 +7,10 @@ desktop.ini
 .idea/
 .vscode/
 
+# python bytecode
+__pycache__/
+*.pyc
+
 # secrets — never commit
 .env
 .env.*

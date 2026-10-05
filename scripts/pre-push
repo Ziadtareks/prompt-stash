@@ -4,11 +4,11 @@
 set -e
 echo "[pre-push] validating prompts..."
 python scripts/validate_prompts.py
-echo "[pre-push] rebuilding index and folder READMEs..."
+echo "[pre-push] rebuilding index, folder READMEs and search page..."
 python scripts/build_index.py
-if ! git diff --quiet -- prompts.json prompts/*/README.md; then
+if ! git diff --quiet -- prompts.json prompts/*/README.md docs/search.html; then
   echo "[pre-push] generated files are stale — run: python scripts/build_index.py" >&2
-  git diff --name-only -- prompts.json prompts/*/README.md >&2
+  git diff --name-only -- prompts.json prompts/*/README.md docs/search.html >&2
   exit 1
 fi
 echo "[pre-push] checking markdown links..."

@@ -24,32 +24,24 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROMPTS = ROOT / "prompts"
 
+# build_index.py is side-effect-free at import (everything runs under main());
+# it owns SAFETY_REQUIRED and generate() so checker and generator never drift.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build_index  # noqa: E402
+
 LANG_RE = re.compile(r"^Language: prompt=(EN|AR) \| output=(EN|AR|EN\+AR|user-choice)$")
 VAR_RE = re.compile(r"\{([a-z][a-z0-9_]*)\}")
 GOOD_VAR_RE = re.compile(r"^[a-z][a-z0-9_]*$")
 ANY_BRACE_RE = re.compile(r"\{([^{}]*)\}")
 AR_LINE_RE = re.compile(r"If the requested output language is Arabic:")
 
-# Files that must carry a Phase-2 safety disclaimer (line 5) and a "Note:" line in the body.
-SAFETY_REQUIRED = {
-    "business/contract-summary", "arabic-life/rental-contract-explain",
-    "arabic-life/legal-terms-explain", "arabic-life/complaint-letter-eg",
-    "work/salary-negotiation-email", "business/invoice-words",
-    "business/price-calc-explain", "business/quotation-writer",
-    "business/late-payment-chaser", "business/idea-check",
-    "daily/budget-split", "marketing/discount-offer", "marketing/referral-offer",
-    "marketing/seasonal-campaign", "daily/expenses-review", "daily/decision-matrix",
-    "daily/workout-plan", "daily/sleep-routine",
-    "security-basics/password-checkup", "security-basics/phishing-spotter",
-    "security-basics/2fa-setup-guide", "security-basics/scam-check",
-    "security-basics/breach-response", "security-basics/public-wifi-safety",
-    "security-basics/device-loss-plan", "security-basics/backup-plan",
-    "security-basics/privacy-audit", "security-basics/safe-downloads",
-}
+# Safety-listed files now live in build_index.SAFETY_REQUIRED (aliased below).
+SAFETY_REQUIRED = build_index.SAFETY_REQUIRED
 
 errors: list[str] = []
 warns: list[str] = []
 count = 0
+titles_seen: dict[str, str] = {}
 
 MAX_FILE_CHARS = 4500  # prompts must stay paste-friendly; documented in CONTRIBUTING.md
 AR_ADJACENT_RE = re.compile(r"[\u0600-\u06FF][A-Za-z]|[A-Za-z][\u0600-\u06FF]")
@@ -58,11 +50,22 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
     rel = f.relative_to(ROOT).as_posix()
     stem = f.relative_to(PROMPTS).as_posix()[:-4]
     count += 1
+    raw = f.read_bytes()
     text = f.read_text(encoding="utf-8")
     lines = text.splitlines()
 
     def err(msg: str) -> None:
         errors.append(f"{rel}: {msg}")
+
+    if raw.startswith(b"\xef\xbb\xbf"):
+        err("file starts with a UTF-8 BOM — save as UTF-8 without BOM")
+    if b"\r\n" in raw:
+        err("file has CRLF line endings — the repo standard is LF (see .gitattributes)")
+    title = lines[0].strip() if lines else ""
+    if title in titles_seen:
+        err(f"duplicate title — {titles_seen[title]} uses the same title")
+    else:
+        titles_seen[title] = rel
 
     if len(lines) < 8:
         err(f"file too short ({len(lines)} lines) — not the standard format")
@@ -138,6 +141,12 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
     elif not lines[-1].startswith("# Example values:"):
         warns.append(f"{rel}: '# Example values:' exists but is not the last line")
 
+    # every declared variable should have a realistic fill in Example values
+    example_text = " ".join(example_lines)
+    missing_fills = [v for v in declared if f"{{{v}}}=" not in example_text]
+    if missing_fills:
+        warns.append(f"{rel}: no example fill for {missing_fills} in '# Example values:'")
+
     # v4.1 content-quality checks
     if "OUTPUT FORMAT" not in body:
         err("body lacks an OUTPUT FORMAT section")
@@ -157,6 +166,8 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
 
     if "\ufffd" in text:
         err("contains U+FFFD replacement characters (mojibake)")
+    if re.search(r"[\u2E80-\u9FFF\uF900-\uFAFF]", text):
+        err("contains CJK characters — no EN/AR prompt should ever include them (corrupted paste?)")
     for i, l in enumerate(lines, 1):
         if AR_ADJACENT_RE.search(l):
             err(f"line {i}: Latin letter directly attached to an Arabic word — fix the mixed-script word")
@@ -164,6 +175,16 @@ for f in sorted(PROMPTS.glob("*/*.txt")):
 
 if not count:
     errors.append("no prompt files found under prompts/*/*.txt")
+
+# generated files must match what build_index would write right now
+for rel, expected in sorted(build_index.generate().items()):
+    actual_path = ROOT / rel
+    if not actual_path.exists():
+        errors.append(f"generated file missing: {rel} — run: python scripts/build_index.py")
+        continue
+    actual = actual_path.read_text(encoding="utf-8")
+    if actual != expected:
+        errors.append(f"{rel} is stale (does not match current prompts) — run: python scripts/build_index.py")
 
 for w in warns:
     print(f"WARN  {w}")
