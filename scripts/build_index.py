@@ -133,12 +133,18 @@ SEARCH_TEMPLATE = """<!DOCTYPE html>
   #q:focus {{ border-color:var(--accent); }}
   #meta {{ margin:.75rem 0 1rem; color:var(--dim); font-size:.9rem; }}
   .folder {{ margin:1.25rem 0 .5rem; font-size:.85rem; letter-spacing:.06em; text-transform:uppercase; color:var(--dim); }}
-  .hit {{ display:block; padding:.7rem .9rem; margin:.4rem 0; background:var(--card); border:1px solid var(--line);
-          border-radius:.6rem; text-decoration:none; color:inherit; }}
+  .hit {{ display:flex; align-items:flex-start; gap:.75rem; padding:.7rem .9rem; margin:.4rem 0; background:var(--card); border:1px solid var(--line);
+          border-radius:.6rem; color:inherit; }}
   .hit:hover {{ border-color:var(--accent); }}
+  .hit-link {{ display:block; min-width:0; flex:1; color:inherit; text-decoration:none; }}
+  .hit-link:hover {{ color:inherit; }}
   .hit .t {{ font-weight:600; }}
   .hit .w {{ color:var(--dim); font-size:.92rem; }}
   .hit .tags {{ color:var(--accent); font-size:.8rem; margin-inline-start:.5rem; }}
+  .copy {{ flex:0 0 auto; margin-top:.05rem; padding:.25rem .55rem; border:1px solid var(--line);
+           border-radius:.4rem; color:var(--dim); background:transparent; font:inherit; font-size:.75rem; cursor:pointer; }}
+  .copy:hover {{ border-color:var(--accent); color:var(--accent); }}
+  .copy:disabled {{ cursor:wait; opacity:.7; }}
   .lang {{ float:right; color:var(--dim); font-size:.75rem; border:1px solid var(--line);
            border-radius:.4rem; padding:.05rem .4rem; }}
   html[dir=rtl] .hit .w {{ direction:rtl; text-align:right; display:block; }}
@@ -179,8 +185,9 @@ SEARCH_TEMPLATE = """<!DOCTYPE html>
         const h = document.createElement('div'); h.className = 'folder';
         h.textContent = folderName(folder); out.appendChild(h);
       }}
+      const card = document.createElement('div'); card.className = 'hit';
       const a = document.createElement('a');
-      a.className = 'hit';
+      a.className = 'hit-link';
       a.href = 'https://github.com/Ziadtareks/prompt-stash/blob/main/' + p.path;
       const lang = document.createElement('span'); lang.className = 'lang';
       lang.textContent = p.language.prompt + '→' + p.language.output;
@@ -190,10 +197,42 @@ SEARCH_TEMPLATE = """<!DOCTYPE html>
       tags.textContent = p.tags.join(' · '); t.appendChild(tags);
       const w = document.createElement('div'); w.className = 'w';
       w.textContent = p.when_to_use; w.dir = 'auto';
-      a.append(lang, t, w); out.appendChild(a);
+      a.append(lang, t, w);
+      const copy = document.createElement('button');
+      copy.type = 'button'; copy.className = 'copy'; copy.textContent = 'Copy';
+      copy.hidden = window.location.protocol === 'file:';
+      copy.setAttribute('aria-label', 'Copy ' + p.title);
+      copy.addEventListener('click', async () => {{
+        copy.disabled = true;
+        try {{
+          const rawPath = p.path.split('/').map(encodeURIComponent).join('/');
+          const response = await fetch('https://raw.githubusercontent.com/Ziadtareks/prompt-stash/main/' + rawPath);
+          if (!response.ok) throw new Error('Prompt fetch failed');
+          await navigator.clipboard.writeText(await response.text());
+          copy.textContent = 'Copied';
+          copy.setAttribute('aria-label', 'Copied ' + p.title);
+        }} catch {{
+          copy.textContent = 'Copy unavailable';
+          copy.setAttribute('aria-label', 'Copy unavailable for ' + p.title);
+        }} finally {{
+          window.setTimeout(() => {{
+            copy.disabled = false; copy.textContent = 'Copy';
+            copy.setAttribute('aria-label', 'Copy ' + p.title);
+          }}, 2000);
+        }}
+      }});
+      card.append(a, copy); out.appendChild(card);
     }}
   }}
-  q.addEventListener('input', render); render();
+  function syncQueryToUrl() {{
+    const url = new URL(window.location.href);
+    if (q.value) url.searchParams.set('q', q.value);
+    else url.searchParams.delete('q');
+    window.history.replaceState(null, '', url);
+  }}
+  q.value = new URLSearchParams(window.location.search).get('q') || '';
+  q.addEventListener('input', () => {{ render(); syncQueryToUrl(); }});
+  render();
 </script>
 </body>
 </html>
