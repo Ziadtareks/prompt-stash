@@ -5,3 +5,4 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 scripts/pre-push text eol=lf
+*.html text eol=lf

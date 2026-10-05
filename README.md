@@ -3,7 +3,7 @@
 ```text
  ╔═══════════════════════════════════════════════════════════════════════════╗
  ║   P R O M P T   S T A S H                                                 ║
- ║   130 Production-Grade AI Prompts • Zero Setup • Pure Copy-Paste          ║
+ ║   135 Production-Grade AI Prompts • Zero Setup • Pure Copy-Paste          ║
  ║   Built for Builders, Freelancers, Teams & Students • 100% Plain Text     ║
  ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
@@ -11,16 +11,34 @@
 > **Stop talking to AI like a chatbot. Start directing it like a senior teammate.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-![Prompts](https://img.shields.io/badge/Prompts-130%20Ready-8b5cf6?style=for-the-badge)
+[![GitHub Stars](https://img.shields.io/github/stars/Ziadtareks/prompt-stash?style=for-the-badge&logo=github&color=facc15)](https://github.com/Ziadtareks/prompt-stash/stargazers)
+[![Latest Release](https://img.shields.io/github/v/release/Ziadtareks/prompt-stash?style=for-the-badge&logo=github&color=8b5cf6)](https://github.com/Ziadtareks/prompt-stash/releases)
+![Prompts](https://img.shields.io/badge/Prompts-135%20Ready-f97316?style=for-the-badge)
 ![Folders](https://img.shields.io/badge/Categories-13%20Hubs-3b82f6?style=for-the-badge)
 ![Format](https://img.shields.io/badge/Format-Plain%20.txt-success?style=for-the-badge)
-[![Worked Examples](https://img.shields.io/badge/Worked%20Examples-16%20Real%20Cases-ec4899?style=for-the-badge)](examples/README.md)
+[![Worked Examples](https://img.shields.io/badge/Worked%20Examples-23%20Real%20Cases-ec4899?style=for-the-badge)](examples/README.md)
+[![Validate & Build](https://github.com/Ziadtareks/prompt-stash/actions/workflows/validate.yml/badge.svg)](https://github.com/Ziadtareks/prompt-stash/actions/workflows/validate.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-06b6d4?style=for-the-badge)](CONTRIBUTING.md)
 
 ---
 
 No web apps to configure. No API keys. No subscription paywalls.  
-Just 130 battle-tested `.txt` files engineered with strict roles, ordered execution, concrete output structures, and real-world boundaries. Open any prompt, fill `{variables}`, and watch ChatGPT, Claude, or Gemini deliver actual work instead of fluffy generalities.
+Just 135 battle-tested `.txt` files engineered with strict roles, ordered execution, concrete output structures, and real-world boundaries. Open any prompt, fill `{variables}`, and watch ChatGPT, Claude, or Gemini deliver actual work instead of fluffy generalities.
+
+**🆕 New in v4.2:** [government paperwork navigator](prompts/arabic-life/paperwork-guide.txt) 🏛️ · [LinkedIn post writer](prompts/content/linkedin-post.txt) (Egyptian Arabic option) 💬 · [security-focused code review](prompts/dev/security-review.txt) 🔐 · [status update emails](prompts/work/status-update-email.txt) ✉️ · [Instagram captions](prompts/content/instagram-captions.txt) 📸 — plus a [browser search page](docs/search.html) over the whole stash.
+
+## 📋 Contents
+
+1. [The 3-Step Recipe](#-the-3-step-recipe-in-30-seconds) — how it works in half a minute
+2. [Quick Start in 60 Seconds](#-quick-start-in-60-seconds) — a fully filled prompt, input → output
+3. [Fast-Track Solutions](#-fast-track-solutions) — click your current bottleneck
+4. [The Hall of Fame](#-the-hall-of-fame-top-15-staff-picks) — the top 15 staff picks
+5. [The 5 Power Hubs](#-the-5-power-hubs-choose-your-workflow) — all 135 prompts by folder
+6. [The Prompt Blueprint](#️-the-prompt-blueprint) — the strict format every file follows
+7. [Language Matrix](#-language-matrix) — English, فصحى, Egyptian dialect
+8. [Search & Examples](#-search--examples) — the browser search page + 23 worked cases
+9. [Limitations](#️-grounded-reality--limitations) — the honest part
+10. [Contributing & License](#-want-to-add-a-prompt) — join in
 
 ---
 
@@ -46,6 +64,42 @@ Just 130 battle-tested `.txt` files engineered with strict roles, ordered execut
 
 ---
 
+## 🚀 Quick Start in 60 Seconds
+
+**Pick:** [`work/meeting-notes-fix`](prompts/work/meeting-notes-fix.txt) · **Fill:** the `{variables}` · **Paste:** into any AI chat.
+
+Here is the prompt with its variables filled — exactly what you'd paste:
+
+```text
+You are my executive assistant. Turn my raw notes into a clean, skimmable summary.
+[... role, guardrails and task order from the file ...]
+
+--- NOTES START ---
+budget call - Ahmed says dev costs up 15%, keep the June launch?
+new laptop for design team, Shady to send quotes, follow up with supplier Sunday
+--- NOTES END ---
+
+CONTEXT
+- Meeting purpose: June launch go/no-go
+- Who will read this summary: my manager
+```
+
+**What comes back** (unedited shape of a real single-pass output — see the [full example](examples/work-meeting-notes-fix.md)):
+
+```text
+1. TL;DR: Dev costs are up 15% and the team must decide whether the June launch
+   survives; purchasing and supplier follow-ups were assigned.
+2. KEY DECISIONS: launch decision deferred pending revised budget …
+3. ACTION ITEMS:  Task              | Owner | Deadline
+                  Send quotes       | Shady | —
+                  Supplier follow-up| you   | Sunday
+4. OPEN QUESTIONS: …   5. FOLLOW-UP EMAIL: ready to send.
+```
+
+That's the whole experience: **no install, no login, no framework** — one file, one paste, structured output.
+
+---
+
 ## 🎯 Fast-Track Solutions
 
 Click your current bottleneck and grab the exact prompt built for it:
@@ -56,6 +110,14 @@ Click your current bottleneck and grab the exact prompt built for it:
   → [`dev/git-rescue`](prompts/dev/git-rescue.txt) (step-by-step branch repair without data loss)
 * 📝 **"Need to turn messy meeting notes into clear action items"**  
   → [`work/meeting-notes-fix`](prompts/work/meeting-notes-fix.txt) (produces an executive summary, key decisions, and an owner/deadline table)
+* 📮 **"Manager asked for a status update and my notes are a mess"**  
+  → [`work/status-update-email`](prompts/work/status-update-email.txt) (60-second update email with progress, risks, and next steps)
+* 🔐 **"This code touches auth and payments — check it before I merge"**  
+  → [`dev/security-review`](prompts/dev/security-review.txt) (prioritized findings, fixes with code, hardening wins)
+* 🏛️ **"I need an official Egyptian document and have no idea where to start"**  
+  → [`arabic-life/paperwork-guide`](prompts/arabic-life/paperwork-guide.txt) (documents, offices in order, common rejection mistakes — in Arabic)
+* 💼 **"I have a LinkedIn post in my head but can't get it out"**  
+  → [`content/linkedin-post`](prompts/content/linkedin-post.txt) (hooks, full post, first comment — English or Egyptian Arabic)
 * 🎯 **"Tailoring a CV for a specific job description"**  
   → [`career/cv-reviewer`](prompts/career/cv-reviewer.txt) (line-by-line audit against target role requirements and ATS standards)
 * 🌐 **"Converting formal Arabic copy into natural, fluent Egyptian dialect"**  
@@ -67,49 +129,9 @@ Click your current bottleneck and grab the exact prompt built for it:
 
 ---
 
-## 🎧 The 5 Power Hubs (Choose Your Workflow)
-
-Instead of wandering through dozens of folders, jump straight to your track:
-
-```text
-                                  🗄️ PROMPT STASH (130 Prompts)
-                                                │
-   ┌─────────────────┬──────────────────────────┼─────────────────────────┬─────────────────┐
-   │                 │                          │                         │                 │
-┌──┴───────────┐  ┌──┴───────────────┐  ┌───────┴──────────┐  ┌───────────┴────────┐  ┌─────┴──────────────┐
-│ 💻 Code & AI │  │ 💼 Work & Career │  │ 🏪 Biz & Growth  │  │ 🌐 Social & Culture│  │ 🧠 Life & Security │
-│  (30 Files)  │  │    (20 Files)    │  │    (20 Files)    │  │    (20 Files)      │  │    (40 Files)      │
-└──────────────┘  └──────────────────┘  └──────────────────┘  └────────────────────┘  └────────────────────┘
-```
-
-### 1. 💻 The Builder's Arsenal (Engineering, DevOps & AI Coding)
-* 🤖 [**ai-coding**](prompts/ai-coding/README.md) `(10 prompts)` — Write bulletproof prompts for coding LLMs, generate unit tests, plan architecture, and refactor spaghetti code.
-* 💻 [**dev**](prompts/dev/README.md) `(10 prompts)` — Git rescues, SQL tuning, Dockerfile repair, regex explanations, and readable commit messages.
-* 🐞 [**debugging**](prompts/debugging/README.md) `(10 prompts)` — Systematic triage for website errors, blue screens, printer jams, battery drain, and Wi-Fi drops.
-
-### 2. 💼 The Operator's Suite (Workplace & Career Acceleration)
-* 💼 [**work**](prompts/work/README.md) `(10 prompts)` — Executive meeting summaries, difficult reply tones, 1-on-1 agendas, salary negotiation emails, and task prioritization.
-* 🎯 [**career**](prompts/career/README.md) `(10 prompts)` — ATS-friendly CV reviews, STAR-method interview roleplays, LinkedIn profile rewrites, and promotion proposals.
-
-### 3. 🏪 The Growth Engine (Small Business & Marketing)
-* 🏪 [**business**](prompts/business/README.md) `(10 prompts)` — Professional quotes, late-payment chasers, supplier requests, refund apologies, and contract summaries.
-* 📣 [**marketing**](prompts/marketing/README.md) `(10 prompts)` — High-converting WhatsApp broadcasts, ad copy variants, customer personas, seasonal campaigns, and review requests.
-
-### 4. 🌐 Regional & Cultural Communication (Social & Local Context)
-* 🌐 [**arabic-life**](prompts/arabic-life/README.md) `(10 prompts)` — Real estate contracts, official paperwork, formal administrative petitions, and academic correspondence.
-* ✍️ [**content**](prompts/content/README.md) `(10 prompts)` — Short-form video scripts (Reels/TikTok), social captions, engagement hooks, and carousel frameworks.
-
-### 5. 🧠 The Life OS (Daily Systems, Study & Digital Safety)
-* 🌱 [**daily**](prompts/daily/README.md) `(10 prompts)` — 50/30/20 budget splitting, weekly meal prep on a budget, habit roadmaps, and packing checklists.
-* 📚 [**study**](prompts/study/README.md) `(10 prompts)` — Feynman technique explanations, active-recall flashcard sets, exam cram guides, and lesson summaries.
-* 🗃️ [**files-data**](prompts/files-data/README.md) `(10 prompts)` — Complex Excel/Sheets formulas, CSV data scrubbing, chart picking, and messy PDF data extraction.
-* 🔐 [**security-basics**](prompts/security-basics/README.md) `(10 prompts)` — Phishing detection, 2FA backup checklists, public Wi-Fi safety, and password checkups.
-
----
-
 ## 🌟 The Hall of Fame: Top 15 Staff Picks
 
-Our most popular, high-utility prompts:
+Our most popular, high-utility prompts — start here if you're new:
 
 | # | Prompt Name | What It Does | Grab File |
 |:---:|---|---|:---:|
@@ -128,6 +150,46 @@ Our most popular, high-utility prompts:
 | 13 | **Formal Arabic Email** | Professional Modern Standard Arabic correspondence for companies and universities | [`arabic-life/formal-arabic-email`](prompts/arabic-life/formal-arabic-email.txt) |
 | 14 | **Egyptian Dialect Coach** | Authentic Egyptian spoken phrasing without awkward machine translation | [`arabic-life/dialect-coach`](prompts/arabic-life/dialect-coach.txt) |
 | 15 | **Flashcard Maker** | Complex lecture notes → ready-to-use study flashcards | [`study/flashcards-maker`](prompts/study/flashcards-maker.txt) |
+
+---
+
+## 🎧 The 5 Power Hubs (Choose Your Workflow)
+
+Instead of wandering through dozens of folders, jump straight to your track:
+
+```text
+                                  🗄️ PROMPT STASH (135 Prompts)
+                                                │
+   ┌─────────────────┬──────────────────────────┼─────────────────────────┬─────────────────┐
+   │                 │                          │                         │                 │
+┌──┴───────────┐  ┌──┴───────────────┐  ┌───────┴──────────┐  ┌───────────┴────────┐  ┌─────┴──────────────┐
+│ 💻 Code & AI │  │ 💼 Work & Career │  │ 🏪 Biz & Growth  │  │ 🌐 Social & Culture│  │ 🧠 Life & Security │
+│  (31 Files)  │  │    (21 Files)    │  │    (20 Files)    │  │    (23 Files)      │  │    (40 Files)      │
+└──────────────┘  └──────────────────┘  └──────────────────┘  └────────────────────┘  └────────────────────┘
+```
+
+### 1. 💻 The Builder's Arsenal (Engineering, DevOps & AI Coding)
+* 🤖 [**ai-coding**](prompts/ai-coding/README.md) `(10 prompts)` — Write bulletproof prompts for coding LLMs, generate unit tests, plan architecture, and refactor spaghetti code.
+* 💻 [**dev**](prompts/dev/README.md) `(11 prompts)` — Git rescues, SQL tuning, Dockerfile repair, regex explanations, readable commit messages — and a security-focused code review.
+* 🐞 [**debugging**](prompts/debugging/README.md) `(10 prompts)` — Systematic triage for website errors, blue screens, printer jams, battery drain, and Wi-Fi drops.
+
+### 2. 💼 The Operator's Suite (Workplace & Career Acceleration)
+* 💼 [**work**](prompts/work/README.md) `(11 prompts)` — Executive meeting summaries, status update emails, difficult reply tones, 1-on-1 agendas, and salary negotiation.
+* 🎯 [**career**](prompts/career/README.md) `(10 prompts)` — ATS-friendly CV reviews, STAR-method interview roleplays, LinkedIn profile rewrites, and promotion proposals.
+
+### 3. 🏪 The Growth Engine (Small Business & Marketing)
+* 🏪 [**business**](prompts/business/README.md) `(10 prompts)` — Professional quotes, late-payment chasers, supplier requests, refund apologies, and contract summaries.
+* 📣 [**marketing**](prompts/marketing/README.md) `(10 prompts)` — High-converting WhatsApp broadcasts, ad copy variants, customer personas, seasonal campaigns, and review requests.
+
+### 4. 🌐 Regional & Cultural Communication (Social & Local Context)
+* 🌐 [**arabic-life**](prompts/arabic-life/README.md) `(11 prompts)` — Real estate contracts, official paperwork and government procedures, formal administrative petitions, and academic correspondence.
+* ✍️ [**content**](prompts/content/README.md) `(12 prompts)` — Short-form video scripts (Reels/TikTok), social and Instagram captions, LinkedIn posts, engagement hooks, and carousel frameworks.
+
+### 5. 🧠 The Life OS (Daily Systems, Study & Digital Safety)
+* 🌱 [**daily**](prompts/daily/README.md) `(10 prompts)` — 50/30/20 budget splitting, weekly meal prep on a budget, habit roadmaps, and packing checklists.
+* 📚 [**study**](prompts/study/README.md) `(10 prompts)` — Feynman technique explanations, active-recall flashcard sets, exam cram guides, and lesson summaries.
+* 🗃️ [**files-data**](prompts/files-data/README.md) `(10 prompts)` — Complex Excel/Sheets formulas, CSV data scrubbing, chart picking, and messy PDF data extraction.
+* 🔐 [**security-basics**](prompts/security-basics/README.md) `(10 prompts)` — Phishing detection, 2FA backup checklists, public Wi-Fi safety, and password checkups.
 
 ---
 
@@ -180,11 +242,12 @@ Tags: comma, separated, lowercase
 
 ---
 
-## 📸 Real Worked Examples
+## 🔎 Search & Examples
 
-Don't take our word for it. Check out full worked examples containing actual inputs and raw, single-pass AI outputs:
+* **[Browser search page](docs/search.html)** — open `docs/search.html` (works offline, from a local clone, or on any static host): filter all 135 prompts by task, title, or tag — including Arabic.
+* **[23 worked examples](examples/README.md)** — full inputs and raw, single-pass AI outputs, clearly labeled as illustrative. Arabic-heavy on purpose.
 
-👉 **[Explore All 16 Worked Examples in `examples/` →](examples/README.md)**
+👉 **[Explore All 23 Worked Examples in `examples/` →](examples/README.md)**
 
 ---
 
@@ -193,6 +256,7 @@ Don't take our word for it. Check out full worked examples containing actual inp
 * **Prompts are amplifiers, not magicians:** A great prompt gives you structure and focus; you still provide the facts and final review.
 * **Model variation:** Responses vary across models and releases. Our [examples](examples/README.md) are unedited single-pass samples, not guarantees.
 * **Not professional advice:** Health, legal, financial, and security prompts instruct the model on its boundaries and urge consultation with accredited experts.
+* **Egypt-specific content ages:** Government procedures, fees, and portals change; paperwork prompts deliberately mark figures as "verify with the official source" — always do.
 * **Fictional data in examples:** Any names, prices, or numbers in `# Example values` are purely illustrative placeholders.
 
 ---
@@ -200,12 +264,14 @@ Don't take our word for it. Check out full worked examples containing actual inp
 ## 🤝 Want to Add a Prompt?
 
 Have a killer prompt that saves you hours? We love pull requests!  
-Check out [CONTRIBUTING.md](CONTRIBUTING.md) to see our format guidelines and run the local validator script.
+Start with the [`good first issue` queue](https://github.com/Ziadtareks/prompt-stash/labels/good%20first%20issue) for ready-made starter tasks, check out [CONTRIBUTING.md](CONTRIBUTING.md) for the format guidelines, and run the local validator script before opening your PR. Questions that don't fit an issue? The [Discussions forum](https://github.com/Ziadtareks/prompt-stash/discussions) is open.
 
 ---
 
-## 📄 License & Creator
+## 🙏 Credits
+
+Created and maintained by **[Ziad Tarek](https://github.com/Ziadtareks)** — with gratitude to every contributor who sharpens a prompt, files a report, or adds a worked example. Every merged contribution lands in the [release notes](https://github.com/Ziadtareks/prompt-stash/releases) with credit.
+
+## 📄 License
 
 Licensed under the permissive [MIT License](LICENSE) — free for personal, commercial, and educational use.
-
-Crafted with care by **[Ziad Tarek](https://github.com/Ziadtareks)**

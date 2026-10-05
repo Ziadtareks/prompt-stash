@@ -1,26 +1,9 @@
-# Suggested GitHub topics (apply manually: repo → About ⚙️ → Topics)
+# GitHub topics (applied 2026-10-05: repo → About ⚙️ → Topics)
 
-Current topics: prompts, prompt-engineering, vibe-coding, ai-tools, study, business, productivity, career, arabic
-
-## Keep (still accurate)
-prompts, prompt-engineering, ai-tools, productivity, career, arabic
-
-## Consider replacing
-- vibe-coding → still fine if you want the vibe-coder audience; it is the loosest fit now that the vault covers work/life broadly.
-- study / business → fine to keep, but they duplicate folder names; lower discovery value than the ones below.
-
-## Suggested additions (highest discovery value first)
-- prompt-library        ← the standard tag people browse for exactly this
-- chatgpt-prompts       ← high-traffic tag
-- claude                ← Claude is a top consumer of .txt prompt files
-- gemini                ← same reason
-- egyptian-arabic       ← precise match for the arabic-life + dialect content
-- chatgpt               ← broad discovery
-
-## Suggested final set (max 20, GitHub limit)
-prompts, prompt-library, prompt-engineering, chatgpt-prompts, chatgpt, claude, gemini, ai-tools, productivity, career, study, business, arabic, egyptian-arabic, vibe-coding
+Current topics (20/20 — GitHub's limit): prompts, prompt-library, prompt-engineering, prompt-templates, chatgpt-prompts, chatgpt, claude, gemini, ai-tools, llm, productivity, career, study, business, arabic, arabic-prompts, egyptian-arabic, egyptian-dialect, copy-paste-prompts, open-source
 
 ## Notes
-- GitHub normalizes topics to lowercase and forbids spaces — all sets above comply.
-- "arabic" + "egyptian-arabic" together catch both search styles for the bilingual angle.
-- Revisit after the v4.0.0 merge so the About description ("130 prompts") matches.
+- GitHub normalizes topics to lowercase and forbids spaces — all above comply.
+- The arabic cluster (arabic + arabic-prompts + egyptian-arabic + egyptian-dialect) catches both search styles for the bilingual angle.
+- vibe-coding was dropped (the loosest fit now that the vault covers work/life broadly) to make room for copy-paste-prompts and the dialect tags.
+- The About description says "135 prompts" — bump it together with topics whenever the prompt count changes (repo → About ⚙️ → Description).

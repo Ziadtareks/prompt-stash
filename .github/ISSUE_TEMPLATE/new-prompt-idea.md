@@ -1,6 +1,12 @@
+---
+name: New prompt idea
+about: Propose a prompt that fills a real gap in the stash
+labels: ["enhancement", "new-prompt"]
+---
+
 # New prompt idea
 
-Thanks! Before proposing, please check the [folder READMEs](../../README.md#-browse-all-130-prompts-by-folder) — the idea may already exist.
+Thanks! Before proposing, please check the [Power Hubs index](../../README.md#-the-5-power-hubs-choose-your-workflow) and the folder READMEs — the idea may already exist.
 
 **Which folder would this live in?**
 <!-- debugging / work / content / study / business / dev / daily / ai-coding / career / marketing / files-data / security-basics / arabic-life -->

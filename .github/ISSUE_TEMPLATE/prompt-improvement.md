@@ -1,3 +1,9 @@
+---
+name: Prompt improvement
+about: An existing prompt produces vague, weak, or wrong output
+labels: ["enhancement"]
+---
+
 # Prompt improvement
 
 **Which prompt file?**

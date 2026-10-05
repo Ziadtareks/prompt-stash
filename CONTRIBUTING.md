@@ -2,6 +2,8 @@
 
 Thanks for wanting to add to the stash! The bar is deliberately high — every prompt here is meant to be copy-paste reliable for a stranger on a bad day. This guide tells you exactly what "good" looks like.
 
+**Short on time?** Pick something from the [`good first issue`](https://github.com/Ziadtareks/prompt-stash/labels/good%20first%20issue) queue — each one is scoped to be a safe, satisfying first PR. Not sure about anything? Ask in [Discussions](https://github.com/Ziadtareks/prompt-stash/discussions); no question is too small. Please also keep our [Code of Conduct](CODE_OF_CONDUCT.md) in mind: be kind, be honest, help beginners.
+
 ## The format (non-negotiable)
 
 Every prompt lives in `prompts/<folder>/<prompt-name>.txt` and follows this exact layout:
@@ -54,16 +56,29 @@ Tags: comma, separated, lowercase
 ## Local checks
 
 ```bash
-python scripts/validate_prompts.py   # format validation (also runs in CI on PRs)
-python scripts/build_index.py        # regenerate prompts.json + folder READMEs
+python scripts/validate_prompts.py   # format validation (also runs in CI on every PR)
+python scripts/build_index.py        # regenerate prompts.json + folder READMEs + docs/search.html
 python scripts/check_links.py        # every markdown link resolves
 ```
 
-CI is currently unavailable; run `python scripts/validate_prompts.py` and install `scripts/pre-push` before opening a PR. Either way, run `build_index.py` before committing so the generated files are fresh.
+CI runs automatically on every PR (validate → rebuild → stale-check → link-check), so you don't *have* to run anything locally — but running the three commands first saves you a round trip. Either way, run `build_index.py` before committing so the generated files are fresh.
 
 **Pre-push hook (recommended):** install it once and every `git push` runs the same checks.
-- Git Bash: `cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
-- PowerShell: `Copy-Item scripts\pre-push .git\hooks\pre-push` (no chmod needed)
+- Git Bash (Windows/macOS/Linux): `cp scripts/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
+- PowerShell (Windows): `Copy-Item scripts\pre-push .git\hooks\pre-push` (no chmod needed)
+- Verify it's installed: `git hook run pre-push 2>/dev/null || .git/hooks/pre-push`
+- Uninstall: delete `.git/hooks/pre-push`. The hook needs `python` on your PATH; if you use `py` on Windows, edit the hook's first command accordingly.
+
+## Your first contribution (pick one)
+
+1. **A worked example** — pick a prompt you actually use, fill it, and capture the AI's output in `examples/` (see an existing file for the shape). No validator changes needed.
+2. **A "when to use it" sharpening** — some intro lines are still flabby. Making one punchier is a real, reviewable PR.
+3. **A new prompt from the issue queue** — issues labeled `good first issue` contain pre-scoped prompt ideas with the variables already thought through.
+4. **A docs fix** — broken link, unclear instruction, a Windows-vs-Unix gap in this guide. Small PRs welcome.
+
+## Recognition
+
+Every merged PR is credited in the release notes, and repeat contributors are listed in the README's Credits section. No contribution is too small to say thank you for.
 
 ## Proposing changes to existing prompts
 
